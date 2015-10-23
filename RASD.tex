@@ -5,10 +5,9 @@
 % needed if we want to put images
 \usepackage{graphicx}
 
-% needed for index generation
-\usepackage{makeidx}
+\renewcommand{\familydefault}{\sfdefault}
 
-\makeindex
+
 
 % now start with the RASD document
 \begin{document}
@@ -17,14 +16,14 @@
 \author{Davide Cremona, Simone Deola}
 \maketitle
 
+\tableofcontents
 
-\section{Introduction\index{Introduction}}
-\subsection{Purpose}
+\chapter{Introduction}
+\section{Purpose}
 This document is the R.A.S.D. (Requirement Analysis and Specification Document).
 This document is intended to the description of the "myTaxiService" system. 
 At first, it will provide functional and non-functional requirements, a complete overview of the system's constraints and its limits. Then it will explain in detail the dynamics of the system using real-life use cases.
 Finally this document will provide a base for the developers that have to concretely implement the system.
 
-\printindex
 
 \end{document}
