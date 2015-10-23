@@ -1,0 +1,30 @@
+% preamble
+% report --> small books, reports, etc...
+\documentclass{report}
+
+% needed if we want to put images
+\usepackage{graphicx}
+
+% needed for index generation
+\usepackage{makeidx}
+
+\makeindex
+
+% now start with the RASD document
+\begin{document}
+
+\title{myTaxiService - Requirements Analysis and Specification Document}
+\author{Davide Cremona, Simone Deola}
+\maketitle
+
+
+\section{Introduction\index{Introduction}}
+\subsection{Purpose}
+This document is the R.A.S.D. (Requirement Analysis and Specification Document).
+This document is intended to the description of the "myTaxiService" system. 
+At first, it will provide functional and non-functional requirements, a complete overview of the system's constraints and its limits. Then it will explain in detail the dynamics of the system using real-life use cases.
+Finally this document will provide a base for the developers that have to concretely implement the system.
+
+\printindex
+
+\end{document}
