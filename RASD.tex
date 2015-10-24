@@ -41,17 +41,17 @@ The functionality that the new system will provide is now not supported.
 So the entire system must be developed without using or modify existing system.
 
 \section{Scope}
-The objective of “myTaxiService” is to provide an interface between end users and taxi drivers to optimize their interaction and provide a fair management of taxi queues. The users, once registered through the mobile application or the web application, can request a taxi for their travel or reserve one, specifying the origin and the destination. The reservation can be done at least two hour before the ride; if the reservation can take place, the system will allocate a taxi 10 minutes before the meeting time.
-On the other side, taxi drivers can inform the system that they are waiting for a client and accept or decline a ride request. If the request has been accepted, a notification will be sent to the requesting user with the identification number of the incoming taxi and the time he has to wait. Otherwise, if the request has been rejected it will be forwarded to the next taxi in the queue.
-The system has to optimize the management of users requests giving the rides to the taxi with the highest priority that has to be evaluated in function of disponibility and the nearness of the taxi driver.
+The objective of “myTaxiService” is to provide an interface between \hyperref[sec:customer]{customers} and \hyperref[sec:tdriver]{taxi drivers} to optimize their interaction and provide a fair management of taxi queues. The \hyperref[sec:normaluser]{users}, once registered through the mobile application or the web application, can request a taxi for their travel or reserve one, specifying the origin and the destination. The reservation can be done at least two hour before the ride; if the reservation can take place, the system will allocate a taxi 10 minutes before the meeting time.
+On the other side, \hyperref[sec:tdriver]{taxi drivers} can inform the system that they are waiting for a client and accept or decline a ride request. If the request has been accepted, a notification will be sent to the requesting \hyperref[sec:customer]{customer} with the identification number of the incoming taxi and the time he has to wait. Otherwise, if the request has been rejected it will be forwarded to the next taxi in the queue.
+The system has to optimize the management of \hyperref[sec:customer]{customers} requests giving the rides to the taxi with the highest priority that has to be evaluated in function of disponibility and the nearness of the \hyperref[sec:tdriver]{taxi driver}.
 
 \section{Actors}
 \begin{itemize}
-  \item \textbf{Guest User:} guest users are unlogged or unregistered users. They can visit the login page or the registration forms.
+  \item \textbf{Guest User:}\label{sec:normaluser} guest users are unlogged or unregistered users. They can visit the login page or the registration forms.
 
-  \item \textbf{Customer:} this kind of user is the end-user of the service. He can perform request for taxis or reserve a ride. In his personal page he can view his requests and the system responses.
+  \item \textbf{Customer:}\label{sec:customer} this kind of user is the end-user of the service. He can perform request for taxis or reserve a ride. In his personal page he can view his requests and the system responses.
 
-  \item \textbf{Taxi Driver:} this kind of user is composed by the actual taxi drivers that can only see end-users requests that has been forwarded by the system. He can accept or decline these requests. Also, he's considered a special kind of user because one can register as a "Taxi Driver" only if he provide a valid Taxi licence.
+  \item \textbf{Taxi Driver:}\label{sec:tdriver} this kind of user is composed by the actual taxi drivers that can only see customers requests that has been forwarded by the system. He can accept or decline these requests. Also, he's considered a special kind of user because one can register as a "Taxi Driver" only if he provide a valid Taxi licence.
 \end{itemize}
 
 
