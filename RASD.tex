@@ -50,6 +50,8 @@
 		\begin{itemize}
 		  \item \textbf{Guest User:}\label{sec:normaluser} guest users are unlogged or unregistered users. They can visit the login page or the registration forms.
 
+		  \item \textbf{Registered User:}\label{sec:ruser} this kind of user identify either a Guest User or a Taxi Driver.
+
 		  \item \textbf{Customer:}\label{sec:customer} this kind of user is the end-user of the service. He can perform request for taxis or reserve a ride. In his personal page he can view his requests and the system responses.
 
 		  \item \textbf{Taxi Driver:}\label{sec:tdriver} this kind of user is composed by the actual taxi drivers that can only see customers requests that has been forwarded by the system. He can accept or decline these requests. Also, he's considered a special kind of user because one can register as a "Taxi Driver" only if he provide a valid Taxi licence.
@@ -58,25 +60,25 @@
 	\section{Goals}
 
 		\begin{itemize}
-			\item \textbf{\lbrack G1\rbrack}\label{sec:g1} Allow guest user to become a customer or a taxi driver.
+			\item \textbf{\lbrack G1\rbrack}\label{sec:g1} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:customer]{customer} or a \hyperref[sec:tdriver]{taxi driver}.
 
-			\item \textbf{\lbrack G2\rbrack}\label{sec:g2}  Allow registered user to log in.
+			\item \textbf{\lbrack G2\rbrack}\label{sec:g2}  Allow \hyperref[sec:ruser]{registered user} to log in.
 
-			\item \textbf{\lbrack G3\rbrack}\label{sec:g3}  Allow customers to require a taxi.
+			\item \textbf{\lbrack G3\rbrack}\label{sec:g3}  Allow \hyperref[sec:customer]{customers} to require a taxi.
 
-			\item \textbf{\lbrack G4\rbrack}\label{sec:g4}  Allow customer to reserve a ride.
+			\item \textbf{\lbrack G4\rbrack}\label{sec:g4}  Allow \hyperref[sec:customer]{customers} to reserve a ride.
 
-			\item \textbf{\lbrack G5\rbrack}\label{sec:g5}  Allow customers to delete a previous reservations.
+			\item \textbf{\lbrack G5\rbrack}\label{sec:g5}  Allow \hyperref[sec:customer]{customers} to delete a previous reservations.
 
-			\item \textbf{\lbrack G6\rbrack}\label{sec:g6}  Allow taxi drivers to accept or decline a ride request.
+			\item \textbf{\lbrack G6\rbrack}\label{sec:g6}  Allow \hyperref[sec:tdriver]{taxi drivers} to accept or decline a ride request.
 
-			\item \textbf{\lbrack G7\rbrack}\label{sec:g7} Allow taxi drivers signal a user if it made a bad use of the system.
+			\item \textbf{\lbrack G7\rbrack}\label{sec:g7} Allow \hyperref[sec:tdriver]{taxi drivers} signal a \hyperref[sec:customer]{customer} if it made a bad use of the system.
 
-			\item \textbf{\lbrack G8\rbrack}\label{sec:g8}  Allow taxi drivers to notify their availability.
+			\item \textbf{\lbrack G8\rbrack}\label{sec:g8}  Allow \hyperref[sec:tdriver]{taxi drivers} to notify their availability.
 
-			\item \textbf{\lbrack G9\rbrack}\label{sec:g9}  After login, the system will notify the customer that his request has been accepted.
+			\item \textbf{\lbrack G9\rbrack}\label{sec:g9}  After login, the system will notify the \hyperref[sec:customer]{customer} that his request has been accepted.
 
-			\item \textbf{\lbrack G10\rbrack}\label{sec:g10}  After login, the system will notify the taxi driver about the incoming requests.
+			\item \textbf{\lbrack G10\rbrack}\label{sec:g10}  After login, the system will notify the hyperref[sec:tdriver]{taxi driver} about the incoming requests.
 		\end{itemize}
 		
 	\section{Definitions, Acronyms, Abbreviations}
@@ -102,11 +104,12 @@
 		
 \chapter{Overall Description}
 	
-	\section{Product perspective.}
-	The system will be composed of a web application and a mobile application developed for the three major OS ( Apple iOS, Android, Windows 10). //TODO. the system will provide some API with the purpose of a future connection with another travel planning systems. 
+	\section{Product perspective}
+	The system will be composed of a web application and a mobile application developed for the three major OS ( Apple iOS, Android, Windows 10). The system will provide some API with the purpose of a future connection with another travel planning systems. 
 		
-	\section{User Characteristics }
-	The users that we suppose will use our system are of two types. the ones who want to find a taxi for a travel in the simplest way( customers ). The others are taxi drivers that want to increment their productivity. The first ones must be able to access to a web browser or download and using a mobile application, the second ones also must have a taxi license.
+	\section{User Characteristics}
+	% this user here is ok and don't have to be hyperreferred
+	The users that we suppose will use our system are of two types. the ones who want to find a taxi for a travel in the simplest way (\hyperref[sec:customer]{customers}). The others are \hyperref[sec:tdriver]{taxi drivers} that want to increment their productivity. The first ones must be able to access to a web browser or download and using a mobile application, the second ones also must have a taxi license.
 		
 	\section{Constrains}
 		
@@ -138,36 +141,36 @@
 			\begin{itemize}
 				\item Every \hyperref[sec:tdriver]{taxi driver} has equipped a smartphone during working hours.
 
-				\item Every taxi driver has a unique taxi license.
+				\item Every \hyperref[sec:tdriver]{taxi driver} has a unique taxi license.
 
-				\item Every taxy has a GPS locator to send GPS information to the central server.
+				\item Every taxi has a GPS locator to send GPS information to the central server.
 
-				\item Android, Apple iOS or Windows 10 is avaiable on the users smartphones.
+				\item Android, Apple iOS or Windows 10 is avaiable on the \hyperref[sec:ruser]{registered users} smartphones.
 
-				\item Every user can be connected to the Internet with a mobile device when outside.
+				\item Every \hyperref[sec:ruser]{registered users} can be connected to the Internet with a mobile device when outside.
 
-				\item When a user require a taxi, the GPS informations about his location are automatically sended to the central server.
+				\item When a \hyperref[sec:customer]{customer} require a taxi, the GPS informations about his location are automatically sended to the central server.
 
 				\item The reservation of a ride is made at least two hours before the ride.
 
 				\item Deletion of a reservation is made at least two hours before the ride.
 
-				\item Requests from users are automatically notified to the first taxi driver in the zone queue.
+				\item Requests from \hyperref[sec:customer]{customers} are automatically notified to the first \hyperref[sec:tdriver]{taxi driver} in the zone queue.
 
-				\item If a taxi driver declines a request he will be placed in the bottom of the zone queue.
+				\item If a \hyperref[sec:tdriver]{taxi driver} declines a request he will be placed in the bottom of the zone queue.
 
-				\item If a request is declined it will be forwarded to the next taxi driver in the zone queue.
+				\item If a request is declined it will be forwarded to the next \hyperref[sec:tdriver]{taxi driver} in the zone queue.
 
-				\item If a user make a bad use of the taxi request system, he can be reported as a bad user.
+				\item If a \hyperref[sec:customer]{customer} make a bad use of the taxi request system, he can be reported as a bad \hyperref[sec:customer]{customer}.
 
-				\item If a taxi driver notifies his availability is because he is actually avaiable
+				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability is because he is actually avaiable
 
-				\item If a taxi driver notifies his availability is because he wants to be notified of users that needs a ride.
+				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability is because he wants to be notified of \hyperref[sec:customer]{customers} that needs a ride.
 
-				\item If a taxi driver accept a request, the requesting user will be notified
+				\item If a \hyperref[sec:tdriver]{taxi driver} accept a request, the requesting \hyperref[sec:customer]{customer} will be notified
 			\end{itemize}
 
 	\section{Future possible Implementations}
-	A possible future implementation can be a complex feedback system that permits to the users to leave a comment about the taxi driver and vice versa.
-	For example taxi drivers can be interested in knowing the punctuality or how is the behave of the user that requests the ride.
+	A possible future implementation can be a complex feedback system that permits to the \hyperref[sec:customer]{customers} to leave a comment about the \hyperref[sec:tdriver]{taxi driver} and vice versa.
+	For example \hyperref[sec:tdriver]{taxi drivers} can be interested in knowing the punctuality or how is the behave of the \hyperref[sec:customer]{customer} that requests the ride.
 \end{document}
