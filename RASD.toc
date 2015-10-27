@@ -3,3 +3,5 @@
 \contentsline {section}{\numberline {1.2}Actual System}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Scope}{2}{section.1.3}
 \contentsline {section}{\numberline {1.4}Actors}{3}{section.1.4}
+\contentsline {chapter}{\numberline {2}Overall Description}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Goals}{4}{section.2.1}
