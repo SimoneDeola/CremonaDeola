@@ -54,61 +54,120 @@
 
 		  \item \textbf{Taxi Driver:}\label{sec:tdriver} this kind of user is composed by the actual taxi drivers that can only see customers requests that has been forwarded by the system. He can accept or decline these requests. Also, he's considered a special kind of user because one can register as a "Taxi Driver" only if he provide a valid Taxi licence.
 		\end{itemize}
+
 	\section{Goals}
+
 		\begin{itemize}
-		\item \lbrack G1\rbrack Allow guest user to become a customer or a taxi driver.
+			\item \textbf{\lbrack G1\rbrack}\label{sec:g1} Allow guest user to become a customer or a taxi driver.
 
-		\item \lbrack G2\rbrack  Allow registered user to log in.
+			\item \textbf{\lbrack G2\rbrack}\label{sec:g2}  Allow registered user to log in.
 
-		\item \lbrack G3\rbrack  Allow customers to require a taxi.
+			\item \textbf{\lbrack G3\rbrack}\label{sec:g3}  Allow customers to require a taxi.
 
-		\item \lbrack G4\rbrack  Allow customer to reserve a ride.
+			\item \textbf{\lbrack G4\rbrack}\label{sec:g4}  Allow customer to reserve a ride.
 
-		\item \lbrack G5\rbrack  Allow customers to delete a previous reservations.
+			\item \textbf{\lbrack G5\rbrack}\label{sec:g5}  Allow customers to delete a previous reservations.
 
-		\item \lbrack G6\rbrack  Allow taxi drivers to accept or decline a ride request.
+			\item \textbf{\lbrack G6\rbrack}\label{sec:g6}  Allow taxi drivers to accept or decline a ride request.
 
-		\item \lbrack G7\rbrack Allow taxi drivers signal a user if it made a bad use of the system.
+			\item \textbf{\lbrack G7\rbrack}\label{sec:g7} Allow taxi drivers signal a user if it made a bad use of the system.
 
-		\item \lbrack G8\rbrack  Allow taxi drivers to notify their availability.
+			\item \textbf{\lbrack G8\rbrack}\label{sec:g8}  Allow taxi drivers to notify their availability.
 
-		\item \lbrack G9\rbrack  After login, the system will notify the customer that his request has been accepted.
+			\item \textbf{\lbrack G9\rbrack}\label{sec:g9}  After login, the system will notify the customer that his request has been accepted.
 
-		\item \lbrack G10\rbrack  After login, the system will notify the taxi driver about the incoming requests.
+			\item \textbf{\lbrack G10\rbrack}\label{sec:g10}  After login, the system will notify the taxi driver about the incoming requests.
 		\end{itemize}
 		
-		\section{Definitions, Acronyms, Abbreviations}
-		//TODO
+	\section{Definitions, Acronyms, Abbreviations}
 		
-		\section{Reference documents}
-		//TODO
-		
-		\section{Document overview.}
-		//TODO
-		
-		\chapter{Overall Description}
-		\section{Product perspective.}
-		The system will be composed of a web application and a mobile application developed for the three major OS ( Apple iOS, Android, Windows 10). //TODO. the system will provide some API with the purpose of a future connection with another travel 				planning systems. 
-		
-		\section{User Characteristics }
-		The users that we suppose will use our system are of two types. the ones who want to find a taxi for a travel in the simplest way( customers ). The others are taxi drivers that want to increment their productivity. The first ones must be able to access to a 		web browser or download and using a mobile application, the second ones also must have a taxi license.
-		
-		\section{Constrains}
-			\subsection{Regulatory policies}
-			myTaxiService  has to meet regulatory policies about taxies in the countries where it will be used.
+		\subsection{Definitions}
 
-			\subsection{Hardware limitation }
-			The only hardware limitation that the myTaxiService mobile application has to meet will be the mobile phones characteristics. the rest of the system will be no affected by particular hardware limitations.
+		\subsection{Actonyms}
 
-			\subsection{Interfaces to other applications}
-			myTaxiService web application has to be compatible with all major browser (Chrome, Safari, Firefox, Microsoft Edge).
+		\subsection{Abbreviations}
+		\begin{itemize}
+			\item RASD: Requirement Analysis and Specification Documents.
+			\item DD: Design Document.
+		\end{itemize}
+		
+	\section{Reference documents}
+	//TODO
+		
+	\section{Document overview.}
+	Until now, we have given a general explanation about the software functionalities and a brief description about this document. Now we will describe what the rest of this RASD contains.\\
+	In Section 2 we will focus more about system constraints and assumptions.\\
+	In Section 3 we will describe requirements, typical scenarios and use-cases. In this section there is also a collection of UML diagrams that describes in particular the functionalities of the system.\\
+	//TODO SECTION 4
+		
+\chapter{Overall Description}
 	
-	
+	\section{Product perspective.}
+	The system will be composed of a web application and a mobile application developed for the three major OS ( Apple iOS, Android, Windows 10). //TODO. the system will provide some API with the purpose of a future connection with another travel planning systems. 
+		
+	\section{User Characteristics }
+	The users that we suppose will use our system are of two types. the ones who want to find a taxi for a travel in the simplest way( customers ). The others are taxi drivers that want to increment their productivity. The first ones must be able to access to a web browser or download and using a mobile application, the second ones also must have a taxi license.
+		
+	\section{Constrains}
+		
+		\subsection{Regulatory Policies}
+		myTaxiService  has to meet regulatory policies about taxies in the countries where it will be used.
 
+		\subsection{Hardware Limitations}
+		The only hardware limitation that the myTaxiService mobile application has to meet will be the mobile phones characteristics. the rest of the system will be no affected by particular hardware limitations.
 
+		\subsection{Software Limitations}
+		myTaxiService mobile application has to be compatible with all major mobile operating systems (Android, Apple iOS, Windows 10).
 
+		\subsection{Interfaces to other applications}
+		myTaxiService web application has to be compatible with all major browser (Chrome, Safari, Firefox, Microsoft Edge).
 
+		\subsection{Parallel Operations}
+		Our system must be able to perform parallel operations on the database to satisfy all the requests from multiple users.
 
+		\subsection{Documents Related}
 
+			\begin{itemize}
+				\item Requirements and Analysis Specification Document (RASD)
 
+				\item Design Document (DD)
+			\end{itemize}
+
+	\section{Assumptions}
+
+			\begin{itemize}
+				\item Every \hyperref[sec:tdriver]{taxi driver} has equipped a smartphone during working hours.
+
+				\item Every taxi driver has a unique taxi license.
+
+				\item Every taxy has a GPS locator to send GPS information to the central server.
+
+				\item Android, Apple iOS or Windows 10 is avaiable on the users smartphones.
+
+				\item Every user can be connected to the Internet with a mobile device when outside.
+
+				\item When a user require a taxi, the GPS informations about his location are automatically sended to the central server.
+
+				\item The reservation of a ride is made at least two hours before the ride.
+
+				\item Deletion of a reservation is made at least two hours before the ride.
+
+				\item Requests from users are automatically notified to the first taxi driver in the zone queue.
+
+				\item If a taxi driver declines a request he will be placed in the bottom of the zone queue.
+
+				\item If a request is declined it will be forwarded to the next taxi driver in the zone queue.
+
+				\item If a user make a bad use of the taxi request system, he can be reported as a bad user.
+
+				\item If a taxi driver notifies his availability is because he is actually avaiable
+
+				\item If a taxi driver notifies his availability is because he wants to be notified of users that needs a ride.
+
+				\item If a taxi driver accept a request, the requesting user will be notified
+			\end{itemize}
+
+	\section{Future possible Implementations}
+	A possible future implementation can be a complex feedback system that permits to the users to leave a comment about the taxi driver and vice versa.
+	For example taxi drivers can be interested in knowing the punctuality or how is the behave of the user that requests the ride.
 \end{document}
