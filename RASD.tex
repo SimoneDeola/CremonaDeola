@@ -63,7 +63,9 @@
 	\section{Goals}
 
 		\begin{itemize}
-			\item \textbf{\lbrack G1\rbrack}\label{sec:g1} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:customer]{customer} or a \hyperref[sec:tdriver]{taxi driver}.
+			\item \textbf{\lbrack G1.1\rbrack}\label{sec:g1_1} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:customer]{customer}.
+
+			\item \textbf{\lbrack G1.2\rbrack}\label{sec:g1_2} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:tdriver]{taxi driver}.
 
 			\item \textbf{\lbrack G2\rbrack}\label{sec:g2}  Allow \hyperref[sec:ruser]{registered user} to log in.
 
@@ -88,13 +90,18 @@
 		
 		\subsection{Definitions}
 
-		\subsection{Actonyms}
+		\subsection{Acronyms}
+			\begin{itemize}
+				\item RASD: Requirement Analysis and Specification Documents.
+				\item DD: Design Document.
+				\item UML: Unified Modeling Language.
+			\end{itemize}
 
 		\subsection{Abbreviations}
-		\begin{itemize}
-			\item RASD: Requirement Analysis and Specification Documents.
-			\item DD: Design Document.
-		\end{itemize}
+			\begin{itemize}
+				\item Req.x is the x-Functional Requirement
+				\item Dom.x is the x-Domain Assumption
+			\end{itemize}
 		
 	\section{Reference documents}
 		\begin{itemize}
@@ -270,6 +277,16 @@ This chapter contains a detailed description of how the applications works and i
 	\section{Functional Requirements}
 
 		\subsection{Functional Requirements for Guest Users}
+
+			\subsubsection{\lbrack \hyperref[sec:g1_1]{G1.1 - Allow guest user to become a customer or a taxi driver}\rbrack}
+
+				\begin{itemize}
+					\item \lbrack Req.1 \rbrack The Guest User can connect to the Internet in some way.
+					\item \lbrack Req.2 \rbrack The Guest User cannot be already registered as a customer.
+					\item \lbrack Req.3 \rbrack The Guest User must select an username that has not altready been selected by another one.
+					\item \lbrack Req.3 \rbrack Guest Users can only access to the registration forms and login page.
+					\item \lbrack Dom.1 \rbrack The email used by the Guest User is a valid one.
+				\end{itemize}
 
 		\subsection{Functional Requirements for Customers}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  28 OCT 2015 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  28 OCT 2015 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,11 +193,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count102
 \@thisrulewidth=\dimen121
 )
-(./RASD.aux
-
-LaTeX Warning: Label `tab:browsersTable' multiply defined.
-
-)
+(./RASD.aux)
 \openout1 = `RASD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -214,7 +210,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
- (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen122
@@ -286,7 +283,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...ts for Taxi Drivers}{11}{subsection.3.2.3}
+l.35 ...ts for Taxi Drivers}{12}{subsection.3.2.3}
                                                    [1
 
 ])
@@ -321,32 +318,29 @@ Chapter 2.
 Chapter 3.
 [9
 
-] [10] [11]
+] [10] [11] [12]
 Chapter 4.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
-[12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
+[13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
  (./RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: 1170AE32B377355C9B7D3FE5C9A85713;3064.
+(rerunfilecheck)             Checksum: F0311A5602392A9D319DBDE2FCA0EF5F;3064.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
  ) 
 Here is how much of TeX's memory you used:
- 5312 strings out of 494501
- 79289 string characters out of 6167029
- 163013 words of memory out of 5000000
- 8499 multiletter control sequences out of 15000+600000
+ 5315 strings out of 494501
+ 79318 string characters out of 6167029
+ 162040 words of memory out of 5000000
+ 8500 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  29i,8n,28p,620b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -356,10 +350,10 @@ mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on RASD.pdf (13 pages, 78051 bytes).
+Output written on RASD.pdf (14 pages, 78957 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 362 compressed objects within 4 object streams
- 67 named destinations out of 1000 (max. 500000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 368 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
  361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
