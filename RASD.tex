@@ -15,6 +15,9 @@
     urlcolor=black
 }
 
+%used to make tables
+\usepackage{booktabs}
+
 % let's change this ugly serif font!
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -123,9 +126,7 @@
 
 		\subsection{Software Limitations}
 		myTaxiService mobile application has to be compatible with all major mobile operating systems (Android, Apple iOS, Windows 10).
-
-		\subsection{Interfaces to other applications}
-		myTaxiService web application has to be compatible with all major browser (Chrome, Safari, Firefox, Microsoft Edge).
+		Also myTaxiService web application has to be compatible with all major browser (Chrome, Safari, Firefox, Microsoft Edge).
 
 		\subsection{Parallel Operations}
 		Our system must be able to perform parallel operations on the database to satisfy all the requests from multiple users.
@@ -180,7 +181,7 @@
 This chapter contains a detailed description of how the applications works and its features. It also gives a specification of the functional and quality requirements.
 
 	\section{External Interface Requirements}
-	This section gives a description of the various inputs and relative outputs of the system. It also gives a description of the hardware, software and communication interfaces it will also provide a generic visualization of the user interface in the various user platforms.
+	This section gives a description of the various inputs and relative outputs of the system. It also gives a description of the hardware, software and communication interfaces that are necessary to make the system work. It will also provide a generic visualization of the user interface in the various user platforms.
 
 		\subsection{User Interfaces}
 		//TODO : Add a description of the generic mobile application and of the web application
@@ -190,10 +191,81 @@ This chapter contains a detailed description of how the applications works and i
 		The interaction with the central database is performed by connections handled by the already installed operating system on the mobile devices or the users computers.
 
 		\subsection{Software Interfaces}
-		//TODO : Communication through the GPS module of the smartphones.
+			\begin{itemize}
+				\item The mobile application communicates with the GPS application in order to get geographical informations about the user.
+				
+				\item The web application communicates with the browser in order to get geographical informations about the user.
+				
+				\item Mobile and web applications communicates with the database through HTTP requests to the server.
+			\end{itemize}
+
+		\subsection{Interfaces to Others Application}
+			\begin{itemize}
+				\item myTaxiService web application require that at least one of these browsers is installed on the user Personal Computer:
+			
+					\begin{center}
+						\begin{table}[h!]
+							
+							\begin{center}
+								\caption{Browsers}
+								\label{tab:browsersTable}
+
+								\begin{tabular}{cccc}
+									\toprule
+									\textbf{Name} & \textbf{Version} & \textbf{Company} & \textbf{Source}\\
+									\midrule
+									Safari & 9.0.1 & Apple Inc. & \href{http://www.apple.com/safari/}{Get Safari}\\
+									\midrule
+									Firefox & 41.0 & Mozilla & \href{https://www.mozilla.org/en-US/firefox/new/}{Get Firefox}\\
+									\midrule
+									Chrome & 46.0.2490 & Google & \href{https://www.google.com/chrome/browser/desktop/}{Get Chrome}\\
+									\midrule
+									Microsofr Edge & 20.10240.16384.0 & Microsoft & \href{https://www.microsoft.com/en-us/download/details.aspx?id=48126}{Get Edge}\\
+									\bottomrule
+								\end{tabular}
+							\end{center}
+							
+						\end{table}
+					\end{center}
+
+				\item myTaxiService mobile application require that at least one of these operating systems is installed on the user Smartphone:
+
+					\begin{center}
+						\begin{table}[h!]
+							
+							\begin{center}
+								\caption{Mobile Operative Systems}
+								\label{tab:mobileOSTable}
+
+								\begin{tabular}{cccc}
+									\toprule
+									\textbf{Name} & \textbf{Version} & \textbf{Company} & \textbf{Source}\\
+									\midrule
+									Android & KitKat 4.4W.2 or later & Google & \href{https://www.android.com}{Android Info}\\
+									\midrule
+									iOS & 9.1 or later & Apple Inc. & \href{http://www.apple.com/ios/}{iOS Info}\\
+									\midrule
+									Windows 10 & 10.0.10572.0 or later & Microsoft & \href{http://www.microsoft.com/it-it/mobile/windows10/?dcmpid=omc-org-globalsite.globalredirect}{Windows 10 Info}\\
+									\bottomrule
+								\end{tabular}
+							\end{center}
+							
+						\end{table}
+					\end{center}
+
+				\item To give an additional LogIn method, we use also the "LogIn with Facebook" API relased by Facebook. Facebook Login for Apps is a fast and convenient way for people to create accounts and log into our system across multiple platforms. It is well described at \href{https://developers.facebook.com/docs/facebook-login}{Facebook Login API Page.}
+			\end{itemize}
+
 
 		\subsection{Communication Interfaces}
-		//TODO : Communication between pieces of the system is managed by the operating system.
+		The communication between system pieces is not specified because it is handled by the underlying operating systems for both the mobile application and the web portal.
+
+		In particular, the web and mobile applictaions will communicate with the server through HTTP/HTTPS requests. 
+
+			\begin{itemize}
+				\item HTTP communicate through the port number 80 and is handled by the operating system. 
+				\item HTTPS communicate through the port number 443 and is handled by the operating system.
+			\end{itemize}
 
 	\section{Functional Requirements}
 
