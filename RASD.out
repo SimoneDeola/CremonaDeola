@@ -30,16 +30,17 @@
 \BOOKMARK [2][-]{subsection.3.1.5}{Communication Interfaces}{section.3.1}% 30
 \BOOKMARK [1][-]{section.3.2}{Functional Requirements}{chapter.3}% 31
 \BOOKMARK [2][-]{subsection.3.2.1}{Functional Requirements for Guest Users}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.2}{Functional Requirements for Customers}{section.3.2}% 33
-\BOOKMARK [2][-]{subsection.3.2.3}{Functional Requirements for Taxi Drivers}{section.3.2}% 34
-\BOOKMARK [1][-]{section.3.3}{Scenarios}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.4}{UML Models}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.4.1}{Use-Case Diagrams}{section.3.4}% 37
-\BOOKMARK [2][-]{subsection.3.4.2}{Class Diagrams}{section.3.4}% 38
-\BOOKMARK [2][-]{subsection.3.4.3}{State Machine Diagrams}{section.3.4}% 39
-\BOOKMARK [1][-]{section.3.5}{Non Functional Requirements}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.5.1}{Performance Requirements}{section.3.5}% 41
-\BOOKMARK [2][-]{subsection.3.5.2}{Design Constraints}{section.3.5}% 42
-\BOOKMARK [2][-]{subsection.3.5.3}{Software System Attributes}{section.3.5}% 43
-\BOOKMARK [2][-]{subsection.3.5.4}{Security}{section.3.5}% 44
-\BOOKMARK [0][-]{chapter.4}{Appendix}{}% 45
+\BOOKMARK [2][-]{subsection.3.2.2}{Functional Requirements for Registered Users}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.3}{Functional Requirements for Customers}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.4}{Functional Requirements for Taxi Drivers}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{Scenarios}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.4}{UML Models}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.4.1}{Use-Case Diagrams}{section.3.4}% 38
+\BOOKMARK [2][-]{subsection.3.4.2}{Class Diagrams}{section.3.4}% 39
+\BOOKMARK [2][-]{subsection.3.4.3}{State Machine Diagrams}{section.3.4}% 40
+\BOOKMARK [1][-]{section.3.5}{Non Functional Requirements}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.5.1}{Performance Requirements}{section.3.5}% 42
+\BOOKMARK [2][-]{subsection.3.5.2}{Design Constraints}{section.3.5}% 43
+\BOOKMARK [2][-]{subsection.3.5.3}{Software System Attributes}{section.3.5}% 44
+\BOOKMARK [2][-]{subsection.3.5.4}{Security}{section.3.5}% 45
+\BOOKMARK [0][-]{chapter.4}{Appendix}{}% 46

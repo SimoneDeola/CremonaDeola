@@ -63,11 +63,15 @@
 	\section{Goals}
 
 		\begin{itemize}
-			\item \textbf{\lbrack G1.1\rbrack}\label{sec:g1_1} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:customer]{customer}.
+			\item \textbf{\lbrack G1.1.1\rbrack}\label{sec:g1_1_1} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:customer]{customer} creating a myTaxiService Account.
+
+			\item \textbf{\lbrack G1.1.2\rbrack}\label{sec:g1_1_2} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:customer]{customer} using his Facebook Account.
 
 			\item \textbf{\lbrack G1.2\rbrack}\label{sec:g1_2} Allow \hyperref[sec:normaluser]{guest user} to become a \hyperref[sec:tdriver]{taxi driver}.
 
-			\item \textbf{\lbrack G2\rbrack}\label{sec:g2}  Allow \hyperref[sec:ruser]{registered user} to log in.
+			\item \textbf{\lbrack G2.1\rbrack}\label{sec:g2_1}  Allow \hyperref[sec:ruser]{registered user} to log in with myTaxiService account.
+
+			\item \textbf{\lbrack G2.2\rbrack}\label{sec:g2_2}  Allow \hyperref[sec:ruser]{registered user} to log in with Facebook account.
 
 			\item \textbf{\lbrack G3\rbrack}\label{sec:g3}  Allow \hyperref[sec:customer]{customers} to require a taxi.
 
@@ -95,6 +99,11 @@
 				\item RASD: Requirement Analysis and Specification Documents.
 				\item DD: Design Document.
 				\item UML: Unified Modeling Language.
+				\item OS: Operative System.
+				\item API: Application Program Interface.
+				\item GPS: Global Positioning System.
+				\item HTTP: Hypertext Transfer Protocol.
+				\item HTTPS: Secure Hypertext Transfer Protocol.
 			\end{itemize}
 
 		\subsection{Abbreviations}
@@ -278,17 +287,54 @@ This chapter contains a detailed description of how the applications works and i
 
 		\subsection{Functional Requirements for Guest Users}
 
-			\subsubsection{\lbrack \hyperref[sec:g1_1]{G1.1 - Allow guest user to become a customer or a taxi driver}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g1_1_1]{G1.1.1 - Allow guest user to become a customer creating a myTaxiService Account}\rbrack}
 
 				\begin{itemize}
-					\item \lbrack Req.1 \rbrack The Guest User can connect to the Internet in some way.
-					\item \lbrack Req.2 \rbrack The Guest User cannot be already registered as a customer.
-					\item \lbrack Req.3 \rbrack The Guest User must select an username that has not altready been selected by another one.
-					\item \lbrack Req.3 \rbrack Guest Users can only access to the registration forms and login page.
-					\item \lbrack Dom.1 \rbrack The email used by the Guest User is a valid one.
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g1_1_1} The Guest User can connect to the Internet in some way.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g1_1_1} The Guest User cannot be already registered as a Customer.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g1_1_1} The Guest User must select an username that has not already been selected by another one.
+					\item \lbrack Req.4\rbrack \label{sec:fr4_g1_1_1} The Guest User must use an email that has not already been used by another one.
+					\item \lbrack Req.5\rbrack \label{sec:fr5_g1_1_1} Guest Users can only access to the registration forms and login page.
+					\item \lbrack Dom.1\rbrack \label{sec:da1_g1_1_1} The email used by the Guest User is a valid one.
+				\end{itemize}
+
+			\subsubsection{\lbrack \hyperref[sec:g1_1_2]{G1.1.2 - Allow guest user to become a customer using his Facebook Account}\rbrack}
+
+				\begin{itemize}
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g1_1_2} The Guest User can connect to the Internet in some way.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g1_1_2} The Guest User cannot be already registered as a Customer.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g1_1_2} The Guest User must select an username that has not already been selected by another one.
+					\item \lbrack Req.4\rbrack \label{sec:fr4_g1_1_2} The Guest User must have a valid Facebook Account.
+					\item \lbrack Req.5\rbrack \label{sec:fr5_g1_1_2} Guest Users can only access to the registration forms and login page.
+					
+					* Note that the email is validated by Facebook when the User create his Facebook Account.
+				\end{itemize}
+
+			\subsubsection{\lbrack \hyperref[sec:g1_2]{G1.2 Allow guest user to become a taxi driver}\rbrack}
+
+				\begin{itemize}
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g1_2} The Guest User can connect to the Internet in some way.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g1_2} The Guest User cannot be already registered as a Taxi Driver.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g1_2} The Guest User must select an username that has not already been selected by another one.
+					\item \lbrack Req.4\rbrack \label{sec:fr4_g1_2} Guest Users can only access to the registration forms and login page.
+					\item \lbrack Req.5\rbrack \label{sec:fr5_g1_2} The Guest User must use an email that has not already been used by another one.
+					\item \lbrack Req.6\rbrack \label{sec:fr6_g1_2} Guest Users has to provide a Taxi Licence that has not already been used by another one.
+					\item \lbrack Dom.1\rbrack \label{sec:da1_g1_2} The email used by the Guest User is a valid one.
+				\end{itemize}
+
+		\subsection{Functional Requirements for Registered Users}
+
+			\subsubsection{\lbrack \hyperref[sec:g2_1]{G.2.1 Allow registered user to log in with myTaxiService account.}\rbrack}
+
+				\begin{itemize}
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g2_1} The Registered User must be registered with a myTaxiService account.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g2_1} The Registered User must be in posses of his username and password to successful login.
+					//TODO CONTINUE.
 				\end{itemize}
 
 		\subsection{Functional Requirements for Customers}
+
+
 
 		\subsection{Functional Requirements for Taxi Drivers}
 
