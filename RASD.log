@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  28 OCT 2015 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 OCT 2015 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,42 +318,47 @@ Chapter 2.
 Chapter 3.
 [9
 
-] [10] [11] [12]
+] [10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+
+ []
+
+[12] [13] [14]
 Chapter 4.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
-[13
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
+[15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
  (./RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
 (rerunfilecheck)             Checksum: D1CD2FE21D1B84FCE93045884FBE74FD;3162.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
  ) 
 Here is how much of TeX's memory you used:
- 5342 strings out of 494501
- 79712 string characters out of 6167029
- 164290 words of memory out of 5000000
- 8523 multiletter control sequences out of 15000+600000
+ 5361 strings out of 494501
+ 79932 string characters out of 6167029
+ 165454 words of memory out of 5000000
+ 8537 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,8n,28p,620b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,28p,620b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on RASD.pdf (14 pages, 80829 bytes).
+Output written on RASD.pdf (16 pages, 83403 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 386 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
  369 words of extra memory for PDF output out of 10000 (max. 10000000)
 

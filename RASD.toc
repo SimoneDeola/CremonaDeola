@@ -32,25 +32,28 @@
 \contentsline {subsection}{\numberline {3.2.1}Functional Requirements for Guest Users}{11}{subsection.3.2.1}
 \contentsline {subsubsection}{[\hyperref [sec:g1_1_1]{G1.1.1 - Allow guest user to become a customer creating a myTaxiService Account}]}{11}{section*.2}
 \contentsline {subsubsection}{[\hyperref [sec:g1_1_2]{G1.1.2 - Allow guest user to become a customer using his Facebook Account}]}{11}{section*.3}
-\contentsline {subsubsection}{[\hyperref [sec:g1_2]{G1.2 Allow guest user to become a taxi driver}]}{11}{section*.4}
+\contentsline {subsubsection}{[\hyperref [sec:g1_2]{G1.2 Allow guest user to become a taxi driver}]}{12}{section*.4}
 \contentsline {subsection}{\numberline {3.2.2}Functional Requirements for Registered Users}{12}{subsection.3.2.2}
 \contentsline {subsubsection}{[\hyperref [sec:g2_1]{G.2.1 Allow registered user to log in with myTaxiService account.}]}{12}{section*.5}
 \contentsline {subsection}{\numberline {3.2.3}Functional Requirements for Customers}{12}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Functional Requirements for Taxi Drivers}{12}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Scenarios}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}UML Models}{12}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{12}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{12}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}State Machine Diagrams}{12}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Non Functional Requirements}{12}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{12}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{12}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{12}{subsection.3.5.3}
-\contentsline {subsubsection}{Avaiability}{12}{section*.6}
-\contentsline {subsubsection}{Maintainability}{12}{section*.7}
-\contentsline {subsubsection}{Portability}{12}{section*.8}
-\contentsline {subsection}{\numberline {3.5.4}Security}{12}{subsection.3.5.4}
-\contentsline {subsubsection}{External Interface Side}{12}{section*.9}
-\contentsline {subsubsection}{Application Side}{12}{section*.10}
-\contentsline {subsubsection}{Server Side}{12}{section*.11}
-\contentsline {chapter}{\numberline {4}Appendix}{13}{chapter.4}
+\contentsline {subsubsection}{[\hyperref [sec:g2_2]{G.2.2 Allow customer to log in with Facebook account.}]}{12}{section*.6}
+\contentsline {subsubsection}{[\hyperref [sec:g3]{G.3 Allow customers to require a taxi.}]}{13}{section*.7}
+\contentsline {subsubsection}{[\hyperref [sec:g4]{G.4 Allow customers to reserve a ride.}]}{13}{section*.8}
+\contentsline {subsection}{\numberline {3.2.4}Functional Requirements for Taxi Drivers}{14}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Scenarios}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}UML Models}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{14}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}State Machine Diagrams}{14}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Non Functional Requirements}{14}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{14}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{14}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{14}{subsection.3.5.3}
+\contentsline {subsubsection}{Avaiability}{14}{section*.9}
+\contentsline {subsubsection}{Maintainability}{14}{section*.10}
+\contentsline {subsubsection}{Portability}{14}{section*.11}
+\contentsline {subsection}{\numberline {3.5.4}Security}{14}{subsection.3.5.4}
+\contentsline {subsubsection}{External Interface Side}{14}{section*.12}
+\contentsline {subsubsection}{Application Side}{14}{section*.13}
+\contentsline {subsubsection}{Server Side}{14}{section*.14}
+\contentsline {chapter}{\numberline {4}Appendix}{15}{chapter.4}
