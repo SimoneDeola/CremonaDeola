@@ -21,7 +21,7 @@
 % let's change this ugly serif font!
 \renewcommand{\familydefault}{\sfdefault}
 
-
+\usepackage{float}
 
 % now start with the RASD document
 \begin{document}
@@ -204,19 +204,160 @@ This chapter contains a detailed description of how the applications works and i
 		\subsection{User Interfaces}
 		Here we describe in particular how the application should look like either for mobile and web application. To make an easier explanation of the aspect of the various screen of 			the application we are going to use Mockup.
 			\subsubsection{Login}
-			\begin{center}
-			
-			\includegraphics[scale=0.4]{IMG/UserInterfaces/CustomerLogin.png}
-			
-			
-			\end{center}
-			\begin{center}
-			
-			
+			On this page the users can log in with username and password or with Facebook (only if as registered user is a Customer). If the user is not already registered can access to the 					registration pages ( for Customer or for Taxi Drivers ). Also if the users forgot the password from this page can go to the forgot password page.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/CustomerLogin.png}
+			\caption{Login Page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
 			\includegraphics[scale=0.4]{IMG/UserInterfaces/CustomerLogin_m.png}
-			\end{center}
+			\caption{Login Page, mobile version}\label{visina8}
+			\end{figure}
+			
+			
+			\subsubsection{Customer registration}
+			On this page the users can register itself. This page must provide two way of registration, registration with the standard form ( e-mail, password and username) of with Facebook API.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/CustomerRegistration.png}
+			\caption{Customer registration Page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/CustomerRegistration_m.png}
+			\caption{Customer registration Page, mobile version}\label{visina8}
+			\end{figure}
+			
+			\subsubsection{Taxi Drivers registration}
+			On this page the users can register itself as a taxi driver. Taxi driver have a special form to been registered because of the additional information the user must provide ( taxi license 				number). Just because the additional information the registration can be done just with the standard form.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/TaxiDriverRegistration.png}
+			\caption{Taxi Driver registration Page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/TaxiDriverRegistration_m.png}
+			\caption{Taxi Driver registration Page, mobile version}\label{visina8}
+			\end{figure}
+			
+			\subsubsection{Customer home page}
+			On this page the Customer can see his position (information from his GPS) and perform all the main operation that he can perform. He can Request a taxi on the position showed, can 				go to the reservation page (in which can reserve a ride), can visit his personal page (in which can see all the information of his profile), can go to the information page (information about 				myTaxiService) or go to the 'my reservation page' (in which can manage all the previous reserved ride). 
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/mainCustomer.png}
+			\caption{Customer home page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/mainCustomer_m.png}
+			\caption{Customer home page, mobile version}\label{visina8}
+			\end{figure}
+			
+			\subsubsection{Reservation page}
+			On this page the Customer can reserve a taxi ride. To do this he mast insert a Origin position, a Destination position, a Data and a Time. The reservation must be at least two hours after 			the current Time, so the system must avoid to reserve a previous ride.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/reservationCustomer.png}
+			\caption{Reservation page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/reservationCustomer_m.png}
+			\caption{Reservation page, mobile version}\label{visina8}
+			\end{figure}
+			
+			\subsubsection{My reservation Page}
+			On this page Customer can see all the reservation he have already done and adding some new. For each previous reservation can see all the information and, if the Date is before the 				next two hours, can delete it.			
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/myReservation.png}
+			\caption{My reservation, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/myReservation_m.png}
+			\caption{My reservation, mobile version}\label{visina8}
+			\end{figure}
+			
+			
+			\subsubsection{Customer notification pop-up}
+			This pop-up is showed to the requesting Customer when his request has been handled. On this pop-up the system show also the number of the incoming taxi and an approssimative 				waiting time.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/customerNotification.png}
+			\caption{Customer nofication, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/customerNotification_m.png}
+			\caption{Customer notification, mobile version}\label{visina8}
+			\end{figure}
+			
+			\subsubsection{User page}
+			This page show all the information about your user and show how many time you've been notified as bad user.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/userPage.png}
+			\caption{User Page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/userPage_m.png}
+			\caption{User Page, mobile version}\label{visina8}
+			\end{figure}
 
-		\subsection{Hardware Interfaces}
+			
+			\subsubsection{Taxi Driver home page}
+			On this page the Taxi driver can see his position (information from his GPS) and inform the system about his availability.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/mainTaxiDriver.png}
+			\caption{Taxi driver home page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/mainTaxiDriver_m.png}
+			\caption{Taxi driver home page, mobile version}\label{visina8}
+			\end{figure}
+			
+			
+			
+			\subsubsection{Taxi Driver notification}
+			On this pop-up the taxi driver will notified of a request that he can handle. On this pop-up is showed also two button, with which the taxi driver can accept or decline the request.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/notificationTaxiDriver.png}
+			\caption{Taxi driver notification pop-up, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/notificationTaxiDriver_m.png}
+			\caption{Taxi driver notification pop-up, mobile version}\label{visina8}
+			\end{figure}
+			
+			
+			\subsubsection{Taxi Driver end ride page}
+			When a taxi driver accept a ride this page is showed up. On this page the taxi driver can check the name of the customer and the Origin position of his journey. When the ride is ended 				he can give a bad evaluation or simply end the ride and return to the main page.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.5]{IMG/UserInterfaces/onRidePage.png}
+			\caption{On Ride Page, web version}\label{visina8}
+			\end{figure}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{IMG/UserInterfaces/onRidePage_m.png}
+			\caption{On Ride page, mobile version}\label{visina8}
+			\end{figure}
+			
+			
+			
+
+
+
+		\subsection{}
 		Since mobile and web applications don't have any dedicated hardware we have not designed any hardware interfaces for our system.
 		The interaction with the central database is performed by connections handled by the already installed operating system on the mobile devices or the users computers.
 
