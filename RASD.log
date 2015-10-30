@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 OCT 2015 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  30 OCT 2015 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -172,7 +172,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 16.
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
  (/usr/local/texlive/2015basic/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen109
@@ -264,23 +264,26 @@ LaTeX Warning: Label `visina8' multiply defined.
 
 LaTeX Warning: Label `visina8' multiply defined.
 
+
+LaTeX Warning: Label `sec:fr1_g13' multiply defined.
+
 )
 \openout1 = `RASD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
  (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
@@ -317,7 +320,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 31.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -328,19 +331,19 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (./RASD.out) (./RASD.out)
 \@outlinefile=\write3
 \openout3 = `RASD.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 36.
  [1
 
 {/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
@@ -353,14 +356,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 ...ments for Customers}{35}{subsection.3.2.3}
+l.34 ....1.8}User page}{24}{subsubsection.3.1.1.8}
                                                    [1
 
-])
+] [2])
 \tf@toc=\write4
 \openout4 = `RASD.toc'.
 
- [2]
+ [3]
 Chapter 1.
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
@@ -368,385 +371,435 @@ Missing character: There is no ú in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ù in font cmss10!
-[3
+[4
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 54.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 58.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 54.
+LaTeX Font Info:    No file OMScmss.fd. on input line 58.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 54.
+(Font)              for symbol `textbullet' on input line 58.
 
-[4] [5]
+[5] [6]
 Chapter 2.
-[6
+[7
 
-] [7] [8]
+] [8] [9]
 Chapter 3.
-<IMG/UserInterfaces/CustomerLogin.png, id=328, 734.745pt x 567.11874pt>
+<IMG/UserInterfaces/CustomerLogin.png, id=512, 734.745pt x 567.11874pt>
 File: IMG/UserInterfaces/CustomerLogin.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerLogin.png>
 Package pdftex.def Info: IMG/UserInterfaces/CustomerLogin.png used on input lin
-e 210.
+e 214.
 (pdftex.def)             Requested size: 367.3716pt x 283.55867pt.
 
-Overfull \hbox (22.3716pt too wide) in paragraph at lines 210--211
+Overfull \hbox (22.3716pt too wide) in paragraph at lines 214--215
  [][] 
  []
 
-<IMG/UserInterfaces/CustomerLogin_m.png, id=330, 327.2225pt x 580.1675pt>
+<IMG/UserInterfaces/CustomerLogin_m.png, id=514, 327.2225pt x 580.1675pt>
 File: IMG/UserInterfaces/CustomerLogin_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerLogin_m.png>
 Package pdftex.def Info: IMG/UserInterfaces/CustomerLogin_m.png used on input l
-ine 215.
+ine 219.
 (pdftex.def)             Requested size: 130.88667pt x 232.06288pt.
- [9
+ [10
 
-] [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+] [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.218 
+l.222 
        <./IMG/UserInterfaces/CustomerLogin.png>]
-<IMG/UserInterfaces/CustomerRegistration.png, id=342, 678.535pt x 529.98pt>
+<IMG/UserInterfaces/CustomerRegistration.png, id=525, 678.535pt x 529.98pt>
 File: IMG/UserInterfaces/CustomerRegistration.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerRegistration.png>
 Package pdftex.def Info: IMG/UserInterfaces/CustomerRegistration.png used on in
-put line 224.
+put line 229.
 (pdftex.def)             Requested size: 339.26666pt x 264.98933pt.
 
-<IMG/UserInterfaces/CustomerRegistration_m.png, id=343, 478.78876pt x 588.1975p
+<IMG/UserInterfaces/CustomerRegistration_m.png, id=526, 478.78876pt x 588.1975p
 t>
 File: IMG/UserInterfaces/CustomerRegistration_m.png Graphic file (type png)
  <use IMG/UserInterfaces/CustomerRegistration_m.png>
 Package pdftex.def Info: IMG/UserInterfaces/CustomerRegistration_m.png used on 
-input line 229.
+input line 234.
 (pdftex.def)             Requested size: 191.5121pt x 235.27483pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.231 			\end{figure}
-                      <./IMG/UserInterfaces/CustomerLogin_m.png>] [12pdfTeX war
-ning (ext4): destination with the same identifier (name{figure.3.3}) has been a
-lready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.232 
-       <./IMG/UserInterfaces/CustomerRegistration.png>]
-<IMG/UserInterfaces/TaxiDriverRegistration.png, id=358, 664.4825pt x 530.98375p
-t>
-File: IMG/UserInterfaces/TaxiDriverRegistration.png Graphic file (type png)
- <use IMG/UserInterfaces/TaxiDriverRegistration.png>
-Package pdftex.def Info: IMG/UserInterfaces/TaxiDriverRegistration.png used on 
-input line 237.
-(pdftex.def)             Requested size: 332.24043pt x 265.49121pt.
-
-<IMG/UserInterfaces/TaxiDriverRegistration_m.png, id=359, 478.78876pt x 588.197
-5pt>
-File: IMG/UserInterfaces/TaxiDriverRegistration_m.png Graphic file (type png)
- <use IMG/UserInterfaces/TaxiDriverRegistration_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/TaxiDriverRegistration_m.png used o
-n input line 242.
-(pdftex.def)             Requested size: 191.5121pt x 235.27483pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.244 			\end{figure}
-                      <./IMG/UserInterfaces/CustomerRegistration_m.png>]
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.245 
-       <./IMG/UserInterfaces/TaxiDriverRegistration.png>]
-<IMG/UserInterfaces/mainCustomer.png, id=373, 701.62125pt x 541.02126pt>
-File: IMG/UserInterfaces/mainCustomer.png Graphic file (type png)
-
-<use IMG/UserInterfaces/mainCustomer.png>
-Package pdftex.def Info: IMG/UserInterfaces/mainCustomer.png used on input line
- 250.
-(pdftex.def)             Requested size: 350.80975pt x 270.50996pt.
-
-Overfull \hbox (5.80975pt too wide) in paragraph at lines 250--251
- [][] 
- []
-
-<IMG/UserInterfaces/mainCustomer_m.png, id=374, 283.0575pt x 575.14874pt>
-File: IMG/UserInterfaces/mainCustomer_m.png Graphic file (type png)
-
-<use IMG/UserInterfaces/mainCustomer_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/mainCustomer_m.png used on input li
-ne 255.
-(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.257 			\end{figure}
-                      <./IMG/UserInterfaces/TaxiDriverRegistration_m.png>]
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.258 
-       <./IMG/UserInterfaces/mainCustomer.png>]
-<IMG/UserInterfaces/reservationCustomer.png, id=388, 685.56125pt x 524.96124pt>
-File: IMG/UserInterfaces/reservationCustomer.png Graphic file (type png)
-<use IMG/UserInterfaces/reservationCustomer.png>
-Package pdftex.def Info: IMG/UserInterfaces/reservationCustomer.png used on inp
-ut line 263.
-(pdftex.def)             Requested size: 342.77979pt x 262.47998pt.
-
-<IMG/UserInterfaces/reservationCustomer_m.png, id=389, 283.0575pt x 575.14874pt
->
-File: IMG/UserInterfaces/reservationCustomer_m.png Graphic file (type png)
- <use IMG/UserInterfaces/reservationCustomer_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/reservationCustomer_m.png used on i
-nput line 268.
-(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.270 			\end{figure}
-                      <./IMG/UserInterfaces/mainCustomer_m.png>] [18pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.3.9}) has been al
-ready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.271 
-       <./IMG/UserInterfaces/reservationCustomer.png>]
-<IMG/UserInterfaces/myReservation.png, id=404, 690.58pt x 552.0625pt>
-File: IMG/UserInterfaces/myReservation.png Graphic file (type png)
-
-<use IMG/UserInterfaces/myReservation.png>
-Package pdftex.def Info: IMG/UserInterfaces/myReservation.png used on input lin
-e 276.
-(pdftex.def)             Requested size: 345.28915pt x 276.03056pt.
-
-<IMG/UserInterfaces/myReservation_m.png, id=405, 283.0575pt x 575.14874pt>
-File: IMG/UserInterfaces/myReservation_m.png Graphic file (type png)
-
-<use IMG/UserInterfaces/myReservation_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/myReservation_m.png used on input l
-ine 281.
-(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.283 			\end{figure}
-                      <./IMG/UserInterfaces/reservationCustomer_m.png>]
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.284 
-       <./IMG/UserInterfaces/myReservation.png>]
-<IMG/UserInterfaces/customerNotification.png, id=419, 679.53876pt x 543.02875pt
->
-File: IMG/UserInterfaces/customerNotification.png Graphic file (type png)
- <use IMG/UserInterfaces/customerNotification.png>
-Package pdftex.def Info: IMG/UserInterfaces/customerNotification.png used on in
-put line 290.
-(pdftex.def)             Requested size: 339.76855pt x 271.5137pt.
-
-<IMG/UserInterfaces/customerNotification_m.png, id=420, 283.0575pt x 575.14874p
-t>
-File: IMG/UserInterfaces/customerNotification_m.png Graphic file (type png)
- <use IMG/UserInterfaces/customerNotification_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/customerNotification_m.png used on 
-input line 295.
-(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.297 			\end{figure}
-                      <./IMG/UserInterfaces/myReservation_m.png>] [22pdfTeX war
-ning (ext4): destination with the same identifier (name{figure.3.13}) has been 
+l.236 				\end{figure}
+                       <./IMG/UserInterfaces/CustomerLogin_m.png>] [13pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.3.3}) has been 
 already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.298 
-       <./IMG/UserInterfaces/customerNotification.png>]
-<IMG/UserInterfaces/userPage.png, id=435, 723.70375pt x 523.9575pt>
-File: IMG/UserInterfaces/userPage.png Graphic file (type png)
+l.237 
+       <./IMG/UserInterfaces/CustomerRegistration.png>]
+<IMG/UserInterfaces/TaxiDriverRegistration.png, id=540, 664.4825pt x 530.98375p
+t>
+File: IMG/UserInterfaces/TaxiDriverRegistration.png Graphic file (type png)
+ <use IMG/UserInterfaces/TaxiDriverRegistration.png>
+Package pdftex.def Info: IMG/UserInterfaces/TaxiDriverRegistration.png used on 
+input line 243.
+(pdftex.def)             Requested size: 332.24043pt x 265.49121pt.
 
-<use IMG/UserInterfaces/userPage.png>
-Package pdftex.def Info: IMG/UserInterfaces/userPage.png used on input line 303
-.
-(pdftex.def)             Requested size: 361.85098pt x 261.9781pt.
+<IMG/UserInterfaces/TaxiDriverRegistration_m.png, id=541, 478.78876pt x 588.197
+5pt>
+File: IMG/UserInterfaces/TaxiDriverRegistration_m.png Graphic file (type png)
+ <use IMG/UserInterfaces/TaxiDriverRegistration_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/TaxiDriverRegistration_m.png used o
+n input line 248.
+(pdftex.def)             Requested size: 191.5121pt x 235.27483pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+4}) has been already used, duplicate ignored
 
-Overfull \hbox (16.85098pt too wide) in paragraph at lines 303--304
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.250 				\end{figure}
+                       <./IMG/UserInterfaces/CustomerRegistration_m.png>]
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.251 
+       <./IMG/UserInterfaces/TaxiDriverRegistration.png>]
+<IMG/UserInterfaces/mainCustomer.png, id=554, 701.62125pt x 541.02126pt>
+File: IMG/UserInterfaces/mainCustomer.png Graphic file (type png)
+
+<use IMG/UserInterfaces/mainCustomer.png>
+Package pdftex.def Info: IMG/UserInterfaces/mainCustomer.png used on input line
+ 257.
+(pdftex.def)             Requested size: 350.80975pt x 270.50996pt.
+
+Overfull \hbox (5.80975pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-<IMG/UserInterfaces/userPage_m.png, id=436, 283.0575pt x 575.14874pt>
-File: IMG/UserInterfaces/userPage_m.png Graphic file (type png)
+<IMG/UserInterfaces/mainCustomer_m.png, id=555, 283.0575pt x 575.14874pt>
+File: IMG/UserInterfaces/mainCustomer_m.png Graphic file (type png)
 
-<use IMG/UserInterfaces/userPage_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/userPage_m.png used on input line 3
-08.
+<use IMG/UserInterfaces/mainCustomer_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/mainCustomer_m.png used on input li
+ne 262.
 (pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-14}) has been already used, duplicate ignored
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.310 			\end{figure}
-                      <./IMG/UserInterfaces/customerNotification_m.png>]
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-5}) has been already used, duplicate ignored
+l.264 				\end{figure}
+                       <./IMG/UserInterfaces/TaxiDriverRegistration_m.png>]
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.311 
-       <./IMG/UserInterfaces/userPage.png>]
-<IMG/UserInterfaces/mainTaxiDriver.png, id=451, 681.54625pt x 539.01375pt>
-File: IMG/UserInterfaces/mainTaxiDriver.png Graphic file (type png)
+l.265 
+       <./IMG/UserInterfaces/mainCustomer.png>]
+<IMG/UserInterfaces/reservationCustomer.png, id=568, 685.56125pt x 524.96124pt>
+File: IMG/UserInterfaces/reservationCustomer.png Graphic file (type png)
+<use IMG/UserInterfaces/reservationCustomer.png>
+Package pdftex.def Info: IMG/UserInterfaces/reservationCustomer.png used on inp
+ut line 271.
+(pdftex.def)             Requested size: 342.77979pt x 262.47998pt.
 
-<use IMG/UserInterfaces/mainTaxiDriver.png>
-Package pdftex.def Info: IMG/UserInterfaces/mainTaxiDriver.png used on input li
-ne 317.
-(pdftex.def)             Requested size: 340.7723pt x 269.50621pt.
-
-<IMG/UserInterfaces/mainTaxiDriver_m.png, id=452, 283.0575pt x 575.14874pt>
-File: IMG/UserInterfaces/mainTaxiDriver_m.png Graphic file (type png)
-
-<use IMG/UserInterfaces/mainTaxiDriver_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/mainTaxiDriver_m.png used on input 
-line 322.
+<IMG/UserInterfaces/reservationCustomer_m.png, id=569, 283.0575pt x 575.14874pt
+>
+File: IMG/UserInterfaces/reservationCustomer_m.png Graphic file (type png)
+ <use IMG/UserInterfaces/reservationCustomer_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/reservationCustomer_m.png used on i
+nput line 276.
 (pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-16}) has been already used, duplicate ignored
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 			\end{figure}
-                      <./IMG/UserInterfaces/userPage_m.png>] [26pdfTeX warning 
-(ext4): destination with the same identifier (name{figure.3.17}) has been alrea
-dy used, duplicate ignored
+l.278 				\end{figure}
+                       <./IMG/UserInterfaces/mainCustomer_m.png>] [19pdfTeX war
+ning (ext4): destination with the same identifier (name{figure.3.9}) has been a
+lready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
-       <./IMG/UserInterfaces/mainTaxiDriver.png>]
-<IMG/UserInterfaces/notificationTaxiDriver.png, id=466, 665.48625pt x 526.96875
-pt>
-File: IMG/UserInterfaces/notificationTaxiDriver.png Graphic file (type png)
- <use IMG/UserInterfaces/notificationTaxiDriver.png>
-Package pdftex.def Info: IMG/UserInterfaces/notificationTaxiDriver.png used on 
-input line 332.
-(pdftex.def)             Requested size: 332.74231pt x 263.48372pt.
+l.279 
+       <./IMG/UserInterfaces/reservationCustomer.png>]
+<IMG/UserInterfaces/myReservation.png, id=584, 690.58pt x 552.0625pt>
+File: IMG/UserInterfaces/myReservation.png Graphic file (type png)
 
-<IMG/UserInterfaces/notificationTaxiDriver_m.png, id=467, 283.0575pt x 575.1487
-4pt>
-File: IMG/UserInterfaces/notificationTaxiDriver_m.png Graphic file (type png)
- <use IMG/UserInterfaces/notificationTaxiDriver_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/notificationTaxiDriver_m.png used o
-n input line 337.
+<use IMG/UserInterfaces/myReservation.png>
+Package pdftex.def Info: IMG/UserInterfaces/myReservation.png used on input lin
+e 285.
+(pdftex.def)             Requested size: 345.28915pt x 276.03056pt.
+
+<IMG/UserInterfaces/myReservation_m.png, id=585, 283.0575pt x 575.14874pt>
+File: IMG/UserInterfaces/myReservation_m.png Graphic file (type png)
+
+<use IMG/UserInterfaces/myReservation_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/myReservation_m.png used on input l
+ine 290.
 (pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-18}) has been already used, duplicate ignored
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 			\end{figure}
-                      <./IMG/UserInterfaces/mainTaxiDriver_m.png>] [28pdfTeX wa
-rning (ext4): destination with the same identifier (name{figure.3.19}) has been
- already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.340 
-       <./IMG/UserInterfaces/notificationTaxiDriver.png>]
-<IMG/UserInterfaces/onRidePage.png, id=481, 664.4825pt x 520.94624pt>
-File: IMG/UserInterfaces/onRidePage.png Graphic file (type png)
-
-<use IMG/UserInterfaces/onRidePage.png>
-Package pdftex.def Info: IMG/UserInterfaces/onRidePage.png used on input line 3
-46.
-(pdftex.def)             Requested size: 332.24043pt x 260.47249pt.
-
-<IMG/UserInterfaces/onRidePage_m.png, id=482, 283.0575pt x 575.14874pt>
-File: IMG/UserInterfaces/onRidePage_m.png Graphic file (type png)
-
-<use IMG/UserInterfaces/onRidePage_m.png>
-Package pdftex.def Info: IMG/UserInterfaces/onRidePage_m.png used on input line
- 351.
-(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-20}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.353 			\end{figure}
-                      <./IMG/UserInterfaces/notificationTaxiDriver_m.png>]
-[30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+l.292 				\end{figure}
+                       <./IMG/UserInterfaces/reservationCustomer_m.png>]
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.354 
+l.293 
+       <./IMG/UserInterfaces/myReservation.png>]
+<IMG/UserInterfaces/customerNotification.png, id=598, 679.53876pt x 543.02875pt
+>
+File: IMG/UserInterfaces/customerNotification.png Graphic file (type png)
+ <use IMG/UserInterfaces/customerNotification.png>
+Package pdftex.def Info: IMG/UserInterfaces/customerNotification.png used on in
+put line 300.
+(pdftex.def)             Requested size: 339.76855pt x 271.5137pt.
+
+<IMG/UserInterfaces/customerNotification_m.png, id=599, 283.0575pt x 575.14874p
+t>
+File: IMG/UserInterfaces/customerNotification_m.png Graphic file (type png)
+ <use IMG/UserInterfaces/customerNotification_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/customerNotification_m.png used on 
+input line 305.
+(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.307 				\end{figure}
+                       <./IMG/UserInterfaces/myReservation_m.png>] [23pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.3.13}) has been
+ already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.308 
+       <./IMG/UserInterfaces/customerNotification.png>]
+<IMG/UserInterfaces/userPage.png, id=612, 723.70375pt x 523.9575pt>
+File: IMG/UserInterfaces/userPage.png Graphic file (type png)
+
+<use IMG/UserInterfaces/userPage.png>
+Package pdftex.def Info: IMG/UserInterfaces/userPage.png used on input line 314
+.
+(pdftex.def)             Requested size: 361.85098pt x 261.9781pt.
+
+Overfull \hbox (16.85098pt too wide) in paragraph at lines 314--315
+ [][] 
+ []
+
+<IMG/UserInterfaces/userPage_m.png, id=613, 283.0575pt x 575.14874pt>
+File: IMG/UserInterfaces/userPage_m.png Graphic file (type png)
+
+<use IMG/UserInterfaces/userPage_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/userPage_m.png used on input line 3
+19.
+(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.321 				\end{figure}
+                       <./IMG/UserInterfaces/customerNotification_m.png>]
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.322 
+       <./IMG/UserInterfaces/userPage.png>]
+<IMG/UserInterfaces/mainTaxiDriver.png, id=627, 681.54625pt x 539.01375pt>
+File: IMG/UserInterfaces/mainTaxiDriver.png Graphic file (type png)
+
+<use IMG/UserInterfaces/mainTaxiDriver.png>
+Package pdftex.def Info: IMG/UserInterfaces/mainTaxiDriver.png used on input li
+ne 329.
+(pdftex.def)             Requested size: 340.7723pt x 269.50621pt.
+
+<IMG/UserInterfaces/mainTaxiDriver_m.png, id=628, 283.0575pt x 575.14874pt>
+File: IMG/UserInterfaces/mainTaxiDriver_m.png Graphic file (type png)
+
+<use IMG/UserInterfaces/mainTaxiDriver_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/mainTaxiDriver_m.png used on input 
+line 334.
+(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.336 				\end{figure}
+                       <./IMG/UserInterfaces/userPage_m.png>] [27pdfTeX warning
+ (ext4): destination with the same identifier (name{figure.3.17}) has been alre
+ady used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.337 
+       <./IMG/UserInterfaces/mainTaxiDriver.png>]
+<IMG/UserInterfaces/notificationTaxiDriver.png, id=641, 665.48625pt x 526.96875
+pt>
+File: IMG/UserInterfaces/notificationTaxiDriver.png Graphic file (type png)
+ <use IMG/UserInterfaces/notificationTaxiDriver.png>
+Package pdftex.def Info: IMG/UserInterfaces/notificationTaxiDriver.png used on 
+input line 345.
+(pdftex.def)             Requested size: 332.74231pt x 263.48372pt.
+
+<IMG/UserInterfaces/notificationTaxiDriver_m.png, id=642, 283.0575pt x 575.1487
+4pt>
+File: IMG/UserInterfaces/notificationTaxiDriver_m.png Graphic file (type png)
+ <use IMG/UserInterfaces/notificationTaxiDriver_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/notificationTaxiDriver_m.png used o
+n input line 350.
+(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.352 				\end{figure}
+                       <./IMG/UserInterfaces/mainTaxiDriver_m.png>] [29pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.3.19}) has bee
+n already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353 
+       <./IMG/UserInterfaces/notificationTaxiDriver.png>]
+<IMG/UserInterfaces/onRidePage.png, id=655, 664.4825pt x 520.94624pt>
+File: IMG/UserInterfaces/onRidePage.png Graphic file (type png)
+
+<use IMG/UserInterfaces/onRidePage.png>
+Package pdftex.def Info: IMG/UserInterfaces/onRidePage.png used on input line 3
+60.
+(pdftex.def)             Requested size: 332.24043pt x 260.47249pt.
+
+<IMG/UserInterfaces/onRidePage_m.png, id=656, 283.0575pt x 575.14874pt>
+File: IMG/UserInterfaces/onRidePage_m.png Graphic file (type png)
+
+<use IMG/UserInterfaces/onRidePage_m.png>
+Package pdftex.def Info: IMG/UserInterfaces/onRidePage_m.png used on input line
+ 365.
+(pdftex.def)             Requested size: 113.22098pt x 230.05542pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.367 				\end{figure}
+                       <./IMG/UserInterfaces/notificationTaxiDriver_m.png>]
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.368 
        <./IMG/UserInterfaces/onRidePage.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.424 						\end{table}
-                        <./IMG/UserInterfaces/onRidePage_m.png>] [32pdfTeX warn
+l.434 						\end{table}
+                        <./IMG/UserInterfaces/onRidePage_m.png>] [33pdfTeX warn
 ing (ext4): destination with the same identifier (name{table.3.1}) has been alr
 eady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.447 			\subsubsection
-                       {\lbrack \hyperref[sec:g1_1_1]{G1.1.1 - Allow guest u...
+l.457 			\subsubsection
+                       {\lbrack \hyperref[sec:g1]{G.1 - Allow guest users to...
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.447 			\subsubsection
-                       {\lbrack \hyperref[sec:g1_1_1]{G1.1.1 - Allow guest u...
+l.457 			\subsubsection
+                       {\lbrack \hyperref[sec:g1]{G.1 - Allow guest users to...
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.455 ...mail respects this regular expression: "^
-                                                  \w+@[a-zA-Z_]+?\.[a-zA-Z]{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 477.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 490.
+
+[34]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 517.
+
+[35]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 532.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 551.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 558.
+
+[36]
+! Undefined control sequence.
+l.568 ... the system that sets to \textquotedbleft
+                                                   ended\textquotedbright th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.455 ...il respects this regular expression: "^\w
-                                                  +@[a-zA-Z_]+?\.[a-zA-Z]{2,...
+l.568 ...o \textquotedbleft ended\textquotedbright
+                                                   the current ride without ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.569 ... the system that sets to \textquotedbleft
+                                                   taxi-ended\textquotedbrig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.569 ...xtquotedbleft taxi-ended\textquotedbright
+                                                   the current ride and incr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -754,39 +807,40 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \. invalid in math mode on input line 455.
+Underfull \hbox (badness 10000) in paragraph at lines 571--573
 
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.455 ... regular expression: "^\w+@[a-zA-Z_]+?\.[
-                                                  a-zA-Z]{2,3}$"
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.455 ... regular expression: "^\w+@[a-zA-Z_]+?\.[
-                                                  a-zA-Z]{2,3}$"
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no Ë in font cmex10!
-[33]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.488 ...mail respects this regular expression: "^
-                                                  \w+@[a-zA-Z_]+?\.[a-zA-Z]{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ []
 
 ! Undefined control sequence.
-l.488 ...il respects this regular expression: "^\w
-                                                  +@[a-zA-Z_]+?\.[a-zA-Z]{2,...
+l.578 ... the system that sets to \textquotedbleft
+                                                   ended\textquotedbright th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.578 ...o \textquotedbleft ended\textquotedbright
+                                                   the current ride without ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.579 ... the system that sets to \textquotedbleft
+                                                   customer-ended\textquoted...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.579 ...otedbleft customer-ended\textquotedbright
+                                                   the current ride and incr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -794,39 +848,53 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \. invalid in math mode on input line 488.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 587.
 
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.488 ... regular expression: "^\w+@[a-zA-Z_]+?\.[
-                                                  a-zA-Z]{2,3}$"
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
+[37]
 
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.488 ... regular expression: "^\w+@[a-zA-Z_]+?\.[
-                                                  a-zA-Z]{2,3}$"
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 595.
 
-Missing character: There is no Ë in font cmex10!
-[34] [35] [36] [37]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 610.
+
+[38]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 633.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 653.
+
+! Undefined control sequence.
+l.660 					\item \lbrack Req.2\rbracl
+                                      \label{sec:fr2_g12} check if the state...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[39]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 668.
+
+[40] [41]
 Chapter 4.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 632.
-[38
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 716.
+[42
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 632.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 716.
  (./RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 632.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 632.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 716.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 716.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: D1CD2FE21D1B84FCE93045884FBE74FD;3162.
+(rerunfilecheck)             Checksum: 83A217F4FA6DCDBAD309B3F02BCFB106;6309.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -834,29 +902,26 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 632.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 716.
  ) 
 Here is how much of TeX's memory you used:
- 5625 strings out of 494501
- 85964 string characters out of 6167029
- 167914 words of memory out of 5000000
- 8693 multiletter control sequences out of 15000+600000
+ 5703 strings out of 494501
+ 87379 string characters out of 6167029
+ 174310 words of memory out of 5000000
+ 8743 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,8n,28p,620b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+ 29i,8n,32p,679b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmss10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on RASD.pdf (39 pages, 663510 bytes).
+mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb>
+Output written on RASD.pdf (43 pages, 649874 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 560 compressed objects within 6 object streams
- 158 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 853 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 186 named destinations out of 1000 (max. 500000)
+ 719 words of extra memory for PDF output out of 10000 (max. 10000000)
 
