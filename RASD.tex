@@ -661,7 +661,7 @@ This chapter contains a detailed description of how the applications works and i
 
 				\begin{itemize}
 					\item \lbrack Req.1\rbrack \label{sec:fr1_g12} check if the Taxi Driver is correctly logged in.
-					\item \lbrack Req.2\rbracl \label{sec:fr2_g12} check if the state of the Taxi Driver is: Available.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g12} check if the state of the Taxi Driver is: Available.
 					\item \lbrack Req.2\rbrack \label{sec:fr3_g12} if the Taxi Driver is at the top of his zone queue, the system must notify him with a request notification as described in \hyperref[sec:fr4_g9]{Req.4 of G.9}.
 					\item \lbrack Req.3\rbrack \label{sec:fr4_g12} once the notification has been sent, the system must wait for the Taxi Driver acceptance or declination for 10 minutes, after that time, the request is forwarded to the next Taxi Driver in the zone queue.
 					\item \lbrack Req.4\rbrack \label{sec:fr5_g12} if the request has been accepted, the Taxi Driver must be redirected to the end-ride page where he can end the ride when he want. Also he is moved to the bottom of his zone queue and his state is setted to Not Available.
@@ -684,11 +684,18 @@ This chapter contains a detailed description of how the applications works and i
 	\section{Scenarios}
 	Here are described in natural language some useful scenarios that shows how the system should work in different cases:
 
-		\subsection{S.1 Registration as a Customer creating a myTaxiService account }\label{sec:NormalCustomerRegistrationScenario}
+		\subsection{S.1 Registration as a Customer creating a myTaxiService account}\label{sec:NormalCustomerRegistrationScenario}
 		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs1]{G.1 Functional Requirements Specification}\\
 
 		Aristotle is new in the system and he wants to simplify the way he calls for a taxi. So he download the "myTaxiService" application from the Play Store (since he has a smartphone with the fancy Android 5.0 Lollipop Operative System) and he open it.
 		The application shows to Aristotle the login screen and he taps on the "Sign Up as a Customer" button (see \hyperref[login_m]{Login Screen}) going to the registration page. In that page, he has to fill the form (see \hyperref[cregistration_m]{Customer Registration Screen (Mobile)}) and after that he clicks on the "Accept" button. If the data entered by Aristotle is ok, he is automatically logged in and he can start using myTaxiService. Otherwise, he is redirected to an error page, that describes what is the problem. 
+
+		\subsection{S.2 Registration as a Customer using a Facebook Account}\label{sec:FacebookCustomerRegistrationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs2]{G.2 Functional Requirements Specifications}\\
+
+		Pythagoras is new in the system and he wants to simplify the way he calls for a taxi, but he doesn't want to loose time inserting his credential into a boring registration form, so he decide to register with his Facebook Account.
+		He download the application from the Apple App Store (since he has a glorious iPhone 6 Plus) and he open it.
+		The application shows to Pythagoras the login screen and he taps on the "Sign" 
 
 	\section{UML Models}
 
@@ -702,26 +709,47 @@ This chapter contains a detailed description of how the applications works and i
 				\begin{center}
 						\begin{table}[h!]
 							
-							\begin{center}
+							\begin{flushleft}
 								\label{tab:NormalCustomerRegistrationDiagramTable}
-								\begin{tabular}{cc}
+								\begin{tabular}{ll}
 									\toprule
-									\textbf{Subject} & \textbf{Description}\\
+											\textbf{Subject}
+										& 
+											\textbf{Description}\\
 									\midrule
-									Actors & Guest User, myTaxiService Application, myTaxiService Server\\
+											Actors
+										& 
+											Guest User, myTaxiService Application, myTaxiService Server\\
 									\midrule
-									Preconditions & Guest User must not be already registered\\
+											Preconditions
+										& 
+											Guest User must not be already registered\\
 									\midrule
-									Execution & 1) Guest User open the myTaxiService Application.\
-												2) Guest User taps on the "Sign Up as a Customer" button.\
-												3) myTaxiService Application shows the registration page.\
-												4) Guest User fills up the registration form.\
-												5) Guest User taps on the "Submit" button.\\
+											Execution 
+										& 
+											1.~Guest User open the myTaxiService Application.\\
+										&
+											2.~Guest User taps on the "Sign Up as a Customer" button.\\
+										&
+											3.~myTaxiService Application shows the registration page.\\
+										&	
+											4.~Guest User fills up the registration form.\\
+										&	
+											5.~Guest User taps on the "Submit" button.\\
 									\midrule
+											Postconditions
+										&
+											The Guest User is now a Customer, he is registered in \ the database and he's now logged in.\\
+									\midrule
+											Exceptions
+										&
+											1.~The email regex is not optimal (no regex for email is optimal)\\
+										&
+											2.~The connection is lost or the Guest User doesn't complete the registration clicking the button.\\
 									
 									\bottomrule
 								\end{tabular}
-							\end{center}
+							\end{flushleft}
 							
 						\end{table}
 					\end{center}

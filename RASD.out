@@ -58,21 +58,22 @@
 \BOOKMARK [3][-]{subsubsection.3.2.4.1}{[[sec:g12]G.12 Allow Taxi Drivers to accept or decline a ride request.]}{subsection.3.2.4}% 58
 \BOOKMARK [3][-]{subsubsection.3.2.4.2}{[[sec:g13]G.13 Allow Taxi Drivers to notify their availability.]}{subsection.3.2.4}% 59
 \BOOKMARK [1][-]{section.3.3}{Scenarios}{chapter.3}% 60
-\BOOKMARK [2][-]{subsection.3.3.1}{S.1 Registration as a Customer creating a myTaxiService account }{section.3.3}% 61
-\BOOKMARK [1][-]{section.3.4}{UML Models}{chapter.3}% 62
-\BOOKMARK [2][-]{subsection.3.4.1}{Use-Case Diagrams}{section.3.4}% 63
-\BOOKMARK [2][-]{subsection.3.4.2}{Class Diagrams}{section.3.4}% 64
-\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Registration through the creation of a new myTaxiService account.}{subsection.3.4.2}% 65
-\BOOKMARK [2][-]{subsection.3.4.3}{State Machine Diagrams}{section.3.4}% 66
-\BOOKMARK [1][-]{section.3.5}{Non Functional Requirements}{chapter.3}% 67
-\BOOKMARK [2][-]{subsection.3.5.1}{Performance Requirements}{section.3.5}% 68
-\BOOKMARK [2][-]{subsection.3.5.2}{Design Constraints}{section.3.5}% 69
-\BOOKMARK [2][-]{subsection.3.5.3}{Software System Attributes}{section.3.5}% 70
-\BOOKMARK [3][-]{subsubsection.3.5.3.1}{Availability}{subsection.3.5.3}% 71
-\BOOKMARK [3][-]{subsubsection.3.5.3.2}{Maintainability}{subsection.3.5.3}% 72
-\BOOKMARK [3][-]{subsubsection.3.5.3.3}{Portability}{subsection.3.5.3}% 73
-\BOOKMARK [2][-]{subsection.3.5.4}{Security}{section.3.5}% 74
-\BOOKMARK [3][-]{subsubsection.3.5.4.1}{External Interface Side}{subsection.3.5.4}% 75
-\BOOKMARK [3][-]{subsubsection.3.5.4.2}{Application Side}{subsection.3.5.4}% 76
-\BOOKMARK [3][-]{subsubsection.3.5.4.3}{Server Side}{subsection.3.5.4}% 77
-\BOOKMARK [0][-]{chapter.4}{Appendix}{}% 78
+\BOOKMARK [2][-]{subsection.3.3.1}{S.1 Registration as a Customer creating a myTaxiService account}{section.3.3}% 61
+\BOOKMARK [2][-]{subsection.3.3.2}{S.2 Registration as a Customer using a Facebook Account}{section.3.3}% 62
+\BOOKMARK [1][-]{section.3.4}{UML Models}{chapter.3}% 63
+\BOOKMARK [2][-]{subsection.3.4.1}{Use-Case Diagrams}{section.3.4}% 64
+\BOOKMARK [2][-]{subsection.3.4.2}{Class Diagrams}{section.3.4}% 65
+\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Registration through the creation of a new myTaxiService account.}{subsection.3.4.2}% 66
+\BOOKMARK [2][-]{subsection.3.4.3}{State Machine Diagrams}{section.3.4}% 67
+\BOOKMARK [1][-]{section.3.5}{Non Functional Requirements}{chapter.3}% 68
+\BOOKMARK [2][-]{subsection.3.5.1}{Performance Requirements}{section.3.5}% 69
+\BOOKMARK [2][-]{subsection.3.5.2}{Design Constraints}{section.3.5}% 70
+\BOOKMARK [2][-]{subsection.3.5.3}{Software System Attributes}{section.3.5}% 71
+\BOOKMARK [3][-]{subsubsection.3.5.3.1}{Availability}{subsection.3.5.3}% 72
+\BOOKMARK [3][-]{subsubsection.3.5.3.2}{Maintainability}{subsection.3.5.3}% 73
+\BOOKMARK [3][-]{subsubsection.3.5.3.3}{Portability}{subsection.3.5.3}% 74
+\BOOKMARK [2][-]{subsection.3.5.4}{Security}{section.3.5}% 75
+\BOOKMARK [3][-]{subsubsection.3.5.4.1}{External Interface Side}{subsection.3.5.4}% 76
+\BOOKMARK [3][-]{subsubsection.3.5.4.2}{Application Side}{subsection.3.5.4}% 77
+\BOOKMARK [3][-]{subsubsection.3.5.4.3}{Server Side}{subsection.3.5.4}% 78
+\BOOKMARK [0][-]{chapter.4}{Appendix}{}% 79

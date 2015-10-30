@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  30 OCT 2015 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  30 OCT 2015 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,7 +326,7 @@ Chapter 2.
 
 ] [8] [9]
 Chapter 3.
-<IMG/UserInterfaces/CustomerLogin.png, id=524, 734.745pt x 567.11874pt>
+<IMG/UserInterfaces/CustomerLogin.png, id=529, 734.745pt x 567.11874pt>
 File: IMG/UserInterfaces/CustomerLogin.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerLogin.png>
@@ -338,7 +338,7 @@ Overfull \hbox (22.3716pt too wide) in paragraph at lines 214--215
  [][] 
  []
 
-<IMG/UserInterfaces/CustomerLogin_m.png, id=526, 327.2225pt x 580.1675pt>
+<IMG/UserInterfaces/CustomerLogin_m.png, id=531, 327.2225pt x 580.1675pt>
 File: IMG/UserInterfaces/CustomerLogin_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerLogin_m.png>
@@ -354,7 +354,7 @@ ine 219.
                                                   \fi \fi 
 l.222 
        <./IMG/UserInterfaces/CustomerLogin.png>]
-<IMG/UserInterfaces/CustomerRegistration.png, id=537, 678.535pt x 529.98pt>
+<IMG/UserInterfaces/CustomerRegistration.png, id=542, 678.535pt x 529.98pt>
 File: IMG/UserInterfaces/CustomerRegistration.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerRegistration.png>
@@ -362,7 +362,7 @@ Package pdftex.def Info: IMG/UserInterfaces/CustomerRegistration.png used on in
 put line 229.
 (pdftex.def)             Requested size: 339.26666pt x 264.98933pt.
 
-<IMG/UserInterfaces/CustomerRegistration_m.png, id=538, 478.78876pt x 588.1975p
+<IMG/UserInterfaces/CustomerRegistration_m.png, id=543, 478.78876pt x 588.1975p
 t>
 File: IMG/UserInterfaces/CustomerRegistration_m.png Graphic file (type png)
  <use IMG/UserInterfaces/CustomerRegistration_m.png>
@@ -383,7 +383,7 @@ already used, duplicate ignored
                                                   \fi \fi 
 l.237 
        <./IMG/UserInterfaces/CustomerRegistration.png>]
-<IMG/UserInterfaces/TaxiDriverRegistration.png, id=552, 664.4825pt x 530.98375p
+<IMG/UserInterfaces/TaxiDriverRegistration.png, id=557, 664.4825pt x 530.98375p
 t>
 File: IMG/UserInterfaces/TaxiDriverRegistration.png Graphic file (type png)
  <use IMG/UserInterfaces/TaxiDriverRegistration.png>
@@ -391,7 +391,7 @@ Package pdftex.def Info: IMG/UserInterfaces/TaxiDriverRegistration.png used on
 input line 243.
 (pdftex.def)             Requested size: 332.24043pt x 265.49121pt.
 
-<IMG/UserInterfaces/TaxiDriverRegistration_m.png, id=553, 478.78876pt x 588.197
+<IMG/UserInterfaces/TaxiDriverRegistration_m.png, id=558, 478.78876pt x 588.197
 5pt>
 File: IMG/UserInterfaces/TaxiDriverRegistration_m.png Graphic file (type png)
  <use IMG/UserInterfaces/TaxiDriverRegistration_m.png>
@@ -412,7 +412,7 @@ l.250 				\end{figure}
                                                   \fi \fi 
 l.251 
        <./IMG/UserInterfaces/TaxiDriverRegistration.png>]
-<IMG/UserInterfaces/mainCustomer.png, id=566, 701.62125pt x 541.02126pt>
+<IMG/UserInterfaces/mainCustomer.png, id=572, 701.62125pt x 541.02126pt>
 File: IMG/UserInterfaces/mainCustomer.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainCustomer.png>
@@ -424,7 +424,7 @@ Overfull \hbox (5.80975pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-<IMG/UserInterfaces/mainCustomer_m.png, id=567, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/mainCustomer_m.png, id=573, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/mainCustomer_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainCustomer_m.png>
@@ -445,14 +445,14 @@ l.264 				\end{figure}
                                                   \fi \fi 
 l.265 
        <./IMG/UserInterfaces/mainCustomer.png>]
-<IMG/UserInterfaces/reservationCustomer.png, id=581, 685.56125pt x 524.96124pt>
+<IMG/UserInterfaces/reservationCustomer.png, id=586, 685.56125pt x 524.96124pt>
 File: IMG/UserInterfaces/reservationCustomer.png Graphic file (type png)
 <use IMG/UserInterfaces/reservationCustomer.png>
 Package pdftex.def Info: IMG/UserInterfaces/reservationCustomer.png used on inp
 ut line 271.
 (pdftex.def)             Requested size: 342.77979pt x 262.47998pt.
 
-<IMG/UserInterfaces/reservationCustomer_m.png, id=582, 283.0575pt x 575.14874pt
+<IMG/UserInterfaces/reservationCustomer_m.png, id=587, 283.0575pt x 575.14874pt
 >
 File: IMG/UserInterfaces/reservationCustomer_m.png Graphic file (type png)
  <use IMG/UserInterfaces/reservationCustomer_m.png>
@@ -473,7 +473,7 @@ lready used, duplicate ignored
                                                   \fi \fi 
 l.279 
        <./IMG/UserInterfaces/reservationCustomer.png>]
-<IMG/UserInterfaces/myReservation.png, id=596, 690.58pt x 552.0625pt>
+<IMG/UserInterfaces/myReservation.png, id=601, 690.58pt x 552.0625pt>
 File: IMG/UserInterfaces/myReservation.png Graphic file (type png)
 
 <use IMG/UserInterfaces/myReservation.png>
@@ -481,7 +481,7 @@ Package pdftex.def Info: IMG/UserInterfaces/myReservation.png used on input lin
 e 285.
 (pdftex.def)             Requested size: 345.28915pt x 276.03056pt.
 
-<IMG/UserInterfaces/myReservation_m.png, id=597, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/myReservation_m.png, id=602, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/myReservation_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/myReservation_m.png>
@@ -502,7 +502,7 @@ l.292 				\end{figure}
                                                   \fi \fi 
 l.293 
        <./IMG/UserInterfaces/myReservation.png>]
-<IMG/UserInterfaces/customerNotification.png, id=610, 679.53876pt x 543.02875pt
+<IMG/UserInterfaces/customerNotification.png, id=615, 679.53876pt x 543.02875pt
 >
 File: IMG/UserInterfaces/customerNotification.png Graphic file (type png)
  <use IMG/UserInterfaces/customerNotification.png>
@@ -510,7 +510,7 @@ Package pdftex.def Info: IMG/UserInterfaces/customerNotification.png used on in
 put line 300.
 (pdftex.def)             Requested size: 339.76855pt x 271.5137pt.
 
-<IMG/UserInterfaces/customerNotification_m.png, id=611, 283.0575pt x 575.14874p
+<IMG/UserInterfaces/customerNotification_m.png, id=616, 283.0575pt x 575.14874p
 t>
 File: IMG/UserInterfaces/customerNotification_m.png Graphic file (type png)
  <use IMG/UserInterfaces/customerNotification_m.png>
@@ -531,7 +531,7 @@ rning (ext4): destination with the same identifier (name{figure.3.13}) has been
                                                   \fi \fi 
 l.308 
        <./IMG/UserInterfaces/customerNotification.png>]
-<IMG/UserInterfaces/userPage.png, id=624, 723.70375pt x 523.9575pt>
+<IMG/UserInterfaces/userPage.png, id=629, 723.70375pt x 523.9575pt>
 File: IMG/UserInterfaces/userPage.png Graphic file (type png)
 
 <use IMG/UserInterfaces/userPage.png>
@@ -543,7 +543,7 @@ Overfull \hbox (16.85098pt too wide) in paragraph at lines 314--315
  [][] 
  []
 
-<IMG/UserInterfaces/userPage_m.png, id=625, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/userPage_m.png, id=630, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/userPage_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/userPage_m.png>
@@ -564,7 +564,7 @@ l.321 				\end{figure}
                                                   \fi \fi 
 l.322 
        <./IMG/UserInterfaces/userPage.png>]
-<IMG/UserInterfaces/mainTaxiDriver.png, id=639, 681.54625pt x 539.01375pt>
+<IMG/UserInterfaces/mainTaxiDriver.png, id=644, 681.54625pt x 539.01375pt>
 File: IMG/UserInterfaces/mainTaxiDriver.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainTaxiDriver.png>
@@ -572,7 +572,7 @@ Package pdftex.def Info: IMG/UserInterfaces/mainTaxiDriver.png used on input li
 ne 329.
 (pdftex.def)             Requested size: 340.7723pt x 269.50621pt.
 
-<IMG/UserInterfaces/mainTaxiDriver_m.png, id=640, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/mainTaxiDriver_m.png, id=645, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/mainTaxiDriver_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainTaxiDriver_m.png>
@@ -593,7 +593,7 @@ ady used, duplicate ignored
                                                   \fi \fi 
 l.337 
        <./IMG/UserInterfaces/mainTaxiDriver.png>]
-<IMG/UserInterfaces/notificationTaxiDriver.png, id=653, 665.48625pt x 526.96875
+<IMG/UserInterfaces/notificationTaxiDriver.png, id=658, 665.48625pt x 526.96875
 pt>
 File: IMG/UserInterfaces/notificationTaxiDriver.png Graphic file (type png)
  <use IMG/UserInterfaces/notificationTaxiDriver.png>
@@ -601,7 +601,7 @@ Package pdftex.def Info: IMG/UserInterfaces/notificationTaxiDriver.png used on
 input line 345.
 (pdftex.def)             Requested size: 332.74231pt x 263.48372pt.
 
-<IMG/UserInterfaces/notificationTaxiDriver_m.png, id=654, 283.0575pt x 575.1487
+<IMG/UserInterfaces/notificationTaxiDriver_m.png, id=659, 283.0575pt x 575.1487
 4pt>
 File: IMG/UserInterfaces/notificationTaxiDriver_m.png Graphic file (type png)
  <use IMG/UserInterfaces/notificationTaxiDriver_m.png>
@@ -622,7 +622,7 @@ n already used, duplicate ignored
                                                   \fi \fi 
 l.353 
        <./IMG/UserInterfaces/notificationTaxiDriver.png>]
-<IMG/UserInterfaces/onRidePage.png, id=667, 664.4825pt x 520.94624pt>
+<IMG/UserInterfaces/onRidePage.png, id=672, 664.4825pt x 520.94624pt>
 File: IMG/UserInterfaces/onRidePage.png Graphic file (type png)
 
 <use IMG/UserInterfaces/onRidePage.png>
@@ -630,7 +630,7 @@ Package pdftex.def Info: IMG/UserInterfaces/onRidePage.png used on input line 3
 60.
 (pdftex.def)             Requested size: 332.24043pt x 260.47249pt.
 
-<IMG/UserInterfaces/onRidePage_m.png, id=668, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/onRidePage_m.png, id=673, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/onRidePage_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/onRidePage_m.png>
@@ -807,15 +807,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 657.
 
 [39]
-! Undefined control sequence.
-l.664 					\item \lbrack Req.2\rbracl
-                                      \label{sec:fr2_g12} check if the state...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 672.
@@ -826,22 +817,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 688--689
  []
 
 [40]
-Overfull \hbox (824.68207pt too wide) in paragraph at lines 707--724
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
+
+ []
+
+
+Overfull \hbox (146.3199pt too wide) in paragraph at lines 714--752
+[]  
  []
 
 [41] [42]
 Chapter 4.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 756.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 784.
 [43
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 756.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 784.
  (./RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 756.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 756.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 784.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 784.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: C86358BE6933C21E537FE1A2146B369E;6556.
+(rerunfilecheck)             Checksum: 3928255A3B3D51DA75CA9E93AE467588;6664.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -849,13 +845,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 756.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 784.
  ) 
 Here is how much of TeX's memory you used:
- 5744 strings out of 494501
- 88016 string characters out of 6167029
- 177435 words of memory out of 5000000
- 8781 multiletter control sequences out of 15000+600000
+ 5747 strings out of 494501
+ 88092 string characters out of 6167029
+ 177525 words of memory out of 5000000
+ 8783 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  29i,8n,32p,679b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -865,10 +861,10 @@ mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on RASD.pdf (44 pages, 652641 bytes).
+Output written on RASD.pdf (44 pages, 653579 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 772 compressed objects within 8 object streams
- 189 named destinations out of 1000 (max. 500000)
- 735 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 882 PDF objects out of 1000 (max. 8388607)
+ 779 compressed objects within 8 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 743 words of extra memory for PDF output out of 10000 (max. 10000000)
 

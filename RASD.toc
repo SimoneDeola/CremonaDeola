@@ -58,7 +58,8 @@
 \contentsline {subsubsection}{\numberline {3.2.4.1}[\hyperref [sec:g12]{G.12 Allow Taxi Drivers to accept or decline a ride request.}]}{40}{subsubsection.3.2.4.1}
 \contentsline {subsubsection}{\numberline {3.2.4.2}[\hyperref [sec:g13]{G.13 Allow Taxi Drivers to notify their availability.}]}{40}{subsubsection.3.2.4.2}
 \contentsline {section}{\numberline {3.3}Scenarios}{40}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}S.1 Registration as a Customer creating a myTaxiService account }{40}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}S.1 Registration as a Customer creating a myTaxiService account}{40}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}S.2 Registration as a Customer using a Facebook Account}{41}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}UML Models}{41}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{41}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{41}{subsection.3.4.2}
