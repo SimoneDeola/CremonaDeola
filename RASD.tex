@@ -205,19 +205,19 @@ This chapter contains a detailed description of how the applications works and i
 	This section gives a description of the various inputs and relative outputs of the system. It also gives a description of the hardware, software and communication interfaces that are necessary to make the system work. It will also provide a generic visualization of the user interface in the various user platforms.
 
 		\subsection{User Interfaces}
-		Here we describe in particular how the application should look like either for mobile and web application. To make an easier explanation of the aspect of the various screen of 			the application we are going to use Mockup.
+		Here we describe in particular how the application should look like either for mobile and web application. To make an easier explanation of the aspect of the various screen of the application we are going to use Mockup.
 			\subsubsection{Login}
-			On this page the users can log in with username and password or with Facebook (only if as registered user is a Customer). If the user is not already registered can access to the 					registration pages ( for Customer or for Taxi Drivers ). Also if the users forgot the password from this page can go to the forgot password page.
+			On this page the users can log in with username and password or with Facebook (only if as registered user is a Customer). If the user is not already registered can access to the registration pages (for Customer or for Taxi Drivers). Also if the users forgot the password from this page can go to the forgot password page.
 				
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/CustomerLogin.png}
-					\caption{Login Page, web version}\label{visina8}
+					\caption{Login Page, web version}\label{login_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/CustomerLogin_m.png}
-					\caption{Login Page, mobile version}\label{visina8}
+					\caption{Login Page, mobile version}\label{login_m}
 				\end{figure}
 			
 			
@@ -227,26 +227,26 @@ This chapter contains a detailed description of how the applications works and i
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/CustomerRegistration.png}
-					\caption{Customer registration Page, web version}\label{visina8}
+					\caption{Customer registration Page, web version}\label{cregistration_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/CustomerRegistration_m.png}
-					\caption{Customer registration Page, mobile version}\label{visina8}
+					\caption{Customer registration Page, mobile version}\label{cregistration_m}
 				\end{figure}
 			
 			\subsubsection{Taxi Drivers registration}
-			On this page the users can register itself as a taxi driver. Taxi driver have a special form to been registered because of the additional information the user must provide ( taxi license 				number). Just because the additional information the registration can be done just with the standard form.
+			On this page the users can register itself as a taxi driver. Taxi driver have a special form to been registered because of the additional information the user must provide (taxi license number). Just because the additional information the registration can be done just with the standard form.
 				
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/TaxiDriverRegistration.png}
-					\caption{Taxi Driver registration Page, web version}\label{visina8}
+					\caption{Taxi Driver registration Page, web version}\label{tregistration_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/TaxiDriverRegistration_m.png}
-					\caption{Taxi Driver registration Page, mobile version}\label{visina8}
+					\caption{Taxi Driver registration Page, mobile version}\label{tregistration_m}
 				\end{figure}
 			
 			\subsubsection{Customer home page}
@@ -255,55 +255,55 @@ This chapter contains a detailed description of how the applications works and i
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/mainCustomer.png}
-					\caption{Customer home page, web version}\label{visina8}
+					\caption{Customer home page, web version}\label{chome_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/mainCustomer_m.png}
-					\caption{Customer home page, mobile version}\label{visina8}
+					\caption{Customer home page, mobile version}\label{chome_m}
 				\end{figure}
 			
 			\subsubsection{Reservation page}
-			On this page the Customer can reserve a taxi ride. To do this he mast insert a Origin position, a Destination position, a Data and a Time. The reservation must be at least two hours after 			the current Time, so the system must avoid to reserve a previous ride.
+			On this page the Customer can reserve a taxi ride. To do this he must insert a Origin position, a Destination position, a Data and a Time. The reservation must be at least two hours after the current Time, so the system must avoid to reserve a previous ride.
 			
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/reservationCustomer.png}
-					\caption{Reservation page, web version}\label{visina8}
+					\caption{Reservation page, web version}\label{reservation_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/reservationCustomer_m.png}
-					\caption{Reservation page, mobile version}\label{visina8}
+					\caption{Reservation page, mobile version}\label{reservation_m}
 				\end{figure}
 			
 			\subsubsection{My reservation Page}
-			On this page Customer can see all the reservation he have already done and adding some new. For each previous reservation can see all the information and, if the Date is before the 				next two hours, can delete it.			
+			On this page Customer can see all the reservation he have already done and adding some new. For each previous reservation can see all the information and, if the Date is before the next two hours, can delete it.			
 			
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/myReservation.png}
-					\caption{My reservation, web version}\label{visina8}
+					\caption{My reservation, web version}\label{myreservation_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/myReservation_m.png}
-					\caption{My reservation, mobile version}\label{visina8}
+					\caption{My reservation, mobile version}\label{myreservation_m}
 				\end{figure}
 			
 			
 			\subsubsection{Customer notification pop-up}
-			This pop-up is showed to the requesting Customer when his request has been handled. On this pop-up the system show also the number of the incoming taxi and an approssimative 				waiting time.
+			This pop-up is showed to the requesting Customer when his request has been handled. On this pop-up the system show also the number of the incoming taxi and an approssimative waiting time.
 			
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/customerNotification.png}
-					\caption{Customer nofication, web version}\label{visina8}
+					\caption{Customer nofication, web version}\label{requestHandlded_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/customerNotification_m.png}
-					\caption{Customer notification, mobile version}\label{visina8}
+					\caption{Customer notification, mobile version}\label{requestHandled_m}
 				\end{figure}
 			
 			\subsubsection{User page}
@@ -312,12 +312,12 @@ This chapter contains a detailed description of how the applications works and i
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/userPage.png}
-					\caption{User Page, web version}\label{visina8}
+					\caption{User Page, web version}\label{cpersonalPage_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/userPage_m.png}
-					\caption{User Page, mobile version}\label{visina8}
+					\caption{User Page, mobile version}\label{cpersonalPage_m}
 				\end{figure}
 
 			
@@ -327,12 +327,12 @@ This chapter contains a detailed description of how the applications works and i
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/mainTaxiDriver.png}
-					\caption{Taxi driver home page, web version}\label{visina8}
+					\caption{Taxi driver home page, web version}\label{thomePage_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/mainTaxiDriver_m.png}
-					\caption{Taxi driver home page, mobile version}\label{visina8}
+					\caption{Taxi driver home page, mobile version}\label{thomePage_m}
 				\end{figure}
 			
 			
@@ -343,27 +343,27 @@ This chapter contains a detailed description of how the applications works and i
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/notificationTaxiDriver.png}
-					\caption{Taxi driver notification pop-up, web version}\label{visina8}
+					\caption{Taxi driver notification pop-up, web version}\label{requestNotification_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/notificationTaxiDriver_m.png}
-					\caption{Taxi driver notification pop-up, mobile version}\label{visina8}
+					\caption{Taxi driver notification pop-up, mobile version}\label{requestNotification_m}
 				\end{figure}
 				
 			
 			\subsubsection{Taxi Driver end ride page}
-			When a taxi driver accept a ride this page is showed up. On this page the taxi driver can check the name of the customer and the Origin position of his journey. When the ride is ended 				he can give a bad evaluation or simply end the ride and return to the main page.
+			When a taxi driver accept a ride this page is showed up. On this page the taxi driver can check the name of the customer and the Origin position of his journey. When the ride is ended he can give a bad evaluation or simply end the ride and return to the main page.
 				
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.5]{IMG/UserInterfaces/onRidePage.png}
-					\caption{On Ride Page, web version}\label{visina8}
+					\caption{On Ride Page, web version}\label{tendRidePage_w}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.4]{IMG/UserInterfaces/onRidePage_m.png}
-					\caption{On Ride page, mobile version}\label{visina8}
+					\caption{On Ride page, mobile version}\label{tendRidePage_m}
 				\end{figure}
 				
 
@@ -448,13 +448,14 @@ This chapter contains a detailed description of how the applications works and i
 				\item HTTPS communicate through the port number 443 and is handled by the operating system.
 			\end{itemize}
 
-	\section{Functional Requirements}
+	
+\section{Functional Requirements}
 	In this section are described, for every Actor, the Functional Requirements needed to reach the linked Goal.
 
 		\subsection{Functional Requirements for Guest Users}
 		Here are listed all the Functional Requirements referring to the Goals that affects Guest Users.
 
-			\subsubsection{\lbrack \hyperref[sec:g1]{G.1 - Allow guest users to become a customer creating a myTaxiService Account}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g1]{G.1 - Allow guest users to become a customer creating a myTaxiService Account}\rbrack}\label{sec:frs1}
 			To allow the guest user to perform a successful registration the system has to:
 
 				\begin{itemize}
@@ -474,7 +475,7 @@ This chapter contains a detailed description of how the applications works and i
 					\item \lbrack Dom.1\rbrack \label{sec:da1_g1} The email used by the Guest User is a valid one.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g2]{G.2 - Allow guests user to become a customer using his Facebook Account}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g2]{G.2 - Allow guests user to become a customer using his Facebook Account}\rbrack}\label{sec:frs2}
 			To allow the guest user to perform a successful registration using Facebook API, the system has to:
 
 				\begin{itemize}
@@ -487,7 +488,7 @@ This chapter contains a detailed description of how the applications works and i
 						\end{enumerate}
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g3]{G.3 Allow guest users to become a taxi driver}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g3]{G.3 Allow guest users to become a taxi driver}\rbrack}\label{sec:frs3}
 			To allow the guest user to become a Taxi Driver, the system must:
 
 			%"^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
@@ -513,8 +514,9 @@ This chapter contains a detailed description of how the applications works and i
 				\end{itemize}
 
 		\subsection{Functional Requirements for Registered Users}
+		Here are listed all the Functional Requirements referring to the Goals that affects Registered Users.
 
-			\subsubsection{\lbrack \hyperref[sec:g4]{G.4 Allow registered users to log in with myTaxiService account.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g4]{G.4 Allow registered users to log in with myTaxiService account.}\rbrack}\label{sec:frs4}
 			To allow a registered user to log in with his myTaxiService account, the system must:
 
 				\begin{itemize}
@@ -529,7 +531,7 @@ This chapter contains a detailed description of how the applications works and i
 						\end{enumerate}
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g5]{G.5 Allow a Registered User to view or modify his username and email.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g5]{G.5 Allow a Registered User to view or modify his username and email.}\rbrack}\label{sec:frs5}
 			To allow a Registered User to view or modify his username and email, the system must:
 
 				\begin{itemize}
@@ -548,14 +550,14 @@ This chapter contains a detailed description of how the applications works and i
 					\item \lbrack Req.5\rbrack \label{sec:fr5_g5} once clicked, the email label must become a text box in witch the Registered User can write his new email. The system must also ensure that the new email is not already taken by another registered user and respects the regular expression:\\ \textquotedblleft\textbackslash w+@\lbrack a-zA-Z\textunderscore\rbrack +?\textbackslash .\lbrack a-zA-Z\rbrack\textbraceleft2,3\textbraceright\textdollar\textquotedblright.\\ If it was taken, then the system will cancel the update. Otherwise the system will have to update the record in the database that refers to the registered user with the new username.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g6]{G.6 Allow a Registered User to retrieve his password if he doesn't remember it.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g6]{G.6 Allow a Registered User to retrieve his password if he doesn't remember it.}\rbrack}\label{sec:frs6}
 			To allow a Registered User to retrieve his password, the system must:
 
 				\begin{itemize}
 					\item \lbrack Req.1\rbrack \label{sec:fr1_g6} on the log in page, provide a link that will call the function of the system that will send an email to the Registered User with his password.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g7]{G.7 Allow a Registered Users to signal another one if he has made a bad use of the system.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g7]{G.7 Allow a Registered Users to signal another one if he has made a bad use of the system.}\rbrack}\label{sec:frs7}
 			To allow a Registered User to signal another one, the system must:
 
 				\begin{itemize}
@@ -583,8 +585,9 @@ This chapter contains a detailed description of how the applications works and i
 				\end{itemize}
 
 		\subsection{Functional Requirements for Customers}
+		Here are listed all the Functional Requirements referring to the Goals that affects Customers.
 
-			\subsubsection{\lbrack \hyperref[sec:g8]{G.8 Allow customers to log in with Facebook account.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g8]{G.8 Allow customers to log in with Facebook account.}\rbrack}\label{sec:frs8}
 			To allow a customer to log in with Facebook account, the system must:
 
 				\begin{itemize}
@@ -592,7 +595,7 @@ This chapter contains a detailed description of how the applications works and i
 					\item \lbrack Req.2\rbrack \label{sec:fr2_g8} delegate to the Facebook system all the checks about the existence of the user.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g9]{G.9 Allow customers to require a taxi.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g9]{G.9 Allow customers to require a taxi.}\rbrack}\label{sec:frs9}
 			To allow the customers to require a taxi, the system must:
 
 				\begin{itemize}
@@ -607,7 +610,7 @@ This chapter contains a detailed description of how the applications works and i
 					\item \lbrack Req.5\rbrack \label{sec:fr5_g9} once the request has been accepted by a Taxi Driver, the system must send a notification to the customer with the incoming taxi informations and the supposed waiting time.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g10]{G.10 Allow customers to reserve a ride.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g10]{G.10 Allow customers to reserve a ride.}\rbrack}\label{sec:frs10}
 			To allow the customers to reserve a ride, the system must:
 
 				\begin{itemize}
@@ -630,7 +633,7 @@ This chapter contains a detailed description of how the applications works and i
 					\item \lbrack Req.7\rbrack \label{sec:fr7_g10} once the ride has been accepted by a Taxi Driver, the system must send a notification to the customer with the incoming taxi informations and the supposed waiting time.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g11]{G.11 Allow customers to delete a previous reservations.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g11]{G.11 Allow customers to delete a previous reservations.}\rbrack}\label{sec:frs11}
 			To allow a customer to delete a previous reservation, the system must:
 
 				\begin{itemize}
@@ -649,8 +652,9 @@ This chapter contains a detailed description of how the applications works and i
 				\end{itemize}
 
 		\subsection{Functional Requirements for Taxi Drivers}
+		Here are listed all the Functional Requirements referring to the Goals that affects Taxi Drivers.
 
-			\subsubsection{\lbrack \hyperref[sec:g12]{G.12 Allow Taxi Drivers to accept or decline a ride request.}\rbrack}
+			\subsubsection{\lbrack \hyperref[sec:g12]{G.12 Allow Taxi Drivers to accept or decline a ride request.}\rbrack}\label{sec:frs12}
 			To allow Taxi Drivers to accept or decline ride requests, the system must:
 
 			%The Taxi Driver must be already registered and logged in with a myTaxiService account.
@@ -665,8 +669,8 @@ This chapter contains a detailed description of how the applications works and i
 				\end{itemize}
 
 
-			\subsubsection{\lbrack \hyperref[sec:g13]{G.13 Allow Taxi Drivers to notify their availability.}\rbrack}
-
+			\subsubsection{\lbrack \hyperref[sec:g13]{G.13 Allow Taxi Drivers to notify their availability.}\rbrack}\label{sec:frs13}
+			To allow Taxi Drivers to notify their availability, the system must:
 				\begin{itemize}
 					\item \lbrack Req.1\rbrack \label{sec:fr1_g13} check if the Taxi Driver is correctly logged in.
 					\item \lbrack Req.1\rbrack \label{sec:fr1_g13} provide an home page that contains:
@@ -678,13 +682,49 @@ This chapter contains a detailed description of how the applications works and i
 
 
 	\section{Scenarios}
+	Here are described in natural language some useful scenarios that shows how the system should work in different cases:
 
+		\subsection{S.1 Registration as a Customer creating a myTaxiService account }\label{sec:NormalCustomerRegistrationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs1]{G.1 Functional Requirements Specification}\\
+
+		Aristotle is new in the system and he wants to simplify the way he calls for a taxi. So he download the "myTaxiService" application from the Play Store (since he has a smartphone with the fancy Android 5.0 Lollipop Operative System) and he open it.
+		The application shows to Aristotle the login screen and he taps on the "Sign Up as a Customer" button (see \hyperref[login_m]{Login Screen}) going to the registration page. In that page, he has to fill the form (see \hyperref[cregistration_m]{Customer Registration Screen (Mobile)}) and after that he clicks on the "Accept" button. If the data entered by Aristotle is ok, he is automatically logged in and he can start using myTaxiService. Otherwise, he is redirected to an error page, that describes what is the problem. 
 
 	\section{UML Models}
 
 		\subsection{Use-Case Diagrams}
 
 		\subsection{Class Diagrams}
+
+			\subsubsection{Registration through the creation of a new myTaxiService account.}
+			To accompany this diagram, read the Scenario \hyperref[sec:NormalCustomerRegistrationScenario]{S.1}.
+
+				\begin{center}
+						\begin{table}[h!]
+							
+							\begin{center}
+								\label{tab:NormalCustomerRegistrationDiagramTable}
+								\begin{tabular}{cc}
+									\toprule
+									\textbf{Subject} & \textbf{Description}\\
+									\midrule
+									Actors & Guest User, myTaxiService Application, myTaxiService Server\\
+									\midrule
+									Preconditions & Guest User must not be already registered\\
+									\midrule
+									Execution & 1) Guest User open the myTaxiService Application.\
+												2) Guest User taps on the "Sign Up as a Customer" button.\
+												3) myTaxiService Application shows the registration page.\
+												4) Guest User fills up the registration form.\
+												5) Guest User taps on the "Submit" button.\\
+									\midrule
+									
+									\bottomrule
+								\end{tabular}
+							\end{center}
+							
+						\end{table}
+					\end{center}
 
 		\subsection{State Machine Diagrams}
 
@@ -710,7 +750,7 @@ This chapter contains a detailed description of how the applications works and i
 
 			\subsubsection{Server Side}
 
-
 \chapter{Appendix}
 //TODO
+
 \end{document}

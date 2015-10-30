@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {3.2.2}Functional Requirements for Registered Users}{35}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}[\hyperref [sec:g4]{G.4 Allow registered users to log in with myTaxiService account.}]}{35}{subsubsection.3.2.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2.2}[\hyperref [sec:g5]{G.5 Allow a Registered User to view or modify his username and email.}]}{36}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}[\hyperref [sec:g6]{G.6 Allow a Registered User to retrieve his password if he doesn't remember it.}]}{36}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.3}[\hyperref [sec:g6]{G.6 Allow a Registered User to retrieve his password if he doesn't remember it.}]}{37}{subsubsection.3.2.2.3}
 \contentsline {subsubsection}{\numberline {3.2.2.4}[\hyperref [sec:g7]{G.7 Allow a Registered Users to signal another one if he has made a bad use of the system.}]}{37}{subsubsection.3.2.2.4}
 \contentsline {subsection}{\numberline {3.2.3}Functional Requirements for Customers}{38}{subsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.3.1}[\hyperref [sec:g8]{G.8 Allow customers to log in with Facebook account.}]}{38}{subsubsection.3.2.3.1}
@@ -55,22 +55,24 @@
 \contentsline {subsubsection}{\numberline {3.2.3.3}[\hyperref [sec:g10]{G.10 Allow customers to reserve a ride.}]}{38}{subsubsection.3.2.3.3}
 \contentsline {subsubsection}{\numberline {3.2.3.4}[\hyperref [sec:g11]{G.11 Allow customers to delete a previous reservations.}]}{39}{subsubsection.3.2.3.4}
 \contentsline {subsection}{\numberline {3.2.4}Functional Requirements for Taxi Drivers}{39}{subsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.4.1}[\hyperref [sec:g12]{G.12 Allow Taxi Drivers to accept or decline a ride request.}]}{39}{subsubsection.3.2.4.1}
+\contentsline {subsubsection}{\numberline {3.2.4.1}[\hyperref [sec:g12]{G.12 Allow Taxi Drivers to accept or decline a ride request.}]}{40}{subsubsection.3.2.4.1}
 \contentsline {subsubsection}{\numberline {3.2.4.2}[\hyperref [sec:g13]{G.13 Allow Taxi Drivers to notify their availability.}]}{40}{subsubsection.3.2.4.2}
-\contentsline {section}{\numberline {3.3}Scenarios}{41}{section.3.3}
+\contentsline {section}{\numberline {3.3}Scenarios}{40}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}S.1 Registration as a Customer creating a myTaxiService account }{40}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}UML Models}{41}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{41}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{41}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}State Machine Diagrams}{41}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Non Functional Requirements}{41}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{41}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{41}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{41}{subsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.3.1}Availability}{41}{subsubsection.3.5.3.1}
-\contentsline {subsubsection}{\numberline {3.5.3.2}Maintainability}{41}{subsubsection.3.5.3.2}
-\contentsline {subsubsection}{\numberline {3.5.3.3}Portability}{41}{subsubsection.3.5.3.3}
-\contentsline {subsection}{\numberline {3.5.4}Security}{41}{subsection.3.5.4}
-\contentsline {subsubsection}{\numberline {3.5.4.1}External Interface Side}{41}{subsubsection.3.5.4.1}
-\contentsline {subsubsection}{\numberline {3.5.4.2}Application Side}{41}{subsubsection.3.5.4.2}
-\contentsline {subsubsection}{\numberline {3.5.4.3}Server Side}{41}{subsubsection.3.5.4.3}
-\contentsline {chapter}{\numberline {4}Appendix}{42}{chapter.4}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Registration through the creation of a new myTaxiService account.}{41}{subsubsection.3.4.2.1}
+\contentsline {subsection}{\numberline {3.4.3}State Machine Diagrams}{42}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Non Functional Requirements}{42}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{42}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{42}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{42}{subsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.3.1}Availability}{42}{subsubsection.3.5.3.1}
+\contentsline {subsubsection}{\numberline {3.5.3.2}Maintainability}{42}{subsubsection.3.5.3.2}
+\contentsline {subsubsection}{\numberline {3.5.3.3}Portability}{42}{subsubsection.3.5.3.3}
+\contentsline {subsection}{\numberline {3.5.4}Security}{42}{subsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.4.1}External Interface Side}{42}{subsubsection.3.5.4.1}
+\contentsline {subsubsection}{\numberline {3.5.4.2}Application Side}{42}{subsubsection.3.5.4.2}
+\contentsline {subsubsection}{\numberline {3.5.4.3}Server Side}{42}{subsubsection.3.5.4.3}
+\contentsline {chapter}{\numberline {4}Appendix}{43}{chapter.4}
