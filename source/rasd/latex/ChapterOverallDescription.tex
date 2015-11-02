@@ -5,19 +5,19 @@
 		
 	\section{User Characteristics}
 	% this user here is ok and don't have to be hyperreferred
-	The users that we suppose will use our system are of two types. the ones who want to find a taxi for a travel in the simplest way (\hyperref[sec:customer]{customers}). The others are \hyperref[sec:tdriver]{taxi drivers} that want to increment their productivity. The first ones must be able to access to a web browser or download and using a mobile application, the second ones also must have a taxi license.
+	The users that we suppose will use our system are of two types. The ones who want to find a taxi for a travel in the simplest way (\hyperref[sec:customer]{customers}). The others are \hyperref[sec:tdriver]{taxi drivers} that want to increment their productivity. The first ones must be able to access to a web browser or download and using a mobile application, the second ones also must have a taxi license.
 		
 	\section{Constrains}
 		
 		\subsection{Regulatory Policies}
-		myTaxiService  has to meet regulatory policies about taxies in the countries where it will be used.
+		myTaxiService  has to meet regulatory policies about taxis in the countries where it will be used.
 
 		\subsection{Hardware Limitations}
-		The only hardware limitation that the myTaxiService mobile application has to meet will be the mobile phones characteristics. the rest of the system will be no affected by particular hardware limitations.
+		The only hardware limitation that the myTaxiService mobile application has to meet is the mobile phones characteristics. the rest of the 			system will not be affected by particular hardware limitations.
 
 		\subsection{Software Limitations}
 		myTaxiService mobile application has to be compatible with all major mobile operating systems (Android, Apple iOS, Windows 10).
-		Also myTaxiService web application has to be compatible with all major browser (Chrome, Safari, Firefox, Microsoft Edge).
+		Moreover, myTaxiService web application has to be compatible with all major browsers (Chrome, Safari, Firefox, Microsoft Edge).
 
 		\subsection{Parallel Operations}
 		Our system must be able to perform parallel operations on the database to satisfy all the requests from multiple users.
@@ -39,31 +39,31 @@
 
 				\item Every taxi has a GPS locator to send GPS information to the central server.
 
-				\item Android, Apple iOS or Windows 10 is avaiable on the \hyperref[sec:ruser]{registered users} smartphones.
+				\item Android, Apple iOS or Windows 10 are available on the \hyperref[sec:ruser]{registered users} smartphones.
 
-				\item Every \hyperref[sec:ruser]{registered users} can be connected to the Internet with a mobile device when outside.
+				\item Every \hyperref[sec:ruser]{registered users} can connect to the Internet with a mobile device when outside.
 
-				\item When a \hyperref[sec:customer]{customer} require a taxi, the GPS informations about his location are automatically sended to the central server.
+				\item When a \hyperref[sec:customer]{customer} require a taxi, the GPS information about his location are automatically sent to the central server.
 
 				\item The reservation of a ride is made at least two hours before the ride.
 
-				\item Deletion of a reservation is made at least two hours before the ride.
+				\item The deletion of a reservation is made at least two hours before the ride.
 
-				\item Requests from \hyperref[sec:customer]{customers} are automatically notified to the first \hyperref[sec:tdriver]{taxi driver} in the zone queue.
+				\item The requests of the \hyperref[sec:customer]{customers} are automatically notified to the first \hyperref[sec:tdriver]{taxi driver} in the zone queue.
 
 				\item If a \hyperref[sec:tdriver]{taxi driver} declines a request he will be placed in the bottom of the zone queue.
 
 				\item If a request is declined it will be forwarded to the next \hyperref[sec:tdriver]{taxi driver} in the zone queue.
 
-				\item If a \hyperref[sec:customer]{customer} make a bad use of the taxi request system, he can be reported as a bad \hyperref[sec:customer]{customer}.
+				\item If a \hyperref[sec:customer]{customer} makes a bad use of the taxi request system, he can be reported as a bad \hyperref[sec:customer]{customer}.
 
-				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability is because he is actually avaiable
+				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability, it is because he is actually avaiable
 
-				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability is because he wants to be notified of \hyperref[sec:customer]{customers} that needs a ride.
+				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability, it is because he wants to be notified of \hyperref[sec:customer]{customers} that needs a ride.
 
-				\item If a \hyperref[sec:tdriver]{taxi driver} accept a request, the requesting \hyperref[sec:customer]{customer} will be notified
+				\item If a \hyperref[sec:tdriver]{taxi driver} accepts a request, the requesting \hyperref[sec:customer]{customer} will be notified
 			\end{itemize}
 
 	\section{Future possible Implementations}
-	A possible future implementation can be a complex feedback system that permits to the \hyperref[sec:customer]{customers} to leave a comment about the \hyperref[sec:tdriver]{taxi driver} and vice versa.
-	For example \hyperref[sec:tdriver]{taxi drivers} can be interested in knowing the punctuality or how is the behave of the \hyperref[sec:customer]{customer} that requests the ride.
+	A possible future implementation can be a complex feedback system that allows the \hyperref[sec:customer]{customers} to leave a comment about the \hyperref[sec:tdriver]{taxi driver} and vice versa.
+	For example, \hyperref[sec:tdriver]{taxi drivers} can be interested in knowing the punctuality or how is the behave of the \hyperref[sec:customer]{customer} that requests the ride.
