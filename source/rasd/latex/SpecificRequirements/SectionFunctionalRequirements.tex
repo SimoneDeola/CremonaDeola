@@ -8,33 +8,28 @@
 			To allow the guest user to perform a successful registration the system has to:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g1} check if the selected username has not already been taken by another user to perform a successful registration.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g1} check if the selected password is at least 8 characters long.
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g1} check if the selected password contains either digits and alphabetic characters.
-					\item \lbrack Req.4\rbrack \label{sec:fr4_g1} check if the provided email has not already been used by another user.
-					\item \lbrack Req.5\rbrack \label{sec:fr5_g1} check if the provided email respects this regular expression:\\ \textquotedblleft\textbackslash w+@\lbrack a-zA-Z\textunderscore\rbrack +?\textbackslash .\lbrack a-zA-Z\rbrack\textbraceleft2,3\textbraceright\textdollar\textquotedblright
-					\item \lbrack Req.6\rbrack \label{sec:fr6_g1} ensures that the user cannot access to pages different from registration and login.
-					\item \lbrack Req.7\rbrack \label{sec:fr7_g1} provide a registration page containing:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g1} provide a registration page containing:
 						\begin{enumerate}
-							\item A text box where the user must insert his username.
-							\item Two text box where the user must insert his password (the second one is for security check).
-							\item A text box where the user must insert his email. 
+							\item A text box where the user can insert his username.
+							\item Two text box where the user can insert his password (the second one is for security check).
+							\item A text box where the user can insert his email. 
 							\item A button to submit informations to the system.
 						\end{enumerate}
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g1} The registration page shall be the only page accessible by a Guest User.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g1} All the informations submitted by the user must be validated by the system.
 					\item \lbrack Dom.1\rbrack \label{sec:da1_g1} The email used by the Guest User is a valid one.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g2]{G.2 - Allow guests user to become a customer using his Facebook Account}\rbrack}\label{sec:frs2}
+			\subsubsection{\lbrack \hyperref[sec:g2]{G.2 - Allow a Guests User to become a Customer using his Facebook Account}\rbrack}\label{sec:frs2}
 			To allow the guest user to perform a successful registration using Facebook API, the system has to:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g2} check if the Guest User is not already registered as a Customer.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g2} delegate to the Facebook system all the checks concerning the existence of the user.
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g2} ensures that the user cannot access to pages different from registration and login.
- 					\item \lbrack Req.4\rbrack \label{sec:fr4_g2} provide a registration page containing:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g2} provide a registration page containing:
 						\begin{enumerate}
 							\item A button that calls the Facebook Registration API.
 						\end{enumerate}
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g2} The registration page shall be the only page accessible by a Guest User.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g2} All the informations must be evaluated by the Facebook system.
 				\end{itemize}
 
 			\subsubsection{\lbrack \hyperref[sec:g3]{G.3 Allow guest users to become a taxi driver}\rbrack}\label{sec:frs3}
@@ -43,22 +38,17 @@
 			%"^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g3} check if the selected username has not already been taken by another user.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g3} check if the selected password is at least 8 character long.
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g3} check if the selected password contains either digits and alphabetic characters.
-					\item \lbrack Req.4\rbrack \label{sec:fr4_g3} check if the provided email has not already ben used by another user.
-					\item \lbrack Req.5\rbrack \label{sec:fr5_g3} check if the provided email respects this regular expression:\\ \textquotedblleft\textbackslash w+@\lbrack a-zA-Z\textunderscore\rbrack +?\textbackslash .\lbrack a-zA-Z\rbrack\textbraceleft2,3\textbraceright\textdollar\textquotedblright
-					\item \lbrack Req.6\rbrack \label{sec:fr6_g3} ensures that the user cannot access to pages different from registration and login.
-					\item \lbrack Req.7\rbrack \label{sec:fr7_g3} check if the provided taxi license has not already been used by another one.
-					\item \lbrack Req.8\rbrack \label{sec:fr8_g3} provide a registration page containing:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g3} provide a registration page containing:
 						\begin{enumerate}
-							\item A text box where the user must insert his username.
-							\item Two text box where the user must insert his password (the second one is for security check).
-							\item A text box where the user must insert his email.
-							\item A text box where the user must insert his taxi license.
-							\item A text box where the user must insert his taxi number.
+							\item A text box where the user can insert his username.
+							\item Two text box where the user can insert his password (the second one is for security check).
+							\item A text box where the user can insert his email.
+							\item A text box where the user can insert his valid taxi license.
+							\item A text box where the user can insert his valid taxi number.
 							\item A button to submit informations to the system.
 						\end{enumerate}
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g3} The registration page shall be the only page accessible by a Guest User.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g3} All the informations submitted by the Guest User must be validatedby the system.
 					\item \lbrack Dom.1\rbrack \label{sec:da1_g3} The email used by the Guest User is a valid one.
 				\end{itemize}
 
@@ -69,13 +59,10 @@
 			To allow a registered user to log in with his myTaxiService account, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g4} check if the given username is registered.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g4} check if the given password is related to the given username.
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g4} ensures that the user cannot access to different pages from login and registration.
-					\item \lbrack Req.4\rbrack \label{sec:fr4_g4} provide a login page containing:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g4} provide a login page containing:
 						\begin{enumerate}
-							\item A text box where the user must insert his username.
-							\item A text box there the user must insert his password.
+							\item A text box where the user can insert his username.
+							\item A text box there the user can insert his password.
 							\item A button to submit informations to the system.
 						\end{enumerate}
 				\end{itemize}
@@ -84,29 +71,27 @@
 			To allow a Registered User to view or modify his username and email, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g5} check if the Registered User is correctly logged in.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g5} provide an homepage that contains:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g5} provide an homepage that contains:
 						\begin{enumerate}
 							\item A button that, if clicked, shows the page that contains the Registered User's informations.
 						\end{enumerate}
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g5} provide a page used to show Registered User's informations that contains:
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g5} provide a page used to show Registered User's informations that contains:
 						\begin{enumerate}
 							\item A clickable label showing the username of the Registered User.
 							\item A clickable label showing the email of the Registered User.
 							\item A box with a label inside that shows how many times the Registered User has been reported as a bad user.
 						\end{enumerate}
-					\item \lbrack Req.4\rbrack \label{sec:fr4_g5} once clicked, the username label must become a text box in wich the Registered User can write his new username. The system must also ensure that the new username is not already taken by another registered user. If it was taken, then the system will cancel the update. Otherwise the system will have to update the record in the database that refers to the registered user with the new username.
-					\item \lbrack Req.5\rbrack \label{sec:fr5_g5} once clicked, the email label must become a text box in witch the Registered User can write his new email. The system must also ensure that the new email is not already taken by another registered user and respects the regular expression:\\ \textquotedblleft\textbackslash w+@\lbrack a-zA-Z\textunderscore\rbrack +?\textbackslash .\lbrack a-zA-Z\rbrack\textbraceleft2,3\textbraceright\textdollar\textquotedblright.\\ If it was taken, then the system will cancel the update. Otherwise the system will have to update the record in the database that refers to the registered user with the new username.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g5} The personal Registered User's page shall be only accessible after the login.
 				\end{itemize}
 
 			\subsubsection{\lbrack \hyperref[sec:g6]{G.6 Allow a Registered User to retrieve his password if he doesn't remember it.}\rbrack}\label{sec:frs6}
 			To allow a Registered User to retrieve his password, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g6} on the log in page, provide a link that will call the function of the system that will send an email to the Registered User with his password.
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g6} on the log in page, provide a link that will show to the Registered User a field where he can write his email to allow the system to send him an email containing the password.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g7]{G.7 Allow a Registered Users to signal another one if he has made a bad use of the system.}\rbrack}\label{sec:frs7}
+			\subsubsection{\lbrack \hyperref[sec:g7]{G.7 Allow a Registered User to signal another one if he has made a bad use of the system.}\rbrack}\label{sec:frs7}
 			To allow a Registered User to signal another one, the system must:
 
 				\begin{itemize}
@@ -116,20 +101,21 @@
 							\item A label showing the username of the Customer that he has just served.
 							\item A label showing the starting location of the current ride.
 							\item A label that asks to the Taxi Driver if he want to report the Customer.
-							\item A button that, if clicked, ends the current ride calling the function of the system that sets to \textquotedbleft ended\textquotedbright the current ride without reporting the Customer.
-							\item A button that, if clicked, A button that, if clicked, ends the current ride calling the function of the system that sets to \textquotedbleft taxi-ended\textquotedbright the current ride and increments the Customer's Bad Evaluation Counter.
+							\item A button that ends the current ride without reporting the Customer.
+							\item A button that ends the current ride increments the Customer's Bad Evaluation Counter.
 						\end{enumerate}
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g7} After that one of the Taxi Driver end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Taxi Driver must access only to his homepage.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g7} When one of the Taxi Driver end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Taxi Driver must access only to his homepage.
 					\\
 					\item \lbrack Req.4\rbrack \label{sec:fr4_g7} for Customers, provide an end-ride page that contains:
 						\begin{enumerate}
 							\item A label showing the username of the Taxi Driver that has just served him.
 							\item A label showing the starting location of the current ride.
 							\item A label that asks to the Customer if he want to report the Taxi Driver.
-							\item A button that, if clicked, ends the current ride calling the function of the system that sets to \textquotedbleft ended\textquotedbright the current ride without reporting the Taxi Driver.
-							\item A button that, if clicked, ends the current ride calling the function of the system that sets to \textquotedbleft customer-ended\textquotedbright the current ride and increments the Taxi Driver's Bad Evaluation Counter.
+							\item A button that ends the current ride without reporting the Taxi Driver.
+							\item A button that ends the current ride and increments the Taxi Driver's Bad Evaluation Counter.
 						\end{enumerate}
-					\item \lbrack Req.5\rbrack \label{sec:fr5_g7} After that one of the Customer end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Customer must access only to his homepage.
+					\item \lbrack Req.5\rbrack \label{sec:fr5_g7} When one of the Customer end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Customer must access only to his homepage.
+					\item \lbrack Req.6\rbrack \label{sec:fr6_g7} The end-ride page shall be only accessible after the Registered User login.
 					\item \lbrack Dom.1\rbrack \label{sec:da1_g7} The ride is ended after a Taxi Driver or a Customer action.
 				\end{itemize}
 
@@ -148,27 +134,23 @@
 			To allow the customers to require a taxi, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g9} check if the customer is correctly logged in.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g9} provide an homepage that contains:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g9} provide an homepage that contains:
 						\begin{enumerate}
 							\item A map showing the current location of the customer.
 							\item A button that calls the function of the system to require a taxi (called "require button").
 						\end{enumerate}
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g9} once the "require button"is clicked (or tapped) the system must memorize the request in the remote database.
-					\item \lbrack Req.4\rbrack \label{sec:fr4_g9} once the request is memorized in the database, the system must send a request notification to the first Taxi Driver available on the zone queue.
-					\item \lbrack Req.5\rbrack \label{sec:fr5_g9} once the request has been accepted by a Taxi Driver, the system must send a notification to the customer with the incoming taxi informations and the supposed waiting time.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g9} The require-taxi page shall be only accessible by Customers and after they have performed the login as a Customer.
 				\end{itemize}
 
 			\subsubsection{\lbrack \hyperref[sec:g10]{G.10 Allow customers to reserve a ride.}\rbrack}\label{sec:frs10}
 			To allow the customers to reserve a ride, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g10} check if the customer is correctly logged in.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g10} provide an homepage that contains:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g10} provide an homepage that contains:
 						\begin{enumerate}
 							\item A button that, if clicked, shows the page used to reserve a ride.
 						\end{enumerate}
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g10} provide a page used to reserve a ride that contains:
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g10} provide a page used to reserve a ride that contains:
 						\begin{enumerate}
 							\item A map where the customer can select the starting location for his ride.
 							\item A map where the customer can select the ending location for his ride.
@@ -176,27 +158,26 @@
 							\item A field where the customer can insert the starting time for the ride.
 							\item A button that calls the function of the system to reserve a ride (called "reserve button").
 						\end{enumerate}
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g10} The page used to reserve a ride shall be only accessible after the Customer login.
 					\item \lbrack Req.4\rbrack \label{sec:fr4_g10} "reserve button" must be clickable if and only if the reserve date and time is at least two hours after the current time. (for instance: if the current date is 10/10/2015 and current time is 10.00, the reservation time must be at least 12.00 of the 10/10/2015).
-					\item \lbrack Req.5\rbrack \label{sec:fr5_g10} after the "reserve button" is clicked (or tapped) the system must memorize the reservation in the remote database.
-					\item \lbrack Req.6\rbrack \label{sec:fr6_g10} once the reservation is memorized, the system must send a request notification 10 minutes before the starting time of the ride to the first Taxi Driver available on the zone queue.
-					\item \lbrack Req.7\rbrack \label{sec:fr7_g10} once the ride has been accepted by a Taxi Driver, the system must send a notification to the customer with the incoming taxi informations and the supposed waiting time.
+					\item \lbrack Req.5\rbrack \label{sec:fr5_g10} The system must notify the Customer that a Taxi Driver has accepted his reservation at least 10 minutes before the ride.
 				\end{itemize}
 
 			\subsubsection{\lbrack \hyperref[sec:g11]{G.11 Allow customers to delete a previous reservations.}\rbrack}\label{sec:frs11}
 			To allow a customer to delete a previous reservation, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g11} check if the customer is correctly logged in.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g11} provide an homepage that contains:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g11} provide an homepage that contains:
 						\begin{enumerate}
 							\item A button that, if clicked, shows the page that contains all the reservations made by the customer.
 						\end{enumerate}
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g11} provide a page that contains all the reservations made by the customer:
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g11} provide a page that contains all the reservations made by the customer:
 						\begin{enumerate}
 							\item All reservations that have a difference between the start time and the current time of less than two hours are not erasable
 							\item Other reservations are erasable.
 							\item The page also contains a button to add a new reservation. If clicked that button leads the customer to the page used to reserve a ride (described in the Functional Requirements \hyperref[sec:fr3_g4]{Req.3 of G.4})
 						\end{enumerate}
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g11} The page that contains all the reservations shall be only accessible after the Customer login.
 					\item \lbrack Dom.1\rbrack \label{sec:da1_g11} The reservation is deleted after the Customer action.
 				\end{itemize}
 
@@ -209,22 +190,18 @@
 			%The Taxi Driver must be already registered and logged in with a myTaxiService account.
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g12} check if the Taxi Driver is correctly logged in.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g12} check if the state of the Taxi Driver is: Available.
-					\item \lbrack Req.2\rbrack \label{sec:fr3_g12} if the Taxi Driver is at the top of his zone queue, the system must notify him with a request notification as described in \hyperref[sec:fr4_g9]{Req.4 of G.9}.
-					\item \lbrack Req.3\rbrack \label{sec:fr4_g12} once the notification has been sent, the system must wait for the Taxi Driver acceptance or declination for 10 minutes, after that time, the request is forwarded to the next Taxi Driver in the zone queue.
-					\item \lbrack Req.4\rbrack \label{sec:fr5_g12} if the request has been accepted, the Taxi Driver must be redirected to the end-ride page where he can end the ride when he want. Also he is moved to the bottom of his zone queue and his state is setted to Not Available.
-					\item \lbrack Req.3\rbrack \label{sec:fr6_g12} if the request has been rejected, the Taxi Driver must be moved at the bottom of the zone queue and the Customer request is forwarded to the next Taxi Driver in the zone queue. Also the Taxi Driver is redirected to his home page and his state is setted to Available.
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g12} notify the Taxi Driver (if he's available) that is at the top of the zone-queue that a new taxi-request is made \hyperref[sec:fr4_g9]{(Req.4 of G.9)}.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g12} on the notification screen, show two buttons: one for theacceptance and one for the declination of the taxi-request.
 				\end{itemize}
 
 
 			\subsubsection{\lbrack \hyperref[sec:g13]{G.13 Allow Taxi Drivers to notify their availability.}\rbrack}\label{sec:frs13}
 			To allow Taxi Drivers to notify their availability, the system must:
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g13} check if the Taxi Driver is correctly logged in.
 					\item \lbrack Req.1\rbrack \label{sec:fr1_g13} provide an home page that contains:
 						\begin{enumerate}
 							\item An ON/OFF button that signals to the system that the Taxi Driver is Available/Not Available.
 							\item A map showing his current zone and position.
 						\end{enumerate}
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g13} The home page should be accessible only if the Taxi Driver is logged in.
 				\end{itemize}
