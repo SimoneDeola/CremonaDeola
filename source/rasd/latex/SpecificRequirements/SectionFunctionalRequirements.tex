@@ -52,10 +52,7 @@
 					\item \lbrack Dom.1\rbrack \label{sec:da1_g3} The email used by the Guest User is a valid one.
 				\end{itemize}
 
-		\subsection{Functional Requirements for Registered Users}
-		Here are listed all the Functional Requirements referring to the Goals that affects Registered Users.
-
-			\subsubsection{\lbrack \hyperref[sec:g4]{G.4 Allow registered users to log in with myTaxiService account.}\rbrack}\label{sec:frs4}
+			\subsubsection{\lbrack \hyperref[sec:g4]{G.4 Allow Guest Users to log in with myTaxiService account.}\rbrack}\label{sec:frs4}
 			To allow a registered user to log in with his myTaxiService account, the system must:
 
 				\begin{itemize}
@@ -67,36 +64,47 @@
 						\end{enumerate}
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g5]{G.5 Allow a Registered User to view or modify his username and email.}\rbrack}\label{sec:frs5}
+			\subsubsection{\lbrack \hyperref[sec:g5]{G.5 Allow Guest Users to log in with Facebook account.}\rbrack}\label{sec:frs5}
+			To allow a customer to log in with Facebook account, the system must:
+
+				\begin{itemize}
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g5} provide a button that calls the Facebook Login API.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g5} delegate to the Facebook system all the checks about the existence of the user.
+				\end{itemize}
+
+		\subsection{Functional Requirements for Registered Users}
+		Here are listed all the Functional Requirements referring to the Goals that affects Registered Users.
+
+			\subsubsection{\lbrack \hyperref[sec:g6]{G.6 Allow a Registered User to view or modify his username and email.}\rbrack}\label{sec:frs6}
 			To allow a Registered User to view or modify his username and email, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g5} provide an homepage that contains:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g6} provide an homepage that contains:
 						\begin{enumerate}
 							\item A button that, if clicked, shows the page that contains the Registered User's informations.
 						\end{enumerate}
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g5} provide a page used to show Registered User's informations that contains:
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g6} provide a page used to show Registered User's informations that contains:
 						\begin{enumerate}
 							\item A clickable label showing the username of the Registered User.
 							\item A clickable label showing the email of the Registered User.
 							\item A box with a label inside that shows how many times the Registered User has been reported as a bad user.
 						\end{enumerate}
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g5} The personal Registered User's page shall be only accessible after the login.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g6} The personal Registered User's page shall be only accessible after the login.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g6]{G.6 Allow a Registered User to retrieve his password if he doesn't remember it.}\rbrack}\label{sec:frs6}
+			\subsubsection{\lbrack \hyperref[sec:g7]{G.7 Allow a Registered User to retrieve his password if he doesn't remember it.}\rbrack}\label{sec:frs7}
 			To allow a Registered User to retrieve his password, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g6} on the log in page, provide a link that will show to the Registered User a field where he can write his email to allow the system to send him an email containing the password.
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g7} on the log in page, provide a link that will show to the Registered User a field where he can write his email to allow the system to send him an email containing the password.
 				\end{itemize}
 
-			\subsubsection{\lbrack \hyperref[sec:g7]{G.7 Allow a Registered User to signal another one if he has made a bad use of the system.}\rbrack}\label{sec:frs7}
+			\subsubsection{\lbrack \hyperref[sec:g8]{G.8 Allow a Registered User to signal another one if he has made a bad use of the system.}\rbrack}\label{sec:frs8}
 			To allow a Registered User to signal another one, the system must:
 
 				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g7} check if the Registered User is correctly logged in.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g7} for Taxi Drivers, provide an end-ride page that contains:
+					\item \lbrack Req.1\rbrack \label{sec:fr1_g8} check if the Registered User is correctly logged in.
+					\item \lbrack Req.2\rbrack \label{sec:fr2_g8} for Taxi Drivers, provide an end-ride page that contains:
 						\begin{enumerate}
 							\item A label showing the username of the Customer that he has just served.
 							\item A label showing the starting location of the current ride.
@@ -104,9 +112,9 @@
 							\item A button that ends the current ride without reporting the Customer.
 							\item A button that ends the current ride increments the Customer's Bad Evaluation Counter.
 						\end{enumerate}
-					\item \lbrack Req.3\rbrack \label{sec:fr3_g7} When one of the Taxi Driver end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Taxi Driver must access only to his homepage.
+					\item \lbrack Req.3\rbrack \label{sec:fr3_g8} When one of the Taxi Driver end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Taxi Driver must access only to his homepage.
 					\\
-					\item \lbrack Req.4\rbrack \label{sec:fr4_g7} for Customers, provide an end-ride page that contains:
+					\item \lbrack Req.4\rbrack \label{sec:fr4_g8} for Customers, provide an end-ride page that contains:
 						\begin{enumerate}
 							\item A label showing the username of the Taxi Driver that has just served him.
 							\item A label showing the starting location of the current ride.
@@ -114,21 +122,13 @@
 							\item A button that ends the current ride without reporting the Taxi Driver.
 							\item A button that ends the current ride and increments the Taxi Driver's Bad Evaluation Counter.
 						\end{enumerate}
-					\item \lbrack Req.5\rbrack \label{sec:fr5_g7} When one of the Customer end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Customer must access only to his homepage.
-					\item \lbrack Req.6\rbrack \label{sec:fr6_g7} The end-ride page shall be only accessible after the Registered User login.
-					\item \lbrack Dom.1\rbrack \label{sec:da1_g7} The ride is ended after a Taxi Driver or a Customer action.
+					\item \lbrack Req.5\rbrack \label{sec:fr5_g8} When one of the Customer end-ride page button is pressed, the system must ensure that the page is not reachable anymore and the Customer must access only to his homepage.
+					\item \lbrack Req.6\rbrack \label{sec:fr6_g8} The end-ride page shall be only accessible after the Registered User login.
+					\item \lbrack Dom.1\rbrack \label{sec:da1_g8} The ride is ended after a Taxi Driver or a Customer action.
 				\end{itemize}
 
 		\subsection{Functional Requirements for Customers}
 		Here are listed all the Functional Requirements referring to the Goals that affects Customers.
-
-			\subsubsection{\lbrack \hyperref[sec:g8]{G.8 Allow customers to log in with Facebook account.}\rbrack}\label{sec:frs8}
-			To allow a customer to log in with Facebook account, the system must:
-
-				\begin{itemize}
-					\item \lbrack Req.1\rbrack \label{sec:fr1_g8} provide a button that calls the Facebook Login API.
-					\item \lbrack Req.2\rbrack \label{sec:fr2_g8} delegate to the Facebook system all the checks about the existence of the user.
-				\end{itemize}
 
 			\subsubsection{\lbrack \hyperref[sec:g9]{G.9 Allow customers to require a taxi.}\rbrack}\label{sec:frs9}
 			To allow the customers to require a taxi, the system must:
