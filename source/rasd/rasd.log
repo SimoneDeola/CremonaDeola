@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  3 NOV 2015 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  3 NOV 2015 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -826,21 +826,20 @@ File: IMG/UseCaseDiagram.png Graphic file (type png)
 <use IMG/UseCaseDiagram.png>
 Package pdftex.def Info: IMG/UseCaseDiagram.png used on input line 7.
 (pdftex.def)             Requested size: 543.02742pt x 382.42781pt.
- [41])
-(./latex/SpecificRequirements/UMLModels/Class_Diagram.tex
+ [41]
 <IMG/ClassDiagram.png, id=901, 1109.14375pt x 692.5875pt>
 File: IMG/ClassDiagram.png Graphic file (type png)
 
 <use IMG/ClassDiagram.png>
-Package pdftex.def Info: IMG/ClassDiagram.png used on input line 6.
+Package pdftex.def Info: IMG/ClassDiagram.png used on input line 13.
 (pdftex.def)             Requested size: 554.57053pt x 346.2929pt.
-) [42pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.23}) has been already used, duplicate ignored
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.7 
-     <./IMG/UseCaseDiagram.png>]
+l.16 
+      <./IMG/UseCaseDiagram.png>])
 (./latex/SpecificRequirements/UMLModels/CustomerRegistration_Normal.tex
 Underfull \hbox (badness 10000) in alignment at lines 33--33
 [][] 
@@ -861,8 +860,8 @@ g used on input line 38.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.9 
-     <./IMG/ClassDiagram.png>]
+l.10 
+      <./IMG/ClassDiagram.png>]
 (./latex/SpecificRequirements/UMLModels/CustomerRegistration_Facebook.tex
 Underfull \hbox (badness 10000) in alignment at lines 36--36
 [][] 
@@ -883,7 +882,7 @@ png used on input line 41.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.11 
+l.12 
       <./IMG/InteractionDiagrams/CustomerRegistration_Normal.png>]
 Overfull \vbox (18.19583pt too high) has occurred while \output is active []
 
@@ -893,7 +892,7 @@ Overfull \vbox (18.19583pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.11 
+l.12 
       <./IMG/InteractionDiagrams/CustomerRegistration_Facebook.png>]
 (./latex/SpecificRequirements/UMLModels/TaxiDriverRegistration.tex
 Underfull \hbox (badness 10000) in alignment at lines 40--40
@@ -928,7 +927,7 @@ n input line 42.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.15 
+l.16 
       <./IMG/InteractionDiagrams/TaxiDriverRegistration.png>]
 (./latex/SpecificRequirements/UMLModels/CustomerFacebookLogin.tex
 Underfull \hbox (badness 10000) in alignment at lines 29--29
@@ -969,7 +968,7 @@ n input line 39.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.19 
+l.20 
       <./IMG/InteractionDiagrams/CustomerFacebookLogin.png>]
 (./latex/SpecificRequirements/UMLModels/PasswordRetrieval.tex
 Underfull \hbox (badness 10000) in alignment at lines 34--34
@@ -1008,7 +1007,7 @@ n input line 37.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 
+l.24 
       <./IMG/InteractionDiagrams/PasswordRetrieval.png>]
 (./latex/SpecificRequirements/UMLModels/CustomerReporting.tex
 Underfull \hbox (badness 10000) in alignment at lines 30--30
@@ -1027,7 +1026,7 @@ input line 35.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.25 
+l.26 
       <./IMG/InteractionDiagrams/TaxiDriverReporting.png>])
 (./latex/SpecificRequirements/SectionNonFunctionalRequirements.tex))
 (./latex/ChapterAppendix [54pdfTeX warning (ext4): destination with the same id
@@ -1062,8 +1061,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 5999 strings out of 493089
- 95093 string characters out of 6134841
+ 5996 strings out of 493089
+ 94970 string characters out of 6134841
  182861 words of memory out of 5000000
  9130 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
@@ -1074,7 +1073,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on rasd.pdf (56 pages, 1189910 bytes).
+Output written on rasd.pdf (56 pages, 1189787 bytes).
 PDF statistics:
  1074 PDF objects out of 1200 (max. 8388607)
  935 compressed objects within 10 object streams

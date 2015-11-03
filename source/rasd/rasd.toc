@@ -68,7 +68,7 @@
 \contentsline {subsection}{\numberline {3.3.8}S.8 Reporting Abuses}{41}{subsection.3.3.8}
 \contentsline {section}{\numberline {3.4}UML Models}{42}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{42}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{42}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{43}{subsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.2.1}Registration through the creation of a new myTaxiService account.}{43}{subsubsection.3.4.2.1}
 \contentsline {subsubsection}{\numberline {3.4.2.2}Registration using a Facebook account.}{44}{subsubsection.3.4.2.2}
 \contentsline {subsubsection}{\numberline {3.4.2.3}Taxi Driver Registration}{46}{subsubsection.3.4.2.3}
