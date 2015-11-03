@@ -65,25 +65,27 @@
 \contentsline {subsection}{\numberline {3.3.5}S.5 Profile Modification.}{41}{subsection.3.3.5}
 \contentsline {subsection}{\numberline {3.3.6}S.6 Password Retrieval}{41}{subsection.3.3.6}
 \contentsline {subsection}{\numberline {3.3.7}S.7 Reporting Abuses}{41}{subsection.3.3.7}
-\contentsline {section}{\numberline {3.4}UML Models}{41}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{41}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{41}{subsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Registration through the creation of a new myTaxiService account.}{41}{subsubsection.3.4.2.1}
+\contentsline {section}{\numberline {3.4}UML Models}{42}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{42}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Class Diagrams}{42}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Registration through the creation of a new myTaxiService account.}{42}{subsubsection.3.4.2.1}
 \contentsline {subsubsection}{\numberline {3.4.2.2}Registration using a Facebook account.}{43}{subsubsection.3.4.2.2}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Taxi Driver Registration}{44}{subsubsection.3.4.2.3}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Taxi Driver Registration}{45}{subsubsection.3.4.2.3}
 \contentsline {subsubsection}{\numberline {3.4.2.4}Registered User Login}{46}{subsubsection.3.4.2.4}
-\contentsline {subsubsection}{\numberline {3.4.2.5}Profile Modification}{47}{subsubsection.3.4.2.5}
+\contentsline {subsubsection}{\numberline {3.4.2.5}Profile Modification}{48}{subsubsection.3.4.2.5}
 \contentsline {subsubsection}{\numberline {3.4.2.6}Password Retreival}{49}{subsubsection.3.4.2.6}
-\contentsline {subsection}{\numberline {3.4.3}State Machine Diagrams}{50}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Non Functional Requirements}{50}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{50}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{50}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{50}{subsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.3.1}Availability}{50}{subsubsection.3.5.3.1}
-\contentsline {subsubsection}{\numberline {3.5.3.2}Maintainability}{50}{subsubsection.3.5.3.2}
-\contentsline {subsubsection}{\numberline {3.5.3.3}Portability}{50}{subsubsection.3.5.3.3}
-\contentsline {subsection}{\numberline {3.5.4}Security}{50}{subsection.3.5.4}
-\contentsline {subsubsection}{\numberline {3.5.4.1}External Interface Side}{50}{subsubsection.3.5.4.1}
-\contentsline {subsubsection}{\numberline {3.5.4.2}Application Side}{50}{subsubsection.3.5.4.2}
-\contentsline {subsubsection}{\numberline {3.5.4.3}Server Side}{50}{subsubsection.3.5.4.3}
-\contentsline {chapter}{\numberline {4}Appendix}{51}{chapter.4}
+\contentsline {subsubsection}{\numberline {3.4.2.7}Taxi Driver Reporting}{51}{subsubsection.3.4.2.7}
+\contentsline {subsubsection}{\numberline {3.4.2.8}Customer Reporting}{51}{subsubsection.3.4.2.8}
+\contentsline {subsection}{\numberline {3.4.3}State Machine Diagrams}{53}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Non Functional Requirements}{53}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{53}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{53}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{53}{subsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.3.1}Availability}{53}{subsubsection.3.5.3.1}
+\contentsline {subsubsection}{\numberline {3.5.3.2}Maintainability}{53}{subsubsection.3.5.3.2}
+\contentsline {subsubsection}{\numberline {3.5.3.3}Portability}{53}{subsubsection.3.5.3.3}
+\contentsline {subsection}{\numberline {3.5.4}Security}{53}{subsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.4.1}External Interface Side}{53}{subsubsection.3.5.4.1}
+\contentsline {subsubsection}{\numberline {3.5.4.2}Application Side}{53}{subsubsection.3.5.4.2}
+\contentsline {subsubsection}{\numberline {3.5.4.3}Server Side}{53}{subsubsection.3.5.4.3}
+\contentsline {chapter}{\numberline {4}Appendix}{54}{chapter.4}
