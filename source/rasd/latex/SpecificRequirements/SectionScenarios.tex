@@ -1,4 +1,4 @@
-\section{Scenarios}
+\section{Scenarios}\label{sec:SectionScenarios}
 	Here are described in natural language some useful scenarios that shows how the system should work in different cases:
 
 		\subsection{S.1 Registration as a Customer creating a myTaxiService account}\label{sec:NormalCustomerRegistrationScenario}
@@ -55,6 +55,26 @@
 		
 		\subsection{S.9 Require a Taxi}\label{sec:TaxiRequiringScenario}
 		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs9]{G.9 Functional Requirements Specifications}\\
+
 		Plutarch is a Customer that want to go to his vacation house but he is already arrive to the city train station and he don't have a car, so he decide to call a taxi. He launch myTaxiService and the application show to him the homepage. He first check that the position showed is his current position so he tap the "Request a taxi here" button and wait for a taxi accept his request. After 2 min a Taxi Driver accept his request and a pop up notification notify it to Plutarch. The notification says that a taxi will reach his position after 10 min and informs Plutarch about the number of the incoming taxi, so Plutarch can't takes the Wrong taxi.
-		
-		
+
+		\subsection{S.10 Reserve a Taxi}\label{sec:TaxiReservationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs10]{G.10 Functional Requirements Specifications}\\
+
+		Proclus is a traveler and he know that today at 18.00 he has to take a taxi to go at the train station. Proclus is also a myTaxiService Customer, so to reach his goal he logs into the myTaxiService web application from his laptop. The homepage is showed to Proclus and he clicks on the "Reserve a Taxi" button. The web application now shows to Proclus the reservation page (see \hyperref[reservation_w]{Reservation Page}).
+		Our traveler now inserts the data for his ride and confirms the reservation by clicking on the "Reserve" button. Since the time now is 11.00 the system accepts his reservation and a notification is sent to Proclus making he happy.
+
+		\subsection{S.11 Delete a Reservation}\label{sec:ReservationDeletionScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs11]{G.11 Functional Requirements Specifications}\\
+
+		Proclus is a Customer that has reserved a ride (see \hyperref[sec:TaxiReservationScenario]{S.10}) for this evening but unfortunately he cannot leave today. So he has to delete his taxi reservation. First of all he logs into the myTaxiService web application from his laptop and navigate to the homepage. He clicks on the "My Reservations" button to access to his reservations page. Here are listed all the reservations that he has made. He now clicks on the "X" at the right of the reservation and the myTaxiService web application tries to delete the reservation trough calling the function of the server. Since now the time is 15.00 the server accepts the deletion and inform the application that notify the successful operation to Proclus.
+
+		\subsection{S.12 Taxi Driver Accepts or Decline a Ride Request}\label{sec:RequestAcceptDeclineScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs12]{G.12 Functional Requirements Specifications}\\
+
+		Solon is a Taxi Driver registered to the myTaxiService system. He's currently available on the system and he's at the top of the his current zone queue. A customer makes a request (see how in \hyperref[sec:TaxiRequiringScenario]{Scenario S.9}) somewhere in the city and the system notifies Solon of the incoming request. When Solon see the notification, he accept the ride and the system notifies the requesting Customer of the acceptance.
+
+		\subsection{S.13 Notify Taxi Driver Availability}\label{sec:TaxiDriverAvailabilityScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs13]{G.13 Functional Requirements Specifications}\\
+
+		Galen is a Taxi Driver registered in the myTaxiService system. He has already performed the login and he's now on the \hyperref[thomePage_m]{Taxi Driver Homepage}. He wants to be notified by the system of the incoming requests for rides but he's currently unavaiable on the system. So he taps on the "Available" ON/OFF button in his homepage to signal his availability to the system, that inserts him in his current zone queue. Then the ON/OFF button becomes green to notify to Galen that he's now available.

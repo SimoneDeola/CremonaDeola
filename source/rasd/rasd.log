@@ -1,15 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  3 NOV 2015 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  4 NOV 2015 21:29
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**rasd.tex
+**rasd
 (./rasd.tex
 LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Babel <3.9l> and hyphenation patterns for 21 languages loaded.
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,31 +24,31 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -57,14 +56,16 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
+ty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
+y
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -104,26 +105,25 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2015basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen105
 \Hy@linkcounter=\count89
 \Hy@pagecounter=\count90
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count91
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -135,7 +135,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count92
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -160,12 +160,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count97
 \c@bookmark@seq@number=\count98
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -173,8 +173,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip43
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 19.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
+ (/usr/local/texlive/2015basic/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen109
 \lightrulewidth=\dimen110
@@ -194,10 +193,10 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count102
 \@thisrulewidth=\dimen121
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
@@ -213,7 +212,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@cols=\count103
 \TX@ftn=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count104
 \float@exts=\toks17
@@ -244,7 +243,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen129
@@ -257,10 +256,9 @@ LaTeX Font Info:    ... okay on input line 33.
 \MPnumerator=\count109
 \makeMPintoPDFobject=\count110
 \everyMPtoPDFconversion=\toks20
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -268,26 +266,26 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box29
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+ (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
 Package hyperref Info: Link coloring ON on input line 33.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count111
@@ -295,8 +293,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
-
-(./rasd.out) (./rasd.out)
+ (./rasd.out) (./rasd.out)
 \@outlinefile=\write3
 \openout3 = `rasd.out'.
 
@@ -308,8 +305,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 37.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./rasd
-.toc
+{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
+/rasd.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -353,7 +350,7 @@ Chapter 2.
 ] [8]) (./latex/ChapterSpecificRequirements.tex [9]
 Chapter 3.
 (./latex/SpecificRequirements/SectionExternalInterfaceRequirements.tex
-<IMG/UserInterfaces/CustomerLogin.png, id=611, 734.745pt x 567.11874pt>
+<IMG/UserInterfaces/CustomerLogin.png, id=681, 734.745pt x 567.11874pt>
 File: IMG/UserInterfaces/CustomerLogin.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerLogin.png>
@@ -365,7 +362,7 @@ Overfull \hbox (22.3716pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<IMG/UserInterfaces/CustomerLogin_m.png, id=613, 327.2225pt x 580.1675pt>
+<IMG/UserInterfaces/CustomerLogin_m.png, id=683, 327.2225pt x 580.1675pt>
 File: IMG/UserInterfaces/CustomerLogin_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerLogin_m.png>
@@ -381,7 +378,7 @@ ine 16.
                                                   \fi \fi 
 l.19 
       <./IMG/UserInterfaces/CustomerLogin.png>]
-<IMG/UserInterfaces/CustomerRegistration.png, id=624, 678.535pt x 529.98pt>
+<IMG/UserInterfaces/CustomerRegistration.png, id=694, 678.535pt x 529.98pt>
 File: IMG/UserInterfaces/CustomerRegistration.png Graphic file (type png)
 
 <use IMG/UserInterfaces/CustomerRegistration.png>
@@ -389,7 +386,7 @@ Package pdftex.def Info: IMG/UserInterfaces/CustomerRegistration.png used on in
 put line 26.
 (pdftex.def)             Requested size: 339.26666pt x 264.98933pt.
 
-<IMG/UserInterfaces/CustomerRegistration_m.png, id=625, 478.78876pt x 588.1975p
+<IMG/UserInterfaces/CustomerRegistration_m.png, id=695, 478.78876pt x 588.1975p
 t>
 File: IMG/UserInterfaces/CustomerRegistration_m.png Graphic file (type png)
  <use IMG/UserInterfaces/CustomerRegistration_m.png>
@@ -410,7 +407,7 @@ lready used, duplicate ignored
                                                   \fi \fi 
 l.34 
       <./IMG/UserInterfaces/CustomerRegistration.png>]
-<IMG/UserInterfaces/TaxiDriverRegistration.png, id=639, 664.4825pt x 530.98375p
+<IMG/UserInterfaces/TaxiDriverRegistration.png, id=709, 664.4825pt x 530.98375p
 t>
 File: IMG/UserInterfaces/TaxiDriverRegistration.png Graphic file (type png)
  <use IMG/UserInterfaces/TaxiDriverRegistration.png>
@@ -418,7 +415,7 @@ Package pdftex.def Info: IMG/UserInterfaces/TaxiDriverRegistration.png used on
 input line 40.
 (pdftex.def)             Requested size: 332.24043pt x 265.49121pt.
 
-<IMG/UserInterfaces/TaxiDriverRegistration_m.png, id=640, 478.78876pt x 588.197
+<IMG/UserInterfaces/TaxiDriverRegistration_m.png, id=710, 478.78876pt x 588.197
 5pt>
 File: IMG/UserInterfaces/TaxiDriverRegistration_m.png Graphic file (type png)
  <use IMG/UserInterfaces/TaxiDriverRegistration_m.png>
@@ -439,7 +436,7 @@ l.47 				\end{figure}
                                                   \fi \fi 
 l.48 
       <./IMG/UserInterfaces/TaxiDriverRegistration.png>]
-<IMG/UserInterfaces/mainCustomer.png, id=653, 701.62125pt x 541.02126pt>
+<IMG/UserInterfaces/mainCustomer.png, id=723, 701.62125pt x 541.02126pt>
 File: IMG/UserInterfaces/mainCustomer.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainCustomer.png>
@@ -451,7 +448,7 @@ Overfull \hbox (5.80975pt too wide) in paragraph at lines 54--55
  [][] 
  []
 
-<IMG/UserInterfaces/mainCustomer_m.png, id=654, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/mainCustomer_m.png, id=724, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/mainCustomer_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainCustomer_m.png>
@@ -472,14 +469,14 @@ l.61 				\end{figure}
                                                   \fi \fi 
 l.62 
       <./IMG/UserInterfaces/mainCustomer.png>]
-<IMG/UserInterfaces/reservationCustomer.png, id=667, 685.56125pt x 524.96124pt>
+<IMG/UserInterfaces/reservationCustomer.png, id=738, 685.56125pt x 524.96124pt>
 File: IMG/UserInterfaces/reservationCustomer.png Graphic file (type png)
 <use IMG/UserInterfaces/reservationCustomer.png>
 Package pdftex.def Info: IMG/UserInterfaces/reservationCustomer.png used on inp
 ut line 68.
 (pdftex.def)             Requested size: 342.77979pt x 262.47998pt.
 
-<IMG/UserInterfaces/reservationCustomer_m.png, id=668, 283.0575pt x 575.14874pt
+<IMG/UserInterfaces/reservationCustomer_m.png, id=739, 283.0575pt x 575.14874pt
 >
 File: IMG/UserInterfaces/reservationCustomer_m.png Graphic file (type png)
  <use IMG/UserInterfaces/reservationCustomer_m.png>
@@ -500,7 +497,7 @@ ready used, duplicate ignored
                                                   \fi \fi 
 l.76 
       <./IMG/UserInterfaces/reservationCustomer.png>]
-<IMG/UserInterfaces/myReservation.png, id=682, 690.58pt x 552.0625pt>
+<IMG/UserInterfaces/myReservation.png, id=753, 690.58pt x 552.0625pt>
 File: IMG/UserInterfaces/myReservation.png Graphic file (type png)
 
 <use IMG/UserInterfaces/myReservation.png>
@@ -508,7 +505,7 @@ Package pdftex.def Info: IMG/UserInterfaces/myReservation.png used on input lin
 e 82.
 (pdftex.def)             Requested size: 345.28915pt x 276.03056pt.
 
-<IMG/UserInterfaces/myReservation_m.png, id=683, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/myReservation_m.png, id=754, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/myReservation_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/myReservation_m.png>
@@ -529,7 +526,7 @@ l.89 				\end{figure}
                                                   \fi \fi 
 l.90 
       <./IMG/UserInterfaces/myReservation.png>]
-<IMG/UserInterfaces/customerNotification.png, id=696, 679.53876pt x 543.02875pt
+<IMG/UserInterfaces/customerNotification.png, id=767, 679.53876pt x 543.02875pt
 >
 File: IMG/UserInterfaces/customerNotification.png Graphic file (type png)
  <use IMG/UserInterfaces/customerNotification.png>
@@ -537,7 +534,7 @@ Package pdftex.def Info: IMG/UserInterfaces/customerNotification.png used on in
 put line 97.
 (pdftex.def)             Requested size: 339.76855pt x 271.5137pt.
 
-<IMG/UserInterfaces/customerNotification_m.png, id=697, 283.0575pt x 575.14874p
+<IMG/UserInterfaces/customerNotification_m.png, id=768, 283.0575pt x 575.14874p
 t>
 File: IMG/UserInterfaces/customerNotification_m.png Graphic file (type png)
  <use IMG/UserInterfaces/customerNotification_m.png>
@@ -558,7 +555,7 @@ rning (ext4): destination with the same identifier (name{figure.3.13}) has been
                                                   \fi \fi 
 l.105 
        <./IMG/UserInterfaces/customerNotification.png>]
-<IMG/UserInterfaces/userPage.png, id=710, 723.70375pt x 523.9575pt>
+<IMG/UserInterfaces/userPage.png, id=781, 723.70375pt x 523.9575pt>
 File: IMG/UserInterfaces/userPage.png Graphic file (type png)
 
 <use IMG/UserInterfaces/userPage.png>
@@ -570,7 +567,7 @@ Overfull \hbox (16.85098pt too wide) in paragraph at lines 111--112
  [][] 
  []
 
-<IMG/UserInterfaces/userPage_m.png, id=711, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/userPage_m.png, id=782, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/userPage_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/userPage_m.png>
@@ -591,7 +588,7 @@ l.118 				\end{figure}
                                                   \fi \fi 
 l.119 
        <./IMG/UserInterfaces/userPage.png>]
-<IMG/UserInterfaces/mainTaxiDriver.png, id=725, 681.54625pt x 539.01375pt>
+<IMG/UserInterfaces/mainTaxiDriver.png, id=796, 681.54625pt x 539.01375pt>
 File: IMG/UserInterfaces/mainTaxiDriver.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainTaxiDriver.png>
@@ -599,7 +596,7 @@ Package pdftex.def Info: IMG/UserInterfaces/mainTaxiDriver.png used on input li
 ne 126.
 (pdftex.def)             Requested size: 340.7723pt x 269.50621pt.
 
-<IMG/UserInterfaces/mainTaxiDriver_m.png, id=726, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/mainTaxiDriver_m.png, id=797, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/mainTaxiDriver_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/mainTaxiDriver_m.png>
@@ -620,7 +617,7 @@ ady used, duplicate ignored
                                                   \fi \fi 
 l.134 
        <./IMG/UserInterfaces/mainTaxiDriver.png>]
-<IMG/UserInterfaces/notificationTaxiDriver.png, id=740, 665.48625pt x 526.96875
+<IMG/UserInterfaces/notificationTaxiDriver.png, id=810, 665.48625pt x 526.96875
 pt>
 File: IMG/UserInterfaces/notificationTaxiDriver.png Graphic file (type png)
  <use IMG/UserInterfaces/notificationTaxiDriver.png>
@@ -628,7 +625,7 @@ Package pdftex.def Info: IMG/UserInterfaces/notificationTaxiDriver.png used on
 input line 142.
 (pdftex.def)             Requested size: 332.74231pt x 263.48372pt.
 
-<IMG/UserInterfaces/notificationTaxiDriver_m.png, id=741, 283.0575pt x 575.1487
+<IMG/UserInterfaces/notificationTaxiDriver_m.png, id=811, 283.0575pt x 575.1487
 4pt>
 File: IMG/UserInterfaces/notificationTaxiDriver_m.png Graphic file (type png)
  <use IMG/UserInterfaces/notificationTaxiDriver_m.png>
@@ -649,7 +646,7 @@ n already used, duplicate ignored
                                                   \fi \fi 
 l.150 
        <./IMG/UserInterfaces/notificationTaxiDriver.png>]
-<IMG/UserInterfaces/onRidePage.png, id=754, 664.4825pt x 520.94624pt>
+<IMG/UserInterfaces/onRidePage.png, id=824, 664.4825pt x 520.94624pt>
 File: IMG/UserInterfaces/onRidePage.png Graphic file (type png)
 
 <use IMG/UserInterfaces/onRidePage.png>
@@ -657,7 +654,7 @@ Package pdftex.def Info: IMG/UserInterfaces/onRidePage.png used on input line 1
 57.
 (pdftex.def)             Requested size: 332.24043pt x 260.47249pt.
 
-<IMG/UserInterfaces/onRidePage_m.png, id=755, 283.0575pt x 575.14874pt>
+<IMG/UserInterfaces/onRidePage_m.png, id=825, 283.0575pt x 575.14874pt>
 File: IMG/UserInterfaces/onRidePage_m.png Graphic file (type png)
 
 <use IMG/UserInterfaces/onRidePage_m.png>
@@ -818,36 +815,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--55
 
  []
 
-[41]) (./latex/SpecificRequirements/SectionUMLModels.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+) (./latex/SpecificRequirements/SectionUMLModels.tex
 (./latex/SpecificRequirements/UMLModels/Use_Case.tex
-<IMG/UseCaseDiagram.png, id=912, 1086.0575pt x 764.8575pt>
+<IMG/UseCaseDiagram.png, id=999, 1086.0575pt x 764.8575pt>
 File: IMG/UseCaseDiagram.png Graphic file (type png)
 
 <use IMG/UseCaseDiagram.png>
-Package pdftex.def Info: IMG/UseCaseDiagram.png used on input line 7.
+Package pdftex.def Info: IMG/UseCaseDiagram.png used on input line 6.
 (pdftex.def)             Requested size: 543.02742pt x 382.42781pt.
-
-<IMG/ClassDiagram.png, id=913, 1109.14375pt x 692.5875pt>
+ [43])
+(./latex/SpecificRequirements/UMLModels/UML_Class_Diagram.tex
+<IMG/ClassDiagram.png, id=1005, 1109.14375pt x 692.5875pt>
 File: IMG/ClassDiagram.png Graphic file (type png)
 
 <use IMG/ClassDiagram.png>
-Package pdftex.def Info: IMG/ClassDiagram.png used on input line 13.
+Package pdftex.def Info: IMG/ClassDiagram.png used on input line 6.
 (pdftex.def)             Requested size: 554.57053pt x 346.2929pt.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-23}) has been already used, duplicate ignored
+) [44pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.16 
-      <./IMG/UseCaseDiagram.png>])
+l.7 
+     <./IMG/UseCaseDiagram.png>]
 (./latex/SpecificRequirements/UMLModels/CustomerRegistration_Normal.tex
 Underfull \hbox (badness 10000) in alignment at lines 33--33
 [][] 
  []
 
 
-<IMG/InteractionDiagrams/CustomerRegistration_Normal.png, id=922, 708.6475pt x 
-713.66624pt>
+<IMG/InteractionDiagrams/CustomerRegistration_Normal.png, id=1014, 708.6475pt x
+ 713.66624pt>
 File: IMG/InteractionDiagrams/CustomerRegistration_Normal.png Graphic file (typ
 e png)
  <use IMG/InteractionDiagrams/CustomerRegistration_Normal.png>
@@ -855,12 +878,12 @@ Package pdftex.def Info: IMG/InteractionDiagrams/CustomerRegistration_Normal.pn
 g used on input line 38.
 (pdftex.def)             Requested size: 354.32289pt x 356.83224pt.
 )
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.10 
+l.12 
       <./IMG/ClassDiagram.png>]
 (./latex/SpecificRequirements/UMLModels/CustomerRegistration_Facebook.tex
 Underfull \hbox (badness 10000) in alignment at lines 36--36
@@ -868,8 +891,8 @@ Underfull \hbox (badness 10000) in alignment at lines 36--36
  []
 
 
-<IMG/InteractionDiagrams/CustomerRegistration_Facebook.png, id=930, 805.0075pt 
-x 766.865pt>
+<IMG/InteractionDiagrams/CustomerRegistration_Facebook.png, id=1022, 805.0075pt
+ x 766.865pt>
 File: IMG/InteractionDiagrams/CustomerRegistration_Facebook.png Graphic file (t
 ype png)
  <use IMG/InteractionDiagrams/CustomerRegistration_Facebook.png>
@@ -877,22 +900,22 @@ Package pdftex.def Info: IMG/InteractionDiagrams/CustomerRegistration_Facebook.
 png used on input line 41.
 (pdftex.def)             Requested size: 402.50278pt x 383.43156pt.
 )
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.12 
+l.14 
       <./IMG/InteractionDiagrams/CustomerRegistration_Normal.png>]
 Overfull \vbox (18.19583pt too high) has occurred while \output is active []
 
 
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.12 
+l.14 
       <./IMG/InteractionDiagrams/CustomerRegistration_Facebook.png>]
 (./latex/SpecificRequirements/UMLModels/TaxiDriverRegistration.tex
 Underfull \hbox (badness 10000) in alignment at lines 40--40
@@ -900,49 +923,49 @@ Underfull \hbox (badness 10000) in alignment at lines 40--40
  []
 
 
-<IMG/InteractionDiagrams/TaxiDriverRegistration.png, id=945, 804.00375pt x 767.
-86874pt>
+<IMG/InteractionDiagrams/TaxiDriverRegistration.png, id=1036, 804.00375pt x 767
+.86874pt>
 File: IMG/InteractionDiagrams/TaxiDriverRegistration.png Graphic file (type png
 )
  <use IMG/InteractionDiagrams/TaxiDriverRegistration.png>
 Package pdftex.def Info: IMG/InteractionDiagrams/TaxiDriverRegistration.png use
 d on input line 46.
 (pdftex.def)             Requested size: 402.0009pt x 383.93343pt.
-) [46]
+) [48]
 (./latex/SpecificRequirements/UMLModels/RegisteredUserLogin.tex
 Underfull \hbox (badness 10000) in alignment at lines 37--37
 [][] 
  []
 
 
-<IMG/InteractionDiagrams/RegisteredUserLogin.png, id=951, 803.0pt x 639.38875pt
->
+<IMG/InteractionDiagrams/RegisteredUserLogin.png, id=1043, 803.0pt x 639.38875p
+t>
 File: IMG/InteractionDiagrams/RegisteredUserLogin.png Graphic file (type png)
  <use IMG/InteractionDiagrams/RegisteredUserLogin.png>
 Package pdftex.def Info: IMG/InteractionDiagrams/RegisteredUserLogin.png used o
 n input line 42.
 (pdftex.def)             Requested size: 401.49902pt x 319.69359pt.
-) [47pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+) [49pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .27}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.16 
+l.18 
       <./IMG/InteractionDiagrams/TaxiDriverRegistration.png>]
 (./latex/SpecificRequirements/UMLModels/CustomerFacebookLogin.tex
 Underfull \hbox (badness 10000) in alignment at lines 29--29
 [][] 
  []
 
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.30 				\end{table}
                      <./IMG/InteractionDiagrams/RegisteredUserLogin.png>]
-<IMG/InteractionDiagrams/CustomerFacebookLogin.png, id=966, 800.9925pt x 511.91
-25pt>
+<IMG/InteractionDiagrams/CustomerFacebookLogin.png, id=1057, 800.9925pt x 511.9
+125pt>
 File: IMG/InteractionDiagrams/CustomerFacebookLogin.png Graphic file (type png)
 
  <use IMG/InteractionDiagrams/CustomerFacebookLogin.png>
@@ -956,58 +979,59 @@ Underfull \hbox (badness 10000) in alignment at lines 34--34
  []
 
 
-<IMG/InteractionDiagrams/ProfileModification.png, id=968, 801.99625pt x 625.336
-24pt>
+<IMG/InteractionDiagrams/ProfileModification.png, id=1059, 801.99625pt x 625.33
+624pt>
 File: IMG/InteractionDiagrams/ProfileModification.png Graphic file (type png)
  <use IMG/InteractionDiagrams/ProfileModification.png>
 Package pdftex.def Info: IMG/InteractionDiagrams/ProfileModification.png used o
 n input line 39.
 (pdftex.def)             Requested size: 400.99713pt x 312.66736pt.
-) [49pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+) [51pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.20 
+l.22 
       <./IMG/InteractionDiagrams/CustomerFacebookLogin.png>]
 (./latex/SpecificRequirements/UMLModels/PasswordRetrieval.tex
 Underfull \hbox (badness 10000) in alignment at lines 34--34
 [][] 
  []
 
-[50pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.35 				\end{table}
                      <./IMG/InteractionDiagrams/ProfileModification.png>]
-<IMG/InteractionDiagrams/PasswordRetrieval.png, id=982, 804.00375pt x 522.95375
-pt>
+<IMG/InteractionDiagrams/PasswordRetrieval.png, id=1074, 804.00375pt x 522.9537
+5pt>
 File: IMG/InteractionDiagrams/PasswordRetrieval.png Graphic file (type png)
  <use IMG/InteractionDiagrams/PasswordRetrieval.png>
 Package pdftex.def Info: IMG/InteractionDiagrams/PasswordRetrieval.png used on 
 input line 39.
 (pdftex.def)             Requested size: 402.0009pt x 261.47623pt.
-) [51]
+) [53]
 (./latex/SpecificRequirements/UMLModels/TaxiDriverReporting.tex
 Underfull \hbox (badness 10000) in alignment at lines 32--32
 [][] 
  []
 
 
-<IMG/InteractionDiagrams/TaxiDriverReporting.png, id=988, 803.0pt x 427.5975pt>
+<IMG/InteractionDiagrams/TaxiDriverReporting.png, id=1080, 803.0pt x 427.5975pt
+>
 File: IMG/InteractionDiagrams/TaxiDriverReporting.png Graphic file (type png)
-<use IMG/InteractionDiagrams/TaxiDriverReporting.png>
+ <use IMG/InteractionDiagrams/TaxiDriverReporting.png>
 Package pdftex.def Info: IMG/InteractionDiagrams/TaxiDriverReporting.png used o
 n input line 37.
 (pdftex.def)             Requested size: 401.49902pt x 213.79822pt.
-) [52pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+) [54pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .31}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.24 
+l.26 
       <./IMG/InteractionDiagrams/PasswordRetrieval.png>]
 (./latex/SpecificRequirements/UMLModels/CustomerReporting.tex
 Underfull \hbox (badness 10000) in alignment at lines 30--30
@@ -1015,50 +1039,179 @@ Underfull \hbox (badness 10000) in alignment at lines 30--30
  []
 
 
-<IMG/InteractionDiagrams/CustomerReporting.png, id=996, 804.00375pt x 409.53pt>
+<IMG/InteractionDiagrams/CustomerReporting.png, id=1089, 804.00375pt x 409.53pt
+>
 File: IMG/InteractionDiagrams/CustomerReporting.png Graphic file (type png)
-<use IMG/InteractionDiagrams/CustomerReporting.png>
+ <use IMG/InteractionDiagrams/CustomerReporting.png>
 Package pdftex.def Info: IMG/InteractionDiagrams/CustomerReporting.png used on 
 input line 35.
 (pdftex.def)             Requested size: 402.0009pt x 204.7645pt.
-) [53pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+) [55pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .32}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.26 
+l.28 
       <./IMG/InteractionDiagrams/TaxiDriverReporting.png>]
 (./latex/SpecificRequirements/UMLModels/TaxiRequest.tex
-Underfull \hbox (badness 10000) in alignment at lines 31--31
+Underfull \hbox (badness 10000) in alignment at lines 30--30
 [][] 
  []
 
-<IMG/InteractionDiagrams/TaxiRequest.png, id=1004, 845.1575pt x 347.2975pt>
+<IMG/InteractionDiagrams/TaxiRequest.png, id=1099, 845.1575pt x 347.2975pt>
 File: IMG/InteractionDiagrams/TaxiRequest.png Graphic file (type png)
 
 <use IMG/InteractionDiagrams/TaxiRequest.png>
 Package pdftex.def Info: IMG/InteractionDiagrams/TaxiRequest.png used on input 
-line 36.
+line 35.
 (pdftex.def)             Requested size: 422.57771pt x 173.64832pt.
-) [54pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+) [56pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.28 
-      <./IMG/InteractionDiagrams/CustomerReporting.png>])
-(./latex/SpecificRequirements/SectionNonFunctionalRequirements.tex))
-(./latex/ChapterAppendix [55pdfTeX warning (ext4): destination with the same id
-entifier (name{figure.3.34}) has been already used, duplicate ignored
+l.30 
+      <./IMG/InteractionDiagrams/CustomerReporting.png>]
+(./latex/SpecificRequirements/UMLModels/CustomerReservation.tex
+Underfull \hbox (badness 10000) in alignment at lines 33--33
+[][] 
+ []
+
+
+<IMG/InteractionDiagrams/TaxiReservation.png, id=1107, 844.15375pt x 496.85625p
+t>
+File: IMG/InteractionDiagrams/TaxiReservation.png Graphic file (type png)
+ <use IMG/InteractionDiagrams/TaxiReservation.png>
+Package pdftex.def Info: IMG/InteractionDiagrams/TaxiReservation.png used on in
+put line 38.
+(pdftex.def)             Requested size: 422.07584pt x 248.4275pt.
+) [57pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.34}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 
+      <./IMG/InteractionDiagrams/TaxiRequest.png>]
+(./latex/SpecificRequirements/UMLModels/ReservationDeletion.tex
+Underfull \hbox (badness 10000) in alignment at lines 33--33
+[][] 
+ []
+
+
+<IMG/InteractionDiagrams/ReservationDeletion.png, id=1115, 803.0pt x 560.0925pt
+>
+File: IMG/InteractionDiagrams/ReservationDeletion.png Graphic file (type png)
+ <use IMG/InteractionDiagrams/ReservationDeletion.png>
+Package pdftex.def Info: IMG/InteractionDiagrams/ReservationDeletion.png used o
+n input line 38.
+(pdftex.def)             Requested size: 401.49902pt x 280.04556pt.
+) [58pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.35}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.34 
+      <./IMG/InteractionDiagrams/TaxiReservation.png>]
+(./latex/SpecificRequirements/UMLModels/AcceptDeclineRequest.tex
+
+LaTeX Warning: Hyper reference `sec:AcceptDeclineRequestScenario' on page 59 un
+defined on input line 2.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 29--29
+[][] 
+ []
+
+
+<IMG/InteractionDiagrams/AcceptDeclineRequest.png, id=1122, 843.15pt x 635.3737
+5pt>
+File: IMG/InteractionDiagrams/AcceptDeclineRequest.png Graphic file (type png)
+ <use IMG/InteractionDiagrams/AcceptDeclineRequest.png>
+Package pdftex.def Info: IMG/InteractionDiagrams/AcceptDeclineRequest.png used 
+on input line 34.
+(pdftex.def)             Requested size: 421.57396pt x 317.6861pt.
+) [59pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.36}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.36 
+      <./IMG/InteractionDiagrams/ReservationDeletion.png>]
+(./latex/SpecificRequirements/UMLModels/TaxiDriverAvailability.tex
+Underfull \hbox (badness 10000) in alignment at lines 30--30
+[][] 
+ []
+
+
+<IMG/InteractionDiagrams/TaxiDriverAvailability.png, id=1130, 844.15375pt x 473
+.77pt>
+File: IMG/InteractionDiagrams/TaxiDriverAvailability.png Graphic file (type png
+)
+ <use IMG/InteractionDiagrams/TaxiDriverAvailability.png>
+Package pdftex.def Info: IMG/InteractionDiagrams/TaxiDriverAvailability.png use
+d on input line 35.
+(pdftex.def)             Requested size: 422.07584pt x 236.88441pt.
+) [60pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.37}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.38 
+      <./IMG/InteractionDiagrams/AcceptDeclineRequest.png>]
+(./latex/SpecificRequirements/UMLModels/StateMachineTaxiRequest.tex
+<IMG/StateMachineDiagrams/TaxiRequest.png, id=1139, 675.52374pt x 237.88875pt>
+File: IMG/StateMachineDiagrams/TaxiRequest.png Graphic file (type png)
+
+<use IMG/StateMachineDiagrams/TaxiRequest.png>
+Package pdftex.def Info: IMG/StateMachineDiagrams/TaxiRequest.png used on input
+ line 5.
+(pdftex.def)             Requested size: 337.76105pt x 118.94408pt.
+) [61pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.38}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.43 
+      <./IMG/InteractionDiagrams/TaxiDriverAvailability.png>])
+(./latex/SpecificRequirements/SectionNonFunctionalRequirements.tex
+(./latex/SpecificRequirements/NonFunctionalRequirements/PerformanceRequirements
+.tex)
+(./latex/SpecificRequirements/NonFunctionalRequirements/DesignConstraints.tex)
+(./latex/SpecificRequirements/NonFunctionalRequirements/SoftwareSystemAttribute
+s.tex [62pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.39}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.6 
+     <./IMG/StateMachineDiagrams/TaxiRequest.png>])
+(./latex/SpecificRequirements/NonFunctionalRequirements/Security.tex [63]
+! Undefined control sequence.
+l.10 ...tbackslash w+@\lbrack a-zA-Z\_\rbrack\plus
+                                                  ?\textbackslash.\lbrack a-...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[64] <IMG/ServerArchitecture.png, id=1162, 672.5125pt x 374.39874pt>
+File: IMG/ServerArchitecture.png Graphic file (type png)
+
+<use IMG/ServerArchitecture.png>
+Package pdftex.def Info: IMG/ServerArchitecture.png used on input line 35.
+(pdftex.def)             Requested size: 336.25542pt x 187.19891pt.
+))) (./latex/ChapterAppendix [65pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.3.40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            {Appendix} <./IMG/InteractionDiagrams/TaxiRequest.png>]
+            {Appendix} <./IMG/ServerArchitecture.png>]
 Chapter 4.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
- [56
+ [66
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
@@ -1066,7 +1219,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `rasd.out' has not changed.
-(rerunfilecheck)             Checksum: 516AEE654FD618940446ED0FE00CA6D6;8061.
+(rerunfilecheck)             Checksum: 8147C3ECDC009F02BF757EF148F5FFB3;9262.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1080,22 +1233,23 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 6012 strings out of 493089
- 95436 string characters out of 6134841
- 183033 words of memory out of 5000000
- 9139 multiletter control sequences out of 15000+600000
+ 6136 strings out of 494501
+ 99948 string characters out of 6167029
+ 180478 words of memory out of 5000000
+ 8995 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 29i,10n,32p,829b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on rasd.pdf (57 pages, 1205870 bytes).
+ 319 hyphenation exceptions out of 8191
+ 29i,10n,32p,885b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
+0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb>
+Output written on rasd.pdf (67 pages, 1399861 bytes).
 PDF statistics:
- 1095 PDF objects out of 1200 (max. 8388607)
- 953 compressed objects within 10 object streams
- 231 named destinations out of 1000 (max. 500000)
- 931 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1253 PDF objects out of 1440 (max. 8388607)
+ 1087 compressed objects within 11 object streams
+ 261 named destinations out of 1000 (max. 500000)
+ 1073 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -67,29 +67,43 @@
 \contentsline {subsection}{\numberline {3.3.7}S.7 Password Retrieval}{41}{subsection.3.3.7}
 \contentsline {subsection}{\numberline {3.3.8}S.8 Reporting Abuses}{41}{subsection.3.3.8}
 \contentsline {subsection}{\numberline {3.3.9}S.9 Require a Taxi}{41}{subsection.3.3.9}
-\contentsline {section}{\numberline {3.4}UML Models}{42}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Use-Case Diagrams}{42}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}UML Class Diagrams}{43}{subsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Registration through the creation of a new myTaxiService account.}{43}{subsubsection.3.4.2.1}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Registration using a Facebook account.}{44}{subsubsection.3.4.2.2}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Taxi Driver Registration}{46}{subsubsection.3.4.2.3}
-\contentsline {subsubsection}{\numberline {3.4.2.4}Registered User Login}{47}{subsubsection.3.4.2.4}
-\contentsline {subsubsection}{\numberline {3.4.2.5}Customer Facebook Login}{49}{subsubsection.3.4.2.5}
-\contentsline {subsubsection}{\numberline {3.4.2.6}Profile Modification}{49}{subsubsection.3.4.2.6}
-\contentsline {subsubsection}{\numberline {3.4.2.7}Password Retreival}{51}{subsubsection.3.4.2.7}
-\contentsline {subsubsection}{\numberline {3.4.2.8}Taxi Driver Reporting}{52}{subsubsection.3.4.2.8}
-\contentsline {subsubsection}{\numberline {3.4.2.9}Customer Reporting}{53}{subsubsection.3.4.2.9}
-\contentsline {subsubsection}{\numberline {3.4.2.10}Request a Taxi}{54}{subsubsection.3.4.2.10}
-\contentsline {subsection}{\numberline {3.4.3}State Machine Diagrams}{55}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Non Functional Requirements}{55}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{55}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{55}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{55}{subsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.3.1}Availability}{55}{subsubsection.3.5.3.1}
-\contentsline {subsubsection}{\numberline {3.5.3.2}Maintainability}{55}{subsubsection.3.5.3.2}
-\contentsline {subsubsection}{\numberline {3.5.3.3}Portability}{55}{subsubsection.3.5.3.3}
-\contentsline {subsection}{\numberline {3.5.4}Security}{55}{subsection.3.5.4}
-\contentsline {subsubsection}{\numberline {3.5.4.1}External Interface Side}{55}{subsubsection.3.5.4.1}
-\contentsline {subsubsection}{\numberline {3.5.4.2}Application Side}{55}{subsubsection.3.5.4.2}
-\contentsline {subsubsection}{\numberline {3.5.4.3}Server Side}{55}{subsubsection.3.5.4.3}
-\contentsline {chapter}{\numberline {4}Appendix}{56}{chapter.4}
+\contentsline {subsection}{\numberline {3.3.10}S.10 Reserve a Taxi}{42}{subsection.3.3.10}
+\contentsline {subsection}{\numberline {3.3.11}S.11 Delete a Reservation}{42}{subsection.3.3.11}
+\contentsline {subsection}{\numberline {3.3.12}S.12 Taxi Driver Accepts or Decline a Ride Request}{42}{subsection.3.3.12}
+\contentsline {subsection}{\numberline {3.3.13}S.13 Notify Taxi Driver Availability}{43}{subsection.3.3.13}
+\contentsline {section}{\numberline {3.4}UML Models}{43}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Use Case Diagram}{43}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}UML Class Diagram}{44}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}UML Interaction Diagrams}{45}{subsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.3.1}Registration through the creation of a new myTaxiService account.}{45}{subsubsection.3.4.3.1}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Registration using a Facebook account.}{46}{subsubsection.3.4.3.2}
+\contentsline {subsubsection}{\numberline {3.4.3.3}Taxi Driver Registration}{48}{subsubsection.3.4.3.3}
+\contentsline {subsubsection}{\numberline {3.4.3.4}Registered User Login}{49}{subsubsection.3.4.3.4}
+\contentsline {subsubsection}{\numberline {3.4.3.5}Customer Facebook Login}{51}{subsubsection.3.4.3.5}
+\contentsline {subsubsection}{\numberline {3.4.3.6}Profile Modification}{51}{subsubsection.3.4.3.6}
+\contentsline {subsubsection}{\numberline {3.4.3.7}Password Retreival}{53}{subsubsection.3.4.3.7}
+\contentsline {subsubsection}{\numberline {3.4.3.8}Taxi Driver Reporting}{54}{subsubsection.3.4.3.8}
+\contentsline {subsubsection}{\numberline {3.4.3.9}Customer Reporting}{55}{subsubsection.3.4.3.9}
+\contentsline {subsubsection}{\numberline {3.4.3.10}Request a Taxi}{56}{subsubsection.3.4.3.10}
+\contentsline {subsubsection}{\numberline {3.4.3.11}Reserve a Taxi}{57}{subsubsection.3.4.3.11}
+\contentsline {subsubsection}{\numberline {3.4.3.12}Delete a Reservation}{58}{subsubsection.3.4.3.12}
+\contentsline {subsubsection}{\numberline {3.4.3.13}Accept or Decline a Ride Request}{59}{subsubsection.3.4.3.13}
+\contentsline {subsubsection}{\numberline {3.4.3.14}Taxi Driver Availability Notification}{60}{subsubsection.3.4.3.14}
+\contentsline {subsection}{\numberline {3.4.4}State Machine Diagrams}{61}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Taxi Request State Machine}{62}{subsubsection.3.4.4.1}
+\contentsline {section}{\numberline {3.5}Non Functional Requirements}{62}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{62}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{62}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{62}{subsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.3.1}Adaptibility}{63}{subsubsection.3.5.3.1}
+\contentsline {subsubsection}{\numberline {3.5.3.2}Availability}{63}{subsubsection.3.5.3.2}
+\contentsline {subsubsection}{\numberline {3.5.3.3}Compatibility}{63}{subsubsection.3.5.3.3}
+\contentsline {subsubsection}{\numberline {3.5.3.4}Fault-Tolerance}{63}{subsubsection.3.5.3.4}
+\contentsline {subsubsection}{\numberline {3.5.3.5}Maintainability}{63}{subsubsection.3.5.3.5}
+\contentsline {subsubsection}{\numberline {3.5.3.6}Modularity}{63}{subsubsection.3.5.3.6}
+\contentsline {subsubsection}{\numberline {3.5.3.7}Portability}{63}{subsubsection.3.5.3.7}
+\contentsline {subsubsection}{\numberline {3.5.3.8}Simplicity}{64}{subsubsection.3.5.3.8}
+\contentsline {subsection}{\numberline {3.5.4}Security}{64}{subsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.4.1}Application and User Interface Side}{64}{subsubsection.3.5.4.1}
+\contentsline {subsubsection}{\numberline {3.5.4.2}Server Side}{64}{subsubsection.3.5.4.2}
+\contentsline {chapter}{\numberline {4}Appendix}{66}{chapter.4}
