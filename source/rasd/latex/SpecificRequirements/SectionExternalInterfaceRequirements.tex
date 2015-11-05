@@ -1,10 +1,10 @@
 \section{External Interface Requirements}
-	This section gives a description of the various inputs and relative outputs of the system. It also gives a description of the hardware, software and communication interfaces that are necessary to make the system work. It will also provide a generic visualization of the user interface in the various user platforms.
+	This section gives a description of the various inputs and relative outputs of the system. It also gives a description of the hardware, software and communication interfaces that are necessary to make the system work. It provides a generic visualization of the user interface in the various user platforms.
 
 		\subsection{User Interfaces}
 		Here we describe in particular how the application should look like either for mobile and web application. To make an easier explanation of the aspect of the various screen of the application we are going to use Mockup.
 			\subsubsection{Login}
-			On this page the users can log in with username and password or with Facebook (only if as registered user is a Customer). If the user is not already registered can access to the registration pages (for Customer or for Taxi Drivers). Also if the users forgot the password from this page can go to the forgot password page.
+			On this page the users can log in with username and password or with Facebook (only if the registered user is a Customer). If the user is not registered yet, he can access to the registration pages (for Customers or for Taxi Drivers). Furthermore, if the user has forgotten the password, he can get it from this page.
 				
 				\begin{figure}[H]
 					\centering
@@ -19,7 +19,7 @@
 			
 			
 			\subsubsection{Customer registration}
-			On this page the users can register itself. This page must provide two way of registration, registration with the standard form ( e-mail, password and username) of with Facebook API.
+			On this page the user can register itself. This page must provide two ways of registration: registration through the standard form ( e-mail, password and username) or throught Facebook API.
 			
 				\begin{figure}[H]
 					\centering
@@ -33,7 +33,7 @@
 				\end{figure}
 			
 			\subsubsection{Taxi Drivers registration}
-			On this page the users can register itself as a taxi driver. Taxi driver have a special form to been registered because of the additional information the user must provide (taxi license number). Just because the additional information the registration can be done just with the standard form.
+			On this page the user can register itself as a taxi driver. The taxi driver has a special form to be registered because of the additional information the user must provide (taxi license number). Due to the additional information, the registration can be done only through the standard form.
 				
 				\begin{figure}[H]
 					\centering
@@ -47,7 +47,7 @@
 				\end{figure}
 			
 			\subsubsection{Customer home page}
-			On this page the Customer can see his position (information from his GPS) and perform all the main operation that he can perform. He can Request a taxi on the position showed, can go to the reservation page (in which can reserve a ride), can visit his personal page (in which can see all the information of his profile), can go to the information page (information about myTaxiService) or go to the 'my reservation page' (in which can manage all the previous reserved ride). 
+			On this page the Customer can see his position (information from his GPS) and perform all the main operations. He can Request a taxi on the showed position, can go to the reservation page (in which can reserve a ride), can visit his personal page (in which can see all the information of his profile), can go to the information page (information about myTaxiService) or go to the 'my reservation page' (in which can manage all the previous reserved rides). 
 			
 				\begin{figure}[H]
 					\centering
@@ -61,7 +61,7 @@
 				\end{figure}
 			
 			\subsubsection{Reservation page}
-			On this page the Customer can reserve a taxi ride. To do this he must insert a Origin position, a Destination position, a Data and a Time. The reservation must be at least two hours after the current Time, so the system must avoid to reserve a previous ride.
+			On this page the Customer can reserve a taxi ride. To do this, he must insert a Origin position, a Destination position, a Data and a Time. The reservation must be at least two hours after the current time.
 			
 				\begin{figure}[H]
 					\centering
@@ -75,7 +75,7 @@
 				\end{figure}
 			
 			\subsubsection{My reservation Page}
-			On this page Customer can see all the reservation he have already done and adding some new. For each previous reservation can see all the information and, if the Date is before the next two hours, can delete it.			
+			On this page the Customer can see all the reservations he has already done and add some new reservations. For each previous reservation he can see all the information and, if the Date is after the next two hours, he can delete it.			
 			
 				\begin{figure}[H]
 					\centering
@@ -90,7 +90,7 @@
 			
 			
 			\subsubsection{Customer notification pop-up}
-			This pop-up is showed to the requesting Customer when his request has been handled. On this pop-up the system show also the number of the incoming taxi and an approssimative waiting time.
+			This pop-up is showed to the requesting Customer when his request has been handled. On this pop-up the system shows also the identification number of the incoming taxi and an approssimative waiting time.
 			
 				\begin{figure}[H]
 					\centering
@@ -104,7 +104,7 @@
 				\end{figure}
 			
 			\subsubsection{User page}
-			This page show all the information about your user and show how many time you've been notified as bad user.
+			This page shows all the information about your user and show how many time you've been notified as bad user.
 			
 				\begin{figure}[H]
 					\centering
@@ -135,7 +135,7 @@
 			
 			
 			\subsubsection{Taxi Driver notification}
-			On this pop-up the taxi driver will notified of a request that he can handle. On this pop-up is showed also two button, with which the taxi driver can accept or decline the request.
+			On this pop-up the taxi driver will be notified of a request that he can handle. On this pop-up are shown also two buttons, with which the taxi driver can accept or decline the request.
 			
 				\begin{figure}[H]
 					\centering
@@ -150,7 +150,7 @@
 				
 			
 			\subsubsection{Registered user end ride page}
-			When a taxi driver accept a ride this page is showed up to each registered user involved in this ride. On this page the taxi driver can check the name of the customer and the Origin position of his journey. When the ride is ended each of the registered user can give a bad evaluation to the other or simply end the ride and return to the main page.
+			When a taxi driver accepts a ride, this page is shown up to each registered user involved in this ride. On this page the taxi driver can check the name of the customer and the Origin position of his journey. When the ride is ended each of the registered user can give a bad evaluation to the other or simply end the ride and return to the main page.
 				
 				\begin{figure}[H]
 					\centering
@@ -166,20 +166,20 @@
 
 		\subsection{Hardware Interfaces}
 		Since mobile and web applications don't have any dedicated hardware we have not designed any hardware interfaces for our system.
-		The interaction with the central database is performed by connections handled by the already installed operating system on the mobile devices or the users computers.
+		The interaction with the central database is performed by connections handled by the already installed operating system on the mobile devices or the users' computers.
 
 		\subsection{Software Interfaces}
 			\begin{itemize}
-				\item The mobile application communicates with the GPS application in order to get geographical informations about the user.
+				\item The mobile application communicates with the GPS application in order to get geographical information about the user.
 				
-				\item The web application communicates with the browser in order to get geographical informations about the user.
+				\item The web application communicates with the browser in order to get geographical information about the user.
 				
-				\item Mobile and web applications communicates with the database through HTTP requests to the server.
+				\item Mobile and web applications communicate with the database through HTTP requests to the server.
 			\end{itemize}
 
-		\subsection{Interfaces to Others Application}
+		\subsection{Interfaces to Other Applications}
 			\begin{itemize}
-				\item myTaxiService web application require that at least one of these browsers is installed on the user Personal Computer:
+				\item myTaxiService web application requires that at least one of these browsers is installed on the user's Personal Computer:
 			
 					\begin{center}
 						\begin{table}[h!]
@@ -206,7 +206,7 @@
 						\end{table}
 					\end{center}
 
-				\item myTaxiService mobile application require that at least one of these operating systems is installed on the user Smartphone:
+				\item myTaxiService mobile application requires that at least one of these operating systems is installed on the user's Smartphone:
 
 					\begin{center}
 						\begin{table}[h!]
@@ -231,14 +231,14 @@
 						\end{table}
 					\end{center}
 
-				\item To give an additional LogIn method, we use also the "LogIn with Facebook" API relased by Facebook. Facebook Login for Apps is a fast and convenient way for people to create accounts and log into our system across multiple platforms. It is well described at \href{https://developers.facebook.com/docs/facebook-login}{Facebook Login API Page.}
+				\item To give an additional LogIn method, we use also the "LogIn with Facebook" API released by Facebook. Facebook Login for Apps is a fast and convenient way for people to create accounts and log into our system across multiple platforms. It is well described at \href{https://developers.facebook.com/docs/facebook-login}{Facebook Login API Page.}
 			\end{itemize}
 
 
 		\subsection{Communication Interfaces}
 		The communication between system pieces is not specified because it is handled by the underlying operating systems for both the mobile application and the web portal.
 
-		In particular, the web and mobile applictaions will communicate with the server through HTTP/HTTPS requests. 
+		In particular, the web and mobile applications will communicate with the server through HTTP/HTTPS requests. 
 
 			\begin{itemize}
 				\item HTTP communicate through the port number 80 and is handled by the operating system. 
