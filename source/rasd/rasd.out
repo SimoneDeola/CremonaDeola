@@ -37,12 +37,12 @@
 \BOOKMARK [3][-]{subsubsection.3.1.1.11}{Registered user end ride page}{subsection.3.1.1}% 37
 \BOOKMARK [2][-]{subsection.3.1.2}{Hardware Interfaces}{section.3.1}% 38
 \BOOKMARK [2][-]{subsection.3.1.3}{Software Interfaces}{section.3.1}% 39
-\BOOKMARK [2][-]{subsection.3.1.4}{Interfaces to Others Application}{section.3.1}% 40
+\BOOKMARK [2][-]{subsection.3.1.4}{Interfaces to Other Applications}{section.3.1}% 40
 \BOOKMARK [2][-]{subsection.3.1.5}{Communication Interfaces}{section.3.1}% 41
 \BOOKMARK [1][-]{section.3.2}{Functional Requirements}{chapter.3}% 42
 \BOOKMARK [2][-]{subsection.3.2.1}{Functional Requirements for Guest Users}{section.3.2}% 43
-\BOOKMARK [3][-]{subsubsection.3.2.1.1}{[[sec:g1]G.1 - Allow guest users to become a customer creating a myTaxiService Account]}{subsection.3.2.1}% 44
-\BOOKMARK [3][-]{subsubsection.3.2.1.2}{[[sec:g2]G.2 - Allow a Guests User to become a Customer using his Facebook Account]}{subsection.3.2.1}% 45
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{[[sec:g1]G.1 - Allow guest users to become customers creating a myTaxiService Account]}{subsection.3.2.1}% 44
+\BOOKMARK [3][-]{subsubsection.3.2.1.2}{[[sec:g2]G.2 - Allow a Guest User to become a Customer using his Facebook Account]}{subsection.3.2.1}% 45
 \BOOKMARK [3][-]{subsubsection.3.2.1.3}{[[sec:g3]G.3 Allow guest users to become a taxi driver]}{subsection.3.2.1}% 46
 \BOOKMARK [3][-]{subsubsection.3.2.1.4}{[[sec:g4]G.4 Allow Guest Users to log in with myTaxiService account.]}{subsection.3.2.1}% 47
 \BOOKMARK [3][-]{subsubsection.3.2.1.5}{[[sec:g5]G.5 Allow Guest Users to log in with Facebook account.]}{subsection.3.2.1}% 48

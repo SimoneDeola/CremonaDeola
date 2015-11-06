@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  5 NOV 2015 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  6 NOV 2015 09:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -798,12 +798,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[40]
+
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -845,7 +845,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
 ) (./latex/SpecificRequirements/SectionUMLModels.tex
 (./latex/SpecificRequirements/UMLModels/Use_Case.tex
-<IMG/UseCaseDiagram.png, id=1004, 1086.0575pt x 764.8575pt>
+<IMG/UseCaseDiagram.png, id=1003, 1086.0575pt x 764.8575pt>
 File: IMG/UseCaseDiagram.png Graphic file (type png)
 
 <use IMG/UseCaseDiagram.png>
@@ -1234,9 +1234,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (./rasd.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
-Package rerunfilecheck Info: File `rasd.out' has not changed.
-(rerunfilecheck)             Checksum: 4B82ED03EAB5F3ADDE532B5C396A3384;9352.
 
+
+Package rerunfilecheck Warning: File `rasd.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rasd.out':
+(rerunfilecheck)             Before: 4B82ED03EAB5F3ADDE532B5C396A3384;9352
+(rerunfilecheck)             After:  BF629F09FC94E10F902384C5AC9ED56E;9350.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1261,7 +1267,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on rasd.pdf (67 pages, 1423522 bytes).
+Output written on rasd.pdf (67 pages, 1423929 bytes).
 PDF statistics:
  1261 PDF objects out of 1440 (max. 8388607)
  1093 compressed objects within 11 object streams
