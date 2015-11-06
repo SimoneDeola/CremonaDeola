@@ -156,11 +156,11 @@ fact customerIDUnique{
 
 //_____________________________________________________________________________
 // RIDES FACTS
-//	- if state is NOT_HANDLED taxiDriver is empty
+// - if state is NOT_HANDLED taxiDriver is empty
 fact RideStateNotHandled{
 	all r : Ride | r.state = NOT_HANDLED implies no r.taxiDriver 
 }
-//	- if state is HANDLED or ENDED taxiDriver is only one
+// - if state is HANDLED or ENDED taxiDriver is only one
 fact RideStatHandledEnded{
 	all r : Ride | r.state = HANDLED or r.state = ENDED implies #r.taxiDriver = 1
 }
@@ -168,13 +168,25 @@ fact RideStatHandledEnded{
 fact taxiDriverNotAvailableIfHandled{
 	all r : Ride | r.state = HANDLED implies r.taxiDriver.availability = False
 }
+// - if two rides has the same TaxiDriver and one is HANDLED then the second is ENDED
+fact taxiDriverNotInTwoTaxi{
+	all disj r1, r2 : Ride |
+  (r1.taxiDriver = r2.taxiDriver and r1.state = HANDLED) implies r2.state = ENDED
+}
+// - if the ride is HANDLED driver and customer are in the same zone
+fact taxiDriverHandledZone{
+	all r : Ride | 
+		r.state = HANDLED implies r.taxiDriver.currentZone = r.requestingUser.currentZone
+}
+// - 
 
 
 //_____________________________________________________________________________
 // NORMAL RIDES FACTS
-// - from position must be the requestingUser current position.
+// - from position must be the requestingUser current position if the ride is not handled.
 fact rideStartIsCustomerCurrentPosition{
-	all r : NormalRide | all c : Customer | r.requestingUser = c implies r.from = c.currentPosition
+	all r : NormalRide | all c : Customer | 
+	(r.requestingUser = c and r.state = NOT_HANDLED) implies r.from = c.currentPosition
 }
 //- the number of normal rides associated to a requestingUser with state euqual to NOT_HANDLED is only one.
 fact onlyOneForCustomerNotHandled{
@@ -206,36 +218,55 @@ fact differentReservations{
 fact licenseNumberUnicity{
 	no disj user1, user2 : TaxiDriver | user1.licenseNumber = user2.licenseNumber
 }
-
 // - Taxi number must be unique
 fact taxiIDUnicity{
 	no disj user1, user2 : TaxiDriver | user1.taxiId = user2.taxiId
 }
 
 
-
 /*************************************************/
 /*                PREDICATES                     */
 /*************************************************/
 
-pred showDuplicateReservations [t : TaxiDriver, r1 : Reservation, r2 : Reservation]{
-	r1 != r2 and r1.taxiDriver = t and r2.taxiDriver = t and
-	r1.when = r2.when
+
+pred show{
+	#Reservation >= 3
+	#NormalRide >= 3
+	#TaxiDriver >= 2
+	#Customer >= 2
 }
 
-//run showLocal for 5
-pred showLocal{
-	#Reservation = 1 and #Ride <2 and #Customer = 1
+run show for 10
+
+
+/*************************************************/
+/*                ASSERTIONS                     */
+/*************************************************/
+
+//OK
+//check checkState for 5
+assert checkState{
+	all r : Ride | #r.taxiDriver = 1 implies r.state = HANDLED or r.state = ENDED
 }
 
-pred show{}
-
-// RUNS
-//run show for 20
-//run showDuplicateReservations for 5
-
-
-
-assert d{
-	all r : Reservation | r.state = HANDLED implies r.
+//OK
+//check checkZone for 5
+assert checkZone{
+	all r : NormalRide | r.state = HANDLED implies r.taxiDriver.currentZone = r.requestingUser.currentZone
 }
+
+
+//OK
+//check tDriverAvailability for 5 but 1 NormalRide
+assert tDriverAvailability{
+	all t : TaxiDriver | all r : NormalRide | all c : Customer |
+		(r.taxiDriver = t and r.state = HANDLED and r.requestingUser = c)
+			implies c.currentZone = t.currentZone
+}
+
+//OK
+//check deletedCannotBeEnded for 5
+assert deletedCannotBeEnded{
+	no r : Reservation | r.deleted = True and r.state = ENDED 
+}
+
