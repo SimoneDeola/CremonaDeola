@@ -76,35 +76,35 @@
 \contentsline {subsection}{\numberline {3.4.2}UML Class Diagram}{44}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}UML Interaction Diagrams}{45}{subsection.3.4.3}
 \contentsline {subsubsection}{\numberline {3.4.3.1}Registration through the creation of a new myTaxiService account.}{45}{subsubsection.3.4.3.1}
-\contentsline {subsubsection}{\numberline {3.4.3.2}Registration using a Facebook account.}{46}{subsubsection.3.4.3.2}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Registration using a Facebook account.}{47}{subsubsection.3.4.3.2}
 \contentsline {subsubsection}{\numberline {3.4.3.3}Taxi Driver Registration}{48}{subsubsection.3.4.3.3}
-\contentsline {subsubsection}{\numberline {3.4.3.4}Registered User Login}{49}{subsubsection.3.4.3.4}
+\contentsline {subsubsection}{\numberline {3.4.3.4}Registered User Login}{50}{subsubsection.3.4.3.4}
 \contentsline {subsubsection}{\numberline {3.4.3.5}Customer Facebook Login}{51}{subsubsection.3.4.3.5}
-\contentsline {subsubsection}{\numberline {3.4.3.6}Profile Modification}{51}{subsubsection.3.4.3.6}
+\contentsline {subsubsection}{\numberline {3.4.3.6}Profile Modification}{52}{subsubsection.3.4.3.6}
 \contentsline {subsubsection}{\numberline {3.4.3.7}Password Retreival}{53}{subsubsection.3.4.3.7}
-\contentsline {subsubsection}{\numberline {3.4.3.8}Taxi Driver Reporting}{54}{subsubsection.3.4.3.8}
+\contentsline {subsubsection}{\numberline {3.4.3.8}Taxi Driver Reporting}{55}{subsubsection.3.4.3.8}
 \contentsline {subsubsection}{\numberline {3.4.3.9}Customer Reporting}{55}{subsubsection.3.4.3.9}
 \contentsline {subsubsection}{\numberline {3.4.3.10}Request a Taxi}{56}{subsubsection.3.4.3.10}
 \contentsline {subsubsection}{\numberline {3.4.3.11}Reserve a Taxi}{57}{subsubsection.3.4.3.11}
 \contentsline {subsubsection}{\numberline {3.4.3.12}Delete a Reservation}{58}{subsubsection.3.4.3.12}
-\contentsline {subsubsection}{\numberline {3.4.3.13}Accept or Decline a Ride Request}{59}{subsubsection.3.4.3.13}
-\contentsline {subsubsection}{\numberline {3.4.3.14}Taxi Driver Availability Notification}{60}{subsubsection.3.4.3.14}
-\contentsline {subsection}{\numberline {3.4.4}State Machine Diagrams}{61}{subsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.4.1}Taxi Request State Machine}{62}{subsubsection.3.4.4.1}
-\contentsline {subsubsection}{\numberline {3.4.4.2}Taxi Driver State Machine}{62}{subsubsection.3.4.4.2}
-\contentsline {section}{\numberline {3.5}Non Functional Requirements}{62}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{63}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{63}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{63}{subsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.3.1}Adaptibility}{63}{subsubsection.3.5.3.1}
-\contentsline {subsubsection}{\numberline {3.5.3.2}Availability}{63}{subsubsection.3.5.3.2}
-\contentsline {subsubsection}{\numberline {3.5.3.3}Compatibility}{63}{subsubsection.3.5.3.3}
-\contentsline {subsubsection}{\numberline {3.5.3.4}Fault-Tolerance}{63}{subsubsection.3.5.3.4}
-\contentsline {subsubsection}{\numberline {3.5.3.5}Maintainability}{64}{subsubsection.3.5.3.5}
-\contentsline {subsubsection}{\numberline {3.5.3.6}Modularity}{64}{subsubsection.3.5.3.6}
-\contentsline {subsubsection}{\numberline {3.5.3.7}Portability}{64}{subsubsection.3.5.3.7}
-\contentsline {subsubsection}{\numberline {3.5.3.8}Simplicity}{64}{subsubsection.3.5.3.8}
-\contentsline {subsection}{\numberline {3.5.4}Security}{64}{subsection.3.5.4}
-\contentsline {subsubsection}{\numberline {3.5.4.1}Application and User Interface Side}{64}{subsubsection.3.5.4.1}
-\contentsline {subsubsection}{\numberline {3.5.4.2}Server Side}{65}{subsubsection.3.5.4.2}
-\contentsline {chapter}{\numberline {4}Appendix}{66}{chapter.4}
+\contentsline {subsubsection}{\numberline {3.4.3.13}Accept or Decline a Ride Request}{60}{subsubsection.3.4.3.13}
+\contentsline {subsubsection}{\numberline {3.4.3.14}Taxi Driver Availability Notification}{61}{subsubsection.3.4.3.14}
+\contentsline {subsection}{\numberline {3.4.4}State Machine Diagrams}{62}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Taxi Request State Machine}{63}{subsubsection.3.4.4.1}
+\contentsline {subsubsection}{\numberline {3.4.4.2}Taxi Driver State Machine}{63}{subsubsection.3.4.4.2}
+\contentsline {section}{\numberline {3.5}Non Functional Requirements}{63}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Performance Requirements}{64}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Design Constraints}{64}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Software System Attributes}{64}{subsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.3.1}Adaptibility}{64}{subsubsection.3.5.3.1}
+\contentsline {subsubsection}{\numberline {3.5.3.2}Availability}{64}{subsubsection.3.5.3.2}
+\contentsline {subsubsection}{\numberline {3.5.3.3}Compatibility}{64}{subsubsection.3.5.3.3}
+\contentsline {subsubsection}{\numberline {3.5.3.4}Fault-Tolerance}{64}{subsubsection.3.5.3.4}
+\contentsline {subsubsection}{\numberline {3.5.3.5}Maintainability}{65}{subsubsection.3.5.3.5}
+\contentsline {subsubsection}{\numberline {3.5.3.6}Modularity}{65}{subsubsection.3.5.3.6}
+\contentsline {subsubsection}{\numberline {3.5.3.7}Portability}{65}{subsubsection.3.5.3.7}
+\contentsline {subsubsection}{\numberline {3.5.3.8}Simplicity}{65}{subsubsection.3.5.3.8}
+\contentsline {subsection}{\numberline {3.5.4}Security}{65}{subsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.4.1}Application and User Interface Side}{65}{subsubsection.3.5.4.1}
+\contentsline {subsubsection}{\numberline {3.5.4.2}Server Side}{66}{subsubsection.3.5.4.2}
+\contentsline {chapter}{\numberline {4}Appendix}{67}{chapter.4}
