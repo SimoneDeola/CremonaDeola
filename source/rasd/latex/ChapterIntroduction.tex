@@ -60,6 +60,17 @@
 	\section{Definitions, Acronyms, Abbreviations}
 		
 		\subsection{Definitions}
+			\begin{itemize} 
+			
+				\item Requesting User: user that requests a taxi ride. This ride can be a Reservation or a Normal ride.
+				
+				\item Reservation (or "Reserve a Ride") : A ride that is reserved for a future journey, the taxi is not called immediately 				but will be called at the time decided by the user.
+				
+				\item Normal Ride: A ride that is call to be handled as soon as possible. If is not specified, a ride is considered as a 						normal ride.
+				
+				\item Zone: We decide to divide the city area into zone. this organization is done to optimize the service. The shape 						and the dimension of this zone is not decided yet.
+				
+				\item Zone Queue: This Queue is composed of taxi drivers. With this queue we can organize the taxi, in order of 						priority, to optimize the service. Each Zone will have exactly one Queue of TaxiDrivers.
 
 		\subsection{Acronyms}
 			\begin{itemize}
@@ -75,9 +86,10 @@
 
 		\subsection{Abbreviations}
 			\begin{itemize}
-				\item G.x is the x-Goal
-				\item Req.x is the x-Functional Requirement
-				\item Dom.x is the x-Domain Assumption
+				\item G.x is the x-Goal.
+				\item Req.x is the x-Functional Requirement.
+				\item Dom.x is the x-Domain Assumption.
+				\item S.x is the x-Scenario.
 			\end{itemize}
 		
 	\section{Reference documents}
@@ -89,4 +101,4 @@
 	Until now, we have given a general explanation about the software functionalities and a brief description of this document. Now we will describe what the rest of this RASD contains.\\
 	In Section 2 we will focus more on system constraints and assumptions.\\
 	In Section 3 we will describe requirements, typical scenarios and use-cases. In this section there is also a collection of UML diagrams that describes in particular the functionalities of the system.\\
-	In Section 4 we will describe
+	In Section 4 we will describe the alloy documentation about our system and describe all the software used to make this document.
