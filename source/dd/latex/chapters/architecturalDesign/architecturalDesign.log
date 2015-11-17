@@ -1,11 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  17 NOV 2015 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  17 NOV 2015 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**dd
-(./dd.tex
+**architecturalDesign
+(./architecturalDesign.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 21 languages loaded.
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../../dd.tex'
+(../../dd.tex
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/size10.clo
@@ -26,8 +36,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -261,7 +271,7 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks18
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
@@ -290,13 +300,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks17
-\verbatim@line=\toks18
-\verbatim@in@stream=\read1
-))
+)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -342,7 +346,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -351,8 +354,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen106
@@ -416,23 +423,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip43
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 17.
- (./dd.aux)
-\openout1 = `dd.aux'.
+)) (./architecturalDesign.aux)
+\openout1 = `architecturalDesign.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -470,7 +477,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 3.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -481,119 +488,58 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count106
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
- (./dd.out) (./dd.out)
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+ (./architecturalDesign.out) (./architecturalDesign.out)
 \@outlinefile=\write3
-\openout3 = `dd.out'.
+\openout3 = `architecturalDesign.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
- [1
 
-{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
-/dd.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-)
-\tf@toc=\write4
-\openout4 = `dd.toc'.
-
- (./chapters/introduction/introduction.texpdfTeX warning (ext4): destination wi
-th the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 	\chapter
-             {Introduction} [1
-
-]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 8.
-LaTeX Font Info:    No file OMScmss.fd. on input line 8.
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 8.
-
-(./chapters/introduction/sections/purpose/purpose.tex)
-(./chapters/introduction/sections/scope/scope.tex [2
-
-])
-(./chapters/introduction/sections/definitionsAcronymsAbbreviations/definitionsA
-cronymsAbbreviations.tex)
-(./chapters/introduction/sections/referenceDocuments/referenceDocuments.tex)
-(./chapters/introduction/sections/documentStructure/documentStructure.tex
-[3])) (./chapters/architecturalDesign/architecturalDesign.tex [4]
-Chapter 2.
-(./chapters/architecturalDesign/sections/overview/overview.tex)
-(./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/highLevelComponentsAndTheirInteraction.tex)
-(./chapters/architecturalDesign/sections/componentView/componentView.tex)
-(./chapters/architecturalDesign/sections/deploymentView/deploymentView.tex)
-(./chapters/architecturalDesign/sections/runtimeView/runtimeView.tex)
-(./chapters/architecturalDesign/sections/componentInterfaces/componentInterface
-s.tex)
-(./chapters/architecturalDesign/sections/selectedArchitecturalStylesAndPatterns
-/selectedArchitecturalStylesAndPatterns.tex)
-(./chapters/architecturalDesign/sections/otherDesignDecisions/otherDesignDecisi
-ons.tex [5
-
-])) (./chapters/algorithmDesign/algorithmDesign.tex [6]
-Chapter 3.
-) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [7
-
-]
-Chapter 4.
-) (./chapters/requirementsTraceability/requirementsTraceability.tex [8
-
-]
-Chapter 5.
-) (./chapters/references/references.tex [9
-
-]
-Chapter 6.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
- [10
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
- (./dd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
-Package rerunfilecheck Info: File `dd.out' has not changed.
-(rerunfilecheck)             Checksum: ED079C56DD04AFF9CB49D11A79F85B0C;1377.
+(./sections/overview/overview.tex)
+(./sections/highLevelComponentsAndTheirInteraction/highLevelComponentsAndTheirI
+nteraction.tex) (./sections/componentView/componentView.tex)
+(./sections/deploymentView/deploymentView.tex)
+(./sections/runtimeView/runtimeView.tex)
+(./sections/componentInterfaces/componentInterfaces.tex)
+(./sections/selectedArchitecturalStylesAndPatterns/selectedArchitecturalStylesA
+ndPatterns.tex) (./sections/otherDesignDecisions/otherDesignDecisions.tex
+[1
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+ (./architecturalDesign.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
+
+Package rerunfilecheck Warning: File `architecturalDesign.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `architecturalDesign.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  1383DAC21F0007D328D9E08F12EDEE5E;599.
  ) 
 Here is how much of TeX's memory you used:
- 5880 strings out of 494501
- 89012 string characters out of 6167029
- 173260 words of memory out of 5000000
- 8996 multiletter control sequences out of 15000+600000
- 9977 words of font info for 35 fonts, out of 8000000 for 9000
+ 5771 strings out of 494501
+ 86159 string characters out of 6167029
+ 170574 words of memory out of 5000000
+ 8959 multiletter control sequences out of 15000+600000
+ 5440 words of font info for 20 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,6n,30p,408b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,29p,293b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb>
-Output written on dd.pdf (11 pages, 64632 bytes).
+mssbx10.pfb>
+Output written on architecturalDesign.pdf (2 pages, 27264 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
