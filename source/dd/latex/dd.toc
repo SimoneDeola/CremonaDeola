@@ -13,9 +13,9 @@
 \contentsline {section}{\numberline {2.2}High Level Components and Their Interaction}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Data Tier}{6}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Logic Tier}{7}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Presentation Tier}{7}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Component View}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Deployment View}{7}{section.2.4}
+\contentsline {subsection}{\numberline {2.2.3}Presentation Tier}{8}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Component View}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}Deployment View}{8}{section.2.4}
 \contentsline {section}{\numberline {2.5}Runtime View}{8}{section.2.5}
 \contentsline {section}{\numberline {2.6}Component Interfaces}{8}{section.2.6}
 \contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{8}{section.2.7}
