@@ -15,12 +15,15 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{Presentation Tier}{section.2.2}% 15
 \BOOKMARK [2][-]{subsection.2.2.4}{Schema}{section.2.2}% 16
 \BOOKMARK [1][-]{section.2.3}{Component View}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.4}{Deployment View}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.5}{Runtime View}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.6}{Component Interfaces}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.7}{Selected Architectural Styles and Patterns}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.8}{Other Design Decisions}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 23
-\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 24
-\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 25
-\BOOKMARK [0][-]{chapter.6}{References}{}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Data Tier}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Logic Tier}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.3}{Presentation Tier}{section.2.3}% 20
+\BOOKMARK [1][-]{section.2.4}{Deployment View}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.5}{Runtime View}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.6}{Component Interfaces}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.7}{Selected Architectural Styles and Patterns}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.8}{Other Design Decisions}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 26
+\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 27
+\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 28
+\BOOKMARK [0][-]{chapter.6}{References}{}% 29
