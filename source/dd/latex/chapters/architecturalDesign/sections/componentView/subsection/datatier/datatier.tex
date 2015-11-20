@@ -1,0 +1,18 @@
+\documentclass[../../../../../../dd.tex]{subfiles}
+
+\begin{document}
+
+	\subsection{Data Tier}
+	This part represent the model of the system ( using a MVC architecture ), so the class we use in this section was the representation of the information that must be stored to use the system.
+	\subsubsection{Database} the database is the data structure we don't specify the classes used by this structure, all the information we store are managed by the Database Manager.
+	\subsubsection{Database Manager}
+	The main classes used to represent the stored data of our application are:
+	\begin{itemize}
+	\item{Registered User}: this class contains the information about the registered user.
+	\item{Taxi Driver}: this class extends represent the information about the taxi drivers 
+	\item{Customer}: this class represent the information about the customers
+	\item{Zone}: this class represent the information about the zones. On this class we store also the queue of the taxi driver that are available on this specific zone.
+	\item{Request}: this class represent the information of the requests for a ride.
+	\item{Reservation}: this class extends the request taxi by adding information about the starting and the end position, and the time of the meeting. Adding this information we can represent the reservation in our system.
+	 
+\end{document}
