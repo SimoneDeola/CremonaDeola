@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  20 NOV 2015 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  20 NOV 2015 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,7 +541,7 @@ cronymsAbbreviations.tex)
 [3])) (./chapters/architecturalDesign/architecturalDesign.tex [4]
 Chapter 2.
 (./chapters/architecturalDesign/sections/overview/overview.tex
-<../../rasd/IMG/ServerArchitecture.png, id=157, 672.5125pt x 374.39874pt>
+<../../rasd/IMG/ServerArchitecture.png, id=162, 672.5125pt x 374.39874pt>
 File: ../../rasd/IMG/ServerArchitecture.png Graphic file (type png)
 
 <use ../../rasd/IMG/ServerArchitecture.png>
@@ -559,32 +559,41 @@ ne 11.
 (./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
 /subsections/logicTier/logicTier.tex [7])
 (./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/subsections/presentationTier/presentationTier.tex))
+/subsections/presentationTier/presentationTier.tex)
+<../images/HighLevelComponents.png, id=179, 833.1125pt x 1143.27126pt>
+File: ../images/HighLevelComponents.png Graphic file (type png)
+
+<use ../images/HighLevelComponents.png>
+Package pdftex.def Info: ../images/HighLevelComponents.png used on input line 1
+9.
+(pdftex.def)             Requested size: 416.55524pt x 571.63423pt.
+ [8])
 (./chapters/architecturalDesign/sections/componentView/componentView.tex)
-(./chapters/architecturalDesign/sections/deploymentView/deploymentView.tex)
+(./chapters/architecturalDesign/sections/deploymentView/deploymentView.tex
+[9 <../images/HighLevelComponents.png>])
 (./chapters/architecturalDesign/sections/runtimeView/runtimeView.tex)
 (./chapters/architecturalDesign/sections/componentInterfaces/componentInterface
 s.tex)
 (./chapters/architecturalDesign/sections/selectedArchitecturalStylesAndPatterns
 /selectedArchitecturalStylesAndPatterns.tex)
 (./chapters/architecturalDesign/sections/otherDesignDecisions/otherDesignDecisi
-ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [8]
+ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [10]
 Chapter 3.
-) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [9
+) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [11
 
 ]
 Chapter 4.
-) (./chapters/requirementsTraceability/requirementsTraceability.tex [10
+) (./chapters/requirementsTraceability/requirementsTraceability.tex [12
 
 ]
 Chapter 5.
-) (./chapters/references/references.tex [11
+) (./chapters/references/references.tex [13
 
 ]
 Chapter 6.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [12
+ [14
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
@@ -592,7 +601,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `dd.out' has not changed.
-(rerunfilecheck)             Checksum: 147BA24A69B1583908445DB0D89F1052;1575.
+(rerunfilecheck)             Checksum: 233DE8FA158F38CE057C7B175ED29763;1635.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -600,10 +609,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5967 strings out of 494501
- 91187 string characters out of 6167029
- 174668 words of memory out of 5000000
- 9058 multiletter control sequences out of 15000+600000
+ 5979 strings out of 494501
+ 91454 string characters out of 6167029
+ 174732 words of memory out of 5000000
+ 9064 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  29i,7n,31p,756b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -613,10 +622,10 @@ mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on dd.pdf (13 pages, 98365 bytes).
+Output written on dd.pdf (15 pages, 157900 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 

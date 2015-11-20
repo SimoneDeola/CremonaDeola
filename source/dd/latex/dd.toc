@@ -14,13 +14,14 @@
 \contentsline {subsection}{\numberline {2.2.1}Data Tier}{6}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Logic Tier}{7}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Presentation Tier}{8}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Component View}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}Deployment View}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}Runtime View}{8}{section.2.5}
-\contentsline {section}{\numberline {2.6}Component Interfaces}{8}{section.2.6}
-\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{8}{section.2.7}
-\contentsline {section}{\numberline {2.8}Other Design Decisions}{8}{section.2.8}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{10}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{12}{chapter.6}
+\contentsline {subsection}{\numberline {2.2.4}Schema}{8}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Component View}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Deployment View}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}Runtime View}{10}{section.2.5}
+\contentsline {section}{\numberline {2.6}Component Interfaces}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{10}{section.2.7}
+\contentsline {section}{\numberline {2.8}Other Design Decisions}{10}{section.2.8}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{11}{chapter.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{12}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{13}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{14}{chapter.6}
