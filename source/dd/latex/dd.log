@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  23 NOV 2015 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  24 NOV 2015 11:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,12 +573,12 @@ Package pdftex.def Info: ../images/HighLevelComponents.png used on input line 1
 (./chapters/architecturalDesign/sections/componentView/componentView.tex
 [9 <../images/HighLevelComponents.png>]
 (./chapters/architecturalDesign/sections/componentView/subsection/datatier/data
-tier.tex <../images/DataTier.png, id=205, 766.865pt x 599.23875pt>
+tier.tex <../images/DataTier.png, id=205, 895.345pt x 599.23875pt>
 File: ../images/DataTier.png Graphic file (type png)
 
 <use ../images/DataTier.png>
 Package pdftex.def Info: ../images/DataTier.png used on input line 24.
-(pdftex.def)             Requested size: 383.43156pt x 299.61864pt.
+(pdftex.def)             Requested size: 447.6714pt x 299.61864pt.
  [10])
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/log
 ictier.tex
@@ -600,32 +600,39 @@ subsection/profileManager/profileManager.tex)
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
 subsection/facebookAPIManager/facebookAPIManager.tex))
 (./chapters/architecturalDesign/sections/componentView/subsection/presentationt
-ier/presentationtier.tex))
+ier/presentationtier.tex [13 <../images/IOManager.png>]
+<../images/PresentationTier.png, id=233, 805.0075pt x 612.2875pt>
+File: ../images/PresentationTier.png Graphic file (type png)
+
+<use ../images/PresentationTier.png>
+Package pdftex.def Info: ../images/PresentationTier.png used on input line 10.
+(pdftex.def)             Requested size: 402.50278pt x 306.143pt.
+))
 (./chapters/architecturalDesign/sections/deploymentView/deploymentView.tex)
-(./chapters/architecturalDesign/sections/runtimeView/runtimeView.tex [13 <../im
-ages/IOManager.png>])
+(./chapters/architecturalDesign/sections/runtimeView/runtimeView.tex [14 <../im
+ages/PresentationTier.png>])
 (./chapters/architecturalDesign/sections/componentInterfaces/componentInterface
 s.tex)
 (./chapters/architecturalDesign/sections/selectedArchitecturalStylesAndPatterns
 /selectedArchitecturalStylesAndPatterns.tex)
 (./chapters/architecturalDesign/sections/otherDesignDecisions/otherDesignDecisi
-ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [14]
+ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [15]
 Chapter 3.
-) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [15
+) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [16
 
 ]
 Chapter 4.
-) (./chapters/requirementsTraceability/requirementsTraceability.tex [16
+) (./chapters/requirementsTraceability/requirementsTraceability.tex [17
 
 ]
 Chapter 5.
-) (./chapters/references/references.tex [17
+) (./chapters/references/references.tex [18
 
 ]
 Chapter 6.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [18
+ [19
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
@@ -638,25 +645,28 @@ Package rerunfilecheck Info: File `dd.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 6043 strings out of 493089
- 94172 string characters out of 6134841
+ 6051 strings out of 493089
+ 94362 string characters out of 6134841
  179360 words of memory out of 5000000
- 9282 multiletter control sequences out of 15000+600000
+ 9287 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,7n,31p,760b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,7n,31p,1234b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on dd.pdf (19 pages, 232227 bytes).
+Output written on dd.pdf (20 pages, 263439 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

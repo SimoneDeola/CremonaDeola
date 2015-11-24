@@ -26,12 +26,12 @@
 \contentsline {subsubsection}{Profile Manager}{14}{section*.7}
 \contentsline {subsubsection}{Facebook API Manager}{14}{section*.8}
 \contentsline {subsection}{\numberline {2.3.3}Presentation Tier}{14}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Deployment View}{14}{section.2.4}
-\contentsline {section}{\numberline {2.5}Runtime View}{14}{section.2.5}
-\contentsline {section}{\numberline {2.6}Component Interfaces}{14}{section.2.6}
-\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{14}{section.2.7}
-\contentsline {section}{\numberline {2.8}Other Design Decisions}{14}{section.2.8}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{15}{chapter.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{16}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{17}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{18}{chapter.6}
+\contentsline {section}{\numberline {2.4}Deployment View}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Runtime View}{15}{section.2.5}
+\contentsline {section}{\numberline {2.6}Component Interfaces}{15}{section.2.6}
+\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{15}{section.2.7}
+\contentsline {section}{\numberline {2.8}Other Design Decisions}{15}{section.2.8}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{16}{chapter.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{17}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{18}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{19}{chapter.6}
