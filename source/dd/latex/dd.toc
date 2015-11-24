@@ -21,17 +21,17 @@
 \contentsline {subsubsection}{Database Manager}{10}{section*.3}
 \contentsline {subsection}{\numberline {2.3.2}Logic Tier}{11}{subsection.2.3.2}
 \contentsline {subsubsection}{IO Manager}{11}{section*.4}
-\contentsline {subsubsection}{Requests and Reservations Manager}{14}{section*.5}
-\contentsline {subsubsection}{Zones Manager}{14}{section*.6}
-\contentsline {subsubsection}{Profile Manager}{14}{section*.7}
-\contentsline {subsubsection}{Facebook API Manager}{14}{section*.8}
-\contentsline {subsection}{\numberline {2.3.3}Presentation Tier}{14}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Deployment View}{15}{section.2.4}
-\contentsline {section}{\numberline {2.5}Runtime View}{15}{section.2.5}
-\contentsline {section}{\numberline {2.6}Component Interfaces}{15}{section.2.6}
-\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{15}{section.2.7}
-\contentsline {section}{\numberline {2.8}Other Design Decisions}{15}{section.2.8}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{16}{chapter.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{17}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{18}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{19}{chapter.6}
+\contentsline {subsubsection}{Requests and Reservations Manager}{13}{section*.5}
+\contentsline {subsubsection}{Zones Manager}{15}{section*.6}
+\contentsline {subsubsection}{Profile Manager}{16}{section*.7}
+\contentsline {subsubsection}{Facebook API Manager}{17}{section*.8}
+\contentsline {subsection}{\numberline {2.3.3}Presentation Tier}{18}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Deployment View}{19}{section.2.4}
+\contentsline {section}{\numberline {2.5}Runtime View}{19}{section.2.5}
+\contentsline {section}{\numberline {2.6}Component Interfaces}{19}{section.2.6}
+\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{19}{section.2.7}
+\contentsline {section}{\numberline {2.8}Other Design Decisions}{20}{section.2.8}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{21}{chapter.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{22}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{23}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{24}{chapter.6}
