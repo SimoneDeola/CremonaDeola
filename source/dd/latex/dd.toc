@@ -31,20 +31,20 @@
 \contentsline {subsection}{\numberline {2.5.2}Registration Using Facebook Account}{21}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Taxi Driver Registration}{22}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Registered User Login}{23}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Customer Facebook Login}{24}{subsection.2.5.5}
-\contentsline {subsection}{\numberline {2.5.6}Profile Modification}{24}{subsection.2.5.6}
-\contentsline {subsection}{\numberline {2.5.7}Password Retreival}{24}{subsection.2.5.7}
-\contentsline {subsection}{\numberline {2.5.8}Taxi Driver Reporting}{24}{subsection.2.5.8}
-\contentsline {subsection}{\numberline {2.5.9}Customer Reporting}{24}{subsection.2.5.9}
-\contentsline {subsection}{\numberline {2.5.10}Request A Taxi}{24}{subsection.2.5.10}
-\contentsline {subsection}{\numberline {2.5.11}Reserve A Taxi}{24}{subsection.2.5.11}
-\contentsline {subsection}{\numberline {2.5.12}Delete A Reservation}{24}{subsection.2.5.12}
-\contentsline {subsection}{\numberline {2.5.13}Accept Or Decline a Ride Request}{24}{subsection.2.5.13}
-\contentsline {subsection}{\numberline {2.5.14}Taxi Driver Availability Notification}{24}{subsection.2.5.14}
-\contentsline {section}{\numberline {2.6}Component Interfaces}{24}{section.2.6}
-\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{24}{section.2.7}
-\contentsline {section}{\numberline {2.8}Other Design Decisions}{24}{section.2.8}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{25}{chapter.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{26}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{27}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{28}{chapter.6}
+\contentsline {subsection}{\numberline {2.5.5}Customer Facebook Login}{25}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}Profile Modification}{25}{subsection.2.5.6}
+\contentsline {subsection}{\numberline {2.5.7}Password Retreival}{25}{subsection.2.5.7}
+\contentsline {subsection}{\numberline {2.5.8}Taxi Driver Reporting}{25}{subsection.2.5.8}
+\contentsline {subsection}{\numberline {2.5.9}Customer Reporting}{26}{subsection.2.5.9}
+\contentsline {subsection}{\numberline {2.5.10}Request A Taxi}{27}{subsection.2.5.10}
+\contentsline {subsection}{\numberline {2.5.11}Reserve A Taxi}{27}{subsection.2.5.11}
+\contentsline {subsection}{\numberline {2.5.12}Delete A Reservation}{27}{subsection.2.5.12}
+\contentsline {subsection}{\numberline {2.5.13}Accept Or Decline a Ride Request}{27}{subsection.2.5.13}
+\contentsline {subsection}{\numberline {2.5.14}Taxi Driver Availability Notification}{27}{subsection.2.5.14}
+\contentsline {section}{\numberline {2.6}Component Interfaces}{27}{section.2.6}
+\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{27}{section.2.7}
+\contentsline {section}{\numberline {2.8}Other Design Decisions}{27}{section.2.8}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{28}{chapter.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{29}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{31}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{32}{chapter.6}
