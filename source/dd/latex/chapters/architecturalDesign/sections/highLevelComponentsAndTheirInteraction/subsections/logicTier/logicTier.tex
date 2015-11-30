@@ -18,8 +18,6 @@
 			\item \textbf{Profile Manager:} This component receives requests by the IO Manager that concerns the visualization or the modification of the users profiles. It checks if the modifications can take place and then calls Database Manager functions to modify the database entries. Once a modification is performed, then this components will send a notification to the user by calling the right IO Manager function.
 			\\
 			Another task of this component is to provide registration and login functions to the users interacting with the Database Manager.
-
-			\item \textbf{Facebook API Manager:} The Facebook API Manager is in charge to communicate with the Facebook system to perform Facebook Login and Registration. Once the transactions with the Facebook system is ended, then all the data are communicated to the Profile Manager as for a normal Login or Registration.
 			
 		\end{itemize}
 	

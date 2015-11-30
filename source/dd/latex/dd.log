@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  26 NOV 2015 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 NOV 2015 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,18 +510,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
-)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 ...lete A Reservation}{24}{subsection.2.5.12}
+                                                   [1
+
+])
 \tf@toc=\write4
 \openout4 = `dd.toc'.
 
- (./chapters/introduction/introduction.texpdfTeX warning (ext4): destination wi
-th the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 	\chapter
-             {Introduction} [1
 
-]
+(./chapters/introduction/introduction.tex [2]
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OMS+cmss on input line 8.
 LaTeX Font Info:    No file OMScmss.fd. on input line 8.
@@ -531,149 +532,196 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              for symbol `textbullet' on input line 8.
 
 (./chapters/introduction/sections/purpose/purpose.tex)
-(./chapters/introduction/sections/scope/scope.tex [2
+(./chapters/introduction/sections/scope/scope.tex [3
 
 ])
 (./chapters/introduction/sections/definitionsAcronymsAbbreviations/definitionsA
 cronymsAbbreviations.tex)
 (./chapters/introduction/sections/referenceDocuments/referenceDocuments.tex)
 (./chapters/introduction/sections/documentStructure/documentStructure.tex
-[3])) (./chapters/architecturalDesign/architecturalDesign.tex [4]
+[4])) (./chapters/architecturalDesign/architecturalDesign.tex [5]
 Chapter 2.
 (./chapters/architecturalDesign/sections/overview/overview.tex
-<../../rasd/IMG/ServerArchitecture.png, id=177, 672.5125pt x 374.39874pt>
+<../../rasd/IMG/ServerArchitecture.png, id=252, 672.5125pt x 374.39874pt>
 File: ../../rasd/IMG/ServerArchitecture.png Graphic file (type png)
 
 <use ../../rasd/IMG/ServerArchitecture.png>
 Package pdftex.def Info: ../../rasd/IMG/ServerArchitecture.png used on input li
 ne 11.
 (pdftex.def)             Requested size: 336.25542pt x 187.19891pt.
- [5
+ [6
 
 ])
 (./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
 /highLevelComponentsAndTheirInteraction.tex
 (./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/subsections/dataTier/dataTier.tex [6 <../../rasd/IMG/ServerArchitecture.png>])
+/subsections/dataTier/dataTier.tex [7 <../../rasd/IMG/ServerArchitecture.png>])
 
 (./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/subsections/logicTier/logicTier.tex [7])
+/subsections/logicTier/logicTier.tex)
 (./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/subsections/presentationTier/presentationTier.tex)
-<../images/HighLevelComponents.png, id=194, 833.1125pt x 1143.27126pt>
+/subsections/presentationTier/presentationTier.tex [8])
+<../images/HighLevelComponents.png, id=269, 833.1125pt x 1143.27126pt>
 File: ../images/HighLevelComponents.png Graphic file (type png)
 
 <use ../images/HighLevelComponents.png>
 Package pdftex.def Info: ../images/HighLevelComponents.png used on input line 1
 9.
 (pdftex.def)             Requested size: 416.55524pt x 571.63423pt.
- [8])
+ [9])
 (./chapters/architecturalDesign/sections/componentView/componentView.tex
-[9 <../images/HighLevelComponents.png>]
+[10 <../images/HighLevelComponents.png>]
 (./chapters/architecturalDesign/sections/componentView/subsection/datatier/data
-tier.tex <../images/DataTier.png, id=205, 895.345pt x 576.1525pt>
+tier.tex <../images/DataTier.png, id=280, 895.345pt x 576.1525pt>
 File: ../images/DataTier.png Graphic file (type png)
 
 <use ../images/DataTier.png>
 Package pdftex.def Info: ../images/DataTier.png used on input line 24.
 (pdftex.def)             Requested size: 447.6714pt x 288.07553pt.
- [10])
+ [11])
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/log
 ictier.tex
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
-subsection/ioManager/ioManager.tex [11 <../images/DataTier.png>]
-<../images/IOManager.png, id=221, 951.555pt x 1179.40625pt>
+subsection/ioManager/ioManager.tex [12 <../images/DataTier.png>]
+<../images/IOManager.png, id=297, 951.555pt x 1179.40625pt>
 File: ../images/IOManager.png Graphic file (type png)
 
 <use ../images/IOManager.png>
 Package pdftex.def Info: ../images/IOManager.png used on input line 41.
 (pdftex.def)             Requested size: 475.77634pt x 589.70169pt.
- [12])
+ [13])
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
 subsection/requestsAndReservationsManager/requestsAndReservationsManager.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
  []
 
-[13 <../images/IOManager.png>]
-<../images/RequestsAndReservationsManager.png, id=234, 1065.9825pt x 995.72pt>
+[14 <../images/IOManager.png>]
+<../images/RequestsAndReservationsManager.png, id=310, 1065.9825pt x 995.72pt>
 File: ../images/RequestsAndReservationsManager.png Graphic file (type png)
 
 <use ../images/RequestsAndReservationsManager.png>
 Package pdftex.def Info: ../images/RequestsAndReservationsManager.png used on i
 nput line 25.
 (pdftex.def)             Requested size: 532.98994pt x 497.85878pt.
- [14])
+ [15])
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
 subsection/zonesManager/zonesManager.tex
-<../images/ZonesManager.png, id=239, 1143.27126pt x 669.50125pt>
+<../images/ZonesManager.png, id=315, 1143.27126pt x 669.50125pt>
 File: ../images/ZonesManager.png Graphic file (type png)
 
 <use ../images/ZonesManager.png>
 Package pdftex.def Info: ../images/ZonesManager.png used on input line 18.
 (pdftex.def)             Requested size: 571.63423pt x 334.7498pt.
- [15 <../images/RequestsAndReservationsManager.png>])
+ [16 <../images/RequestsAndReservationsManager.png>])
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
 subsection/profileManager/profileManager.tex
-<../images/ProfileManager.png, id=247, 1173.38374pt x 905.3825pt>
+<../images/ProfileManager.png, id=323, 1173.38374pt x 905.3825pt>
 File: ../images/ProfileManager.png Graphic file (type png)
 
 <use ../images/ProfileManager.png>
 Package pdftex.def Info: ../images/ProfileManager.png used on input line 21.
 (pdftex.def)             Requested size: 586.69043pt x 452.69014pt.
- [16 <../images/ZonesManager.png>])
-(./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
-subsection/facebookAPIManager/facebookAPIManager.tex
-<../images/FacebookAPIManager.png, id=256, 1034.86626pt x 717.68124pt>
-File: ../images/FacebookAPIManager.png Graphic file (type png)
-
-<use ../images/FacebookAPIManager.png>
-Package pdftex.def Info: ../images/FacebookAPIManager.png used on input line 17
-.
-(pdftex.def)             Requested size: 517.43185pt x 358.83974pt.
- [17 <../images/ProfileManager.png>]))
+ [17 <../images/ZonesManager.png>]))
 (./chapters/architecturalDesign/sections/componentView/subsection/presentationt
 ier/presentationtier.tex
-<../images/PresentationTier.png, id=264, 805.0075pt x 612.2875pt>
+<../images/PresentationTier.png, id=331, 805.0075pt x 612.2875pt>
 File: ../images/PresentationTier.png Graphic file (type png)
 
 <use ../images/PresentationTier.png>
 Package pdftex.def Info: ../images/PresentationTier.png used on input line 10.
 (pdftex.def)             Requested size: 402.50278pt x 306.143pt.
- [18 <../images/FacebookAPIManager.png>]))
+ [18 <../images/ProfileManager.png>]))
 (./chapters/architecturalDesign/sections/deploymentView/deploymentView.tex
 [19 <../images/PresentationTier.png>]
-<../images/Deploy.png, id=279, 744.7825pt x 554.07pt>
+<../images/Deploy.png, id=346, 744.7825pt x 554.07pt>
 File: ../images/Deploy.png Graphic file (type png)
 
 <use ../images/Deploy.png>
 Package pdftex.def Info: ../images/Deploy.png used on input line 18.
 (pdftex.def)             Requested size: 372.39034pt x 277.03432pt.
 )
-(./chapters/architecturalDesign/sections/runtimeView/runtimeView.tex)
+(./chapters/architecturalDesign/sections/runtimeView/runtimeView.tex
+(./chapters/architecturalDesign/sections/runtimeView/subsections/registrationTh
+roughTheCreationOfANewMyTaxiServiceAccount/registrationThroughTheCreationOfANew
+MyTaxiServiceAccount.tex
+<../images/SequenceDiagrams/registrationNewAccount.png, id=347, 917.4275pt x 94
+8.54375pt>
+File: ../images/SequenceDiagrams/registrationNewAccount.png Graphic file (type 
+png)
+ <use ../images/SequenceDiagrams/registrationNewAccount.png>
+Package pdftex.def Info: ../images/SequenceDiagrams/registrationNewAccount.png 
+used on input line 10.
+(pdftex.def)             Requested size: 458.71263pt x 474.2707pt.
+ [20 <../images/Deploy.png>])
+(./chapters/architecturalDesign/sections/runtimeView/subsections/registrationUs
+ingFacebookAccount/registrationUsingFacebookAccount.tex
+<../images/SequenceDiagrams/registrationFacebook.png, id=354, 887.315pt x 1109.
+14375pt>
+File: ../images/SequenceDiagrams/registrationFacebook.png Graphic file (type pn
+g)
+ <use ../images/SequenceDiagrams/registrationFacebook.png>
+Package pdftex.def Info: ../images/SequenceDiagrams/registrationFacebook.png us
+ed on input line 9.
+(pdftex.def)             Requested size: 443.65642pt x 554.57053pt.
+ [21 <../images/SequenceDiagrams/registrationNewAccount.png>])
+(./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverRegi
+stration/taxiDriverRegistration.tex [22 <../images/SequenceDiagrams/registratio
+nFacebook.png>])
+(./chapters/architecturalDesign/sections/runtimeView/subsections/registeredUser
+Login/registeredUserLogin.tex
+<../images/SequenceDiagrams/registeredUserLogin.png, id=369, 756.8275pt x 787.9
+4376pt>
+File: ../images/SequenceDiagrams/registeredUserLogin.png Graphic file (type png
+)
+ <use ../images/SequenceDiagrams/registeredUserLogin.png>
+Package pdftex.def Info: ../images/SequenceDiagrams/registeredUserLogin.png use
+d on input line 9.
+(pdftex.def)             Requested size: 378.41283pt x 393.97092pt.
+)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/customerFacebo
+okLogin/customerFacebookLogin.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/profileModific
+ation/profileModification.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/passwordRetrei
+val/passwordRetreival.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverRepo
+rting/taxiDriverReporting.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/customerReport
+ing/customerReporting.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/requestATaxi/r
+equestATaxi.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/reserveATaxi/r
+eserveATaxi.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/deleteAReserva
+tion/deleteAReservation.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/acceptOrDeclin
+eARideRequest/acceptOrDeclineARideRequest.tex)
+(./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverAvai
+labilityNotification/taxiDriverAvailabilityNotification.tex))
 (./chapters/architecturalDesign/sections/componentInterfaces/componentInterface
 s.tex)
 (./chapters/architecturalDesign/sections/selectedArchitecturalStylesAndPatterns
-/selectedArchitecturalStylesAndPatterns.tex)
+/selectedArchitecturalStylesAndPatterns.tex [23 <../images/SequenceDiagrams/reg
+isteredUserLogin.png>])
 (./chapters/architecturalDesign/sections/otherDesignDecisions/otherDesignDecisi
-ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [20 <../images/Deploy
-.png>] [21]
+ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [24]
 Chapter 3.
-) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [22
+) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [25
 
 ]
 Chapter 4.
-) (./chapters/requirementsTraceability/requirementsTraceability.tex [23
+) (./chapters/requirementsTraceability/requirementsTraceability.tex [26
 
 ]
 Chapter 5.
-) (./chapters/references/references.tex [24
+) (./chapters/references/references.tex [27
 
 ]
 Chapter 6.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [25
+ [28
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
@@ -681,7 +729,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `dd.out' has not changed.
-(rerunfilecheck)             Checksum: 5FC159D15128E243A40F3F00392497B6;1833.
+(rerunfilecheck)             Checksum: 880FCCF51E6E08973EC642E2ED3F36E2;2955.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -689,10 +737,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 6092 strings out of 494501
- 95820 string characters out of 6167029
- 176158 words of memory out of 5000000
- 9108 multiletter control sequences out of 15000+600000
+ 6189 strings out of 494501
+ 101385 string characters out of 6167029
+ 177409 words of memory out of 5000000
+ 9133 multiletter control sequences out of 15000+600000
  9977 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  31i,7n,31p,1230b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -702,10 +750,10 @@ mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on dd.pdf (26 pages, 533616 bytes).
+Output written on dd.pdf (29 pages, 674888 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 375 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 405 words of extra memory for PDF output out of 10000 (max. 10000000)
 

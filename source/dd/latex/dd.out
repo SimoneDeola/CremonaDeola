@@ -20,10 +20,24 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Presentation Tier}{section.2.3}% 20
 \BOOKMARK [1][-]{section.2.4}{Deployment View}{chapter.2}% 21
 \BOOKMARK [1][-]{section.2.5}{Runtime View}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.6}{Component Interfaces}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.7}{Selected Architectural Styles and Patterns}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.8}{Other Design Decisions}{chapter.2}% 25
-\BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 26
-\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 27
-\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 28
-\BOOKMARK [0][-]{chapter.6}{References}{}% 29
+\BOOKMARK [2][-]{subsection.2.5.1}{Registration Through the Creation of a New myTaxiService Account}{section.2.5}% 23
+\BOOKMARK [2][-]{subsection.2.5.2}{Registration Using Facebook Account}{section.2.5}% 24
+\BOOKMARK [2][-]{subsection.2.5.3}{Taxi Driver Registration}{section.2.5}% 25
+\BOOKMARK [2][-]{subsection.2.5.4}{Registered User Login}{section.2.5}% 26
+\BOOKMARK [2][-]{subsection.2.5.5}{Customer Facebook Login}{section.2.5}% 27
+\BOOKMARK [2][-]{subsection.2.5.6}{Profile Modification}{section.2.5}% 28
+\BOOKMARK [2][-]{subsection.2.5.7}{Password Retreival}{section.2.5}% 29
+\BOOKMARK [2][-]{subsection.2.5.8}{Taxi Driver Reporting}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.9}{Customer Reporting}{section.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.5.10}{Request A Taxi}{section.2.5}% 32
+\BOOKMARK [2][-]{subsection.2.5.11}{Reserve A Taxi}{section.2.5}% 33
+\BOOKMARK [2][-]{subsection.2.5.12}{Delete A Reservation}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.13}{Accept Or Decline a Ride Request}{section.2.5}% 35
+\BOOKMARK [2][-]{subsection.2.5.14}{Taxi Driver Availability Notification}{section.2.5}% 36
+\BOOKMARK [1][-]{section.2.6}{Component Interfaces}{chapter.2}% 37
+\BOOKMARK [1][-]{section.2.7}{Selected Architectural Styles and Patterns}{chapter.2}% 38
+\BOOKMARK [1][-]{section.2.8}{Other Design Decisions}{chapter.2}% 39
+\BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 40
+\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 41
+\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 42
+\BOOKMARK [0][-]{chapter.6}{References}{}% 43
