@@ -1,0 +1,46 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{../images/}{../../images/}}
+
+\usepackage{subfiles}
+
+% used to make the table of contents clickable
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% let's change this ugly serif font!
+\renewcommand{\familydefault}{\sfdefault}
+
+
+ 
+\begin{document}
+
+\title{\textbf{myTaxiService} \\-\\ \textbf{Design Document}}
+\author{Davide Cremona (matr. 852365), Simone Deola (matr. 788181)}
+ 
+\maketitle
+
+\tableofcontents
+
+\subfile{chapters/introduction/introduction.tex}
+
+\subfile{chapters/architecturalDesign/architecturalDesign.tex}
+
+\subfile{chapters/algorithmDesign/algorithmDesign.tex}
+
+\subfile{chapters/userInterfaceDesign/userInterfaceDesign.tex}
+
+\subfile{chapters/requirementsTraceability/requirementsTraceability.tex}
+
+\subfile{chapters/references/references.tex}
+ 
+\end{document}
