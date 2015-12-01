@@ -1,11 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  1 DEC 2015 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  1 DEC 2015 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**dd
-(./dd.tex
+**algorithmDesign
+(./algorithmDesign.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 21 languages loaded.
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../../dd.tex'
+(../../dd.tex
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/size10.clo
@@ -26,8 +36,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -261,7 +271,7 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks18
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
@@ -291,20 +301,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count90
-\float@exts=\toks17
+\float@exts=\toks19
 \float@box=\box26
-\@float@everytoks=\toks18
+\@float@everytoks=\toks20
 \@floatcapt=\box27
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks19
-\verbatim@line=\toks20
-\verbatim@in@stream=\read1
-))
+)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/algorithmicx/algorithmicx.st
 y
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
@@ -379,7 +383,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -388,8 +391,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen106
@@ -453,23 +460,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip46
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
- (./dd.aux)
-\openout1 = `dd.aux'.
+)) (./algorithmDesign.aux)
+\openout1 = `algorithmDesign.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -507,7 +514,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 3.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -518,379 +525,58 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count115
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
- (./dd.out) (./dd.out)
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+ (./algorithmDesign.out) (./algorithmDesign.out)
 \@outlinefile=\write3
-\openout3 = `dd.out'.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
- [1
-
-{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
-/dd.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.41 ...lete A Reservation}{31}{subsection.2.5.12}
-                                                   [1
-
-])
-\tf@toc=\write4
-\openout4 = `dd.toc'.
+\openout3 = `algorithmDesign.out'.
 
 
-(./chapters/introduction/introduction.tex [2]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 8.
-LaTeX Font Info:    No file OMScmss.fd. on input line 8.
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 8.
-
-(./chapters/introduction/sections/purpose/purpose.tex)
-(./chapters/introduction/sections/scope/scope.tex [3
-
-])
-(./chapters/introduction/sections/definitionsAcronymsAbbreviations/definitionsA
-cronymsAbbreviations.tex)
-(./chapters/introduction/sections/referenceDocuments/referenceDocuments.tex)
-(./chapters/introduction/sections/documentStructure/documentStructure.tex
-[4])) (./chapters/architecturalDesign/architecturalDesign.tex [5]
-Chapter 2.
-(./chapters/architecturalDesign/sections/overview/overview.tex
-<../../rasd/IMG/ServerArchitecture.png, id=262, 672.5125pt x 374.39874pt>
-File: ../../rasd/IMG/ServerArchitecture.png Graphic file (type png)
-
-<use ../../rasd/IMG/ServerArchitecture.png>
-Package pdftex.def Info: ../../rasd/IMG/ServerArchitecture.png used on input li
-ne 11.
-(pdftex.def)             Requested size: 336.25542pt x 187.19891pt.
- [6
-
-])
-(./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/highLevelComponentsAndTheirInteraction.tex
-(./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/subsections/dataTier/dataTier.tex [7 <../../rasd/IMG/ServerArchitecture.png>])
-
-(./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/subsections/logicTier/logicTier.tex)
-(./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
-/subsections/presentationTier/presentationTier.tex [8])
-<../images/HighLevelComponents.png, id=279, 833.1125pt x 1143.27126pt>
-File: ../images/HighLevelComponents.png Graphic file (type png)
-
-<use ../images/HighLevelComponents.png>
-Package pdftex.def Info: ../images/HighLevelComponents.png used on input line 1
-9.
-(pdftex.def)             Requested size: 416.55524pt x 571.63423pt.
- [9])
-(./chapters/architecturalDesign/sections/componentView/componentView.tex
-[10 <../images/HighLevelComponents.png>]
-(./chapters/architecturalDesign/sections/componentView/subsection/datatier/data
-tier.tex <../images/DataTier.png, id=290, 895.345pt x 576.1525pt>
-File: ../images/DataTier.png Graphic file (type png)
-
-<use ../images/DataTier.png>
-Package pdftex.def Info: ../images/DataTier.png used on input line 24.
-(pdftex.def)             Requested size: 447.6714pt x 288.07553pt.
- [11])
-(./chapters/architecturalDesign/sections/componentView/subsection/logictier/log
-ictier.tex
-(./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
-subsection/ioManager/ioManager.tex [12 <../images/DataTier.png>]
-<../images/IOManager.png, id=308, 951.555pt x 1179.40625pt>
-File: ../images/IOManager.png Graphic file (type png)
-
-<use ../images/IOManager.png>
-Package pdftex.def Info: ../images/IOManager.png used on input line 41.
-(pdftex.def)             Requested size: 475.77634pt x 589.70169pt.
- [13])
-(./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
-subsection/requestsAndReservationsManager/requestsAndReservationsManager.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
-
- []
-
-[14 <../images/IOManager.png>]
-<../images/RequestsAndReservationsManager.png, id=320, 1065.9825pt x 995.72pt>
-File: ../images/RequestsAndReservationsManager.png Graphic file (type png)
-
-<use ../images/RequestsAndReservationsManager.png>
-Package pdftex.def Info: ../images/RequestsAndReservationsManager.png used on i
-nput line 25.
-(pdftex.def)             Requested size: 532.98994pt x 497.85878pt.
- [15])
-(./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
-subsection/zonesManager/zonesManager.tex
-<../images/ZonesManager.png, id=325, 1143.27126pt x 669.50125pt>
-File: ../images/ZonesManager.png Graphic file (type png)
-
-<use ../images/ZonesManager.png>
-Package pdftex.def Info: ../images/ZonesManager.png used on input line 18.
-(pdftex.def)             Requested size: 571.63423pt x 334.7498pt.
- [16 <../images/RequestsAndReservationsManager.png>])
-(./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
-subsection/profileManager/profileManager.tex [17 <../images/ZonesManager.png>]
-<../images/ProfileManager.png, id=340, 1173.38374pt x 905.3825pt>
-File: ../images/ProfileManager.png Graphic file (type png)
-
-<use ../images/ProfileManager.png>
-Package pdftex.def Info: ../images/ProfileManager.png used on input line 24.
-(pdftex.def)             Requested size: 586.69043pt x 452.69014pt.
-))
-(./chapters/architecturalDesign/sections/componentView/subsection/presentationt
-ier/presentationtier.tex
-<../images/PresentationTier.png, id=341, 805.0075pt x 612.2875pt>
-File: ../images/PresentationTier.png Graphic file (type png)
-
-<use ../images/PresentationTier.png>
-Package pdftex.def Info: ../images/PresentationTier.png used on input line 10.
-(pdftex.def)             Requested size: 402.50278pt x 306.143pt.
- [18 <../images/ProfileManager.png>]))
-(./chapters/architecturalDesign/sections/deploymentView/deploymentView.tex
-[19 <../images/PresentationTier.png>]
-<../images/Deploy.png, id=356, 744.7825pt x 554.07pt>
-File: ../images/Deploy.png Graphic file (type png)
-
-<use ../images/Deploy.png>
-Package pdftex.def Info: ../images/Deploy.png used on input line 18.
-(pdftex.def)             Requested size: 372.39034pt x 277.03432pt.
-)
-(./chapters/architecturalDesign/sections/runtimeView/runtimeView.tex
-(./chapters/architecturalDesign/sections/runtimeView/subsections/registrationTh
-roughTheCreationOfANewMyTaxiServiceAccount/registrationThroughTheCreationOfANew
-MyTaxiServiceAccount.tex
-<../images/SequenceDiagrams/registrationNewAccount.png, id=357, 917.4275pt x 94
-8.54375pt>
-File: ../images/SequenceDiagrams/registrationNewAccount.png Graphic file (type 
-png)
- <use ../images/SequenceDiagrams/registrationNewAccount.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/registrationNewAccount.png 
-used on input line 10.
-(pdftex.def)             Requested size: 458.71263pt x 474.2707pt.
- [20 <../images/Deploy.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/registrationUs
-ingFacebookAccount/registrationUsingFacebookAccount.tex
-<../images/SequenceDiagrams/registrationFacebook.png, id=364, 887.315pt x 1109.
-14375pt>
-File: ../images/SequenceDiagrams/registrationFacebook.png Graphic file (type pn
-g)
- <use ../images/SequenceDiagrams/registrationFacebook.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/registrationFacebook.png us
-ed on input line 9.
-(pdftex.def)             Requested size: 443.65642pt x 554.57053pt.
- [21 <../images/SequenceDiagrams/registrationNewAccount.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverRegi
-stration/taxiDriverRegistration.tex [22 <../images/SequenceDiagrams/registratio
-nFacebook.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/registeredUser
-Login/registeredUserLogin.tex
-<../images/SequenceDiagrams/registeredUserLogin.png, id=379, 756.8275pt x 1008.
-76875pt>
-File: ../images/SequenceDiagrams/registeredUserLogin.png Graphic file (type png
-)
- <use ../images/SequenceDiagrams/registeredUserLogin.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/registeredUserLogin.png use
-d on input line 9.
-(pdftex.def)             Requested size: 378.41283pt x 504.38315pt.
- [23])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/customerFacebo
-okLogin/customerFacebookLogin.tex
-<../images/SequenceDiagrams/UserLoginFacebook.png, id=384, 930.47626pt x 1236.6
-2pt>
-File: ../images/SequenceDiagrams/UserLoginFacebook.png Graphic file (type png)
- <use ../images/SequenceDiagrams/UserLoginFacebook.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/UserLoginFacebook.png used 
-on input line 9.
-(pdftex.def)             Requested size: 465.23698pt x 618.30849pt.
- [24 <../images/SequenceDiagrams/registeredUserLogin.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/profileModific
-ation/profileModification.tex
-<../images/SequenceDiagrams/ModifyProfile.png, id=392, 950.55125pt x 1076.02pt>
-File: ../images/SequenceDiagrams/ModifyProfile.png Graphic file (type png)
-<use ../images/SequenceDiagrams/ModifyProfile.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/ModifyProfile.png used on i
-nput line 9.
-(pdftex.def)             Requested size: 475.27446pt x 538.0087pt.
- [25 <../images/SequenceDiagrams/UserLoginFacebook.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/passwordRetrei
-val/passwordRetreival.tex
-<../images/SequenceDiagrams/RetrivePassword.png, id=399, 930.47626pt x 1276.77p
-t>
-File: ../images/SequenceDiagrams/RetrivePassword.png Graphic file (type png)
- <use ../images/SequenceDiagrams/RetrivePassword.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/RetrivePassword.png used on
- input line 9.
-(pdftex.def)             Requested size: 465.23698pt x 638.38344pt.
- [26 <../images/SequenceDiagrams/ModifyProfile.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverRepo
-rting/taxiDriverReporting.tex
-<../images/SequenceDiagrams/taxiDriverReporting.png, id=406, 716.6775pt x 797.9
-8125pt>
-File: ../images/SequenceDiagrams/taxiDriverReporting.png Graphic file (type png
-)
- <use ../images/SequenceDiagrams/taxiDriverReporting.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/taxiDriverReporting.png use
-d on input line 9.
-(pdftex.def)             Requested size: 358.33788pt x 398.98964pt.
- [27 <../images/SequenceDiagrams/RetrivePassword.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/customerReport
-ing/customerReporting.tex
-<../images/SequenceDiagrams/customerReporting.png, id=413, 716.6775pt x 878.281
-25pt>
-File: ../images/SequenceDiagrams/customerReporting.png Graphic file (type png)
- <use ../images/SequenceDiagrams/customerReporting.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/customerReporting.png used 
-on input line 9.
-(pdftex.def)             Requested size: 358.33788pt x 439.13956pt.
- [28 <../images/SequenceDiagrams/taxiDriverReporting.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/requestATaxi/r
-equestATaxi.tex
-<../images/SequenceDiagrams/requestATaxi.png, id=420, 807.015pt x 1018.80624pt>
-File: ../images/SequenceDiagrams/requestATaxi.png Graphic file (type png)
-<use ../images/SequenceDiagrams/requestATaxi.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/requestATaxi.png used on in
-put line 9.
-(pdftex.def)             Requested size: 403.50652pt x 509.40187pt.
- [29 <../images/SequenceDiagrams/customerReporting.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/reserveATaxi/r
-eserveATaxi.tex
-<../images/SequenceDiagrams/reserveATaxi.png, id=427, 885.3075pt x 1176.395pt>
-File: ../images/SequenceDiagrams/reserveATaxi.png Graphic file (type png)
-
-<use ../images/SequenceDiagrams/reserveATaxi.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/reserveATaxi.png used on in
-put line 9.
-(pdftex.def)             Requested size: 442.65266pt x 588.19608pt.
- [30 <../images/SequenceDiagrams/requestATaxi.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/deleteAReserva
-tion/deleteAReservation.tex
-<../images/SequenceDiagrams/deleteReservation.png, id=435, 684.5575pt x 1136.24
-5pt>
-File: ../images/SequenceDiagrams/deleteReservation.png Graphic file (type png)
- <use ../images/SequenceDiagrams/deleteReservation.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/deleteReservation.png used 
-on input line 9.
-(pdftex.def)             Requested size: 342.27791pt x 568.12111pt.
- [31 <../images/SequenceDiagrams/reserveATaxi.png>]
-Overfull \vbox (46.62535pt too high) has occurred while \output is active []
-
-
-[32 <../images/SequenceDiagrams/deleteReservation.png>])
-(./chapters/architecturalDesign/sections/runtimeView/subsections/acceptOrDeclin
-eARideRequest/acceptOrDeclineARideRequest.tex
-<../images/SequenceDiagrams/acceptDeclineRideRequest.png, id=449, 865.2325pt x 
-1176.395pt>
-File: ../images/SequenceDiagrams/acceptDeclineRideRequest.png Graphic file (typ
-e png)
- <use ../images/SequenceDiagrams/acceptDeclineRideRequest.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/acceptDeclineRideRequest.pn
-g used on input line 9.
-(pdftex.def)             Requested size: 432.61519pt x 588.19608pt.
-)
-(./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverAvai
-labilityNotification/taxiDriverAvailabilityNotification.tex
-<../images/SequenceDiagrams/AvailMod.png, id=450, 915.42pt x 895.345pt>
-File: ../images/SequenceDiagrams/AvailMod.png Graphic file (type png)
-
-<use ../images/SequenceDiagrams/AvailMod.png>
-Package pdftex.def Info: ../images/SequenceDiagrams/AvailMod.png used on input 
-line 9.
-(pdftex.def)             Requested size: 457.70888pt x 447.6714pt.
- [33 <../images/SequenceDiagrams/acceptDeclineRideRequest.png>]))
-(./chapters/architecturalDesign/sections/componentInterfaces/componentInterface
-s.tex)
-(./chapters/architecturalDesign/sections/selectedArchitecturalStylesAndPatterns
-/selectedArchitecturalStylesAndPatterns.tex [34 <../images/SequenceDiagrams/Ava
-ilMod.png>]
-Overfull \hbox (9.25053pt too wide) in paragraph at lines 12--13
-\OT1/cmss/m/n/10 Lay-ered Struc-ture (Presentation-Logic-Data) and each Layer h
-ave a Component-
- []
-
-)
-(./chapters/architecturalDesign/sections/otherDesignDecisions/otherDesignDecisi
-ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [35]
-Chapter 3.
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 18.
+put line 9.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 20.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 11.
 
-) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [36
-
-]
-Chapter 4.
-<../images/UserInterfaces.png, id=479, 1197.47375pt x 1162.3425pt>
-File: ../images/UserInterfaces.png Graphic file (type png)
-
-<use ../images/UserInterfaces.png>
-Package pdftex.def Info: ../images/UserInterfaces.png used on input line 11.
-(pdftex.def)             Requested size: 598.73541pt x 581.16983pt.
- [37
-
-])
-(./chapters/requirementsTraceability/requirementsTraceability.tex [38 <../image
-s/UserInterfaces.png>]
-Chapter 5.
-) (./chapters/references/references.tex [39
-
-]
-Chapter 6.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [40
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
- (./dd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-Package rerunfilecheck Info: File `dd.out' has not changed.
-(rerunfilecheck)             Checksum: 6DF9FD45DA736EA9E159F75250991539;3091.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
+[1
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+(./algorithmDesign.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
+Package rerunfilecheck Info: File `algorithmDesign.out' has not changed.
+(rerunfilecheck)             Checksum: FB9000984290378FAE4B14EE82A176E6;51.
  ) 
 Here is how much of TeX's memory you used:
- 6847 strings out of 494501
- 112599 string characters out of 6167029
- 186635 words of memory out of 5000000
- 9742 multiletter control sequences out of 15000+600000
- 10578 words of font info for 37 fonts, out of 8000000 for 9000
+ 6355 strings out of 494501
+ 93798 string characters out of 6167029
+ 180473 words of memory out of 5000000
+ 9564 multiletter control sequences out of 15000+600000
+ 5734 words of font info for 21 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 31i,7n,31p,1230b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,25p,265b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
 10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmss10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on dd.pdf (41 pages, 1435435 bytes).
+msfonts/cm/cmss8.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb>
+Output written on algorithmDesign.pdf (1 page, 64899 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 455 compressed objects within 5 object streams
- 117 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 47 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
