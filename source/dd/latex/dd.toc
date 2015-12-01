@@ -36,15 +36,15 @@
 \contentsline {subsection}{\numberline {2.5.7}Password Retreival}{25}{subsection.2.5.7}
 \contentsline {subsection}{\numberline {2.5.8}Taxi Driver Reporting}{25}{subsection.2.5.8}
 \contentsline {subsection}{\numberline {2.5.9}Customer Reporting}{26}{subsection.2.5.9}
-\contentsline {subsection}{\numberline {2.5.10}Request A Taxi}{27}{subsection.2.5.10}
-\contentsline {subsection}{\numberline {2.5.11}Reserve A Taxi}{27}{subsection.2.5.11}
-\contentsline {subsection}{\numberline {2.5.12}Delete A Reservation}{27}{subsection.2.5.12}
-\contentsline {subsection}{\numberline {2.5.13}Accept Or Decline a Ride Request}{27}{subsection.2.5.13}
-\contentsline {subsection}{\numberline {2.5.14}Taxi Driver Availability Notification}{27}{subsection.2.5.14}
-\contentsline {section}{\numberline {2.6}Component Interfaces}{27}{section.2.6}
-\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{27}{section.2.7}
-\contentsline {section}{\numberline {2.8}Other Design Decisions}{27}{section.2.8}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{28}{chapter.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{29}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{31}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{32}{chapter.6}
+\contentsline {subsection}{\numberline {2.5.10}Request A Taxi}{26}{subsection.2.5.10}
+\contentsline {subsection}{\numberline {2.5.11}Reserve A Taxi}{28}{subsection.2.5.11}
+\contentsline {subsection}{\numberline {2.5.12}Delete A Reservation}{28}{subsection.2.5.12}
+\contentsline {subsection}{\numberline {2.5.13}Accept Or Decline a Ride Request}{28}{subsection.2.5.13}
+\contentsline {subsection}{\numberline {2.5.14}Taxi Driver Availability Notification}{28}{subsection.2.5.14}
+\contentsline {section}{\numberline {2.6}Component Interfaces}{28}{section.2.6}
+\contentsline {section}{\numberline {2.7}Selected Architectural Styles and Patterns}{28}{section.2.7}
+\contentsline {section}{\numberline {2.8}Other Design Decisions}{28}{section.2.8}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{29}{chapter.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{30}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{32}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{33}{chapter.6}
