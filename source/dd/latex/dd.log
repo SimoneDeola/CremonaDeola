@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  1 DEC 2015 17:32
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  1 DEC 2015 17:37
+>>>>>>> 32ea2bfef36f8506f3cb8158304afbf350880948
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**dd
+**dd.tex
 (./dd.tex
 LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 21 languages loaded.
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/report.cls
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,19 +29,19 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -186,7 +191,7 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -217,7 +222,7 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -241,13 +246,13 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/09/25 3.9l The Babel package
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/babel/babel.def
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -256,31 +261,31 @@ File: babel.def 2014/09/25 3.9l Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -288,7 +293,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count90
 \float@exts=\toks17
@@ -296,25 +301,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box27
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks19
 \verbatim@line=\toks20
 \verbatim@in@stream=\read1
 ))
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
-ty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
-y
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -354,27 +357,28 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2015basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen106
 \Hy@linkcounter=\count91
 \Hy@pagecounter=\count92
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count93
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -386,7 +390,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count94
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -411,12 +415,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count99
 \c@bookmark@seq@number=\count100
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -424,7 +428,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip43
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 18.
- (./dd.aux)
+
+(./dd.aux)
 \openout1 = `dd.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -441,8 +446,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
-
-(/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen110
@@ -455,9 +459,10 @@ LaTeX Font Info:    ... okay on input line 25.
 \MPnumerator=\count105
 \makeMPintoPDFobject=\count106
 \everyMPtoPDFconversion=\toks22
-) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -465,26 +470,26 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box29
- (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/color.sty
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
 Package hyperref Info: Link coloring ON on input line 25.
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2015basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
-y
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count107
@@ -492,7 +497,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
- (./dd.out) (./dd.out)
+
+(./dd.out) (./dd.out)
 \@outlinefile=\write3
 \openout3 = `dd.out'.
 
@@ -504,8 +510,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 31.
  [1
 
-{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
-/dd.toc
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./dd.t
+oc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -514,7 +520,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 ...lete A Reservation}{30}{subsection.2.5.12}
+l.41 ...lete A Reservation}{31}{subsection.2.5.12}
                                                    [1
 
 ])
@@ -542,7 +548,7 @@ cronymsAbbreviations.tex)
 [4])) (./chapters/architecturalDesign/architecturalDesign.tex [5]
 Chapter 2.
 (./chapters/architecturalDesign/sections/overview/overview.tex
-<../../rasd/IMG/ServerArchitecture.png, id=252, 672.5125pt x 374.39874pt>
+<../../rasd/IMG/ServerArchitecture.png, id=257, 672.5125pt x 374.39874pt>
 File: ../../rasd/IMG/ServerArchitecture.png Graphic file (type png)
 
 <use ../../rasd/IMG/ServerArchitecture.png>
@@ -561,7 +567,7 @@ ne 11.
 /subsections/logicTier/logicTier.tex)
 (./chapters/architecturalDesign/sections/highLevelComponentsAndTheirInteraction
 /subsections/presentationTier/presentationTier.tex [8])
-<../images/HighLevelComponents.png, id=269, 833.1125pt x 1143.27126pt>
+<../images/HighLevelComponents.png, id=274, 833.1125pt x 1143.27126pt>
 File: ../images/HighLevelComponents.png Graphic file (type png)
 
 <use ../images/HighLevelComponents.png>
@@ -572,7 +578,7 @@ Package pdftex.def Info: ../images/HighLevelComponents.png used on input line 1
 (./chapters/architecturalDesign/sections/componentView/componentView.tex
 [10 <../images/HighLevelComponents.png>]
 (./chapters/architecturalDesign/sections/componentView/subsection/datatier/data
-tier.tex <../images/DataTier.png, id=280, 895.345pt x 576.1525pt>
+tier.tex <../images/DataTier.png, id=285, 895.345pt x 576.1525pt>
 File: ../images/DataTier.png Graphic file (type png)
 
 <use ../images/DataTier.png>
@@ -583,7 +589,7 @@ Package pdftex.def Info: ../images/DataTier.png used on input line 24.
 ictier.tex
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
 subsection/ioManager/ioManager.tex [12 <../images/DataTier.png>]
-<../images/IOManager.png, id=297, 951.555pt x 1179.40625pt>
+<../images/IOManager.png, id=303, 951.555pt x 1179.40625pt>
 File: ../images/IOManager.png Graphic file (type png)
 
 <use ../images/IOManager.png>
@@ -597,7 +603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
  []
 
 [14 <../images/IOManager.png>]
-<../images/RequestsAndReservationsManager.png, id=310, 1065.9825pt x 995.72pt>
+<../images/RequestsAndReservationsManager.png, id=315, 1065.9825pt x 995.72pt>
 File: ../images/RequestsAndReservationsManager.png Graphic file (type png)
 
 <use ../images/RequestsAndReservationsManager.png>
@@ -607,7 +613,7 @@ nput line 25.
  [15])
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
 subsection/zonesManager/zonesManager.tex
-<../images/ZonesManager.png, id=315, 1143.27126pt x 669.50125pt>
+<../images/ZonesManager.png, id=320, 1143.27126pt x 669.50125pt>
 File: ../images/ZonesManager.png Graphic file (type png)
 
 <use ../images/ZonesManager.png>
@@ -616,7 +622,7 @@ Package pdftex.def Info: ../images/ZonesManager.png used on input line 18.
  [16 <../images/RequestsAndReservationsManager.png>])
 (./chapters/architecturalDesign/sections/componentView/subsection/logictier/sub
 subsection/profileManager/profileManager.tex [17 <../images/ZonesManager.png>]
-<../images/ProfileManager.png, id=330, 1173.38374pt x 905.3825pt>
+<../images/ProfileManager.png, id=335, 1173.38374pt x 905.3825pt>
 File: ../images/ProfileManager.png Graphic file (type png)
 
 <use ../images/ProfileManager.png>
@@ -625,7 +631,7 @@ Package pdftex.def Info: ../images/ProfileManager.png used on input line 24.
 ))
 (./chapters/architecturalDesign/sections/componentView/subsection/presentationt
 ier/presentationtier.tex
-<../images/PresentationTier.png, id=331, 805.0075pt x 612.2875pt>
+<../images/PresentationTier.png, id=336, 805.0075pt x 612.2875pt>
 File: ../images/PresentationTier.png Graphic file (type png)
 
 <use ../images/PresentationTier.png>
@@ -634,7 +640,7 @@ Package pdftex.def Info: ../images/PresentationTier.png used on input line 10.
  [18 <../images/ProfileManager.png>]))
 (./chapters/architecturalDesign/sections/deploymentView/deploymentView.tex
 [19 <../images/PresentationTier.png>]
-<../images/Deploy.png, id=346, 744.7825pt x 554.07pt>
+<../images/Deploy.png, id=351, 744.7825pt x 554.07pt>
 File: ../images/Deploy.png Graphic file (type png)
 
 <use ../images/Deploy.png>
@@ -645,7 +651,7 @@ Package pdftex.def Info: ../images/Deploy.png used on input line 18.
 (./chapters/architecturalDesign/sections/runtimeView/subsections/registrationTh
 roughTheCreationOfANewMyTaxiServiceAccount/registrationThroughTheCreationOfANew
 MyTaxiServiceAccount.tex
-<../images/SequenceDiagrams/registrationNewAccount.png, id=347, 917.4275pt x 94
+<../images/SequenceDiagrams/registrationNewAccount.png, id=352, 917.4275pt x 94
 8.54375pt>
 File: ../images/SequenceDiagrams/registrationNewAccount.png Graphic file (type 
 png)
@@ -656,7 +662,7 @@ used on input line 10.
  [20 <../images/Deploy.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/registrationUs
 ingFacebookAccount/registrationUsingFacebookAccount.tex
-<../images/SequenceDiagrams/registrationFacebook.png, id=354, 887.315pt x 1109.
+<../images/SequenceDiagrams/registrationFacebook.png, id=359, 887.315pt x 1109.
 14375pt>
 File: ../images/SequenceDiagrams/registrationFacebook.png Graphic file (type pn
 g)
@@ -670,7 +676,7 @@ stration/taxiDriverRegistration.tex [22 <../images/SequenceDiagrams/registratio
 nFacebook.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/registeredUser
 Login/registeredUserLogin.tex
-<../images/SequenceDiagrams/registeredUserLogin.png, id=369, 756.8275pt x 1008.
+<../images/SequenceDiagrams/registeredUserLogin.png, id=374, 756.8275pt x 1008.
 76875pt>
 File: ../images/SequenceDiagrams/registeredUserLogin.png Graphic file (type png
 )
@@ -681,7 +687,11 @@ d on input line 9.
  [23])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/customerFacebo
 okLogin/customerFacebookLogin.tex
+<<<<<<< HEAD
 <../images/SequenceDiagrams/UserLoginFacebook.png, id=374, 930.47626pt x 1236.6
+=======
+<../images/SequenceDiagrams/UserLoginFacebook.png, id=379, 930.47626pt x 1236.6
+>>>>>>> 32ea2bfef36f8506f3cb8158304afbf350880948
 2pt>
 File: ../images/SequenceDiagrams/UserLoginFacebook.png Graphic file (type png)
  <use ../images/SequenceDiagrams/UserLoginFacebook.png>
@@ -691,7 +701,11 @@ on input line 9.
  [24 <../images/SequenceDiagrams/registeredUserLogin.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/profileModific
 ation/profileModification.tex
+<<<<<<< HEAD
 <../images/SequenceDiagrams/ModifyProfile.png, id=382, 950.55125pt x 1076.02pt>
+=======
+<../images/SequenceDiagrams/ModifyProfile.png, id=387, 950.55125pt x 1076.02pt>
+>>>>>>> 32ea2bfef36f8506f3cb8158304afbf350880948
 File: ../images/SequenceDiagrams/ModifyProfile.png Graphic file (type png)
 <use ../images/SequenceDiagrams/ModifyProfile.png>
 Package pdftex.def Info: ../images/SequenceDiagrams/ModifyProfile.png used on i
@@ -699,10 +713,18 @@ nput line 9.
 (pdftex.def)             Requested size: 475.27446pt x 538.0087pt.
  [25 <../images/SequenceDiagrams/UserLoginFacebook.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/passwordRetrei
-val/passwordRetreival.tex)
+val/passwordRetreival.tex
+<../images/SequenceDiagrams/RetrivePassword.png, id=394, 930.47626pt x 1276.77p
+t>
+File: ../images/SequenceDiagrams/RetrivePassword.png Graphic file (type png)
+ <use ../images/SequenceDiagrams/RetrivePassword.png>
+Package pdftex.def Info: ../images/SequenceDiagrams/RetrivePassword.png used on
+ input line 9.
+(pdftex.def)             Requested size: 465.23698pt x 638.38344pt.
+ [26 <../images/SequenceDiagrams/ModifyProfile.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverRepo
 rting/taxiDriverReporting.tex
-<../images/SequenceDiagrams/taxiDriverReporting.png, id=389, 716.6775pt x 797.9
+<../images/SequenceDiagrams/taxiDriverReporting.png, id=401, 716.6775pt x 797.9
 8125pt>
 File: ../images/SequenceDiagrams/taxiDriverReporting.png Graphic file (type png
 )
@@ -710,26 +732,26 @@ File: ../images/SequenceDiagrams/taxiDriverReporting.png Graphic file (type png
 Package pdftex.def Info: ../images/SequenceDiagrams/taxiDriverReporting.png use
 d on input line 9.
 (pdftex.def)             Requested size: 358.33788pt x 398.98964pt.
- [26 <../images/SequenceDiagrams/ModifyProfile.png>])
+ [27 <../images/SequenceDiagrams/RetrivePassword.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/customerReport
 ing/customerReporting.tex
-<../images/SequenceDiagrams/customerReporting.png, id=396, 716.6775pt x 878.281
+<../images/SequenceDiagrams/customerReporting.png, id=408, 716.6775pt x 878.281
 25pt>
 File: ../images/SequenceDiagrams/customerReporting.png Graphic file (type png)
  <use ../images/SequenceDiagrams/customerReporting.png>
 Package pdftex.def Info: ../images/SequenceDiagrams/customerReporting.png used 
 on input line 9.
 (pdftex.def)             Requested size: 358.33788pt x 439.13956pt.
- [27 <../images/SequenceDiagrams/taxiDriverReporting.png>])
+ [28 <../images/SequenceDiagrams/taxiDriverReporting.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/requestATaxi/r
 equestATaxi.tex
-<../images/SequenceDiagrams/requestATaxi.png, id=403, 807.015pt x 1018.80624pt>
+<../images/SequenceDiagrams/requestATaxi.png, id=415, 807.015pt x 1018.80624pt>
 File: ../images/SequenceDiagrams/requestATaxi.png Graphic file (type png)
 <use ../images/SequenceDiagrams/requestATaxi.png>
 Package pdftex.def Info: ../images/SequenceDiagrams/requestATaxi.png used on in
 put line 9.
 (pdftex.def)             Requested size: 403.50652pt x 509.40187pt.
- [28 <../images/SequenceDiagrams/customerReporting.png>])
+ [29 <../images/SequenceDiagrams/customerReporting.png>])
 (./chapters/architecturalDesign/sections/runtimeView/subsections/reserveATaxi/r
 eserveATaxi.tex
 <../images/SequenceDiagrams/reserveATaxi.png, id=410, 885.3075pt x 1176.395pt>
@@ -766,10 +788,19 @@ g used on input line 9.
 (pdftex.def)             Requested size: 432.61519pt x 588.19608pt.
 )
 (./chapters/architecturalDesign/sections/runtimeView/subsections/taxiDriverAvai
-labilityNotification/taxiDriverAvailabilityNotification.tex))
+labilityNotification/taxiDriverAvailabilityNotification.tex
+<../images/SequenceDiagrams/AvailMod.png, id=422, 915.42pt x 895.345pt>
+File: ../images/SequenceDiagrams/AvailMod.png Graphic file (type png)
+
+<use ../images/SequenceDiagrams/AvailMod.png>
+Package pdftex.def Info: ../images/SequenceDiagrams/AvailMod.png used on input 
+line 9.
+(pdftex.def)             Requested size: 457.70888pt x 447.6714pt.
+ [30 <../images/SequenceDiagrams/requestATaxi.png>]))
 (./chapters/architecturalDesign/sections/componentInterfaces/componentInterface
 s.tex)
 (./chapters/architecturalDesign/sections/selectedArchitecturalStylesAndPatterns
+<<<<<<< HEAD
 /selectedArchitecturalStylesAndPatterns.tex [32 <../images/SequenceDiagrams/acc
 eptDeclineRideRequest.png>])
 (./chapters/architecturalDesign/sections/otherDesignDecisions/otherDesignDecisi
@@ -780,11 +811,24 @@ Chapter 3.
 ]
 Chapter 4.
 <../images/UserInterfaces.png, id=448, 1197.47375pt x 1162.3425pt>
+=======
+/selectedArchitecturalStylesAndPatterns.tex [31 <../images/SequenceDiagrams/Ava
+ilMod.png>])
+(./chapters/architecturalDesign/sections/otherDesignDecisions/otherDesignDecisi
+ons.tex)) (./chapters/algorithmDesign/algorithmDesign.tex [32]
+Chapter 3.
+) (./chapters/userInterfaceDesign/userInterfaceDesign.tex [33
+
+]
+Chapter 4.
+<../images/UserInterfaces.png, id=446, 1197.47375pt x 1162.3425pt>
+>>>>>>> 32ea2bfef36f8506f3cb8158304afbf350880948
 File: ../images/UserInterfaces.png Graphic file (type png)
 
 <use ../images/UserInterfaces.png>
 Package pdftex.def Info: ../images/UserInterfaces.png used on input line 11.
 (pdftex.def)             Requested size: 598.73541pt x 581.16983pt.
+<<<<<<< HEAD
  [35
 
 ])
@@ -792,27 +836,47 @@ Package pdftex.def Info: ../images/UserInterfaces.png used on input line 11.
 s/UserInterfaces.png>]
 Chapter 5.
 ) (./chapters/references/references.tex [37
+=======
+ [34
+
+])
+(./chapters/requirementsTraceability/requirementsTraceability.tex [35 <../image
+s/UserInterfaces.png>]
+Chapter 5.
+) (./chapters/references/references.tex [36
+>>>>>>> 32ea2bfef36f8506f3cb8158304afbf350880948
 
 ]
 Chapter 6.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+<<<<<<< HEAD
  [38
+=======
+ [37
+>>>>>>> 32ea2bfef36f8506f3cb8158304afbf350880948
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (./dd.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
-Package rerunfilecheck Info: File `dd.out' has not changed.
-(rerunfilecheck)             Checksum: 880FCCF51E6E08973EC642E2ED3F36E2;2955.
 
+
+Package rerunfilecheck Warning: File `dd.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dd.out':
+(rerunfilecheck)             Before: 6350D2965DF4E61AED5E28AB7D0A377F;3011
+(rerunfilecheck)             After:  B4D6A05620FB798C586EE36DD0F1B59B;3017.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  6258 strings out of 494501
  103715 string characters out of 6167029
  177971 words of memory out of 5000000
@@ -832,4 +896,24 @@ PDF statistics:
  422 compressed objects within 5 object streams
  110 named destinations out of 1000 (max. 500000)
  450 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 6252 strings out of 493089
+ 102935 string characters out of 6134841
+ 181425 words of memory out of 5000000
+ 9377 multiletter control sequences out of 15000+600000
+ 9977 words of font info for 35 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 31i,7n,31p,1234b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on dd.pdf (38 pages, 1220679 bytes).
+PDF statistics:
+ 513 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 32ea2bfef36f8506f3cb8158304afbf350880948
 
