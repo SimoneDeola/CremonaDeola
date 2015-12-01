@@ -1,4 +1,10 @@
 git pull
 git add --all
 git commit -m "$1"
+git reset -- source/dd/latex/dd.pdf
+git reset -- source/dd/latex/dd.tex
+git reset -- source/dd/latex/dd.out
+git reset -- source/dd/latex/dd.toc
+git reset -- source/dd/latex/dd.log
+git reset -- source/dd/latex/dd.aux
 git push
