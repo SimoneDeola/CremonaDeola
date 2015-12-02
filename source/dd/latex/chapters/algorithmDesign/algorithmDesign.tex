@@ -14,7 +14,6 @@
 
 					1)procedure selectMessage()
 						
-					2)
 				\item taxi allocator (selezione delle ride non gestite e gestione)
 				\item queues manager (check positions e ordinamento delle code)
 				\item modify priority --> recall della funzione di ordinamento del queue manager
@@ -50,7 +49,7 @@
 					\Procedure{SelectMessage}{$rawMessage$}\Comment{rawMessage is an xml (or other markup language like json) message}
 						\State $messageHandler\gets messagesTypeMap.getMessageHandler($
 						\State $rawMessage.type)$
-						\State $messageHandler.handleMessage(rawMessage)$
+						\State $return messageHandler.handleMessage(rawMessage)$
 					\EndProcedure
 					\end{algorithmic}
 				\end{algorithm}
@@ -59,8 +58,57 @@
 
 		\section{Requests and Reservations Manager}
 			Here we describe some functions and algorithms relatives to the Requests and Reservations Manager component.
-			\subsection{Check Rides To Allocate}
-				The checkRidesToAllocate procedure is invoked by a scheduler every 
 
+			\subsection{Check Rides To Allocate}
+				The checkRidesToAllocate procedure is invoked by a scheduler every 2 minutes.
+				This procedure has to check if there are rides or reservations that has to be handled and to put them into the ride-handling stack.
+
+				\begin{algorithm}
+					\caption{Check Rides to Allocate}\label{alg:checkRidesToAllocate}
+					\begin{algorithmic}[2]
+					\Procedure{checkRidesToAllocate}{}
+						\State $tempList\gets DatabaseManager.getReady()$\Comment{get all the rides that need to be handled}
+						\ForAll{$element$ in $tempList$}
+							\State $allocateRide(element)$\Comment{handle the single ride}
+						\EndFor
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+			\subsection{Allocate Ride}
+				Allocate Ride starts a new Thread to perform the handling in parallel with the others operations.
+
+				\begin{algorithm}
+					\caption{Allocate Ride}\label{alg:allocateRide}
+					\begin{algorithmic}[3]
+					\Procedure{allocateRide}{$ride$}
+						\State $taxiID\gets 0$\Comment{initialization}
+						\Repeat
+							\State $taxiID\gets ZonesManager.getFirstAvailableTaxiDriver()$
+							\State $msgTD\gets createMessage("TaxiDriverNotif", taxiID)$
+							\State $response\gets IOManager.selectMessage(msgTD)$
+							\State $ZonesManager.changePriority(0, taxiID)$
+						\Until{$response == decline$}
+						\State $DatabaseManager.setAvailability(taxiID, false)$
+						\State $msgC\gets createMessage("CustomerNotif", ride.CustomerID)$
+						\State $IOManager.selectMessage(msgC)$
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+		\section{Zones Manager}
+			Here we describe some functions and algorithms relatives to the Zones Manager component.
+
+			\subsection{Check Positions}
+				This procedure is invoked by a scheduler every 2 minutes and updates the zones  of every Taxi Driver.
+
+				\begin{algorithm}
+					\caption{Check Position}\label{alg:checkPosition}
+					\begin{algorithmic}[4]
+					\Procedure{checkPositions}{}
+						\State $availableDrivers\gets DatabaseManager.getAvailableTDs()$
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
 
 \end{document}
