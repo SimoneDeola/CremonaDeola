@@ -40,6 +40,10 @@
 \BOOKMARK [2][-]{subsection.2.7.2}{Patterns}{section.2.7}% 40
 \BOOKMARK [1][-]{section.2.8}{Other Design Decisions}{chapter.2}% 41
 \BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 42
-\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 43
-\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 44
-\BOOKMARK [0][-]{chapter.6}{References}{}% 45
+\BOOKMARK [1][-]{section.3.1}{IO Manager Algorithms}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.1.1}{Select Message}{section.3.1}% 44
+\BOOKMARK [1][-]{section.3.2}{Requests and Reservations Manager}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.2.1}{Check Rides To Allocate}{section.3.2}% 46
+\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 47
+\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 48
+\BOOKMARK [0][-]{chapter.6}{References}{}% 49

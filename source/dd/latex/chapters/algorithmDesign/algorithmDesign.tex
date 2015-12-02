@@ -3,11 +3,18 @@
 \begin{document}
 
 	\chapter{Algorithm Design}
+		This section is intended to better explain some functions and algorithms that can be ambiguous in the previous presentation of our system.
+
+
 		Algoritmi speciali usati nel nostro sistema, uno per uno descritti con pseudocodice o flow chart
 
 		algoritmi che potremmo mettere:
 		\begin{itemize}
 				\item quello per selezionare il messaggio e gestirlo (IO Manager)
+
+					1)procedure selectMessage()
+						
+					2)
 				\item taxi allocator (selezione delle ride non gestite e gestione)
 				\item queues manager (check positions e ordinamento delle code)
 				\item modify priority --> recall della funzione di ordinamento del queue manager
@@ -30,5 +37,30 @@
 			\EndProcedure
 			\end{algorithmic}
 		\end{algorithm}
+
+		\section{IO Manager Algorithms}
+			Here we describe some functions and algorithms relatives to the IO Manager component.
+			\subsection{Select Message}
+				The select message procedure have to select the right message handler for an incoming/outgoing message.
+				It's described by the following pseudocode:
+
+				\begin{algorithm}
+					\caption{Select Message Procedure}\label{alg:selectMessage}
+					\begin{algorithmic}[1]
+					\Procedure{SelectMessage}{$rawMessage$}\Comment{rawMessage is an xml (or other markup language like json) message}
+						\State $messageHandler\gets messagesTypeMap.getMessageHandler($
+						\State $rawMessage.type)$
+						\State $messageHandler.handleMessage(rawMessage)$
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+				\textbf{Note on handleMessage():} every single message class that is present on the IO Manager component, can handle incoming messages or outgoing messages and the implementation of handleMessage() for each of this sub-components is different depending on the message that has to be handled.
+
+		\section{Requests and Reservations Manager}
+			Here we describe some functions and algorithms relatives to the Requests and Reservations Manager component.
+			\subsection{Check Rides To Allocate}
+				The checkRidesToAllocate procedure is invoked by a scheduler every 
+
 
 \end{document}
