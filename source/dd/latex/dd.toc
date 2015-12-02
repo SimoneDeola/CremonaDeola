@@ -51,6 +51,9 @@
 \contentsline {subsection}{\numberline {3.1.1}Select Message}{37}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Requests and Reservations Manager}{37}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Check Rides To Allocate}{37}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}User Interface Design}{38}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{40}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{41}{chapter.6}
+\contentsline {subsection}{\numberline {3.2.2}Allocate Ride}{38}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Zones Manager}{38}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Check Positions}{38}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}User Interface Design}{39}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{41}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{42}{chapter.6}

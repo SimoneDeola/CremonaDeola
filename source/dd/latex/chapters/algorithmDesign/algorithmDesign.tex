@@ -56,7 +56,7 @@
 
 				\textbf{Note on handleMessage():} every single message class that is present on the IO Manager component, can handle incoming messages or outgoing messages and the implementation of handleMessage() for each of this sub-components is different depending on the message that has to be handled.
 
-		\section{Requests and Reservations Manager}
+		\section{Requests and Reservations Manager Algorithms}
 			Here we describe some functions and algorithms relatives to the Requests and Reservations Manager component.
 
 			\subsection{Check Rides To Allocate}
@@ -65,7 +65,7 @@
 
 				\begin{algorithm}
 					\caption{Check Rides to Allocate}\label{alg:checkRidesToAllocate}
-					\begin{algorithmic}[2]
+					\begin{algorithmic}[1]
 					\Procedure{checkRidesToAllocate}{}
 						\State $tempList\gets DatabaseManager.getReady()$\Comment{get all the rides that need to be handled}
 						\ForAll{$element$ in $tempList$}
@@ -80,7 +80,7 @@
 
 				\begin{algorithm}
 					\caption{Allocate Ride}\label{alg:allocateRide}
-					\begin{algorithmic}[3]
+					\begin{algorithmic}[1]
 					\Procedure{allocateRide}{$ride$}
 						\State $taxiID\gets 0$\Comment{initialization}
 						\Repeat
@@ -96,17 +96,102 @@
 					\end{algorithmic}
 				\end{algorithm}
 
-		\section{Zones Manager}
+		\section{Zones Manager Algorithms}
 			Here we describe some functions and algorithms relatives to the Zones Manager component.
 
 			\subsection{Check Positions}
 				This procedure is invoked by a scheduler every 2 minutes and updates the zones  of every Taxi Driver.
 
 				\begin{algorithm}
-					\caption{Check Position}\label{alg:checkPosition}
-					\begin{algorithmic}[4]
+					\caption{Check Positions}\label{alg:checkPosition}
+					\begin{algorithmic}[1]
 					\Procedure{checkPositions}{}
 						\State $availableDrivers\gets DatabaseManager.getAvailableTDs()$
+						\ForAll{$dirver$ in $availableDrivers$}
+							\State $driverZone\gets ZoneCalculator.calculateZone($
+							\State $driver.position)$
+							\State $driver.setZone(driverZone)$
+						\EndFor
+						\State $orderQueues(availableDrivers)$
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+			\subsection{Order Queues}
+				This procedure has to order the queues in function of the priority of the Taxi Drivers.
+
+				\begin{algorithm}
+					\caption{Order Queues}\label{alg:orderQueues}
+					\begin{algorithmic}[1]
+					\Procedure{orderQueues}{$drivers$}
+						\State $QueuesManager.resetQueues()$
+						\State $setCurrentDrivers(drivers)$
+						\ForAll{$driver$ in $drivers$}
+							\State $zoneQueue\gets QueuesManager.getQueue(driver.zone)$
+							\State $zoneQueue.orderedInsert(driver)$\Comment{insert the driver ordering by the priority}
+						\EndFor
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+			\subsection{Modify Priority}
+				This procedure has to modify the priorities of the current queued Taxi Drivers and reinsert the driver in his queue with ordered
+
+				\begin{algorithm}
+					\caption{Modify Priority}\label{alg:modifyPriority}
+					\begin{algorithmic}[1]
+					\Procedure{modifyPriority}{$new, taxiID$}
+						\State $driver\gets getFromCurrentDrivers(taxiID)$
+						\State $driverQueue\gets QueueManager.getQueue(driver.zone)$
+						\State $driverQueue.remove(taxiID)$\Comment{remove from the current zone}
+						\State $driver.setPriority(new)$
+						\State $driverQueue.orderedInsert(driver)$\Comment{reinsert in order}
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+		\section{Profile Manager Algorithms}
+			Here we describe some functions and algorithms relatives to the Profile Manager component.
+
+			\subsection{Check Email}
+				This procedure is in charge to tell if the given email is a valid one.
+
+				\begin{algorithm}
+					\caption{Check Email}\label{alg:checkEmail}
+					\begin{algorithmic}[1]
+					\Procedure{checkEmail}{$emaik$}
+						\State $regex\gets "[a-zA-Z1-9]+@[a-zA-Z ]?.[a-zA-Z]{2,3}"$
+						\If{$regex.match(email)$}
+							\State return $true$
+						\EndIf
+						\State return $false$
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+			\subsection{Check Password}
+				This procedure is in charge to tell if the given password is a valid one.
+
+				\begin{algorithm}
+					\caption{Check Password}\label{alg:checkPassword}
+					\begin{algorithmic}[1]
+					\Procedure{checkPassword}{$password$}
+						\State $length\gets password.length()$
+						\State $numbers\gets containsDigits(password)$
+						\State $letters\gets containsCharacters(password)$
+						\State return $((length>8)$ and $numbers$ and $letters)$
+					\EndProcedure
+					\end{algorithmic}
+				\end{algorithm}
+
+			\subsection{Check Username}
+				This procedure is in charge to tell if the given username is a valid one.
+
+				\begin{algorithm}
+					\caption{Check Username}\label{alg:checkUsername}
+					\begin{algorithmic}[1]
+					\Procedure{checkUsername}{$username$}
+						\State return $(username.length()>8)$
 					\EndProcedure
 					\end{algorithmic}
 				\end{algorithm}
