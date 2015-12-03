@@ -5,38 +5,6 @@
 	\chapter{Algorithm Design}
 		This section is intended to better explain some functions and algorithms that can be ambiguous in the previous presentation of our system.
 
-
-		Algoritmi speciali usati nel nostro sistema, uno per uno descritti con pseudocodice o flow chart
-
-		algoritmi che potremmo mettere:
-		\begin{itemize}
-				\item quello per selezionare il messaggio e gestirlo (IO Manager)
-
-					1)procedure selectMessage()
-						
-				\item taxi allocator (selezione delle ride non gestite e gestione)
-				\item queues manager (check positions e ordinamento delle code)
-				\item modify priority --> recall della funzione di ordinamento del queue manager
-				\item credentials checker (check email, password)
-		\end{itemize}
-
-		\begin{algorithm}
-			\caption{Descrizione Algoritmo}\label{alg:descrizioneAlgoritmo}
-			\begin{algorithmic}[1]
-			\Procedure{Example}{$par1,par2$}\Comment{example algorithm}
-				\State $par1\gets 1$
-
-				\If {$i\geq maxval$}
-				    \State $i\gets 0$
-				\Else
-				    \If {$i+k\leq maxval$}
-				        \State $i\gets i+k$
-				    \EndIf
-				\EndIf
-			\EndProcedure
-			\end{algorithmic}
-		\end{algorithm}
-
 		\section{IO Manager Algorithms}
 			Here we describe some functions and algorithms relatives to the IO Manager component.
 			\subsection{Select Message}

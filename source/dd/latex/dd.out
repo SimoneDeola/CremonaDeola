@@ -42,11 +42,18 @@
 \BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 42
 \BOOKMARK [1][-]{section.3.1}{IO Manager Algorithms}{chapter.3}% 43
 \BOOKMARK [2][-]{subsection.3.1.1}{Select Message}{section.3.1}% 44
-\BOOKMARK [1][-]{section.3.2}{Requests and Reservations Manager}{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.2}{Requests and Reservations Manager Algorithms}{chapter.3}% 45
 \BOOKMARK [2][-]{subsection.3.2.1}{Check Rides To Allocate}{section.3.2}% 46
 \BOOKMARK [2][-]{subsection.3.2.2}{Allocate Ride}{section.3.2}% 47
-\BOOKMARK [1][-]{section.3.3}{Zones Manager}{chapter.3}% 48
+\BOOKMARK [1][-]{section.3.3}{Zones Manager Algorithms}{chapter.3}% 48
 \BOOKMARK [2][-]{subsection.3.3.1}{Check Positions}{section.3.3}% 49
-\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 50
-\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 51
-\BOOKMARK [0][-]{chapter.6}{References}{}% 52
+\BOOKMARK [2][-]{subsection.3.3.2}{Order Queues}{section.3.3}% 50
+\BOOKMARK [2][-]{subsection.3.3.3}{Modify Priority}{section.3.3}% 51
+\BOOKMARK [1][-]{section.3.4}{Profile Manager Algorithms}{chapter.3}% 52
+\BOOKMARK [2][-]{subsection.3.4.1}{Check Email}{section.3.4}% 53
+\BOOKMARK [2][-]{subsection.3.4.2}{Check Password}{section.3.4}% 54
+\BOOKMARK [2][-]{subsection.3.4.3}{Check Username}{section.3.4}% 55
+\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 56
+\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 57
+\BOOKMARK [1][-]{section.5.1}{G.1}{chapter.5}% 58
+\BOOKMARK [0][-]{chapter.6}{References}{}% 59

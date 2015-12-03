@@ -47,13 +47,20 @@
 \contentsline {subsection}{\numberline {2.7.2}Patterns}{35}{subsection.2.7.2}
 \contentsline {section}{\numberline {2.8}Other Design Decisions}{35}{section.2.8}
 \contentsline {chapter}{\numberline {3}Algorithm Design}{36}{chapter.3}
-\contentsline {section}{\numberline {3.1}IO Manager Algorithms}{37}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Select Message}{37}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Requests and Reservations Manager}{37}{section.3.2}
+\contentsline {section}{\numberline {3.1}IO Manager Algorithms}{36}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Select Message}{36}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Requests and Reservations Manager Algorithms}{36}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Check Rides To Allocate}{37}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Allocate Ride}{38}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Zones Manager}{38}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Check Positions}{38}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}User Interface Design}{39}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{41}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{42}{chapter.6}
+\contentsline {subsection}{\numberline {3.2.2}Allocate Ride}{37}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Zones Manager Algorithms}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Check Positions}{37}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Order Queues}{38}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Modify Priority}{38}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Profile Manager Algorithms}{39}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Check Email}{39}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Check Password}{39}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Check Username}{39}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{40}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}G.1}{42}{section.5.1}
+\contentsline {chapter}{\numberline {6}References}{44}{chapter.6}
