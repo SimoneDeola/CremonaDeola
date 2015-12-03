@@ -3,12 +3,12 @@
 \begin{document}
 
 	\chapter{Algorithm Design}
-		This section is intended to better explain some functions and algorithms that can be ambiguous in the previous presentation of our system.
+		This section is intended to explain in a better way some functions and algorithms that can be ambiguous in the previous presentation of the system.
 
 		\section{IO Manager Algorithms}
-			Here we describe some functions and algorithms relatives to the IO Manager component.
+			Here are described some functions and algorithms relative to the IO Manager component.
 			\subsection{Select Message}
-				The select message procedure have to select the right message handler for an incoming/outgoing message.
+				The select message procedure has to select the right message handler for an incoming/outgoing message.
 				It's described by the following pseudocode:
 
 				\begin{algorithm}
@@ -22,14 +22,14 @@
 					\end{algorithmic}
 				\end{algorithm}
 
-				\textbf{Note on handleMessage():} every single message class that is present on the IO Manager component, can handle incoming messages or outgoing messages and the implementation of handleMessage() for each of this sub-components is different depending on the message that has to be handled.
+				\textbf{Note on handleMessage():} every single message class, that is presented on the IO Manager component, can handle incoming messages or outgoing messages and the implementation of handleMessage() for each of this sub-components is different depending on the message that has to be handled.
 
 		\section{Requests and Reservations Manager Algorithms}
-			Here we describe some functions and algorithms relatives to the Requests and Reservations Manager component.
+			Here are described some functions and algorithms relative to the Requests and Reservations Manager component.
 
 			\subsection{Check Rides To Allocate}
 				The checkRidesToAllocate procedure is invoked by a scheduler every 2 minutes.
-				This procedure has to check if there are rides or reservations that has to be handled and to put them into the ride-handling stack.
+				This procedure has to check if there are rides or reservations that have to be handled and to put them into the ride-handling stack.
 
 				\begin{algorithm}
 					\caption{Check Rides to Allocate}\label{alg:checkRidesToAllocate}
@@ -65,7 +65,7 @@
 				\end{algorithm}
 
 		\section{Zones Manager Algorithms}
-			Here we describe some functions and algorithms relatives to the Zones Manager component.
+			Here are described some functions and algorithms relative to the Zones Manager component.
 
 			\subsection{Check Positions}
 				This procedure is invoked by a scheduler every 2 minutes and updates the zones  of every Taxi Driver.
@@ -103,7 +103,7 @@
 				\end{algorithm}
 
 			\subsection{Modify Priority}
-				This procedure has to modify the priorities of the current queued Taxi Drivers and reinsert the driver in his queue with ordered
+				This procedure has to modify the priorities of the current queued Taxi Drivers and reinsert the driver in his queue tidily.
 
 				\begin{algorithm}
 					\caption{Modify Priority}\label{alg:modifyPriority}
@@ -119,7 +119,7 @@
 				\end{algorithm}
 
 		\section{Profile Manager Algorithms}
-			Here we describe some functions and algorithms relatives to the Profile Manager component.
+			Here are described some functions and algorithms relative to the Profile Manager component.
 
 			\subsection{Check Email}
 				This procedure is in charge to tell if the given email is a valid one.

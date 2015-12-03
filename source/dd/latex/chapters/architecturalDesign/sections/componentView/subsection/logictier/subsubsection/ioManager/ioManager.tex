@@ -4,13 +4,13 @@
 
 	\subsubsection{IO Manager}
 		This component will be implemented using the Command Pattern (see \href{https://it.wikipedia.org/wiki/Command_pattern}{Command Pattern on Wikipedia}).
-		It will contain the following main classes, in general for each functionality of the UI there is a Message class that, for the sake of brevity, are not all listed:
+		It will contain the following main classes, in general, for each functionality of the UI there is a Message class that, in order to be brief, are not all listed:
 		\begin{itemize}
 			\item \textbf{Message Type} (Interface) \textbf{:} this sub-component is the Interface which is extended by each Message class. 
 
 			\item \textbf{Message Types:} this sub-component is an enumeration in which each enumeration entry returns an implementation of the Message Type Interface.
 
-			\item \textbf{Message Types Map:} this sub-component is an Hash Map that associates the name of the elements of the enumeration, the enumeration element identified by that name.
+			\item \textbf{Message Types Map:} this sub-component is an Hash Map that associates the name of the elements of the enumeration, the enumeration element is identified by that name.
 
 			\item \textbf{Messages Handler:} this sub-component receives messages from the View classes. It selects the right message to send by processing the message name and selecting (through the Message Type Map) the right Message Class.
 
@@ -30,7 +30,7 @@
 
 			\item \textbf{Error Message:} This sub-component is used to send error notifications to a specific user.
 
-			\item \textbf{End Ride Message:} This sub-component is in charge to call the functions of the Requests and Reservations Manager that can set as ended a ride. An End Ride Message is sent by the client applications to signal that a ride is ended.
+			\item \textbf{End Ride Message:} This sub-component is in charge to call the functions of the Requests and Reservations Manager that can set as ended a ride. An End Ride Message is sent by the clients' applications to notify that a ride is ended.
 
 			\item \textbf{Profile Modification Message:} This sub-component is in charge to call the functions of the Profile Manager that can modify a user profile.
 			
