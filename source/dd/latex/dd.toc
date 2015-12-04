@@ -5,7 +5,6 @@
 \contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{4}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Definitions}{4}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Acronyms}{4}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{4}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Reference Documents}{4}{section.1.4}
 \contentsline {section}{\numberline {1.5}Document Structure}{4}{section.1.5}
 \contentsline {chapter}{\numberline {2}Architectural Design}{6}{chapter.2}
@@ -71,3 +70,5 @@
 \contentsline {section}{\numberline {5.1}G.1}{45}{section.5.1}
 \contentsline {chapter}{\numberline {6}References}{46}{chapter.6}
 \contentsline {subsection}{\numberline {6.0.1}Used Software}{46}{subsection.6.0.1}
+\contentsline {subsection}{\numberline {6.0.2}External Document}{46}{subsection.6.0.2}
+\contentsline {subsection}{\numberline {6.0.3}Hour of work}{47}{subsection.6.0.3}
