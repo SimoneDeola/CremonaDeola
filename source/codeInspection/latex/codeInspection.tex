@@ -1,0 +1,50 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{../images/}{../../images/}}
+
+% packages used to read external files as latex source
+\usepackage{subfiles}
+
+% packages used to insert tables
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{adjustbox}
+
+% used to make the table of contents clickable
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% let's change this ugly serif font!
+\renewcommand{\familydefault}{\sfdefault}
+
+
+ 
+\begin{document}
+
+\title{\textbf{Internal Project} \\-\\ \textbf{Code Inspection}}
+\author{Davide Cremona (matr. 852365), Simone Deola (matr. 788181)}
+ 
+\maketitle
+
+\tableofcontents
+
+\subfile{chapters/classesAssigned/classesAssigned.tex}
+
+\subfile{chapters/functionalRoleOfClassesAssigned/functionalRoleOfClassesAssigned.tex}
+
+\subfile{chapters/issuesFound/issuesFound.tex}
+
+\subfile{chapters/otherProblems/otherProblems.tex}
+
+\subfile{chapters/additionalMaterial/additionalMaterial.tex}
+ 
+\end{document}
