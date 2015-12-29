@@ -1,7 +1,59 @@
-\documentclass[../../../../dd.tex]{subfiles}
+\documentclass[../../../../codeInspection.tex]{subfiles}
 
 \begin{document}
 
 	\section{Method: initialize}
+
+		TODO - inserire commentino inizio sezione
+
+		\begin{itemize}
+
+			\item \textbf{Checklist C.13}
+
+				  \lstinputlisting[language=Java, firstline=703, lastline=703, firstnumber=703]{../src/StandardService.java}
+
+				  Limit of 80 characters exceeded.
+
+				  \lstinputlisting[language=Java, firstline=739, lastline=739, firstnumber=739]{../src/StandardService.java}
+
+				  Limit of 80 characters exceeded.
+
+			\item \textbf{Checklist C.18}
+
+				  \lstinputlisting[language=Java, firstline=687, lastline=687, firstnumber=687]{../src/StandardService.java}
+
+				  \lstinputlisting[language=Java, firstline=698, lastline=698, firstnumber=698]{../src/StandardService.java}
+
+				  \lstinputlisting[language=Java, firstline=711, lastline=711, firstnumber=711]{../src/StandardService.java}
+
+				  These three comments don't explain what the code do. These comments are directives to the developers.
+
+			\item \textbf{Checklist C.23}
+
+				  \lstinputlisting[language=Java, firstline=684, lastline=685, firstnumber=684]{../src/StandardService.java}
+
+				  No “@throws” javadoc field for the exception "LifecycleException"
+
+			\item \textbf{Checklist C.51}
+
+				  \lstinputlisting[language=Java, firstline=703, lastline=703, firstnumber=703]{../src/StandardService.java}
+
+				  “domain” is a String and it's implicitly converted into "Object"
+
+				  \lstinputlisting[language=Java, firstline=704, lastline=704, firstnumber=704]{../src/StandardService.java}
+
+				  “e” is an Exception and it’s implicitly converted into “Object”
+
+				  \lstinputlisting[language=Java, firstline=713, lastline=713, firstnumber=713]{../src/StandardService.java}
+
+				  “this” is a StandardService and it's implocitly converted into "Service"
+
+			\item \textbf{Checklist C.53}
+
+				  \lstinputlisting[language=Java, firstline=702, lastline=702, firstnumber=702]{../src/StandardService.java}
+
+				  "MalformedObjectNameException" should be caught instead of "Exception"
+
+		\end{itemize}
 
 \end{document}

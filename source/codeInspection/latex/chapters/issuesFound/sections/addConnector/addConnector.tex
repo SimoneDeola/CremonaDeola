@@ -1,7 +1,46 @@
-\documentclass[../../../../dd.tex]{subfiles}
+\documentclass[../../../../codeInspection.tex]{subfiles}
 
 \begin{document}
 
 	\section{Method: addConnector}
+
+		TODO - inserire commentino inizio sezione
+
+		\begin{itemize}
+			\item \textbf{Checklist C.33} \\
+
+				  \lstinputlisting[language=Java, firstline=391, lastline=391, firstnumber=391]{../src/StandardService.java}
+
+				  These declarations are not at the top of the code block.
+
+			\item \textbf{Checklist C.51} \\
+
+				  \lstinputlisting[language=Java, firstline=390, lastline=390, firstnumber=390]{../src/StandardService.java}
+
+				  “this” is of the type StandardService, where the parameter of setService is "Service"
+				  (see the Javadoc for setService() of the class Connector).
+
+				  \lstinputlisting[language=Java, firstline=392, lastline=392, firstnumber=392]{../src/StandardService.java}
+
+				  Connectors and result are of the type "Connector" where the types of the first and the third parameters of System.arraycopy are "Object" (see the Javadoc for arrayCopy() of the class System).
+
+				  \lstinputlisting[language=Java, firstline=400, lastline=400, firstnumber=400]{../src/StandardService.java}
+
+				  The type of “e” is "LifecycleException" where the type of the third parameter of Logger.log() is "Throwable" (see the Javadoc for log() of the class Log).
+
+				  \lstinputlisting[language=Java, firstline=408, lastline=408, firstnumber=408]{../src/StandardService.java}
+
+				  The type of “e” is "LifecycleException" where the type of the third parameter of Logger.log() is "Throwable" (see the Javadoc for log() of the class Log).
+
+				  \lstinputlisting[language=Java, firstline=413, lastline=413, firstnumber=413]{../src/StandardService.java}
+
+				  Type of the the third parameter is “Object” and "connector" is of the type "Connector" (see the Javadoc for firePropertyChange() of the class PropertyChangeSupport).
+
+				  These lines of code contains implicit types conversions.
+
+		\end{itemize}
+
+
+
 
 \end{document}

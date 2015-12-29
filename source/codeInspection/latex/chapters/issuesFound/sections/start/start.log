@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 DEC 2015 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 DEC 2015 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**addConnector
-(./addConnector.tex
+**start
+(./start.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 21 languages loaded.
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -534,8 +534,8 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )))
-(./addConnector.aux)
-\openout1 = `addConnector.aux'.
+No file start.aux.
+\openout1 = `start.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -551,7 +551,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-
 (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
@@ -593,70 +592,63 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
- (./addConnector.out) (./addConnector.out)
 \@outlinefile=\write3
-\openout3 = `addConnector.out'.
+\openout3 = `start.out'.
 
 \c@lstlisting=\count118
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 10.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 11.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 10.
+LaTeX Font Info:    No file OMScmss.fd. on input line 11.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 10.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
+(Font)              for symbol `textbullet' on input line 11.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 12.
-(../../../../../src/StandardService.java)
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
+nput line 13.
 (../../../../../src/StandardService.java)
 (../../../../../src/StandardService.java)
 (../../../../../src/StandardService.java)
-(../../../../../src/StandardService.java)
-(../../../../../src/StandardService.java)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
  [1
 
 {/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
- (./addConnector.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
-Package rerunfilecheck Info: File `addConnector.out' has not changed.
-(rerunfilecheck)             Checksum: 4524CCC4CD47FADF3874B445B43A3483;57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
+ (./start.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
 
+
+Package rerunfilecheck Warning: File `start.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `start.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  652F543DD4A645DCFC54A0CE64B3228F;50.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8678 strings out of 494501
- 125239 string characters out of 6167029
- 252745 words of memory out of 5000000
- 11814 multiletter control sequences out of 15000+600000
+ 8657 strings out of 494501
+ 124729 string characters out of 6167029
+ 246745 words of memory out of 5000000
+ 11809 multiletter control sequences out of 15000+600000
  5313 words of font info for 20 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 50i,5n,74p,262b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,5n,74p,255b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss9.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt9.pfb>
-Output written on addConnector.pdf (1 page, 53193 bytes).
+Output written on start.pdf (1 page, 51269 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 44 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

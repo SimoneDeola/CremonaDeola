@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 DEC 2015 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 DEC 2015 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,27 +630,150 @@ Chapter 2.
 
 ]
 Chapter 3.
-(./chapters/issuesFound/sections/class/class.tex)
-(./chapters/issuesFound/sections/addConnector/addConnector.tex)
-(./chapters/issuesFound/sections/removeConnector/removeConnector.tex)
-(./chapters/issuesFound/sections/start/start.tex)
-(./chapters/issuesFound/sections/stop/stop.tex)
-(./chapters/issuesFound/sections/initialize/initialize.tex))
-(./chapters/otherProblems/otherProblems.tex [4
+(./chapters/issuesFound/sections/class/class.tex
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 11.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 11.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 11.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 13.
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java) [4
 
 ]
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java) [5]
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) [6] (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java) [7]
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java) [8])
+(./chapters/issuesFound/sections/addConnector/addConnector.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+(../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) [9])
+(./chapters/issuesFound/sections/removeConnector/removeConnector.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+(../src/StandardService.java) (../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+[10] (../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+(../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+(../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+(../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+(../src/StandardService.java [11]) (../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+(../src/StandardService.java)
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+(../src/StandardService.java)) (./chapters/issuesFound/sections/start/start.tex
+(../src/StandardService.java) (../src/StandardService.java) [12]
+(../src/StandardService.java)) (./chapters/issuesFound/sections/stop/stop.tex
+(../src/StandardService.java) (../src/StandardService.java))
+(./chapters/issuesFound/sections/initialize/initialize.tex
+(../src/StandardService.java)
+Overfull \hbox (94.05981pt too wide) in paragraph at lines 703--13
+[][][][][][][][][][][][][] 
+ []
+
+(../src/StandardService.java)
+Overfull \hbox (62.87534pt too wide) in paragraph at lines 739--17
+[][][][][][][][][][][][][] 
+ []
+
+[13] (../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java)
+Overfull \hbox (94.05981pt too wide) in paragraph at lines 703--39
+[][][][][][][][][][][][][] 
+ []
+
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java))) (./chapters/otherProblems/otherProblems.tex
+[14]
 Chapter 4.
-) (./chapters/additionalMaterial/additionalMaterial.tex [5
+(../src/StandardService.java))
+(./chapters/additionalMaterial/additionalMaterial.tex [15
 
 ]
 Chapter 5.
-) (./chapters/appendix/appendix.tex [6
+) (./chapters/appendix/appendix.tex [16
 
 ]
 Chapter 6.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
- [7
+ [17
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
@@ -659,25 +782,32 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `codeInspection.out' has not changed.
 (rerunfilecheck)             Checksum: 5DDEF2516C4DB210E55E5442DE03D548;881.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 8408 strings out of 494501
- 123761 string characters out of 6167029
- 241047 words of memory out of 5000000
- 11503 multiletter control sequences out of 15000+600000
- 9683 words of font info for 34 fonts, out of 8000000 for 9000
+ 9225 strings out of 494501
+ 135983 string characters out of 6167029
+ 266043 words of memory out of 5000000
+ 11906 multiletter control sequences out of 15000+600000
+ 10156 words of font info for 36 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,7n,72p,240b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,72p,388b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmssbx10.pfb>
-Output written on codeInspection.pdf (8 pages, 49407 bytes).
+nts/cm/cmss9.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt9.pfb>
+Output written on codeInspection.pdf (18 pages, 109138 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 480 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
+ 267 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
