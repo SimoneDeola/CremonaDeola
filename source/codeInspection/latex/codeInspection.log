@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 DEC 2015 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  29 DEC 2015 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,16 +649,15 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 13.
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) (../src/StandardService.java) [4
+(../src/StandardService.java) [4
 
-]
+] (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) (../src/StandardService.java) [5]
+(../src/StandardService.java) (../src/StandardService.java [5])
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) [6] (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java) [6]
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
@@ -669,7 +668,8 @@ nput line 13.
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) (../src/StandardService.java) [8])
+(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java [8]))
 (./chapters/issuesFound/sections/addConnector/addConnector.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
@@ -681,8 +681,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 (../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) [9])
+(../src/StandardService.java) (../src/StandardService.java) [9]
+(../src/StandardService.java))
 (./chapters/issuesFound/sections/removeConnector/removeConnector.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
@@ -700,12 +700,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) [10] (../src/StandardService.java)
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[10] (../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java)
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
@@ -721,12 +721,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-(../src/StandardService.java)
+(../src/StandardService.java) [11]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-(../src/StandardService.java [11]) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -737,7 +737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 (../src/StandardService.java)) (./chapters/issuesFound/sections/start/start.tex
-(../src/StandardService.java) (../src/StandardService.java) [12]
+[12] (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java)) (./chapters/issuesFound/sections/stop/stop.tex
 (../src/StandardService.java) (../src/StandardService.java))
 (./chapters/issuesFound/sections/initialize/initialize.tex
@@ -746,12 +746,12 @@ Overfull \hbox (94.05981pt too wide) in paragraph at lines 703--13
 [][][][][][][][][][][][][] 
  []
 
-(../src/StandardService.java)
+(../src/StandardService.java [13])
 Overfull \hbox (62.87534pt too wide) in paragraph at lines 739--17
 [][][][][][][][][][][][][] 
  []
 
-[13] (../src/StandardService.java) (../src/StandardService.java)
+(../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java) (../src/StandardService.java)
 (../src/StandardService.java)
 Overfull \hbox (94.05981pt too wide) in paragraph at lines 703--39
@@ -759,21 +759,27 @@ Overfull \hbox (94.05981pt too wide) in paragraph at lines 703--39
  []
 
 (../src/StandardService.java) (../src/StandardService.java)
-(../src/StandardService.java))) (./chapters/otherProblems/otherProblems.tex
-[14]
+(../src/StandardService.java) [14]))
+(./chapters/otherProblems/otherProblems.tex [15]
 Chapter 4.
 (../src/StandardService.java))
-(./chapters/additionalMaterial/additionalMaterial.tex [15
+(./chapters/additionalMaterial/additionalMaterial.tex [16
 
 ]
 Chapter 5.
-) (./chapters/appendix/appendix.tex [16
+[17
 
-]
+] [18] [19]
+Overfull \hbox (8.88927pt too wide) in paragraph at lines 206--207
+[]\OT1/cmss/m/n/10 C.40) Check that all ob-jects (in-clud-ing Strings) are com-
+pared with "equals"
+ []
+
+[20]) (./chapters/appendix/appendix.tex [21]
 Chapter 6.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
- [17
+ [22
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
@@ -781,7 +787,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `codeInspection.out' has not changed.
-(rerunfilecheck)             Checksum: 5DDEF2516C4DB210E55E5442DE03D548;881.
+(rerunfilecheck)             Checksum: A73FB42354DFA8012C97DA93DC3B792A;953.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -789,13 +795,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 9225 strings out of 494501
- 135983 string characters out of 6167029
- 266043 words of memory out of 5000000
- 11906 multiletter control sequences out of 15000+600000
- 10156 words of font info for 36 fonts, out of 8000000 for 9000
+ 9261 strings out of 494501
+ 136322 string characters out of 6167029
+ 267043 words of memory out of 5000000
+ 11913 multiletter control sequences out of 15000+600000
+ 10324 words of font info for 37 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 42i,7n,72p,388b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,72p,409b,2100s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -803,11 +809,12 @@ cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmss9.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt9.pfb>
-Output written on codeInspection.pdf (18 pages, 109138 bytes).
+/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt9.pfb>
+Output written on codeInspection.pdf (23 pages, 132308 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 448 compressed objects within 5 object streams
- 267 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 295 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
