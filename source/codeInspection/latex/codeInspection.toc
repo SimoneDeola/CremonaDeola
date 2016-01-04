@@ -5,13 +5,14 @@
 \contentsline {section}{\numberline {3.1}Class Issues}{4}{section.3.1}
 \contentsline {section}{\numberline {3.2}Method: addConnector}{9}{section.3.2}
 \contentsline {section}{\numberline {3.3}Method: removeConnector}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Method: start}{12}{section.3.4}
+\contentsline {section}{\numberline {3.4}Method: start}{13}{section.3.4}
 \contentsline {section}{\numberline {3.5}Method: stop}{13}{section.3.5}
-\contentsline {section}{\numberline {3.6}Method: initialize}{13}{section.3.6}
+\contentsline {section}{\numberline {3.6}Method: initialize}{14}{section.3.6}
 \contentsline {chapter}{\numberline {4}Other Problems}{16}{chapter.4}
 \contentsline {chapter}{\numberline {5}Additional Material}{17}{chapter.5}
 \contentsline {section}{\numberline {5.1}Code Inspection Checklist}{17}{section.5.1}
 \contentsline {chapter}{\numberline {6}Appendix}{22}{chapter.6}
 \contentsline {section}{\numberline {6.1}Software Used}{22}{section.6.1}
-\contentsline {section}{\numberline {6.2}Document References}{22}{section.6.2}
-\contentsline {section}{\numberline {6.3}Hours of Work}{22}{section.6.3}
+\contentsline {section}{\numberline {6.2}Used Software}{22}{section.6.2}
+\contentsline {section}{\numberline {6.3}Document References}{22}{section.6.3}
+\contentsline {section}{\numberline {6.4}Hours of Work}{22}{section.6.4}
