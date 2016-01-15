@@ -1,25 +1,43 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Revision History}{2}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Document Data}{2}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Document Releases}{2}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Purpose and Scope}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Purpose}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Scope}{3}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}List of Definitions and Abbreviations}{3}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Definitions}{3}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Abbreviations}{3}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}List of Reference Documents}{3}{section.1.4}
-\contentsline {chapter}{\numberline {2}Integration Strategy}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Entry Criteria}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Elements to be Integrated}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Integration Testing Strategy}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Sequence of Component/Function Integration}{5}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Software Integration Sequence}{6}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Subsystem Integration Strategy}{8}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}Individual Steps and Test Description}{10}{chapter.3}
-\contentsline {chapter}{\numberline {4}Tools and Test Equipment Required}{11}{chapter.4}
-\contentsline {chapter}{\numberline {5}Program Stubs and Test Data Required}{12}{chapter.5}
-\contentsline {chapter}{\numberline {6}Appendix}{13}{chapter.6}
-\contentsline {section}{\numberline {6.1}Used Software}{13}{section.6.1}
-\contentsline {section}{\numberline {6.2}Hours of Work}{13}{section.6.2}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Revision History}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Document Data}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Document Releases}{3}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Purpose and Scope}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Purpose}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Scope}{4}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}List of Definitions and Abbreviations}{4}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Definitions}{4}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Abbreviations}{4}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}List of Reference Documents}{4}{section.1.4}
+\contentsline {chapter}{\numberline {2}Integration Strategy}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Entry Criteria}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Elements to be Integrated}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Integration Testing Strategy}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Sequence of Component/Function Integration}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Software Integration Sequence}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Subsystem Integration Strategy}{9}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Individual Steps and Test Description}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Integration test case IT1}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Integration test case IT2}{11}{section.3.2}
+\contentsline {section}{\numberline {3.3}Integration test case IT3}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Integration test case IT4}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}Integration test case IT5}{12}{section.3.5}
+\contentsline {section}{\numberline {3.6}Integration test case IT6}{13}{section.3.6}
+\contentsline {section}{\numberline {3.7}Integration test case IT7}{13}{section.3.7}
+\contentsline {section}{\numberline {3.8}Integration test case IT8}{13}{section.3.8}
+\contentsline {section}{\numberline {3.9}Integration test case IT9}{14}{section.3.9}
+\contentsline {section}{\numberline {3.10}Integration test case IT10}{14}{section.3.10}
+\contentsline {section}{\numberline {3.11}Integration test case IT11}{14}{section.3.11}
+\contentsline {section}{\numberline {3.12}Integration test case IT12}{15}{section.3.12}
+\contentsline {section}{\numberline {3.13}Integration test case IT13}{15}{section.3.13}
+\contentsline {section}{\numberline {3.14}Integration test case IT14}{15}{section.3.14}
+\contentsline {section}{\numberline {3.15}Integration test case IT15}{16}{section.3.15}
+\contentsline {section}{\numberline {3.16}Integration test case IT16}{16}{section.3.16}
+\contentsline {section}{\numberline {3.17}Integration test case IT17}{16}{section.3.17}
+\contentsline {section}{\numberline {3.18}Integration test case IT17}{17}{section.3.18}
+\contentsline {chapter}{\numberline {4}Tools and Test Equipment Required}{18}{chapter.4}
+\contentsline {chapter}{\numberline {5}Program Stubs and Test Data Required}{19}{chapter.5}
+\contentsline {chapter}{\numberline {6}Appendix}{20}{chapter.6}
+\contentsline {section}{\numberline {6.1}Used Software}{20}{section.6.1}
+\contentsline {section}{\numberline {6.2}Hours of Work}{20}{section.6.2}
