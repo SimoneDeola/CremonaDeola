@@ -16,10 +16,10 @@
 \contentsline {section}{\numberline {2.3}Integration Testing Strategy}{5}{section.2.3}
 \contentsline {section}{\numberline {2.4}Sequence of Component/Function Integration}{5}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Software Integration Sequence}{6}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Subsystem Integration Strategy}{9}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}Individual Steps and Test Description}{11}{chapter.3}
-\contentsline {chapter}{\numberline {4}Tools and Test Equipment Required}{12}{chapter.4}
-\contentsline {chapter}{\numberline {5}Program Stubs and Test Data Required}{13}{chapter.5}
-\contentsline {chapter}{\numberline {6}Appendix}{14}{chapter.6}
-\contentsline {section}{\numberline {6.1}Used Software}{14}{section.6.1}
-\contentsline {section}{\numberline {6.2}Hours of Work}{14}{section.6.2}
+\contentsline {subsection}{\numberline {2.4.2}Subsystem Integration Strategy}{8}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Individual Steps and Test Description}{10}{chapter.3}
+\contentsline {chapter}{\numberline {4}Tools and Test Equipment Required}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Program Stubs and Test Data Required}{12}{chapter.5}
+\contentsline {chapter}{\numberline {6}Appendix}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}Used Software}{13}{section.6.1}
+\contentsline {section}{\numberline {6.2}Hours of Work}{13}{section.6.2}

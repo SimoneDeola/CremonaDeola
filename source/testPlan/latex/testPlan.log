@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  15 JAN 2016 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  15 JAN 2016 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,85 +671,61 @@ Package pdftex.def Info: ../images/priority_example.png used on input line 13.
 
 (./chapters/integrationStrategy/sections/sequenceOfComponent_FunctionIntegratio
 n/subsections/softwareIntegrationSequence/softwareIntegrationSequence.tex
-<../images/priority_model.png, id=161, 373.395pt x 62.2325pt>
-File: ../images/priority_model.png Graphic file (type png)
-
-<use ../images/priority_model.png>
-Package pdftex.def Info: ../images/priority_model.png used on input line 11.
-(pdftex.def)             Requested size: 186.69704pt x 31.11617pt.
- [5 <../images/priority_example.png>]
-<../images/priority_ioManager.png, id=168, 393.47pt x 62.2325pt>
-File: ../images/priority_ioManager.png Graphic file (type png)
-
-<use ../images/priority_ioManager.png>
-Package pdftex.def Info: ../images/priority_ioManager.png used on input line 20
-.
-(pdftex.def)             Requested size: 196.73451pt x 31.11617pt.
-
-<../images/priority_profileManager.png, id=169, 584.1825pt x 428.60126pt>
+[5 <../images/priority_example.png>]
+<../images/priority_profileManager.png, id=167, 396.48125pt x 373.395pt>
 File: ../images/priority_profileManager.png Graphic file (type png)
 
 <use ../images/priority_profileManager.png>
 Package pdftex.def Info: ../images/priority_profileManager.png used on input li
-ne 27.
-(pdftex.def)             Requested size: 292.09053pt x 214.3001pt.
- [6 <../images/priority_model.png> <../images/priority_ioManager.png>]
-<../images/priority_requestsReservationManager.png, id=179, 356.33125pt x 363.3
-575pt>
-File: ../images/priority_requestsReservationManager.png Graphic file (type png)
+ne 14.
+(pdftex.def)             Requested size: 198.24013pt x 186.69704pt.
 
- <use ../images/priority_requestsReservationManager.png>
-Package pdftex.def Info: ../images/priority_requestsReservationManager.png used
- on input line 34.
-(pdftex.def)             Requested size: 178.16518pt x 181.6783pt.
- [7 <../images/priority_profileManager.png>]
-<../images/priority_zoneManager.png, id=186, 564.1075pt x 162.6075pt>
+<../images/priority_zoneManager.png, id=168, 343.2825pt x 62.2325pt>
 File: ../images/priority_zoneManager.png Graphic file (type png)
 
 <use ../images/priority_zoneManager.png>
 Package pdftex.def Info: ../images/priority_zoneManager.png used on input line 
-41.
-(pdftex.def)             Requested size: 282.05305pt x 81.30354pt.
- [8 <../images/priority_requestsReservationManager.png> <../images/priority_zon
-eManager.png>]
-<../images/priority_presentation.png, id=195, 353.32pt x 393.47pt>
+21.
+(pdftex.def)             Requested size: 171.64082pt x 31.11617pt.
+ [6 <../images/priority_profileManager.png>] <../images/priority_presentation.p
+ng, id=176, 353.32pt x 393.47pt>
 File: ../images/priority_presentation.png Graphic file (type png)
 
 <use ../images/priority_presentation.png>
 Package pdftex.def Info: ../images/priority_presentation.png used on input line
- 51.
+ 31.
 (pdftex.def)             Requested size: 176.65956pt x 196.73451pt.
-)
+ [7 <../images/priority_zoneManager.png>])
 (./chapters/integrationStrategy/sections/sequenceOfComponent_FunctionIntegratio
 n/subsections/subsystemIntegrationSequence/subsystemIntegrationSequence.tex
-<../images/priority_subsystems.png, id=196, 523.9575pt x 220.825pt>
+<../images/priority_subsystems.png, id=183, 523.9575pt x 220.825pt>
 File: ../images/priority_subsystems.png Graphic file (type png)
 
 <use ../images/priority_subsystems.png>
 Package pdftex.def Info: ../images/priority_subsystems.png used on input line 9
 .
 (pdftex.def)             Requested size: 261.9781pt x 110.41222pt.
- [9 <../images/priority_presentation.png>])))
+ [8 <../images/priority_presentation.png>])))
 (./chapters/individualSteps_testDescription/individualSteps_testDescription.tex
-[10 <../images/priority_subsystems.png>]
+[9 <../images/priority_subsystems.png>]
 Chapter 3.
 ) (./chapters/tools_testEquipmentRequired/tools_TestEquipmentRequired.tex
-[11
+[10
 
 ]
 Chapter 4.
 ) (./chapters/programStubs_TestDataRequired/programStubs_TestDataRequired.tex
-[12
+[11
 
 ]
 Chapter 5.
-) (./chapters/appendix/appendix.tex [13
+) (./chapters/appendix/appendix.tex [12
 
 ]
 Chapter 6.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
- [14
+ [13
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
@@ -765,13 +741,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 8525 strings out of 494501
- 128065 string characters out of 6167029
+ 8503 strings out of 494501
+ 127391 string characters out of 6167029
  243043 words of memory out of 5000000
- 11565 multiletter control sequences out of 15000+600000
+ 11550 multiletter control sequences out of 15000+600000
  10145 words of font info for 36 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,9n,72p,531b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,72p,602b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -779,10 +755,10 @@ cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb>
-Output written on testPlan.pdf (15 pages, 155701 bytes).
+Output written on testPlan.pdf (14 pages, 132384 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
