@@ -21,3 +21,5 @@
 \contentsline {chapter}{\numberline {4}Tools and Test Equipment Required}{12}{chapter.4}
 \contentsline {chapter}{\numberline {5}Program Stubs and Test Data Required}{13}{chapter.5}
 \contentsline {chapter}{\numberline {6}Appendix}{14}{chapter.6}
+\contentsline {section}{\numberline {6.1}Used Software}{14}{section.6.1}
+\contentsline {section}{\numberline {6.2}Hours of Work}{14}{section.6.2}
