@@ -1,11 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  15 JAN 2016 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  15 JAN 2016 10:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**testPlan
-(./testPlan.tex
+**elementsToBeIntegrated
+(./elementsToBeIntegrated.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 21 languages loaded.
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../../../../testPlan.tex'
+(../../../../testPlan.tex
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/size10.clo
@@ -26,8 +36,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -261,7 +271,7 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks18
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
@@ -291,20 +301,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count90
-\float@exts=\toks17
+\float@exts=\toks19
 \float@box=\box26
-\@float@everytoks=\toks18
+\@float@everytoks=\toks20
 \@floatcapt=\box27
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks19
-\verbatim@line=\toks20
-\verbatim@in@stream=\read1
-))
+)
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen106
 )
@@ -425,7 +429,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -434,8 +437,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2015basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen117
@@ -526,24 +533,24 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-(./testPlan.aux)
-\openout1 = `testPlan.aux'.
+)))
+(./elementsToBeIntegrated.aux)
+\openout1 = `elementsToBeIntegrated.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -573,7 +580,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 3.
  (/usr/local/texlive/2015basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -583,206 +590,55 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count117
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
- (./testPlan.out) (./testPlan.out)
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+ (./elementsToBeIntegrated.out) (./elementsToBeIntegrated.out)
 \@outlinefile=\write3
-\openout3 = `testPlan.out'.
+\openout3 = `elementsToBeIntegrated.out'.
 
 \c@lstlisting=\count118
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 64.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 64.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 64.
- [1
-
-{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
-/testPlan.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-)
-\tf@toc=\write4
-\openout4 = `testPlan.toc'.
-
-
-(./chapters/introduction/introduction.texpdfTeX warning (ext4): destination wit
-h the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 	\chapter
-             {Introduction} [1
-
-]
-Chapter 1.
-(./chapters/introduction/sections/revisionHistory/revisionHistory.tex
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 9.
-LaTeX Font Info:    No file OMScmss.fd. on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 8.
+LaTeX Font Info:    No file OMScmss.fd. on input line 8.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 9.
+(Font)              for symbol `textbullet' on input line 8.
 
-) [2
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+[1
 
-] (./chapters/introduction/sections/purpose_scope/purpose_scope.tex)
-(./chapters/introduction/sections/definitions_abbreviations/definitions_abbrevi
-ations.tex)
-(./chapters/introduction/sections/referenceDocuments/referenceDocuments.tex
-Overfull \hbox (10.74715pt too wide) in paragraph at lines 8--9
-\OT1/cmtt/m/n/10 SimoneDeola / CremonaDeola / blob / master / source / testPlan
- / documents /
- []
+{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 
+(./elementsToBeIntegrated.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package rerunfilecheck Info: File `elementsToBeIntegrated.out' has not changed.
 
-Overfull \hbox (48.47057pt too wide) in paragraph at lines 10--11
-[]\OT1/cmss/bx/n/10 RASD\OT1/cmss/m/n/10 : down-load-able from here: [][]$\OT1/
-cmtt/m/n/10 https : / / github . com / SimoneDeola / CremonaDeola /
- []
-
-
-Overfull \hbox (35.94272pt too wide) in paragraph at lines 12--13
-[]\OT1/cmss/bx/n/10 DD\OT1/cmss/m/n/10 : down-load-able from here: [][]$\OT1/cm
-tt/m/n/10 https : / / github . com / SimoneDeola / CremonaDeola /
- []
-
-)) (./chapters/integrationStrategy/integrationStrategy.tex [3]
-Chapter 2.
-(./chapters/integrationStrategy/sections/entryCriteria/entryCriteria.tex)
-(./chapters/integrationStrategy/sections/elementsToBeIntegrated/elementsToBeInt
-egrated.tex [4
-
-])
-(./chapters/integrationStrategy/sections/integrationTestingStrategy/integration
-TestingStrategy.tex)
-(./chapters/integrationStrategy/sections/sequenceOfComponent_FunctionIntegratio
-n/sequenceOfComponent_FunctionIntegration.tex
-<../images/priority_example.png, id=149, 373.395pt x 62.2325pt>
-File: ../images/priority_example.png Graphic file (type png)
-
-<use ../images/priority_example.png>
-Package pdftex.def Info: ../images/priority_example.png used on input line 13.
-(pdftex.def)             Requested size: 186.69704pt x 31.11617pt.
-
-(./chapters/integrationStrategy/sections/sequenceOfComponent_FunctionIntegratio
-n/subsections/softwareIntegrationSequence/softwareIntegrationSequence.tex
-<../images/priority_model.png, id=151, 373.395pt x 62.2325pt>
-File: ../images/priority_model.png Graphic file (type png)
-
-<use ../images/priority_model.png>
-Package pdftex.def Info: ../images/priority_model.png used on input line 11.
-(pdftex.def)             Requested size: 186.69704pt x 31.11617pt.
- [5 <../images/priority_example.png>]
-<../images/priority_ioManager.png, id=158, 393.47pt x 62.2325pt>
-File: ../images/priority_ioManager.png Graphic file (type png)
-
-<use ../images/priority_ioManager.png>
-Package pdftex.def Info: ../images/priority_ioManager.png used on input line 20
-.
-(pdftex.def)             Requested size: 196.73451pt x 31.11617pt.
-
-<../images/priority_profileManager.png, id=159, 584.1825pt x 428.60126pt>
-File: ../images/priority_profileManager.png Graphic file (type png)
-
-<use ../images/priority_profileManager.png>
-Package pdftex.def Info: ../images/priority_profileManager.png used on input li
-ne 27.
-(pdftex.def)             Requested size: 292.09053pt x 214.3001pt.
- [6 <../images/priority_model.png> <../images/priority_ioManager.png>]
-<../images/priority_requestsReservationManager.png, id=169, 356.33125pt x 363.3
-575pt>
-File: ../images/priority_requestsReservationManager.png Graphic file (type png)
-
- <use ../images/priority_requestsReservationManager.png>
-Package pdftex.def Info: ../images/priority_requestsReservationManager.png used
- on input line 34.
-(pdftex.def)             Requested size: 178.16518pt x 181.6783pt.
- [7 <../images/priority_profileManager.png>]
-<../images/priority_zoneManager.png, id=176, 564.1075pt x 162.6075pt>
-File: ../images/priority_zoneManager.png Graphic file (type png)
-
-<use ../images/priority_zoneManager.png>
-Package pdftex.def Info: ../images/priority_zoneManager.png used on input line 
-41.
-(pdftex.def)             Requested size: 282.05305pt x 81.30354pt.
- [8 <../images/priority_requestsReservationManager.png> <../images/priority_zon
-eManager.png>]
-<../images/priority_presentation.png, id=185, 353.32pt x 393.47pt>
-File: ../images/priority_presentation.png Graphic file (type png)
-
-<use ../images/priority_presentation.png>
-Package pdftex.def Info: ../images/priority_presentation.png used on input line
- 51.
-(pdftex.def)             Requested size: 176.65956pt x 196.73451pt.
-)
-(./chapters/integrationStrategy/sections/sequenceOfComponent_FunctionIntegratio
-n/subsections/subsystemIntegrationSequence/subsystemIntegrationSequence.tex
-<../images/priority_subsystems.png, id=186, 523.9575pt x 220.825pt>
-File: ../images/priority_subsystems.png Graphic file (type png)
-
-<use ../images/priority_subsystems.png>
-Package pdftex.def Info: ../images/priority_subsystems.png used on input line 9
-.
-(pdftex.def)             Requested size: 261.9781pt x 110.41222pt.
- [9 <../images/priority_presentation.png>])))
-(./chapters/individualSteps_testDescription/individualSteps_testDescription.tex
-[10 <../images/priority_subsystems.png>]
-Chapter 3.
-) (./chapters/tools_testEquipmentRequired/tools_TestEquipmentRequired.tex
-[11
-
-]
-Chapter 4.
-) (./chapters/programStubs_TestDataRequired/programStubs_TestDataRequired.tex
-[12
-
-]
-Chapter 5.
-) (./chapters/appendix/appendix.tex [13
-
-]
-Chapter 6.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
- [14
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
- (./testPlan.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
-Package rerunfilecheck Info: File `testPlan.out' has not changed.
-(rerunfilecheck)             Checksum: 0D80F1325F1E50D4E1A041129128D69B;1492.
+(rerunfilecheck)             Checksum: 22CF644F75C83564B4F65CCFCA49EB97;62.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 8517 strings out of 494501
- 127975 string characters out of 6167029
- 243043 words of memory out of 5000000
- 11560 multiletter control sequences out of 15000+600000
- 10145 words of font info for 36 fonts, out of 8000000 for 9000
+ 8317 strings out of 494501
+ 121897 string characters out of 6167029
+ 244655 words of memory out of 5000000
+ 11482 multiletter control sequences out of 15000+600000
+ 4840 words of font info for 18 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,7n,72p,531b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,5n,74p,339b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb>
-Output written on testPlan.pdf (15 pages, 154178 bytes).
+mssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb>
+Output written on elementsToBeIntegrated.pdf (1 page, 32972 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 30 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
