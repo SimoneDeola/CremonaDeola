@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  22 JAN 2016 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  22 JAN 2016 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,12 +652,7 @@ Overfull \hbox (62.06467pt too wide) in paragraph at lines 22--30
 
 [3
 
-] [4]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 85.
-
-)) (./chapters/projectTasksSchedule/projectTasksSchedule.tex [5]
+] [4])) (./chapters/projectTasksSchedule/projectTasksSchedule.tex [5]
 Chapter 3.
 ) (./chapters/resourcesAllocation/resourcesAllocation.tex [6
 
@@ -702,7 +697,7 @@ mss12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss17.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on projectPlan.pdf (9 pages, 63866 bytes).
+Output written on projectPlan.pdf (9 pages, 63873 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  126 compressed objects within 2 object streams
