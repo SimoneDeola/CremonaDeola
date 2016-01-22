@@ -1,0 +1,118 @@
+\documentclass[../../../../projectPlan.tex]{subfiles}
+
+\begin{document}
+
+	\section{Project Size}
+
+		The purpose of this section is to estimate Function Points to give an estimation of the project size.
+		We will use this Size Estimation Procedure:
+
+		\begin{itemize}
+			\item Determine the function counts by type: Count the number of functions for each Function Type.
+			\item Determine the complexity level for each Function Type.
+			\item Apply weights to the Function Types.
+			\item Compute the Function Points for each Function Type.
+		\end{itemize}
+		
+		Each subsection will take in account a different User Function Type. User Function Types are described in the following table:
+
+		\begin{table}[H]
+			\centering
+			\label{my-label}
+			\begin{tabular}{ll}
+				\hline
+				\textbf{External Input (Inputs)}                                                         & \begin{tabular}[c]{@{}l@{}}Count each unique user data or user control input \\ type that (i) enters the external boundary of the \\software system being measured and (ii) adds or changes\\data in a logical internal file.\end{tabular}                                                             \\ \hline
+				\textbf{External Output (Outputs)}                                                       & \begin{tabular}[c]{@{}l@{}}Count each unique user data or control output type\\that leaves the external boundary of the software system\\being measured.\end{tabular}                                                                                                                                \\ \hline
+				\begin{tabular}[c]{@{}l@{}}\textbf{Internal Logical File}\\ \textbf{(Files)}\end{tabular}         & \begin{tabular}[c]{@{}l@{}}Count each major logical group of user data or control\\information in the software system as a logical internal\\file type. Include each logical file (e.g., each logical group\\of data) that is generated, used, or maintained by the\\software system.\end{tabular} \\ \hline
+				\begin{tabular}[c]{@{}l@{}}\textbf{External Interface Files}\\ \textbf{(Interfaces)}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Files passed or shared between software systems should\\be counted as external interface file types within each system.\end{tabular}                                                                                                                                     \\ \hline
+				\textbf{External Inquiry (Queries)}                                                      & \begin{tabular}[c]{@{}l@{}}Count each unique input-output combination, where an\\input causes and generates an immediate output, as an\\external inquiry type.\end{tabular}                                                                                                                          \\ \hline
+			\end{tabular}
+			\caption{Function Types}
+		\end{table} 
+
+		To determine the complexity level of each Function Type, it's used the following tables:
+
+		\begin{table}[H]
+			\centering
+			\label{my-label}
+				\begin{tabular}{cccc}
+				\hline
+				\multicolumn{4}{c}{\textbf{For ILF and EIF}}                                                                                                                 \\ \hline
+				\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Record\\ Elements\end{tabular}}}} & \multicolumn{3}{c|}{\textbf{Data Elements}}       \\
+				\multicolumn{1}{c|}{}                                                                                    & \textbf{1 - 19} & \textbf{20 - 50} & \textbf{51+} \\ \hline
+				\multicolumn{1}{c|}{1}                                                                                   & Low             & Low              & Average      \\ \hline
+				\multicolumn{1}{c|}{2 - 5}                                                                               & Low             & Average          & High         \\ \hline
+				\multicolumn{1}{c|}{6+}                                                                                  & Average         & High             & High         \\ \hline
+			\end{tabular}
+			\caption{External Inputs and External Interface Files complexity distribution}
+		\end{table}
+
+
+		\begin{table}[H]
+		\centering
+		\label{my-label}
+		\begin{tabular}{cccc}
+			\hline
+			\multicolumn{4}{c}{\textbf{For EO and EQ}}                                                                                                                 \\ \hline
+			\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Record\\ Elements\end{tabular}}}} & \multicolumn{3}{c|}{\textbf{Data Elements}}     \\
+			\multicolumn{1}{c|}{}                                                                                    & \textbf{1 - 5} & \textbf{6 - 19} & \textbf{20+} \\ \hline
+			\multicolumn{1}{c|}{0 or 1}                                                                              & Low            & Low             & Average      \\ \hline
+			\multicolumn{1}{c|}{2 - 3}                                                                               & Low            & Average         & High         \\ \hline
+			\multicolumn{1}{c|}{4+}                                                                                  & Average        & High            & High         \\ \hline
+		\end{tabular}
+		\caption{External Output and External Inquiries complexity distribution}
+		\end{table}
+
+
+		\begin{table}[H]
+		\centering
+		\label{my-label}
+		\begin{tabular}{cccc}
+			\hline
+			\multicolumn{4}{c}{\textbf{For EI}}                                                                                                                        \\ \hline
+			\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Record\\ Elements\end{tabular}}}} & \multicolumn{3}{c|}{\textbf{Data Elements}}     \\
+			\multicolumn{1}{c|}{}                                                                                    & \textbf{1 - 4} & \textbf{5 - 15} & \textbf{16+} \\ \hline
+			\multicolumn{1}{c|}{0 or 1}                                                                              & Low            & Low             & Average      \\ \hline
+			\multicolumn{1}{c|}{2 - 3}                                                                               & Low            & Average         & High         \\ \hline
+			\multicolumn{1}{c|}{3+}                                                                                  & Average        & High            & High         \\ \hline
+		\end{tabular}
+		\caption{External Inputs complexity distribution}
+		\end{table}
+
+		To determine the weights for each Function type, the following table has been used (for each Function Type, a weight is assigned):
+
+
+		\begin{table}[]
+		\centering
+		\label{my-label}
+		\begin{tabular}{cccc}
+			\hline
+			\multicolumn{4}{c}{\textbf{Weights}}                                                                           \\ \hline
+			\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Function Type}}} & \multicolumn{3}{c|}{\textbf{Complexity-Weight}} \\
+			\multicolumn{1}{c|}{}                                        & \textbf{Low} & \textbf{Average} & \textbf{High} \\ \hline
+			\multicolumn{1}{c|}{Internal Logical Files}                  & 7            & 10               & 15            \\ \hline
+			\multicolumn{1}{c|}{External Interface Files}                & 5            & 7                & 10            \\ \hline
+			\multicolumn{1}{c|}{External Inputs}                         & 3            & 4                & 6             \\ \hline
+			\multicolumn{1}{c|}{External Outputs}                        & 4            & 5                & 7             \\ \hline
+			\multicolumn{1}{c|}{External Inquiries}                      & 3            & 4                & 6             \\ \hline
+		\end{tabular}
+		\caption{Function Types Weights}
+		\end{table}
+
+		\subsection{Internal Logical Files}
+
+
+
+		\subsection{External Interface Files}
+
+		\subsection{External Inputs}
+
+		\subsection{External Inquiries}
+
+		\subsection{External Outputs}
+
+		\subsection{Computation of Unadjusted Function Points}
+
+		\subsection{Fixing Unadjusted Function Points}
+
+\end{document}
