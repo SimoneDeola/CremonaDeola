@@ -1,0 +1,27 @@
+\documentclass[../../../../codeInspection.tex]{subfiles}
+
+\begin{document}
+
+	\section{Method: start}
+
+		In this section are spotted all the issues founded in the method start following the assigned checklist.
+		The method start is located from the line 578 to the line 628 in the StandardService class.
+		\begin{itemize}
+
+			\item \textbf{Checklist \hyperref[C:11]{C.11}}
+
+				  \lstinputlisting[language=Java, firstline=596, lastline=597, firstnumber=596]{../src/StandardService.java}
+
+				  \lstinputlisting[language=Java, firstline=620, lastline=621, firstnumber=620]{../src/StandardService.java}
+
+				  These lines of code contain "if" statements with only one statement to execute and are not surrounded by curly braces.
+
+			\item \textbf{Checklist \hyperref[C:51]{C.51}}
+
+				  \lstinputlisting[language=Java, firstline=603, lastline=603, firstnumber=603]{../src/StandardService.java}
+
+				  The type of the third parameter is "Object" where this.name is String.
+
+		\end{itemize}
+
+\end{document}

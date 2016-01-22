@@ -1,0 +1,25 @@
+\documentclass[../../../../dd.tex]{subfiles}
+
+\begin{document}
+
+	\section{Method: stop}
+
+		On this section are spotted all the issues founded on the method stop following the assigned checklist.
+		The method stop is located from the line 631 to the line 677 on the StandardService class.
+		\begin{itemize}
+
+			\item \textbf{Checklist \hyperref[C:11]{C.11}}
+
+				  \lstinputlisting[language=Java, firstline=660, lastline=661, firstnumber=660]{../src/StandardService.java}
+
+				  These lines of code contains if statements with only one statement to execute and are not surrounded by curly braces.
+
+			\item \textbf{Checklist \hyperref[C:51]{C.51}}
+
+				  \lstinputlisting[language=Java, firstline=653, lastline=653, firstnumber=653]{../src/StandardService.java}
+
+				  Type of the third parameter is "Object" where this.name is String.
+				  
+		\end{itemize}
+
+\end{document}

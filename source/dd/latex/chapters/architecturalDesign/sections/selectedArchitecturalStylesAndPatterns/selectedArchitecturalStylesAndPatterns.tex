@@ -1,0 +1,29 @@
+\documentclass[../../../../dd.tex]{subfiles}
+
+\begin{document}
+
+	\section{Selected Architectural Styles and Patterns}
+		Here are described all the main decisions about Architectural Styles and Patterns.
+		\subsection{Architectural Styles}
+			
+			\begin{itemize}
+				\item \textbf{Distribution System:} For the distribution of the system has been selected a Client-Server (3 tier) Architectural Style. All the information about this architectural style are in the "Multitier Architecture" page of Wikipedia (\href{https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture}{link}).
+				
+				\item \textbf{Structure:} The selected structure for myTaxiService System is a Layered Structure (Presentation-Logic-Data) and each Layer has a Component-Based Architecture, in fact, each Layer is divided in Components and Sub-Components to ensure the system modularity and scalability.
+
+				\item \textbf{Messaging:} To manage messages between Clients and Server is used a Message-Oriented Middleware that is implemented in the IO Manager in the Logic Tier. This architectural style ensures that the messages are handled in the right way and that the logic is insulated from the client application.
+
+			\end{itemize}
+		\subsection{Patterns}
+			\begin{itemize}
+				\item The main pattern used is the \textbf{MVC pattern}. We have chosen this pattern because of all the advantages it involves. For example the separation between the three main layer makes the system compatible with possible future changing. The fact that the View is separated from the rest of the system gives the possibility to implement different kind of UI, that is required for this system. Moreover, the separation of the three part of the system makes possible a Parallel development that speeds-up the creation of the system, and so on.
+				
+				\item The previous pattern is implemented on a \textbf{three-tier architecture}. This architecture splits the three parts of MVC on three different tiers. The Model part is implemented in the Data Tier, the Control part is implemented in the Logic Tier and the view part is implemented in the Presentation Tier. This pattern is the best choice if you choose to implement a MVC pattern.
+				
+				\item The IO Manager, implements a \textbf{Command Pattern}. We have chosen this pattern to handle the command sent to the server because it makes the communication simpler and makes the system scalable. For example if we want to implement a new command that the user can do, we just add a new command class and make it available for the Message handler class. At this point, the previous system is still working and, if the user wants to use the new functionality, he should only update his front end application.
+				
+				\item The Ride class implements the \textbf{State Pattern}. We have chosen this pattern because of the nature of the class that changes different states in his lifecycle.
+			
+			\end{itemize}
+
+\end{document}

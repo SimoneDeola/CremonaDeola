@@ -1,0 +1,21 @@
+\documentclass[../../../../../../../dd.tex]{subfiles}
+
+\begin{document}
+
+	\subsubsection{Facebook API Manager}
+		This component is in charge to accept facebook login or registration requests and forward them to the Facebook Login (\href{https://developers.facebook.com/docs/facebook-login/}{link}) system.
+		\begin{itemize}
+
+			\item \textbf{Facebook Login Manager:} This sub-component is in charge to call Facebook Login API from the Facebook Login system and to forward the result as a standard login request to the Profile Manager.
+
+			\item \textbf{Facebook Registration Manager:} This sub-component is in charge to call Facebook Registration API from the Facebook Login system and to forward the result as a standard registration request to the Profile Manager.
+
+		\end{itemize}
+		
+		\begin{figure}[H]
+				\centering
+				\includegraphics[width=\textwidth, scale=0.5]{../images/FacebookAPIManager.png}
+			\caption{Facebook API Manager Structure}\label{fig:FacebookAPIManager}
+		\end{figure}
+	
+\end{document}

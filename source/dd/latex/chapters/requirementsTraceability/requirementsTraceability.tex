@@ -1,0 +1,264 @@
+\documentclass[../../dd.tex]{subfiles}
+
+\begin{document}
+
+	\chapter{Requirements Traceability}
+		In this section, we analyse every single Functional Requirement (ordered by Goals described in the RASD) and it's indicated in which components these requirements are implemented.
+
+		All the Goals (G.x) are well described in the RASD at section 3.2
+
+		\section{G.1}
+			With the Goal G.1, we want to allow Guest Users to become Customers by creating a new myTaxiService account.
+			Here are the requirements for this goal:
+			
+			\begin{table}[H]
+				\centerline{
+				\begin{tabular}{|l|c|c|c|}
+					\hline
+					\rowcolor[HTML]{D0D0D0} 
+					\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                                                                                                                                & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}}                                                       \\ \cline{2-4} 
+\rowcolor[HTML]{D0D0D0} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                                                                                                                                   & \multicolumn{1}{c|}{\cellcolor[HTML]{D0D0D0}Data Tier} & \multicolumn{1}{c|}{\cellcolor[HTML]{D0D0D0}Logic Tier} & Presentation Tier \\ \hline
+\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide a Registration Page with:\\ 1) A text box where the user can insert his username.\\ 2)Two text boxes where the user can insert his password \\ (the second one\\ is for security check).\\ 3) A text box where the user can insert his email.\\ 4) A button to submit informations to the system.\end{tabular} & -                                                      & -                                                       & Application UI    \\ \hline
+{[}Req.2{]} Registration Page only accessible by Guest Users                                                                                                                                                                                                                                                                                                  & -                                                      & -                                                       & Application UI    \\ \hline
+\begin{tabular}[c]{@{}l@{}}{[}Req.3{]} All the Informations submitted by the user must be\\ validated by the system\end{tabular}                                                                                                                                                                                                                                & -                                                      & Profile Manager                                                       & -     \\ \hline
+				\end{tabular}}
+				\caption{Goal 1 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.2}
+			With the Goal G.2 we want to allow a Guest User to become a Customer by using his facebook Account.
+			Here are the requirements for this goal:
+				\begin{table}[H]
+				\centerline{
+				\begin{tabular}{|l|c|c|c|}
+				\hline
+				\rowcolor[HTML]{D0D0D0} 
+				\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                          & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}}                                  \\ \cline{2-4} 
+				\rowcolor[HTML]{D0D0D0} 
+				\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                             & Data Tier & Logic Tier                                                                      & Presentation Tier \\ \hline
+				\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide a Registration Page containing:\\ 1) A button that calls Facebook Login API\end{tabular} & -         & -                                                                               & Application UI    \\ \hline
+				\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} The Registration Page shall be the only \\ page accessible by a Guest User.\end{tabular}         & -         & -                                                                               & Application UI    \\ \hline
+				\begin{tabular}[c]{@{}l@{}}{[}Req.3{]} All the informations must be evaluated \\ by the Facebook System.\end{tabular}                   & -         & \begin{tabular}[c]{@{}c@{}}Facebook Login System \\\end{tabular} & Application UI                 \\ \hline
+				\end{tabular}}
+				\caption{Goal 2 Requirements Traceability}
+				\end{table}
+
+
+		\section{G.3}
+			With the Goal G.3 we want to allow a Guest User to become Taxi Drivers.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                                                                                                                                                                                                                                                                    & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}} \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                                                                                                                                                                                                                                                                       & Data Tier            & Logic Tier                & Presentation Tier           \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide a Registration Page containing:\\ 1) A text box where the user can insert his username.\\ 2) Two text boxes where the user can insert his password\\ (the second one is for security checks).\\ 3) A text box where the user can insert his email.\\ 4) A text box where the user can insert a valid taxi license.\\ 5) A text box where the user can insert a valid taxi number.\\ 6) A button to submit informations to the system.\end{tabular} & -                    & -                         & Application UI              \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} The Registration Page shall be the only page accessible\\ by a Guest User.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                    & -                    & -                         & Application UI              \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.3{]} All the informations submitted by the Guest User must\\ be validated by the system\end{tabular}                                                                                                                                                                                                                                                                                                                                                            & -                    & Profile Manager           & -                           \\ \hline
+			\end{tabular}}
+			\caption{Goal 3 Requirements Traceability}
+			\end{table}
+
+
+
+		\section{G.4}
+			With the Goal G.4 we want to allow a Guest User to login with a myTaxiService Account.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|c|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\cellcolor[HTML]{D0D0D0}                                                                                                                                                                                                                                                     & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}} \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}                                                                                                                                                                                                                        & Data Tier             & Logic Tier             & Presentation Tier             \\ \hline
+			\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide a Login Page containing:\\ 1) A text box where the user can insert his username\\ 2) A text box where the user can insert his password\\ 3) A button to submit informations to the system.\end{tabular}} & -                     & -                      & Application UI                \\ \hline
+			\end{tabular}}
+			\caption{Goal 4 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.5}
+			With the Goal G.5 we want to allow a Guest User to login his Facebook Account.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                        & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}} \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                           & Data Tier         & Logic Tier                     & Presentation Tier         \\ \hline
+			{[}Req.1{]} Provide a button that calls the Facebook Login API.                                                                       & -                 & -                              & Application UI            \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} Delegate to the Facebook System all the checks\\ about the existence of the user.\end{tabular} & -                 & Facebook  Login System         & -                         \\ \hline
+			\end{tabular}}
+			\caption{Goal 5 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.6}
+			With the Goal G.6 we want to allow a Guest User to view or modify his username and email.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                                                                                                                                                        & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}} \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                                                                                                                                                           & Data Tier            & Logic Tier                & Presentation Tier           \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide an Homepage that contains:\\ 1) A button that, if clicked, shows the page that contains\\ the Registered User's informations.\end{tabular}                                                                                                                                                                                             & -                    & -                         & Application UI              \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} Provide a page used to show Registered User's \\ informations that contains:\\ 1) A clickable label showing the username of the Registered User.\\ 2) A clickable label showing the email of the Registered User.\\ 3) A box with a label inside that shows how many times the\\ Registered User has been reported as a bad user.\end{tabular} & -                    & -                         & Application UI              \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.3{]} The personal Registered User's page shall be only accessible\\ after the login.\end{tabular}                                                                                                                                                                                                                                                   & -                    & Profile Manager           & Application UI              \\ \hline
+			\end{tabular}}
+			\caption{Goal 6 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.7}
+			With the Goal G.7 we want to allow a Registered User to retrieve his password if he doesn’t remember it.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|c|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\cellcolor[HTML]{D0D0D0}                                                                                                                                                                                                                                         & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}} \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}                                                                                                                                                                                                            & Data Tier            & Logic Tier                & Presentation Tier           \\ \hline
+			\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide a link, on the login page, that will show\\ to the Registered User a field where he can write his \\ email to allow the system to send him an\\ email containing the password.\end{tabular}} & -                    & Profile Manager           & Application UI              \\ \hline
+			\end{tabular}}
+			\caption{Goal 7 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.8}
+			With the Goal G.7 we want to allow a Registered User to signal another one if he has made a bad use of the system.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}}                                        \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                                                                                                                                                                                                                                                                                                   & Data Tier        & Logic Tier                                                                     & Presentation Tier \\ \hline
+			{[}Req.1{]} Check if the registered user is correctly logged in.                                                                                                                                                                                                                                                                                                                                                                                                                                                              & Database Manager & -                                                                              & -                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} For Taxi Drivers, provide an end-ride page that\\ contains:\\ 1) A label showing the username of the Customer that he has\\ just served.\\ 2) A label showing the starting location of the current ride.\\ 3) A label that asks to the Taxi Driver if he wants to report\\ the Customer.\\ 4) A button that ends the current ride without reporting the\\ Customer.\\ 5) A button that ends the current ride incrementing the\\ Customer's Bad Evaluation Counter.\end{tabular}        & Database Manager & \begin{tabular}[c]{@{}c@{}}Requests and \\ Reservations\\ Manager\end{tabular} & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.3{]} When one of the Taxi Driver end-ride page button\\ is pressed, the system must ensure that the page is not \\ reachable anymore and the Taxi Driver must only access to\\ his Homepage.\end{tabular}                                                                                                                                                                                                                                                                                   & -                & -                                                                              & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.4{]} For Customers, provide an end-ride page that contains:\\ 1) A label showing the username of the Taxi Driver that has\\ just served him.\\ 2) A label showing the starting location of the current ride.\\ 3) A label that asks to the Customer if he wants to report the\\ Taxi Driver.\\ 4) A button that ends the current ride without reporting the\\ Taxi Driver.\\ 5) A button that ends the current ride and increments the Taxi\\ Driver's Bad Evaluation Counter.\end{tabular} & Database Manager & \begin{tabular}[c]{@{}c@{}}Requests and\\ Reservations\\ Manager\end{tabular}  & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.5{]} When one of the Customer's end-ride page button is \\ pressed, the system must ensure that the page is not reachable\\ anymore and the Customer must access only to his Homepage.\end{tabular}                                                                                                                                                                                                                                                                                         & -                & -                                                                              & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.6{]} The end-ride page shall be only accessible after the\\ Registered User logs in.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                           & -                & Profile Manager                                                                & Application UI    \\ \hline
+			\end{tabular}}
+			\caption{Goal 8 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.9}
+			With the Goal G.9 we want to allow customers to require a taxi.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                    & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}}                                                  \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                       & Data Tier        & Logic Tier                                                                               & Presentation Tier \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide an Homepage that contains:\\ 1) A map showing the current location of the Customer.\\ 2) A button that \textbf{calls the function of the system to require}\\ \textbf{a Taxi} (called "require button")\end{tabular} & Database Manager & \begin{tabular}[c]{@{}c@{}}Zones Manager;\\ Requests and \\ Reservations\\ Manager\end{tabular} & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} The require-taxi page shall be only accessible\\ by Customers and after they have performed the login\\ as Customers.\end{tabular}                                                                         & -                & Profile Manager                                                                          & Application UI    \\ \hline
+			\end{tabular}}
+			\caption{Goal 9 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.10}
+			With the Goal G.10 we want to allow customers to reserve a ride.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}}                                                     \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                                                                                                                                                                                                                                                                                                        & Data Tier        & Logic Tier                                                                                  & Presentation Tier \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide an Homepage that contains:\\ 1) A button that, if clicked, shows the page used to\\ reserve a ride.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                    & -                & -                                                                                           & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} Provide a page used to reserve a ride that\\ contains:\\ 1) A map where the customer can select the starting\\ location for his ride.\\ 2) A map where the customer can select the ending\\ location for his ride.\\ 3) A field where the customer can insert the starting\\ date for the ride.\\ 4) A field where the customer can insert the starting\\ time for the ride.\\ 5) A button that calls the function of the system to\\ reserve a ride (called "reserve button")\end{tabular} & Database Manager & \begin{tabular}[c]{@{}c@{}}Zones Manager;\\ Requests and\\ Reservations\\ Manager\end{tabular} & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.3{]} The page used to reserve a ride shall be only\\ accessible after the Customer logs in.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                         & -                & Profile Manager                                                                             & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.4{]} Reserve button must be clickable only if\\ the reserve date and time are at least two hours after\\ the current time.\end{tabular}                                                                                                                                                                                                                                                                                                                                                          & -                & -                                                                                           & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.5{]} The system must notify the Customer that a \\ Taxi Driver has accepted his reservation at least 10\\ minutes before the ride.\end{tabular}                                                                                                                                                                                                                                                                                                                                                  & Database Manager & \begin{tabular}[c]{@{}c@{}}Requests and\\ Reservations\\ Manager;\\ IO Manager;\end{tabular}   & -                 \\ \hline
+			\end{tabular}}
+			\caption{Goal 10 Requirements Traceability}
+			\end{table}
+
+
+		\section{G.11}
+			With the Goal G.11 we want to allow customers to delete a previous reservations.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                          & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}}                                        \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                                                                                                                                                                                                                                                                                             & Data Tier        & Logic Tier                                                                     & Presentation Tier \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide an Homepage that contains:\\ 1) A button that, if clicked, shows the page that\\ contains all the reservations made by the customer.\end{tabular}                                                                                                                                                                                                                                                                                                                        & -                & -                                                                              & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} Provide a page that contains all the reservations\\ made by the customer with these rules:\\ 1) All reservations that have a difference between the\\ start time and the current time of less than two hours \\ are not erasable.\\ 2) Others reservations are erasable.\\ 3) The page also contains a button to add a new reservation.\\ If clicked, that button leads to the page used to reserve a ride\\ (described in the Functional Requirement Req.3 of G.4)\end{tabular} & Database Manager & \begin{tabular}[c]{@{}c@{}}Requests and\\ Reservations\\ Manager;\end{tabular} & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.3{]} The page that contains all the reservations shall \\ be only accessible\\ after the Customer login.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                 & -                & Profile Manager                                                                & Application UI    \\ \hline
+			\end{tabular}}
+			\caption{Goal 11 Requirements Traceability}
+			\end{table}
+
+		\section{G.12}
+			With the Goal G.12 we want to allow Taxi Drivers to accept or decline a ride request.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                          & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}}                                                                      \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                             & Data Tier        & Logic Tier                                                                                                   & Presentation Tier \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Notify the Taxi Driver (if he is available) that is at the top of \\ the zone-queue that a new taxi-request is made (Req.4 of G.9).\end{tabular} & Database Manager & \begin{tabular}[c]{@{}c@{}}Requests and\\ Reservations\\ Manager;\\ IO Manager;\\ Zones Manager\end{tabular} & Application UI    \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} On the notification screen, show two buttons: \\ one for the acceptance\\ and one for the declination of the taxi-request.\end{tabular}          & -                & -                                                                                                            & Application UI    \\ \hline
+			\end{tabular}}
+			\caption{Goal 12 Requirements Traceability}
+			\end{table}
+
+		\section{G.13}
+			With the Goal G.13 we want to allow Taxi Drivers to notify their availability.
+			Here are the requirements for this goal:
+
+			\begin{table}[H]
+			\centerline{
+			\begin{tabular}{|l|c|c|c|}
+			\hline
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\cellcolor[HTML]{D0D0D0}}                                                                                                                                                                                                   & \multicolumn{3}{c|}{\cellcolor[HTML]{D0D0D0}{\color[HTML]{000000} Components}} \\ \cline{2-4} 
+			\rowcolor[HTML]{D0D0D0} 
+			\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{D0D0D0}Requirement}}                                                                                                                                                                      & Data Tier                & Logic Tier              & Presentation Tier         \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.1{]} Provide an home page that contains:\\ 1) An ON/OFF button that signals to the system that the \\ Taxi Driver is\\ Available/Not Available.\\ 2) A map showing his current zone and position.\end{tabular} & Database Manager         & Profile Manager         & Application UI            \\ \hline
+			\begin{tabular}[c]{@{}l@{}}{[}Req.2{]} The home page should be accessible only \\ if the Taxi Driver is logged in.\end{tabular}                                                                                                                  & -                        & Profile Manager         & Application UI            \\ \hline
+			\end{tabular}}
+			\caption{Goal 13 Requirements Traceability}
+			\end{table}
+
+\end{document}

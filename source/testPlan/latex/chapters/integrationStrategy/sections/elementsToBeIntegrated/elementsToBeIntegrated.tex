@@ -1,0 +1,56 @@
+\documentclass[../../../../testPlan.tex]{subfiles}
+
+\begin{document}
+
+	\section{Elements to be Integrated}
+		The components that must be integrated are divided in three subsystems (Logic, Data and Presentation layers as specified in the DD). Each subsystem is composed by some components that can be seen as small sub-subsystems. Here are reported all the public components and sub-components that need to be integrated.:
+		\begin{itemize}
+			\item \textbf{Data}:
+			      \begin{itemize}
+			      	\item Model.
+			      		  \begin{itemize}
+			      			\item Database Manager.
+			      		  \end{itemize}
+			      \end{itemize}
+			\item \textbf{Logic}:
+			      \begin{itemize}
+			      	\item IOManager.
+			      		  \begin{itemize}
+			      		  	\item Message Handler.
+			      		  \end{itemize}
+			      	\item Requests and Reservations Manager.
+			      		  \begin{itemize}
+			      		  	\item Taxi Requests Adder.
+			      		  	\item Taxi Reservations Adder.
+			      		  	\item Ride Ender.
+			      		  	\item Taxi Allocator.
+			      		  \end{itemize}
+			      	\item Profile Manager.
+			      		  \begin{itemize}
+			      		  	\item Registration Manager.
+			      		  	\item Login Manager.
+			      		  	\item Profile Modifier.
+			      		  	\item Profile Security.
+			      		  	\item Profile Viewer.
+			      		  	\item Credential Checker.
+			      		  \end{itemize}
+			      	\item Zones Manager.
+			      		  \begin{itemize}
+			      		  	\item GPS Updater.
+			      		  	\item Zone Calculator.
+			      		  	\item Queue Manager.
+			      		  \end{itemize}
+			      \end{itemize}
+			\item \textbf{Presentation}:
+			      \begin{itemize}
+			      	\item Web Application UI.
+			      	\item Mobile Application UI.
+			      	\item For each of these two components, these sub-components needs to be tested:
+			      		  \begin{itemize}
+			      	      	\item Response Receiver.
+			      	      	\item Command Sender.
+			      		  \end{itemize}
+			      \end{itemize}
+		\end{itemize}
+
+\end{document}

@@ -1,0 +1,80 @@
+\section{Scenarios}\label{sec:SectionScenarios}
+	Here are described in natural language some useful scenarios that show how the system should work in different cases:
+
+		\subsection{S.1 Registration as a Customer creating a myTaxiService account}\label{sec:NormalCustomerRegistrationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs1]{G.1 Functional Requirements Specification}\\
+
+		Aristotle is new in the system and he wants to simplify the way he calls for a taxi. So he downloads the "myTaxiService" application from the Play Store (since he has a smartphone with the fancy Android 5.0 Lollipop Operative System) and he opens it.
+		The application shows to Aristotle the login screen and he taps on the "Sign Up as a Customer" button (see \hyperref[login_m]{Login Screen}) going to the registration page. In that page, he has to fill the form (see \hyperref[cregistration_m]{Customer Registration Screen (Mobile)}) and after that he clicks on the "Accept" button. If the data entered by Aristotle are ok, he is automatically logged in and he can start using myTaxiService. Otherwise, he is redirected to an error page, that describes the problem. 
+
+		\subsection{S.2 Registration as a Customer using a Facebook Account}\label{sec:FacebookCustomerRegistrationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs2]{G.2 Functional Requirements Specifications}\\
+
+		Pythagoras is new in the system and he wants to simplify the way he calls for a taxi, but he doesn't want to loose time inserting his credential into a boring registration form, so he decides to register with his Facebook Account.
+		He downloads the application from the Apple App Store (since he has a glorious iPhone 6 Plus) and he opens it.
+		The application shows to Pythagoras the login screen and he taps on the "Log in With Facebook" button calling the Facebook Login API.
+		If the registration is successful, the Facebook System will reply with the information about the user and the myTaxiService system can create a record in the database with Pythagoras information. Otherwise, he is redirected to an error page, that describes the problem.
+
+		\subsection{S.3 Registration as a Taxi Driver creating a new Taxi Driver myTaxiService account.}\label{sec:TaxiDriverRegistrationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs3]{G.3 Functional Requirements Specifications}\\
+
+		Thales is a great taxi worker and he wants to improve his service to the customers so he decides to join myTaxiService.
+		First of all he visits the myTaxiService web page from his pc. That page shows the login screen (see \hyperref[login_m]{Login Screen}) and he clicks on the "Sign up as a Taxi Driver" button. The web application redirects him to the Taxi Drivers registration page. Thales fills up the form (see \hyperref[tregistration_w]{Taxi Driver Registration Screen (Web)}) and clicks on the "Accept" button. The system performs a special check for the validity of the given taxi license and taxi number. If the data provided by Thales are ok, he is automatically logged in and he can start using myTaxiService as a Taxi Driver. Otherwise, he is redirected to an error page, that describes the problem.
+
+		\subsection{S.4 Login with a myTaxiService account.}\label{sec:RegisteredUserLoginScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs4]{G.4 Functional Requirements Specifications}\\
+
+		Epicurus is a Registered User and he wants to login to use the myTaxiServer Application with his smartphone. So he taps on the application icon and starts using it. myTaxiService Application shows to him the login screen (see \hyperref[login_m]{Login Screen}) and Epicurus fills up the form with his credentials. After that he submits the data by pressing the "Login" button. The Application calls the server function to check the credentials of Epicurus and if them are ok, the server replies to the application with a success message and the homepage is shown to Epicurus. Otherwise, the server replies with an error message that is shown to Epicurus.
+
+		\subsection{S.5 Customer Login with Facebook}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs5]{G.5 Functional Requirements Specifications}\\
+
+		\label{sec:CustomerFacebookLoginScenario}
+		Solon is a Customer of myTaxiService and he is registered with his Facebook account as described in the scenario \hyperref[sec:FacebookCustomerRegistrationScenario]{S.2}. Now he wants to log in and use myTaxiService from his iPhone.
+		First of all he opens the application that shows the login screen (see \hyperref[login_m]{Login Screen}). In a second moment, he clicks on the "Log in with Facebook" button and he logs in.
+
+		\subsection{S.6 Profile Modification.}\label{sec:RegisteredUserProfileModificationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs6]{G.6 Functional Requirements Specifications}\\
+
+		Zeno is a Registered User but he wants to change his username. He opens his browser and navigates to the myTaxiService Web Application. He logs in to the system and the application shows his homepage (see \hyperref[chome_m]{Homepage}). Zeno clicks on the "Me" button to view the profile page (see \hyperref[cpersonalPage_m]{Profile Page}). He clicks on his username to modify it. Once he is satisfied of his new username, he clicks on the "Save" button to save his modifications. Now Zeno is happy.
+
+		\subsection{S.7 Password Retrieval}\label{sec:PasswordRetrievalScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs7]{G.7 Functional Requirements Specifications}\\
+
+		Archimedes is a Registered User and he wants to log in to the myTaxiService Application. Unfortunately, he doesn't remember his password, so he taps on the link in the login page (see \hyperref[login_m]{Login Screen}) and the myTaxiService system sends him an email with the password if the provided email is registered. Otherwise an error message is shown to Archimedes.
+
+		\subsection{S.8 Reporting Abuses}\label{sec:ReportingAbusesScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs8]{G.8 Functional Requirements Specifications}\\
+
+		\label{sec:TaxiDriverReportingScenario}
+		Crates is a Customer and he desperately wants to go to the cinema with his friends. He logs in to the myTaxiService Mobile Application and navigates to the homepage. Then he taps on the "Request a Taxi here" button and waits for a taxi (since he receives the acceptance notification). This taxi does not arrive and he can't reach the cinema in time. Crates is very frustrated, so he reports the Taxi Driver that has accepted his taxi request.
+		\\
+		\\
+		\label{sec:CustomerReportingScenario}
+		Gorgias is a Taxi Driver and he has already logged in to the myTaxiService Mobile Application and signaled his availability. He receives a taxi request from a Customer and he accepts it, but when he goes to the meeting location, the Customer is not there. Gorgias has lost precious time and money so he is very angry and reports the Customer through the application. 
+		
+		\subsection{S.9 Require a Taxi}\label{sec:TaxiRequiringScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs9]{G.9 Functional Requirements Specifications}\\
+
+		Plutarch is a Customer who wants to go to his vacation house, but he is already arrived to the city train station and he doesn't have a car, so he decides to call a taxi. He opens myTaxiService and the application shows to him the homepage. First, he checks that the position showed is his current position, so he taps the "Request a taxi here" button and waits for a taxi to accept his request. After 2 minutes a Taxi Driver accepts his request and a pop up notification notifies it to Plutarch. The notification says that a taxi will reach his position after 10 minutes and informs Plutarch about the number of the incoming taxi, so Plutarch can't take the Wrong taxi.
+
+		\subsection{S.10 Reserve a Taxi}\label{sec:TaxiReservationScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs10]{G.10 Functional Requirements Specifications}\\
+
+		Proclus is a traveler and he knows that today at 18.00 he has to take a taxi to go to the train station. Proclus is also a myTaxiService Customer, so to reach his goal he logs into the myTaxiService web application from his laptop. The homepage is showed to Proclus and he clicks on the "Reserve a Taxi" button. The web application now shows to Proclus the reservation page (see \hyperref[reservation_w]{Reservation Page}).
+		Our traveler now inserts the data for his ride and confirms the reservation by clicking on the "Reserve" button. Since the time now is 11.00, the system accepts his reservation and a notification is sent to Proclus making he happy.
+
+		\subsection{S.11 Delete a Reservation}\label{sec:ReservationDeletionScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs11]{G.11 Functional Requirements Specifications}\\
+
+		Proclus is a Customer that has reserved a ride (see \hyperref[sec:TaxiReservationScenario]{S.10}) for this evening, but unfortunately he can not leave today. So he has to delete his taxi reservation. First of all he logs into the myTaxiService web application from his laptop and opens the homepage. He clicks on the "My Reservations" button to access to his reservations page. Here are listed all the reservations that he has made. He now clicks on the "X" at the right of the reservation and the myTaxiService web application tries to delete the reservation trough calling the function of the server. Since now the time is 15.00, the server accepts the deletion and informs the application that notifies the successful operation to Proclus.
+
+		\subsection{S.12 Taxi Driver Accepts or Decline a Ride Request}\label{sec:RequestAcceptDeclineScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs12]{G.12 Functional Requirements Specifications}\\
+
+		Solon is a Taxi Driver registered to the myTaxiService system. He's currently available on the system and he's at the top of his current zone queue. A customer makes a request (see how in \hyperref[sec:TaxiRequiringScenario]{Scenario S.9}) somewhere in the city and the system notifies Solon of the incoming request. When Solon sees the notification, he accepts the ride and the system notifies the requesting Customer of the acceptance.
+
+		\subsection{S.13 Notify Taxi Driver Availability}\label{sec:TaxiDriverAvailabilityScenario}
+		To read the Functional Requirements for this scenario, refer to \hyperref[sec:frs13]{G.13 Functional Requirements Specifications}\\
+
+		Galen is a Taxi Driver registered in the myTaxiService system. He has already performed the login and he is now on the \hyperref[thomePage_m]{Taxi Driver Homepage}. He wants to be notified by the system of the incoming requests for rides but he is currently unavailable on the system. So he taps on the "Available" ON/OFF button in his homepage to signal his availability to the system, that inserts him in his current zone queue. Then the ON/OFF button becomes green to notify to Galen that he is now available.

@@ -1,0 +1,69 @@
+\chapter{Overall Description}
+	
+	\section{Product perspective}
+	The system will be composed of a web application and a mobile application developed for the three major OS ( Apple iOS, Android, Windows 10). The system will provide some API with the purpose of a future connection with another travel planning systems. 
+		
+	\section{User Characteristics}
+	% this user here is ok and don't have to be hyperreferred
+	We suppose that there are two types of users that will use our system. The first type is composed of who want to find a taxi for a travel in the simplest way (\hyperref[sec:customer]{customers}). They must be able to access to a web browser or download and using a mobile application. The second one is composed of \hyperref[sec:tdriver]{taxi drivers}, who want to increment their productivity. In addiction to being able to access to a web browser or downloading and using our mobile application, they must have a taxi license.
+		
+	\section{Constrains}
+		
+		\subsection{Regulatory Policies}
+		myTaxiService  has to meet regulatory policies about taxis in the countries where it will be used.
+
+		\subsection{Hardware Limitations}
+		The only hardware limitation that the myTaxiService mobile application has to meet is the mobile phones characteristics. the rest of the 			system will not be affected by particular hardware limitations.
+
+		\subsection{Software Limitations}
+		myTaxiService mobile application has to be compatible with all major mobile operating systems (Android, Apple iOS, Windows 10).
+		Moreover, myTaxiService web application has to be compatible with all major browsers (Chrome, Safari, Firefox, Microsoft Edge).
+
+		\subsection{Parallel Operations}
+		Our system must be able to perform parallel operations on the database to satisfy all the requests from multiple users.
+
+		\subsection{Documents Related}
+
+			\begin{itemize}
+				\item Requirements and Analysis Specification Document (RASD)
+
+				\item Design Document (DD)
+			\end{itemize}
+
+	\section{Assumptions}
+
+			\begin{itemize}
+				\item Every \hyperref[sec:tdriver]{taxi driver} has equipped a smartphone during working hours.
+
+				\item Every \hyperref[sec:tdriver]{taxi driver} has a unique taxi license.
+
+				\item Every taxi has a GPS locator to send GPS information to the central server.
+
+				\item Android, Apple iOS or Windows 10 are available on the \hyperref[sec:ruser]{registered users} smartphones.
+
+				\item Every \hyperref[sec:ruser]{registered users} can connect to the Internet with a mobile device when outside.
+
+				\item When a \hyperref[sec:customer]{customer} require a taxi, the GPS information about his location are automatically sent to the central server.
+
+				\item The reservation of a ride is made at least two hours before the ride.
+
+				\item The deletion of a reservation is made at least two hours before the ride.
+
+				\item The requests of the \hyperref[sec:customer]{customers} are automatically notified to the first \hyperref[sec:tdriver]{taxi driver} in the zone queue.
+
+				\item If a \hyperref[sec:tdriver]{taxi driver} declines a request he will be placed in the bottom of the zone queue.
+
+				\item If a request is declined it will be forwarded to the next \hyperref[sec:tdriver]{taxi driver} in the zone queue.
+
+				\item If a \hyperref[sec:customer]{customer} makes a bad use of the taxi request system, he can be reported as a bad \hyperref[sec:customer]{customer}.
+
+				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability, it is because he is actually avaiable
+
+				\item If a \hyperref[sec:tdriver]{taxi driver} notifies his availability, it is because he wants to be notified of \hyperref[sec:customer]{customers} that needs a ride.
+
+				\item If a \hyperref[sec:tdriver]{taxi driver} accepts a request, the requesting \hyperref[sec:customer]{customer} will be notified
+			\end{itemize}
+
+	\section{Future possible Implementations}
+	A possible future implementation can be a complex feedback system, that allows the \hyperref[sec:customer]{customers} to leave a comment about the \hyperref[sec:tdriver]{taxi driver} and vice versa.
+	For example, \hyperref[sec:tdriver]{taxi drivers} can be interested in knowing the punctuality or the behaviour of the \hyperref[sec:customer]{customer} who requests the ride.

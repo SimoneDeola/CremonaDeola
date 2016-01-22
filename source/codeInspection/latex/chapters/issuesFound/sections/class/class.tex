@@ -1,0 +1,165 @@
+\documentclass[../../../../codeInspection.tex]{subfiles}
+
+\begin{document}
+
+	\section{Class Issues}
+
+		In this section are spotted all the issues founded in the class following the assigned checklist. The points considered are those of the checklist that can be considered only as "global errors".
+		The "specific error" issues are considered only for the method assigned and can be found in the following sections.
+
+		\begin{itemize}
+
+			\item \textbf{Checklist \hyperref[C:01]{C.01}} \\
+
+				  \lstinputlisting[language=Java, firstline=90, lastline=90, firstnumber=90]{../src/StandardService.java}
+
+				  "rb" does not mean anything.
+
+				  \lstinputlisting[language=Java, firstline=151, lastline=151, firstnumber=151]{../src/StandardService.java}
+
+				  "lifecycle" does not suggest that it is a lifecycleSupport.
+
+				  \lstinputlisting[language=Java, firstline=168, lastline=168, firstnumber=168]{../src/StandardService.java}
+
+				  "debug" does not suggest that it is a debug level variable.
+
+				  \lstinputlisting[language=Java, firstline=200, lastline=200, firstnumber=200]{../src/StandardService.java}
+
+				  "broadcaster" does not suggest that it is a NOTIFICATION broadcaster.
+
+				  \lstinputlisting[language=Java, firstline=279, lastline=279, firstnumber=279]{../src/StandardService.java}
+
+				  Does not suggest that it is the debug level.
+
+				  \lstinputlisting[language=Java, firstline=291, lastline=291, firstnumber=291]{../src/StandardService.java}
+
+				  Does not suggest that it is the debug level.
+
+				  \lstinputlisting[language=Java, firstline=745, lastline=745, firstnumber=745]{../src/StandardService.java}
+
+				  "oname" is meaningless.
+
+		    \item \textbf{Checklist \hyperref[C:07]{C.07}}
+
+		    	  \lstinputlisting[language=Java, firstline=89, lastline=90, firstnumber=90]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=138, lastline=139, firstnumber=138]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=182, lastline=182, firstnumber=182]{../src/StandardService.java}
+
+		    	  Final attributes but nor uppercase, neither separated by an underscore.
+
+		    \item \textbf{Checklist \hyperref[C:08]{C.08}}
+
+		Lines 87 to 132, 203 to 214 and 355 to 374 have an additional space character at the beginning of them. These spaces make the indentation not correct.
+		    \item \textbf{Checklist \hyperref[C:12]{C.12}}
+
+		    	  \lstinputlisting[language=Java, firstline=77, lastline=87, firstnumber=77]{../src/StandardService.java}
+
+		    	  The line 84 is a blank line that should not divide the javadoc from the prototype of the method.
+
+		    	  \lstinputlisting[language=Java, firstline=205, lastline=209, firstnumber=205]{../src/StandardService.java}
+
+		    	  The line 208 is a blank line that should not divide the javadoc from the prototype of the method.
+
+		    	  \lstinputlisting[language=Java, firstline=364, lastline=370, firstnumber=364]{../src/StandardService.java}
+
+		    	  The line 369 is a blank line that should not divide the javadoc from the prototype of the method.
+
+		    	  The last line of the class (line 756) is useless.
+
+		    \item \textbf{Checklist \hyperref[C:15]{C.15}}
+
+		    	  \lstinputlisting[language=Java, firstline=85, lastline=86, firstnumber=85]{../src/StandardService.java}
+
+		    	  Line break occurs after a space.
+
+		    \item \textbf{Checklist \hyperref[C:17]{C.17}}
+
+		    	  All the class lines have an offset of one space character from their level of indentation.
+
+		    \item \textbf{Checklist \hyperref[C:23]{C.23}}
+
+		    	  \lstinputlisting[language=Java, firstline=96, lastline=96, firstnumber=96]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=102, lastline=102, firstnumber=102]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=108, lastline=108, firstnumber=108]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=114, lastline=114, firstnumber=114]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=122, lastline=122, firstnumber=122]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=130, lastline=130, firstnumber=130]{../src/StandardService.java}
+
+		    	  No javadoc for public static attribute.
+
+		    	  \lstinputlisting[language=Java, firstline=268, lastline=268, firstnumber=268]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=418, lastline=418, firstnumber=418]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=725, lastline=725, firstnumber=725]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=735, lastline=735, firstnumber=735]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=747, lastline=747, firstnumber=747]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=751, lastline=751, firstnumber=751]{../src/StandardService.java}
+
+		    	  No javadoc for public method.
+
+		    	  \lstinputlisting[language=Java, firstline=279, lastline=279, firstnumber=279]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=305, lastline=305, firstnumber=305]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=315, lastline=315, firstnumber=315]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=337, lastline=337, firstnumber=337]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=358, lastline=358, firstnumber=358]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=445, lastline=445, firstnumber=445]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=536, lastline=536, firstnumber=536]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=563, lastline=563, firstnumber=563]{../src/StandardService.java}
+
+		    	  Better to use "@return" javadoc command instead of writing in the description field.
+
+		    	  \lstinputlisting[language=Java, firstline=455, lastline=455, firstnumber=455]{../src/StandardService.java}
+
+		    	  Better to use "@return" javadoc command instead of writing in the description field, no "@param" javadoc field for the "String name" parameter.
+
+		    \item \textbf{Checklist \hyperref[C:25]{C.25}}
+
+		    	  \lstinputlisting[language=Java, firstline=89, lastline=90, firstnumber=89]{../src/StandardService.java}
+
+		    	  Private static attribute stated before a public static one.
+
+		    	  \lstinputlisting[language=Java, firstline=145, lastline=145, firstnumber=145]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=151, lastline=151, firstnumber=151]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=157, lastline=157, firstnumber=157]{../src/StandardService.java}
+
+		    	  \lstinputlisting[language=Java, firstline=162, lastline=162, firstnumber=162]{../src/StandardService.java}
+
+		    	  Private attribute stated before a protected one.
+
+		    	  \lstinputlisting[language=Java, firstline=744, lastline=745, firstnumber=744]{../src/StandardService.java}
+
+		    	  Protected attribute not in the attributes section.
+
+		    \item \textbf{Checklist \hyperref[C:26]{C.26}}
+
+		    	  \lstinputlisting[language=Java, firstline=744, lastline=753, firstnumber=744]{../src/StandardService.java}
+
+		    	  These methods and attributes are not grouped by functionality, scope or accessibility.
+
+		    \item \textbf{Checklist \hyperref[C:39]{C.39}}
+
+		    	  Note on issue C.39: not everytime a new array is created, his elements are initialized using the constructor, but in these cases it's not a problem because the elements are copied from another array that was initialized before.
+
+		\end{itemize}
+
+\end{document}

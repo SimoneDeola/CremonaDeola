@@ -1,0 +1,47 @@
+\documentclass[../../../../dd.tex]{subfiles}
+
+\begin{document}
+
+	\section{Component Interfaces}
+	In this section are described the interfaces of all the components of the system. The interfaces describe all the public methods that can be called to access to the components functionality.
+		
+		\subsection{Database Manager Component}
+		\begin{figure}[H]
+				\centering
+				\includegraphics[width=\textwidth, scale=0.5]{../images/DatabaseManagerComponent.png}
+			\caption{Database Manager Component}\label{fig:DBMSC}
+		\end{figure}
+		
+		\subsection{Profile Manager Component}
+		\begin{figure}[H]
+				\centering
+				\includegraphics[width=\textwidth, scale=0.5]{../images/ProfileManagerComponent.png}
+			\caption{Profile manager component}\label{fig:PMC}
+		\end{figure}
+		
+		\subsection{IO Manager Component}
+		\begin{figure}[H]
+				\centering
+				\includegraphics[width=\textwidth, scale=0.5]{../images/IOManagerComponent.png}
+			\caption{IO Manager Component}\label{fig:IOMC}
+		\end{figure}
+		Note: In this case there are two interfaces because this component is a borderline one and needs two ways to be accessed. The Internal interface contains the public method that can be called by the component of the Logic tier. The external Interface can be called by all the external tiers.
+	
+	\subsection{Request And Reservation Manager Component}
+	\begin{figure}[H]
+				\centering
+				\includegraphics[width=\textwidth, scale=0.5]{../images/RequestAndReservationManager.png}
+			\caption{Reservation and Request Manager Component}\label{fig:RARMC}
+		\end{figure}
+		
+		\subsection{Zone Manager Component}
+		\begin{figure}[H]
+				\centering
+				\includegraphics[width=\textwidth, scale=0.5]{../images/ZoneManagerComponent.png}
+			\caption{Zone Manager Component}\label{fig:ZMC}
+		\end{figure}
+		
+		\subsection{Presentation Tier Component}
+		All the components that are presented in the Presentation tier have no specific interfaces, the interfaces change for the type of visualization. In this document, we refer to their methods in an intuitive way. For example, if we want to open a page, we call the Open() methods, that will response with a Show() method followed by the page that is required.
+		
+\end{document}
