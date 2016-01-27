@@ -2,8 +2,27 @@
 
 \begin{document}
 
-	\chapter{Project Risks and Recovery Actions}		
+	\chapter{Project Risks and Recovery Actions}
 
-		
+		In this chapter we analyze the various risks that can occur and give a recovery action.
+
+		\section{Internet Connection Failure}
+			Since our system is a distributed one, the main risk is that the communication between Client and Server cannot be done.
+			This occur when the Internet connection fails and the Client cannot connect to the Server application. To prevent this failure we cannot do much because the main causes to this problem are related to ISP problems. The only thing we can do is to provide a stable system with a very low offline time.
+
+		\section{GPS Not Enabled}
+			Since the application is based on the knowledge of the taxis positions, one of the main problems is that the GPS informations are not available.
+			This can be fixed with position triangulation using cellphone cells. The position is not precise but it's an accettable estimation.
+			A popup notification can be shown to the user to tell him that his position can be imprecise.
+
+		\section{System Communication Failure}
+			Another risk that we have to take into account is that the system fails in communicating between the various parts. This problem can be fixed with a good use of programming language constructs that checks if something is wrong at runtime.
+
+		\section{Environmental Problems and Servers Breakdown}
+			A risk is that the servers or the machines are attacked by natural problems like storms or fire.
+			To prevent the complete black-out of the system we have to backup all the data into servers in a different place and to copy all the system in other machines different by the original ones.
+
+		\section{Accident Notification}
+			Our system cannot respond if the Taxi Driver has an accident when he's going to the client. If this problem occur, the Bad Evaluated Taxi Driver can appeal to our company to modify his bad evaluation counter.
 
 \end{document}
