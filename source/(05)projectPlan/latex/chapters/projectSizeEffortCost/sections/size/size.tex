@@ -101,18 +101,114 @@
 
 		\subsection{Internal Logical Files}
 
+			Internal Logical Files are stored for:
+			\begin{itemize}
+				\item \textbf{Users (Customers and Taxi Drivers)} \\
+				      Users have to memorize from 8 to 5 elements and for each user there are two external records that have to be memorized (Position and Zone). So, according to the table 2.2, the complexity of "Users" is LOW and, according to the table 2.5 the Functional Points assigned are 7.
+
+				\item \textbf{Rides (Reservations and Single Rides)} \\
+				      Rides have to memorize from 3 to 1 elements and for each ride there are three external records that have to be memorized (Position, Customer and Taxi Driver). So, according to the table 2.2, the complexity of "Rides" is LOW and, according to the table 2.5 the Functional Points assigned are 7.
+
+				\item \textbf{City Zones} \\
+				      City Zones have to memorize from 3 to 5 elements and for each user there are one external record that have to be memorized. So, according to the table 2.2, the complexity of "City Zones" is LOW and, according to the table 2.5 the Functional Points assigned are 7.
+			\end{itemize}
+
+			The computation of the final Functional Points assigned to the class "Internal Logical Files" is:\\
+			FP(ILF) = 7+7+7 = 21.
 
 
 		\subsection{External Interface Files}
+			External Interface Files are stored for:
+			\begin{itemize}
+				\item \textbf{GPS} \\
+					   Informations about the GPS position of the users are essentialy represented as a "Position" (Latitude and Longitude). So according to the table 2.2 the complexity is LOW and according to the table 2.5 the Functional Points assigned are 5.
+
+			    \item \textbf{Facebook Accounts}\\
+			          Informations about the users that comes from the Facebook Login System, are represented as Customers (5 attributes). The external records are two (Position and Zone). So According to the table 2.2 the complexity is LOW and according to the table 2.5 the Functional Points assigned are 5. 
+			\end{itemize}
+
+			The computation of the final Functional Points assigned to the class "External Interface Files" is:\\
+			FP(EIF) = 5+5 = 10.
 
 		\subsection{External Inputs}
+			External Inputs are:
+			\begin{itemize}
+				\item \textbf{Registration (of a Customer, with Facebook and of a Taxi Driver)}\\
+				      These operations involve only one data type (User) and involve less than 5 elements.
+				      According to the table 2.4 the complexity is LOW and the Functional Points assigned to each operation is 3.
+				      The overall Functional Points assigned are: FP(Registration) = 3 x 3 = 9.
+
+				\item \textbf{Login/Logout} \\
+				      These operations involve only one data type (User) and involve less than 5 elements.
+				      According to the table 2.4 the complexity is LOW and the Functional Points assigned to each operation is 3.
+				      The overall Functional Points assigned are: FP(Login/Logout) = 3 x 2 = 6.
+
+				\item \textbf{Profile Modification (Availability or Details modification)} \\
+				      These operations involve only one data type (User) and involve less than 5 elements.
+				      According to the table 2.4 the complexity is LOW and the Functional Points assigned to each operation is 3.
+				      The overall Functional Points assigned are: FP(Profile Modification) = 3 x 2 = 6.
+
+				\item \textbf{Report Abuse (Customer or Taxi Driver)} \\
+                      These operations involve only one data type (User) and involve less than 5 elements.
+				      According to the table 2.4 the complexity is LOW and the Functional Points assigned to each operation is 3.
+				      The overall Functional Points assigned are: FP(Report Abuse) = 3 x 2 = 6.
+
+				\item \textbf{Taxi Request}
+				      These operations involve only one data type (Ride) and involve less than 15 elements.
+				      According to the table 2.4 the complexity is LOW and the Functional Points assigned to each operation is 3.
+				      The overall Functional Points assigned are: FP(Taxi Request) = 3 x 1 = 3.
+
+				\item \textbf{Taxi Reservation/Reservation Deletion}
+				      These operations involve only one data type (Ride) and involve less than 15 elements.
+				      According to the table 2.4 the complexity is LOW and the Functional Points assigned to each operation is 3.
+				      The overall Functional Points assigned are: FP(Report Abuse) = 3 x 2 = 6.
+
+				\item \textbf{Accept/Decline Ride}
+				      These operations involve two data types (Taxi Driver (priority) and Ride) and involve less than 15 elements.
+				      According to the table 2.4 the complexity is AVERAGE and the Functional Points assigned to each operation is 3.
+				      The overall Functional Points assigned are: FP(Accept/Decline Ride) = 7 x 1 = 7.
+			\end{itemize}
+			The total Functional Points assigned to the class "External Inputs" are: \\
+			FP(EI) = FP(Accept/Decline Ride) + FP(Report Abuse) + FP(Taxi Request) + FP(Report Abuse) + FP(Profile Modification) + FP(Login/Logout) + FP(Registration) = 43
 
 		\subsection{External Inquiries}
+			Functionalities that causes External Inquiries are:
+			\begin{itemize}
+				\item \textbf{View Reservations}
+				      This functionality involve only one data type (Rides) and can potentially involve more than 20 elements. According to the table 2.3 the complexity is AVERAGE and according to the table 2.5 the Functional Points assigned are 4.
+
+				\item \textbf{View Profile Informations}
+				      This functionality involve only one data type (User) and can involve from 5 to 8 elements. According to the table 2.3 the complexity is LOW and according to the table 2.5 the Functional Points assigned are 3.
+			\end{itemize}
+
+			The computation of the final Functional Points assigned to the class "External Inquiries" is:\\
+			FP(EI) = 4+3 = 7.
 
 		\subsection{External Outputs}
+		    The operations that generate External Outputs are:
+		    \begin{itemize}
+		    	\item \textbf{Ride Request Notification} \\
+		    	      For this operation are involved two data types (Zones, Users) and are considered from 6 to 19 elements. According to the table 2.3 the complexity is AVERAGE and according to the table 2.5 the Functional Points assigned are 5.
 
-		\subsection{Computation of Unadjusted Function Points}
+		    	\item \textbf{Incoming Taxi Notification} \\
+		              For this operation are involved two data types (Ride Request, Users) and are considered from 6 to 19 elements. According to the table 2.3 the complexity is AVERAGE and according to the table 2.5 the Functional Points assigned are 5.
+		    \end{itemize}
 
-		\subsection{Fixing Unadjusted Function Points}
+		    The computation of the final Functional Points assigned to the class "External Outputs" is:\\
+			FP(EO) = 5+5 = 10.
+
+		\subsection{Computation of Total Functional Points}
+
+			The final computation of the Functional Points is: \\
+			FP = FP(ILF) + FP(EIF) + FP(EInputs) + FP(EInquiries) + FP(EO) = 21 + 10 + 43 + 7 + 10 = 91.
+
+
+			For Line of Code count, we consider two main programming languages: Java and C++.
+			The computation of the Lines of Code in functions of the Functional Points is:
+			\begin{itemize}
+				\item \textbf{Java} (SLOC/FP = 53) is: TotalSLOC = 91 x 53 = 4823.
+				\item \textbf{C++} (SLOC/FP = 55) is: TotalSLOC = 91 x 55 = 5005.
+			\end{itemize} 
+
 
 \end{document}

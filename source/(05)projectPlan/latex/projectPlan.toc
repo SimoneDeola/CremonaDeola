@@ -3,12 +3,14 @@
 \contentsline {chapter}{\numberline {2}Project Size, Effort and Cost}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Project Size}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Internal Logical Files}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}External Interface Files}{5}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}External Inputs}{5}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}External Inquiries}{5}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}External Outputs}{5}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Computation of Unadjusted Function Points}{5}{subsection.2.1.6}
-\contentsline {subsection}{\numberline {2.1.7}Fixing Unadjusted Function Points}{5}{subsection.2.1.7}
-\contentsline {chapter}{\numberline {3}Project Tasks and Schedule}{6}{chapter.3}
-\contentsline {chapter}{\numberline {4}Resources Allocation}{7}{chapter.4}
-\contentsline {chapter}{\numberline {5}Project Risks and Recovery Actions}{8}{chapter.5}
+\contentsline {subsection}{\numberline {2.1.2}External Interface Files}{6}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}External Inputs}{6}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}External Inquiries}{7}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}External Outputs}{7}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Computation of Total Functional Points}{8}{subsection.2.1.6}
+\contentsline {section}{\numberline {2.2}Project Effort and Cost}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Computation of \(E\) parameter}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Computation of \(EAF\) parameter}{10}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {3}Project Tasks and Schedule}{12}{chapter.3}
+\contentsline {chapter}{\numberline {4}Resources Allocation}{13}{chapter.4}
+\contentsline {chapter}{\numberline {5}Project Risks and Recovery Actions}{14}{chapter.5}
