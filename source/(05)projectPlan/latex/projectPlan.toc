@@ -1,21 +1,31 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
-\contentsline {chapter}{\numberline {2}Project Size, Effort and Cost}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Project Size}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Internal Logical Files}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}External Interface Files}{6}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}External Inputs}{6}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}External Inquiries}{7}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}External Outputs}{7}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Computation of Total Functional Points}{8}{subsection.2.1.6}
-\contentsline {section}{\numberline {2.2}Project Effort and Cost}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Computation of \(E\) parameter}{8}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Computation of \(EAF\) parameter}{10}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Effort and Duration}{12}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Project Tasks and Schedule}{13}{chapter.3}
-\contentsline {chapter}{\numberline {4}Project Risks and Recovery Actions}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Internet Connection Failure}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}GPS Not Enabled}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}System Communication Failure}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}Environmental Problems and Servers Breakdown}{16}{section.4.4}
-\contentsline {section}{\numberline {4.5}Accident Notification}{16}{section.4.5}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Purpose and Scope}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Purpose}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Scope}{3}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}List of Definitions and Abbreviations}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Definitions}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Abbreviations}{4}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}List of Reference Documents}{4}{section.1.3}
+\contentsline {chapter}{\numberline {2}Project Size, Effort and Cost}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Project Size}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Internal Logical Files}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}External Interface Files}{8}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}External Inputs}{8}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}External Inquiries}{9}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}External Outputs}{9}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Computation of Total Functional Points}{10}{subsection.2.1.6}
+\contentsline {section}{\numberline {2.2}Project Effort and Cost}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Computation of \(E\) parameter}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Computation of \(EAF\) parameter}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Effort and Duration}{14}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Project Tasks and Schedule}{15}{chapter.3}
+\contentsline {chapter}{\numberline {4}Project Risks and Recovery Actions}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Internet Connection Failure}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}GPS Not Enabled}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}System Communication Failure}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}Environmental Problems and Servers Breakdown}{18}{section.4.4}
+\contentsline {section}{\numberline {4.5}Accident Notification}{18}{section.4.5}
+\contentsline {chapter}{\numberline {5}Appendix}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Used Software}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Hours of Work}{19}{section.5.2}
