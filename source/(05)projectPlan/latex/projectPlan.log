@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  27 JAN 2016 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  27 JAN 2016 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,12 +727,7 @@ Package pdftex.def Info: ../images/ftable.png used on input line 34.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 55.
 
-[10] [11]
-Overfull \hbox (55.97104pt too wide) in paragraph at lines 143--143
-[] 
- []
-
-)) (./chapters/projectTasksSchedule/projectTasksSchedule.tex [12]
+[10] [11])) (./chapters/projectTasksSchedule/projectTasksSchedule.tex [12]
 Chapter 3.
 ) (./chapters/resourcesAllocation/resourcesAllocation.tex [13
 
@@ -785,7 +780,7 @@ s/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015basic/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on projectPlan.pdf (16 pages, 234223 bytes).
+Output written on projectPlan.pdf (16 pages, 234891 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  196 compressed objects within 2 object streams
